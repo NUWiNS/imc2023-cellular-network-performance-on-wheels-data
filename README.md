@@ -34,7 +34,7 @@ Please cite appropriately if you find the dataset useful.
 @article{ghoshal2022performance,
   title={Performance of Cellular Networks on the Wheels},
   author={Ghoshal, Moinak and Khan, Imran and Kong, Z Jonny and Dinh, Phuc and Meng, Jiayi and Hu, Y Charlie and Koutsonikolas, Dimitrios},
-  booktitle={Proceedings of the 23nd ACM Internet Measurement Conference},
+  booktitle={Proceedings of the 23rd ACM Internet Measurement Conference},
   year={2023}
 }
 ```
