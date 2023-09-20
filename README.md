@@ -23,7 +23,7 @@ on the link to each subfolder for more details:
 | :--- | :---: |
 | Throughput Tests | |
 | Augmented Reality (AR) and Connected Autonomous Vehicle (CAV) | [ar_cav](./ar_cav) |
-| Video Streaming | [ar_cav](./ar_cav)   |
+| Video Streaming | [ar_cav](./360video)   |
 | Cloud Gaming |  |
 
 ## References
