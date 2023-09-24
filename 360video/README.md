@@ -19,6 +19,7 @@ columns of interest:
 | `New_Bitrate` | Bitrate of the current chunk fetched from the server | Mbps |
 | `byteLength` | Amount of bytes downloaded from the server since last chunk | bytes |
 | `format_vid` | Current Video Resolution | - |
+| `videoBuffer` | Current Video Buffer size | Seconds |
 
 ## Steps to Reproduce
 
