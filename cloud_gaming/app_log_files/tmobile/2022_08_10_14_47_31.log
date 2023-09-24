@@ -1,0 +1,1292 @@
+[2022-08-10 14:47:31] Streaming started to Samsung SM-G998U1 Android 12 at 0.0.0.0:0, audio channels = 2, MTU = 1472
+[2022-08-10 14:47:31] Streaming quality: k_EStreamQualityBeautiful
+[2022-08-10 14:47:31] Streaming bitrate: Unlimited
+[2022-08-10 14:47:31] Device form factor: phone
+[2022-08-10 14:47:31] Maximum capture: 3840x2160 60.00 FPS
+[2022-08-10 14:47:31] Video Streaming: enabled
+[2022-08-10 14:47:31] Audio Streaming: enabled
+[2022-08-10 14:47:31] Input Streaming: enabled
+[2022-08-10 14:47:31] =====================================================================
+[2022-08-10 14:47:31] Game: HITMAN™ 2 (863550)
+[2022-08-10 14:47:31] Setting target bitrate to 100000 Kbit/s, burst bitrate is 500000 Kbit/s
+[2022-08-10 14:47:31] Streamed game has created a window
+[2022-08-10 14:47:31] SynchronizeClientState(): setting capture size 1920x1200
+[2022-08-10 14:47:31] SynchronizeClientState(): setting title to HITMAN 2
+[2022-08-10 14:47:31] SynchronizeClientState(): setting icon 32x32
+[2022-08-10 14:47:31] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 14:47:31] SynchronizeClientState(): setting keymap
+[2022-08-10 14:47:31] SynchronizeClientState(): setting activity to k_EStreamActivityGame: HITMAN™ 2
+[2022-08-10 14:47:31] Recording system audio
+[2022-08-10 14:47:31] Audio recording init failed, couldn't get the default audio endpoint: 0x80070490
+[2022-08-10 14:47:31] Failed to init system audio recording: 1
+[2022-08-10 14:47:31] Audio mix: start=255961300829, returned=0
+[2022-08-10 14:47:31] CLIENT: Sending HID device 0000/11fb/-1  Mobile Touch Control at touch://0
+[2022-08-10 14:47:31] CLIENT: Got control packet k_EStreamControlSetQoS
+[2022-08-10 14:47:31] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2022-08-10 14:47:31] >>> Switching video stream from NONE to GameOverlay_MovieStream_9636
+[2022-08-10 14:47:31] CLIENT: Starting audio stream: frequency=48000, channels=2
+[2022-08-10 14:47:31] CLIENT: Opened audio device: format=2, channels=2, frequency=48000
+[2022-08-10 14:47:31] CLIENT: Initialized audio decoder: codec=3, sample rate=48000, channels=2
+[2022-08-10 14:47:31] CLIENT: Got control packet k_EStreamControlStartAudioData
+[2022-08-10 14:47:31] CLIENT: Got control packet k_EStreamControlSetSpectatorMode
+[2022-08-10 14:47:31] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2022-08-10 14:47:31] CLIENT: Got control packet k_EStreamControlSetTitle
+[2022-08-10 14:47:31] CLIENT: Got control packet k_EStreamControlSetIcon
+[2022-08-10 14:47:31] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 14:47:31] CLIENT: Got control packet k_EStreamControlSetKeymap
+[2022-08-10 14:47:31] CLIENT: Got control packet k_EStreamControlSetActivity
+[2022-08-10 14:47:31] >>> Capture method set to Game polled D3D11 NV12 + NVENC H264
+[2022-08-10 14:47:31] >>> Capture resolution set to 1920x1200
+[2022-08-10 14:47:31] >>> Capture colorspace set to BT.601 limited range
+[2022-08-10 14:47:32] >>> Client video decoder set to Android texture hardware decoding
+[2022-08-10 14:47:32] CLIENT: Android texture hardware decoding
+[2022-08-10 14:47:32] CLIENT: Got control packet k_EStreamControlStartVideoData
+[2022-08-10 14:47:32] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2022-08-10 14:47:32] Slow framerate: game 4.51, capture 1.68, convert 1.75, encode 7.48, network 34.76, decode 0.86, display 0.00 (network)
+[2022-08-10 14:47:32] Setting target framerate: 60.00 [timing: game 4.51, capture 1.68, convert 1.75, encode 7.48, network 34.76, decode 0.86, display 0.00 (network)]
+[2022-08-10 14:47:33] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-10 14:47:33] CLIENT: Marking frame 28 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-10 14:47:33] CLIENT: Marking frame 29 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Video overflow (215.47ms queued), requesting keyframe synchronization
+[2022-08-10 14:47:33] CLIENT: Android texture hardware decoding
+[2022-08-10 14:47:33] CLIENT: Targeting 60.00 FPS
+[2022-08-10 14:47:33] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-10 14:47:33] CLIENT: Marking frame 30 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 31 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 32 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 33 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 34 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 35 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 36 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 37 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 38 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 39 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 40 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 41 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 42 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 43 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 44 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 45 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 46 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 47 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 48 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 49 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 50 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 51 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 52 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 53 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 54 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 55 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 56 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 57 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 58 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 59 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 60 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 61 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 62 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] CLIENT: Marking frame 63 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:33] Bitrate adapter: state = 1, minRTT = 54, maxRTT = 77, gain = 2.00, bitrate = 5000
+[2022-08-10 14:47:33] Setting target framerate: 60.00 [timing: game 4.29, capture 0.73, convert 0.00, encode 7.56, network 31.15, decode 17.81, display 0.00]
+[2022-08-10 14:47:33] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 14:47:33] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 14:47:33] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 14:47:33] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 14:47:33] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 14:47:33] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 14:47:33] CLIENT: Targeting 60.00 FPS
+[2022-08-10 14:47:33] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-10 14:47:34] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-10 14:47:34] CLIENT: Marking frame 92 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-10 14:47:34] CLIENT: Marking frame 93 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Video overflow (199.75ms queued), requesting keyframe synchronization
+[2022-08-10 14:47:34] CLIENT: Android texture hardware decoding
+[2022-08-10 14:47:34] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 14:47:34] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 14:47:34] CLIENT: Marking frame 94 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 95 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 96 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 97 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 98 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 99 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 100 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 101 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 102 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 103 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 104 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 105 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 106 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 107 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 108 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 109 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 110 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 111 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 112 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 113 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 114 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 115 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 116 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 117 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 118 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 119 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 120 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 121 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 122 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 123 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 124 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 125 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 126 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Marking frame 127 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:34] CLIENT: Video rect: 2325x1046 at 0,17
+[2022-08-10 14:47:34] CLIENT: Texture rect: 2400x1080 at 0,0
+[2022-08-10 14:47:34] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-10 14:47:34] CLIENT: Ignoring duplicate controller configuration for 863550, revision 111
+[2022-08-10 14:47:34] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-10 14:47:34] Bitrate adapter: state = 1, minRTT = 54, maxRTT = 94, gain = 2.00, bitrate = 10000
+[2022-08-10 14:47:34] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 14:47:34] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 14:47:34] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 14:47:34] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 14:47:34] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 14:47:34] CLIENT: Video rect: 2325x1046 at 0,17
+[2022-08-10 14:47:34] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 14:47:34] CLIENT: Video size: 1920x1200, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-10 14:47:34] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-10 14:47:34] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 14:47:34] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-10 14:47:34] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 14:47:34] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 14:47:34] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 14:47:34] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 14:47:34] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 14:47:34] Bitrate adapter: state = 1, minRTT = 54, maxRTT = 71, gain = 2.00, bitrate = 20000
+[2022-08-10 14:47:35] Bitrate adapter: state = 1, minRTT = 54, maxRTT = 81, gain = 2.00, bitrate = 40000
+[2022-08-10 14:47:35] Slow framerate: game 4.21, capture 0.73, convert 0.01, encode 7.78, network 52.19, decode 1.16, display 4.32 (network)
+[2022-08-10 14:47:35] Setting target framerate: 60.00 [timing: game 4.21, capture 0.73, convert 0.01, encode 7.78, network 52.19, decode 1.16, display 4.32 (network)]
+[2022-08-10 14:47:35] Bitrate adapter: state = 2, minRTT = 54, maxRTT = 280, gain = 0.50, bitrate = 20000
+[2022-08-10 14:47:35] CLIENT: Got video sequence 210, expected 206, sending lost data notification
+[2022-08-10 14:47:35] CLIENT: Targeting 60.00 FPS
+[2022-08-10 14:47:35] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-10 14:47:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:47:35] CLIENT: Marking frame 210 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 211 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 212 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 213 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 214 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 215 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 216 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 217 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 218 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 219 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 220 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 221 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 222 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 223 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 224 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 225 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 226 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: Marking frame 227 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:35] CLIENT: [SteamNetworkingSockets] [#361513160 P2P SDR steamid:76561199378814893 vport 0] Sequence number from lax#96 (162.254.195.73:27018) is duplicate / old, and end-to-end sequence number is duplicate / old or fails to decrypt.  Dropping.
+[2022-08-10 14:47:35] CLIENT: Flushing audio, 190 ms queued, 178 ms maximum, delivery delay = 39
+[2022-08-10 14:47:36] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 69ms IN: 8399.3kbit 1063.3 pkt/s qual 99.2OUT: 134.9kbit 155.8 pkt/s qual 100.0
+[2022-08-10 14:47:36] Bitrate adapter: state = 2, minRTT = 54, maxRTT = 132, gain = 0.75, bitrate = 15000
+[2022-08-10 14:47:36] Slow framerate: game 4.33, capture 0.73, convert 0.01, encode 7.96, network 67.51, decode 1.38, display 4.96 (network)
+[2022-08-10 14:47:37] Bitrate adapter: state = 2, minRTT = 54, maxRTT = 191, gain = 0.75, bitrate = 11250
+[2022-08-10 14:47:37] Slow framerate: game 4.31, capture 0.73, convert 0.00, encode 7.87, network 42.67, decode 1.30, display 15.40 (network)
+[2022-08-10 14:47:37] CLIENT: [SteamNetworkingSockets] [#361513160 P2P SDR steamid:76561199378814893 vport 0] Sequence number from lax#96 (162.254.195.73:27018) is duplicate / old, and end-to-end sequence number is duplicate / old or fails to decrypt.  Dropping.
+[2022-08-10 14:47:37] CLIENT: Got video sequence 328, expected 327, sending lost data notification
+[2022-08-10 14:47:37] CLIENT: Marking frame 328 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 329 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 330 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 331 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 332 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 333 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 334 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 335 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 336 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 337 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 338 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 339 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 340 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 341 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 342 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 343 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 344 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 345 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 346 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 347 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 348 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 349 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 350 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 351 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 352 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:37] CLIENT: Marking frame 353 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:47:38] CLIENT: Flushing audio, 250 ms queued, 244 ms maximum, delivery delay = 72
+[2022-08-10 14:47:38] CLIENT: [SteamNetworkingSockets] Ping measurement completed
+[2022-08-10 14:47:38] CLIENT: [SteamNetworkingSockets] Ping location: lax=32+3/33+3,sea=63+6/56+3,dfw=57+5,mdf1=74+7/57+5,ord=82+8/79+3,atl=87+8/79+5,iad=98+9/97+3,lim=169+16/133+3,tyo1=148+14/148+3,fra=186+18/177+3,gru=302+30/208+5,sgp=282+28/229+14
+[2022-08-10 14:47:38] CLIENT: [SteamNetworkingSockets] SDR RelayNetworkStatus:  avail=OK  config=OK  anyrelay=OK   (OK)
+[2022-08-10 14:47:38] Slow framerate: game 3.73, capture 0.71, convert 0.00, encode 5.82, network 79.67, decode 1.38, display 3.30 (network)
+[2022-08-10 14:47:39] Bitrate adapter: state = 2, minRTT = 54, maxRTT = 112, gain = 0.75, bitrate = 8437
+[2022-08-10 14:47:43] Slow framerate: game 2.16, capture 0.00, convert 0.00, encode 0.00, network 62.37, decode 1.31, display 60.98 (network) (display)
+[2022-08-10 14:47:43] Setting target framerate: 60.00 [timing: game 2.16, capture 0.00, convert 0.00, encode 0.00, network 62.37, decode 1.31, display 60.98 (network) (display)]
+[2022-08-10 14:47:43] CLIENT: Got video sequence 452, expected 451, sending lost data notification
+[2022-08-10 14:47:43] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:47:43] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:47:43] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:47:43] Bitrate adapter: state = 2, minRTT = 56, maxRTT = 56, gain = 1.25, bitrate = 10546
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Bitrate adapter: state = 2, minRTT = 59, maxRTT = 59, gain = 1.25, bitrate = 13182
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:47] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:48] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:49] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:50] Dropping queued frame before encoding
+[2022-08-10 14:47:54] Bitrate adapter: state = 2, minRTT = 1603, maxRTT = 1603, gain = 1.25, bitrate = 16477
+[2022-08-10 14:47:58] Bitrate adapter: state = 2, minRTT = 1603, maxRTT = 1603, gain = 1.25, bitrate = 20596
+[2022-08-10 14:48:00] Dropping queued frame before encoding
+[2022-08-10 14:48:00] Dropping queued frame before encoding
+[2022-08-10 14:48:00] Dropping queued frame before encoding
+[2022-08-10 14:48:02] Bitrate adapter: state = 2, minRTT = 1603, maxRTT = 1603, gain = 1.25, bitrate = 25745
+[2022-08-10 14:48:06] Bitrate adapter: state = 2, minRTT = 1622, maxRTT = 1622, gain = 1.25, bitrate = 32181
+[2022-08-10 14:48:10] Bitrate adapter: state = 2, minRTT = 1622, maxRTT = 1622, gain = 1.25, bitrate = 40226
+[2022-08-10 14:48:14] Bitrate adapter: state = 2, minRTT = 2459, maxRTT = 2459, gain = 1.25, bitrate = 50282
+[2022-08-10 14:48:23] Bitrate adapter: state = 2, minRTT = 440, maxRTT = 440, gain = 1.25, bitrate = 62852
+[2022-08-10 14:48:27] Bitrate adapter: state = 2, minRTT = 440, maxRTT = 440, gain = 1.25, bitrate = 78565
+[2022-08-10 14:48:31] Bitrate adapter: state = 2, minRTT = 440, maxRTT = 440, gain = 1.25, bitrate = 98206
+[2022-08-10 14:48:31] Audio mix: start=255961300829, returned=2876160
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:34] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:35] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:36] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:37] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:38] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:39] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:40] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:41] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:42] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:43] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:44] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:45] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:46] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:47] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] Dropping queued frame before encoding
+[2022-08-10 14:48:48] "SessionStats"
+[2022-08-10 14:54:01] Streaming initialized and listening on port 0
+[2022-08-10 14:54:12] CLIENT: Sending HID device 0000/11fb/-1  Mobile Touch Control at touch://0

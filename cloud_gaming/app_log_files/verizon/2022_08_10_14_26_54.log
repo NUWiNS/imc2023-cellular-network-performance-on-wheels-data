@@ -1,0 +1,885 @@
+[2022-08-10 14:26:54] Streaming started to Samsung SM-G998U1 Android 12 at 0.0.0.0:0, audio channels = 2, MTU = 1472
+[2022-08-10 14:26:54] Streaming quality: k_EStreamQualityBeautiful
+[2022-08-10 14:26:54] Streaming bitrate: Unlimited
+[2022-08-10 14:26:54] Device form factor: phone
+[2022-08-10 14:26:54] Maximum capture: 3840x2160 60.00 FPS
+[2022-08-10 14:26:54] Video Streaming: enabled
+[2022-08-10 14:26:54] Audio Streaming: enabled
+[2022-08-10 14:26:54] Input Streaming: enabled
+[2022-08-10 14:26:54] =====================================================================
+[2022-08-10 14:26:54] Game: HITMAN™ 2 (863550)
+[2022-08-10 14:26:54] Setting target bitrate to 100000 Kbit/s, burst bitrate is 500000 Kbit/s
+[2022-08-10 14:26:54] Streamed game has created a window
+[2022-08-10 14:26:54] SynchronizeClientState(): setting capture size 1920x1200
+[2022-08-10 14:26:54] SynchronizeClientState(): setting title to HITMAN 2
+[2022-08-10 14:26:54] SynchronizeClientState(): setting icon 32x32
+[2022-08-10 14:26:54] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 14:26:54] SynchronizeClientState(): setting keymap
+[2022-08-10 14:26:54] SynchronizeClientState(): setting activity to k_EStreamActivityGame: HITMAN™ 2
+[2022-08-10 14:26:54] Recording system audio
+[2022-08-10 14:26:54] Audio recording init failed, couldn't get the default audio endpoint: 0x80070490
+[2022-08-10 14:26:54] Failed to init system audio recording: 1
+[2022-08-10 14:26:54] Audio mix: start=254724035080, returned=0
+[2022-08-10 14:26:54] CLIENT: Sending HID device 0000/11fb/-1  Mobile Touch Control at touch://0
+[2022-08-10 14:26:54] >>> Switching video stream from NONE to GameOverlay_MovieStream_8240
+[2022-08-10 14:26:54] CLIENT: Got control packet k_EStreamControlSetQoS
+[2022-08-10 14:26:54] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2022-08-10 14:26:54] CLIENT: Starting audio stream: frequency=48000, channels=2
+[2022-08-10 14:26:54] CLIENT: Opened audio device: format=2, channels=2, frequency=48000
+[2022-08-10 14:26:54] CLIENT: Initialized audio decoder: codec=3, sample rate=48000, channels=2
+[2022-08-10 14:26:54] CLIENT: Got control packet k_EStreamControlStartAudioData
+[2022-08-10 14:26:54] CLIENT: Got control packet k_EStreamControlSetSpectatorMode
+[2022-08-10 14:26:54] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2022-08-10 14:26:54] CLIENT: Got control packet k_EStreamControlSetTitle
+[2022-08-10 14:26:54] CLIENT: Got control packet k_EStreamControlSetIcon
+[2022-08-10 14:26:54] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 14:26:54] CLIENT: Got control packet k_EStreamControlSetKeymap
+[2022-08-10 14:26:54] CLIENT: Got control packet k_EStreamControlSetActivity
+[2022-08-10 14:26:54] >>> Capture method set to Game polled D3D11 NV12 + NVENC H264
+[2022-08-10 14:26:54] >>> Capture resolution set to 1920x1200
+[2022-08-10 14:26:54] >>> Capture colorspace set to BT.601 limited range
+[2022-08-10 14:26:54] >>> Client video decoder set to Android texture hardware decoding
+[2022-08-10 14:26:54] CLIENT: Android texture hardware decoding
+[2022-08-10 14:26:54] CLIENT: Got control packet k_EStreamControlStartVideoData
+[2022-08-10 14:26:54] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2022-08-10 14:26:55] Slow framerate: game 2.12, capture 1.72, convert 1.62, encode 7.03, network 48.89, decode 0.95, display 0.00 (network)
+[2022-08-10 14:26:55] Setting target framerate: 60.00 [timing: game 2.12, capture 1.72, convert 1.62, encode 7.03, network 48.89, decode 0.95, display 0.00 (network)]
+[2022-08-10 14:26:55] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-10 14:26:55] CLIENT: Marking frame 28 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-10 14:26:55] CLIENT: Marking frame 29 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Video overflow (216.00ms queued), requesting keyframe synchronization
+[2022-08-10 14:26:55] CLIENT: Android texture hardware decoding
+[2022-08-10 14:26:55] CLIENT: Targeting 60.00 FPS
+[2022-08-10 14:26:55] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-10 14:26:55] CLIENT: Marking frame 30 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 31 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 32 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 33 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 34 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 35 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 36 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 37 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 38 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 39 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 40 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 41 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 42 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 43 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 44 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 45 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 46 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 47 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 48 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 49 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 50 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 51 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 52 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 53 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 54 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 55 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 56 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 57 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 58 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 59 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 60 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 61 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 62 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 63 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:55] CLIENT: Marking frame 64 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] Slow framerate: game 2.05, capture 0.68, convert 0.00, encode 6.61, network 44.96, decode 17.57, display 0.00 (network)
+[2022-08-10 14:26:56] Bitrate adapter: state = 1, minRTT = 65, maxRTT = 88, gain = 2.00, bitrate = 5000
+[2022-08-10 14:26:56] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-10 14:26:56] CLIENT: Marking frame 93 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-10 14:26:56] CLIENT: Marking frame 94 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Video overflow (218.00ms queued), requesting keyframe synchronization
+[2022-08-10 14:26:56] CLIENT: Android texture hardware decoding
+[2022-08-10 14:26:56] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 14:26:56] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 14:26:56] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 14:26:56] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 14:26:56] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 14:26:56] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 14:26:56] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 14:26:56] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 14:26:56] Bitrate adapter: state = 1, minRTT = 65, maxRTT = 114, gain = 2.00, bitrate = 10000
+[2022-08-10 14:26:56] CLIENT: Marking frame 95 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 96 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 97 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 98 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 99 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 100 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 101 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 102 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 103 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 104 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 105 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 106 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 107 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 108 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 109 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 110 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 111 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 112 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 113 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 114 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 115 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 116 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 117 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 118 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 119 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 120 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 121 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 122 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 123 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 124 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 125 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 126 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 127 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 128 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:56] CLIENT: Marking frame 129 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:26:57] CLIENT: Video rect: 2325x1046 at 0,17
+[2022-08-10 14:26:57] CLIENT: Texture rect: 2400x1080 at 0,0
+[2022-08-10 14:26:57] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-10 14:26:57] CLIENT: Ignoring duplicate controller configuration for 863550, revision 111
+[2022-08-10 14:26:57] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-10 14:26:57] CLIENT: Video rect: 2325x1046 at 0,17
+[2022-08-10 14:26:57] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 14:26:57] CLIENT: Video size: 1920x1200, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-10 14:26:57] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-10 14:26:57] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 14:26:57] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-10 14:26:57] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 14:26:57] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 14:26:57] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 14:26:57] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 14:26:57] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 14:26:57] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 14:26:57] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 14:26:57] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 14:26:57] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 14:26:57] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 14:26:57] Slow framerate: game 2.07, capture 0.70, convert 0.01, encode 7.02, network 45.19, decode 18.39, display 0.00 (network)
+[2022-08-10 14:26:57] Bitrate adapter: state = 1, minRTT = 65, maxRTT = 100, gain = 2.00, bitrate = 20000
+[2022-08-10 14:26:57] Bitrate adapter: state = 2, minRTT = 65, maxRTT = 123, gain = 0.50, bitrate = 10000
+[2022-08-10 14:26:58] Slow framerate: game 2.07, capture 0.72, convert 0.01, encode 7.68, network 50.01, decode 0.99, display 5.92 (network)
+[2022-08-10 14:26:58] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 108ms IN: 4208.2kbit 614.3 pkt/s qual 99.6OUT: 113.7kbit 140.8 pkt/s qual 100.0
+[2022-08-10 14:26:58] Bitrate adapter: state = 2, minRTT = 65, maxRTT = 119, gain = 0.75, bitrate = 7500
+[2022-08-10 14:26:59] CLIENT: [SteamNetworkingSockets] Ping measurement completed
+[2022-08-10 14:26:59] CLIENT: [SteamNetworkingSockets] Ping location: lax=55+5/56+5,sea=82+8/79+5,dfw=83+8,mdf1=92+9/84+8,atl=97+9/98+9,ord=97+9/102+5,iad=109+10/110+9,lim=188+18/156+5,tyo1=176+17/171+5,fra=203+20/195+9,sgp=288+28/224+19,gru=238+23/228+9
+[2022-08-10 14:26:59] CLIENT: [SteamNetworkingSockets] SDR RelayNetworkStatus:  avail=OK  config=OK  anyrelay=OK   (OK)
+[2022-08-10 14:26:59] Slow framerate: game 2.15, capture 0.70, convert 0.00, encode 7.56, network 57.15, decode 1.30, display 7.18 (network)
+[2022-08-10 14:26:59] Bitrate adapter: state = 2, minRTT = 65, maxRTT = 117, gain = 0.75, bitrate = 5625
+[2022-08-10 14:27:00] Slow framerate: game 2.22, capture 0.71, convert 0.01, encode 7.55, network 46.70, decode 1.21, display 3.68 (network)
+[2022-08-10 14:27:00] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Received request to migrate to 162.254.195.74:27049 from lax#119 (162.254.195.73:27041).
+[2022-08-10 14:27:00] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Started migration to lax#173 (162.254.195.74:27049) at request of current primary lax#119 (162.254.195.73:27041)
+[2022-08-10 14:27:01] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Requesting session from lax#173 (162.254.195.74:27049).  Ping = 81 = 55+0+26 (front+interior+remote).
+[2022-08-10 14:27:01] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Received P2PSessionEstablished from lax#173 (162.254.195.74:27049), token @6b95
+[2022-08-10 14:27:01] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Switched primary to lax#173 (162.254.195.74:27049) (Ping = 81 = 55+0+26 (front+interior+remote).  Migration target.) from lax#119 (162.254.195.73:27041) (Ping = 81 = 55+0+26 (front+interior+remote).  Requested migration.)
+[2022-08-10 14:27:01] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Selecting sea#102 (205.196.6.212:27024) as backup #1 (Ping = 89 = 82+0+7 (front+interior+remote).)
+[2022-08-10 14:27:01] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] SDR routing message updated, revision 5.  (POP 'lax' session changed)
+[2022-08-10 14:27:01] Slow framerate: game 2.24, capture 0.70, convert 0.00, encode 7.55, network 42.25, decode 1.16, display 3.77 (network)
+[2022-08-10 14:27:02] Slow framerate: game 2.23, capture 0.71, convert 0.01, encode 7.57, network 41.14, decode 1.23, display 6.57 (network)
+[2022-08-10 14:27:02] Bitrate adapter: state = 2, minRTT = 63, maxRTT = 118, gain = 0.75, bitrate = 4218
+[2022-08-10 14:27:03] Bitrate adapter: state = 2, minRTT = 63, maxRTT = 135, gain = 0.75, bitrate = 3163
+[2022-08-10 14:27:03] Slow framerate: game 2.28, capture 0.70, convert 0.01, encode 7.57, network 58.59, decode 1.09, display 20.36 (network)
+[2022-08-10 14:27:03] CLIENT: Got video sequence 515, expected 511, sending lost data notification
+[2022-08-10 14:27:03] CLIENT: Marking frame 515 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 516 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 517 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 518 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 519 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 520 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 521 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 522 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 523 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 524 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 525 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 526 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 527 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 528 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 529 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 530 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 531 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 532 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 533 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 534 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 535 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 536 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 537 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: Marking frame 538 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:03] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 108ms IN: 5693.5kbit 829.6 pkt/s qual 99.8OUT: 189.4kbit 244.6 pkt/s qual 100.0
+[2022-08-10 14:27:03] Bitrate adapter: state = 2, minRTT = 63, maxRTT = 140, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:04] Bitrate adapter: state = 2, minRTT = 63, maxRTT = 234, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:04] Slow framerate: game 2.23, capture 0.70, convert 0.01, encode 7.55, network 87.27, decode 1.09, display 7.14 (network)
+[2022-08-10 14:27:05] Slow framerate: game 2.27, capture 0.70, convert 0.00, encode 7.46, network 37.91, decode 1.20, display 3.81 (network)
+[2022-08-10 14:27:06] Slow framerate: game 2.43, capture 0.72, convert 0.00, encode 7.40, network 36.92, decode 1.21, display 4.13 (network)
+[2022-08-10 14:27:07] Bitrate adapter: state = 2, minRTT = 65, maxRTT = 148, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:07] Slow framerate: game 2.48, capture 0.70, convert 0.00, encode 6.99, network 38.77, decode 1.27, display 5.50 (network)
+[2022-08-10 14:27:08] Bitrate adapter: state = 2, minRTT = 65, maxRTT = 132, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:08] CLIENT: [SteamNetworkingSockets] ICE: ICE completed
+[2022-08-10 14:27:08] Slow framerate: game 2.48, capture 0.73, convert 0.01, encode 7.13, network 44.73, decode 1.20, display 6.56 (network)
+[2022-08-10 14:27:08] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 80ms IN: 2119.6kbit 459.9 pkt/s qual 96.8OUT: 206.4kbit 261.6 pkt/s qual 100.0
+[2022-08-10 14:27:09] Bitrate adapter: state = 2, minRTT = 65, maxRTT = 118, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:09] Slow framerate: game 2.26, capture 0.72, convert 0.00, encode 6.95, network 38.62, decode 1.28, display 5.09 (network)
+[2022-08-10 14:27:10] Slow framerate: game 2.16, capture 0.71, convert 0.00, encode 5.66, network 38.23, decode 1.19, display 6.68 (network)
+[2022-08-10 14:27:11] Bitrate adapter: state = 2, minRTT = 65, maxRTT = 134, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:11] Bitrate adapter: state = 2, minRTT = 65, maxRTT = 126, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:11] Slow framerate: game 2.04, capture 0.71, convert 0.00, encode 5.41, network 44.29, decode 1.39, display 9.02 (network)
+[2022-08-10 14:27:12] Slow framerate: game 2.06, capture 0.71, convert 0.00, encode 5.65, network 41.36, decode 1.27, display 8.30 (network)
+[2022-08-10 14:27:13] Bitrate adapter: state = 2, minRTT = 65, maxRTT = 133, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:13] Bitrate adapter: state = 2, minRTT = 65, maxRTT = 118, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:13] Slow framerate: game 2.83, capture 0.71, convert 0.00, encode 6.19, network 45.42, decode 1.22, display 6.75 (network)
+[2022-08-10 14:27:13] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 86ms IN: 2160.4kbit 449.7 pkt/s qual 100.0OUT: 230.6kbit 295.6 pkt/s qual 100.0
+[2022-08-10 14:27:14] Bitrate adapter: state = 2, minRTT = 65, maxRTT = 132, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:14] Bitrate adapter: state = 2, minRTT = 65, maxRTT = 121, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:14] Slow framerate: game 3.81, capture 0.71, convert 0.00, encode 5.70, network 42.59, decode 1.26, display 6.35 (network)
+[2022-08-10 14:27:15] Bitrate adapter: state = 2, minRTT = 65, maxRTT = 192, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:15] Slow framerate: game 4.11, capture 0.70, convert 0.00, encode 5.21, network 40.64, decode 1.24, display 7.21 (network)
+[2022-08-10 14:27:16] Bitrate adapter: state = 2, minRTT = 65, maxRTT = 116, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:16] Bitrate adapter: state = 2, minRTT = 66, maxRTT = 146, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:16] Slow framerate: game 3.29, capture 0.69, convert 0.00, encode 5.27, network 46.61, decode 1.15, display 7.17 (network)
+[2022-08-10 14:27:17] Bitrate adapter: state = 2, minRTT = 67, maxRTT = 142, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:17] Bitrate adapter: state = 2, minRTT = 66, maxRTT = 255, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:17] Slow framerate: game 2.26, capture 0.70, convert 0.00, encode 6.16, network 50.87, decode 1.07, display 8.05 (network)
+[2022-08-10 14:27:18] Bitrate adapter: state = 2, minRTT = 66, maxRTT = 177, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:18] Slow framerate: game 1.96, capture 0.70, convert 0.00, encode 6.62, network 39.88, decode 1.15, display 3.65 (network)
+[2022-08-10 14:27:18] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 71ms IN: 2033.0kbit 434.2 pkt/s qual 99.9OUT: 204.2kbit 264.6 pkt/s qual 100.0
+[2022-08-10 14:27:19] Slow framerate: game 1.94, capture 0.69, convert 0.00, encode 6.87, network 37.24, decode 1.05, display 4.06 (network)
+[2022-08-10 14:27:20] Slow framerate: game 1.93, capture 0.72, convert 0.00, encode 7.26, network 37.19, decode 1.29, display 8.67 (network)
+[2022-08-10 14:27:21] Slow framerate: game 1.92, capture 0.70, convert 0.00, encode 7.48, network 40.22, decode 1.04, display 8.05 (network)
+[2022-08-10 14:27:22] Bitrate adapter: state = 2, minRTT = 66, maxRTT = 111, gain = 1.25, bitrate = 3125
+[2022-08-10 14:27:22] Slow framerate: game 1.91, capture 0.69, convert 0.01, encode 7.64, network 42.77, decode 1.31, display 8.13 (network)
+[2022-08-10 14:27:23] Bitrate adapter: state = 2, minRTT = 66, maxRTT = 124, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:23] Slow framerate: game 1.91, capture 0.70, convert 0.00, encode 7.85, network 47.68, decode 0.95, display 10.16 (network)
+[2022-08-10 14:27:24] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 97ms IN: 1556.0kbit 397.2 pkt/s qual 100.0OUT: 170.6kbit 235.4 pkt/s qual 100.0
+[2022-08-10 14:27:24] Bitrate adapter: state = 2, minRTT = 66, maxRTT = 128, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:24] Slow framerate: game 1.80, capture 0.70, convert 0.00, encode 7.94, network 42.93, decode 1.09, display 5.00 (network)
+[2022-08-10 14:27:25] Slow framerate: game 1.82, capture 0.70, convert 0.01, encode 8.10, network 64.45, decode 1.19, display 8.11 (network)
+[2022-08-10 14:27:26] Bitrate adapter: state = 2, minRTT = 66, maxRTT = 246, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:26] Slow framerate: game 1.84, capture 0.69, convert 0.00, encode 8.13, network 44.47, decode 1.16, display 5.28 (network)
+[2022-08-10 14:27:27] Bitrate adapter: state = 2, minRTT = 66, maxRTT = 215, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:27] Bitrate adapter: state = 2, minRTT = 66, maxRTT = 155, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:27] Slow framerate: game 1.93, capture 0.69, convert 0.00, encode 8.16, network 81.25, decode 1.00, display 8.68 (network)
+[2022-08-10 14:27:28] Bitrate adapter: state = 2, minRTT = 67, maxRTT = 193, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:28] Bitrate adapter: state = 2, minRTT = 67, maxRTT = 163, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:28] Slow framerate: game 1.92, capture 0.70, convert 0.00, encode 8.28, network 43.04, decode 1.18, display 3.81 (network)
+[2022-08-10 14:27:29] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 74ms IN: 1954.5kbit 432.3 pkt/s qual 99.8OUT: 202.6kbit 258.8 pkt/s qual 100.0
+[2022-08-10 14:27:29] Bitrate adapter: state = 2, minRTT = 67, maxRTT = 138, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:29] Slow framerate: game 1.89, capture 0.70, convert 0.01, encode 8.27, network 42.12, decode 1.26, display 3.98 (network)
+[2022-08-10 14:27:30] Slow framerate: game 1.89, capture 0.69, convert 0.00, encode 8.21, network 35.17, decode 1.11, display 3.34 (network)
+[2022-08-10 14:27:31] Bitrate adapter: state = 2, minRTT = 67, maxRTT = 206, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:31] Slow framerate: game 1.93, capture 0.72, convert 0.00, encode 8.33, network 53.15, decode 1.24, display 5.83 (network)
+[2022-08-10 14:27:32] Bitrate adapter: state = 2, minRTT = 69, maxRTT = 189, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:32] Slow framerate: game 1.95, capture 0.70, convert 0.00, encode 8.27, network 45.02, decode 1.10, display 7.31 (network)
+[2022-08-10 14:27:33] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] SDR routing message updated, revision 6.  (POP 'lax' last sent ping 55 is outside ping range 61-201 (4 buckets))
+[2022-08-10 14:27:33] Slow framerate: game 1.98, capture 0.70, convert 0.00, encode 8.27, network 44.74, decode 1.40, display 5.42 (network)
+[2022-08-10 14:27:34] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 81ms IN: 2052.6kbit 445.1 pkt/s qual 100.0OUT: 181.5kbit 248.3 pkt/s qual 100.0
+[2022-08-10 14:27:34] Bitrate adapter: state = 2, minRTT = 69, maxRTT = 126, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:34] Bitrate adapter: state = 2, minRTT = 69, maxRTT = 126, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:34] Slow framerate: game 1.97, capture 0.70, convert 0.00, encode 8.13, network 52.14, decode 1.12, display 7.71 (network)
+[2022-08-10 14:27:35] Bitrate adapter: state = 2, minRTT = 69, maxRTT = 248, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:35] Bitrate adapter: state = 2, minRTT = 69, maxRTT = 178, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:36] Slow framerate: game 1.96, capture 0.69, convert 0.00, encode 8.06, network 106.94, decode 0.95, display 10.04 (network)
+[2022-08-10 14:27:36] Bitrate adapter: state = 2, minRTT = 69, maxRTT = 370, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:36] Bitrate adapter: state = 2, minRTT = 69, maxRTT = 133, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:36] Slow framerate: game 1.93, capture 0.69, convert 0.00, encode 8.18, network 52.67, decode 1.11, display 5.71 (network)
+[2022-08-10 14:27:37] Slow framerate: game 1.91, capture 0.70, convert 0.00, encode 8.20, network 43.77, decode 1.05, display 3.87 (network)
+[2022-08-10 14:27:38] Slow framerate: game 1.93, capture 0.71, convert 0.00, encode 8.11, network 39.01, decode 1.12, display 5.69 (network)
+[2022-08-10 14:27:39] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 80ms IN: 1529.6kbit 384.4 pkt/s qual 99.9OUT: 217.3kbit 261.7 pkt/s qual 100.0
+[2022-08-10 14:27:39] Slow framerate: game 1.96, capture 0.71, convert 0.00, encode 8.14, network 41.02, decode 1.02, display 6.88 (network)
+[2022-08-10 14:27:40] Bitrate adapter: state = 2, minRTT = 69, maxRTT = 104, gain = 1.25, bitrate = 3125
+[2022-08-10 14:27:40] Slow framerate: game 1.96, capture 0.69, convert 0.01, encode 8.24, network 43.31, decode 1.12, display 9.94 (network)
+[2022-08-10 14:27:41] Slow framerate: game 1.94, capture 0.69, convert 0.00, encode 8.23, network 39.83, decode 1.14, display 7.12 (network)
+[2022-08-10 14:27:42] Bitrate adapter: state = 2, minRTT = 68, maxRTT = 146, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:42] Slow framerate: game 1.97, capture 0.70, convert 0.01, encode 8.12, network 53.99, decode 1.22, display 9.40 (network)
+[2022-08-10 14:27:43] Slow framerate: game 1.99, capture 0.71, convert 0.00, encode 8.22, network 43.52, decode 1.18, display 4.93 (network)
+[2022-08-10 14:27:44] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 83ms IN: 2217.5kbit 462.7 pkt/s qual 100.0OUT: 177.3kbit 241.1 pkt/s qual 100.0
+[2022-08-10 14:27:44] Bitrate adapter: state = 2, minRTT = 67, maxRTT = 118, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:44] Slow framerate: game 1.98, capture 0.70, convert 0.00, encode 8.24, network 48.54, decode 1.25, display 7.71 (network)
+[2022-08-10 14:27:45] Slow framerate: game 1.94, capture 0.69, convert 0.00, encode 8.23, network 45.61, decode 1.29, display 5.75 (network)
+[2022-08-10 14:27:46] Bitrate adapter: state = 2, minRTT = 67, maxRTT = 129, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:46] Bitrate adapter: state = 2, minRTT = 67, maxRTT = 155, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:46] Slow framerate: game 1.85, capture 0.69, convert 0.00, encode 8.25, network 45.74, decode 1.30, display 5.70 (network)
+[2022-08-10 14:27:47] Bitrate adapter: state = 2, minRTT = 67, maxRTT = 126, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:47] Slow framerate: game 1.84, capture 0.71, convert 0.00, encode 8.30, network 45.74, decode 1.29, display 5.46 (network)
+[2022-08-10 14:27:48] Bitrate adapter: state = 2, minRTT = 67, maxRTT = 131, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:48] Bitrate adapter: state = 2, minRTT = 67, maxRTT = 169, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:48] Slow framerate: game 1.82, capture 0.70, convert 0.00, encode 8.25, network 57.27, decode 1.38, display 6.95 (network)
+[2022-08-10 14:27:49] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 90ms IN: 2105.8kbit 443.1 pkt/s qual 99.9OUT: 187.1kbit 255.8 pkt/s qual 100.0
+[2022-08-10 14:27:49] Bitrate adapter: state = 2, minRTT = 68, maxRTT = 138, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:49] Slow framerate: game 1.96, capture 0.70, convert 0.00, encode 7.63, network 54.70, decode 1.27, display 5.44 (network)
+[2022-08-10 14:27:50] Bitrate adapter: state = 2, minRTT = 68, maxRTT = 228, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:50] Slow framerate: game 2.18, capture 0.72, convert 0.00, encode 6.79, network 80.14, decode 1.25, display 7.91 (network)
+[2022-08-10 14:27:50] CLIENT: Got video sequence 3355, expected 3354, sending lost data notification
+[2022-08-10 14:27:51] CLIENT: Marking frame 3355 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3356 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3357 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3358 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3359 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3360 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3361 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3362 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3363 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3364 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3365 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3366 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3367 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3368 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3369 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3370 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3371 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3372 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3373 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3374 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3375 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3376 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] CLIENT: Marking frame 3377 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:51] Bitrate adapter: state = 2, minRTT = 68, maxRTT = 150, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:51] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] SDR routing message updated, revision 7.  (POP 'lax' last sent ping 86 is outside ping range 50-62 (4 buckets))
+[2022-08-10 14:27:51] Slow framerate: game 3.08, capture 0.72, convert 0.00, encode 6.11, network 70.93, decode 1.30, display 3.80 (network)
+[2022-08-10 14:27:52] Bitrate adapter: state = 2, minRTT = 70, maxRTT = 310, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:52] CLIENT: Got video sequence 3435, expected 3431, sending lost data notification
+[2022-08-10 14:27:52] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:27:52] CLIENT: Marking frame 3435 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3436 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3437 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3438 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3439 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3440 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3441 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3442 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3443 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3444 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3445 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3446 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3447 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3448 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3449 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3450 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3451 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3452 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] CLIENT: Marking frame 3453 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:52] Bitrate adapter: state = 2, minRTT = 70, maxRTT = 274, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:52] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-10 14:27:52] Slow framerate: game 3.76, capture 0.70, convert 0.00, encode 5.37, network 149.99, decode 1.02, display 27.96 (network)
+[2022-08-10 14:27:53] Bitrate adapter: state = 2, minRTT = 70, maxRTT = 217, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:53] Bitrate adapter: state = 2, minRTT = 70, maxRTT = 125, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:53] Slow framerate: game 4.38, capture 0.71, convert 0.00, encode 5.54, network 72.93, decode 1.18, display 4.91 (network)
+[2022-08-10 14:27:54] Audio mix: start=254724035080, returned=2875680
+[2022-08-10 14:27:54] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:52423 Ping: 99ms IN: 2166.5kbit 461.1 pkt/s qual 99.3OUT: 291.5kbit 323.3 pkt/s qual 100.0
+[2022-08-10 14:27:54] Bitrate adapter: state = 2, minRTT = 70, maxRTT = 123, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:54] Slow framerate: game 4.41, capture 0.71, convert 0.00, encode 5.43, network 56.82, decode 1.28, display 4.58 (network)
+[2022-08-10 14:27:55] Slow framerate: game 4.56, capture 0.70, convert 0.00, encode 5.52, network 72.41, decode 1.21, display 8.36 (network)
+[2022-08-10 14:27:56] Bitrate adapter: state = 2, minRTT = 71, maxRTT = 143, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:56] Bitrate adapter: state = 2, minRTT = 71, maxRTT = 122, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:56] Slow framerate: game 4.56, capture 0.70, convert 0.00, encode 5.52, network 63.53, decode 1.34, display 6.76 (network)
+[2022-08-10 14:27:57] Bitrate adapter: state = 2, minRTT = 71, maxRTT = 138, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:57] Slow framerate: game 4.64, capture 0.71, convert 0.00, encode 5.62, network 59.68, decode 1.38, display 5.62 (network)
+[2022-08-10 14:27:58] CLIENT: Got video sequence 3811, expected 3809, sending lost data notification
+[2022-08-10 14:27:58] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:27:58] CLIENT: Marking frame 3811 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3812 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3813 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3814 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3815 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3816 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3817 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3818 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3819 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3820 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3821 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3822 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3823 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3824 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3825 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3826 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3827 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3828 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3829 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3830 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3831 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3832 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3833 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3834 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3835 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] CLIENT: Marking frame 3836 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:27:58] Bitrate adapter: state = 2, minRTT = 71, maxRTT = 221, gain = 0.75, bitrate = 2500
+[2022-08-10 14:27:58] Slow framerate: game 4.86, capture 0.71, convert 0.00, encode 5.47, network 87.33, decode 1.44, display 18.22 (network)
+[2022-08-10 14:27:59] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:52423 Ping: 88ms IN: 2095.4kbit 438.3 pkt/s qual 100.0OUT: 213.6kbit 261.5 pkt/s qual 100.0
+[2022-08-10 14:27:59] Slow framerate: game 5.00, capture 0.71, convert 0.00, encode 5.42, network 51.81, decode 1.37, display 3.46 (network)
+[2022-08-10 14:28:00] Slow framerate: game 4.60, capture 0.72, convert 0.00, encode 6.07, network 49.37, decode 1.31, display 5.70 (network)
+[2022-08-10 14:28:01] Slow framerate: game 4.41, capture 0.73, convert 0.01, encode 6.09, network 52.54, decode 1.28, display 9.80 (network)
+[2022-08-10 14:28:02] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 244, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:03] Slow framerate: game 4.36, capture 0.72, convert 0.00, encode 5.96, network 63.14, decode 1.41, display 13.03 (network)
+[2022-08-10 14:28:03] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 155, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:03] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 136, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:03] Slow framerate: game 4.65, capture 0.70, convert 0.00, encode 5.95, network 50.55, decode 1.15, display 7.01 (network)
+[2022-08-10 14:28:04] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 137, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:04] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:52423 Ping: 102ms IN: 2060.8kbit 457.5 pkt/s qual 99.2OUT: 222.9kbit 267.4 pkt/s qual 100.0
+[2022-08-10 14:28:04] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 155, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:05] Slow framerate: game 4.56, capture 0.70, convert 0.00, encode 5.96, network 51.42, decode 1.17, display 4.76 (network)
+[2022-08-10 14:28:05] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 135, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:05] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 213, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:05] Slow framerate: game 4.50, capture 0.70, convert 0.00, encode 6.05, network 71.86, decode 1.13, display 8.84 (network)
+[2022-08-10 14:28:06] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 181, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:06] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 171, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:06] Slow framerate: game 4.55, capture 0.70, convert 0.00, encode 6.06, network 69.18, decode 1.02, display 10.19 (network)
+[2022-08-10 14:28:07] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 137, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:07] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 181, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:08] Slow framerate: game 4.57, capture 0.71, convert 0.00, encode 6.07, network 63.06, decode 1.10, display 6.16 (network)
+[2022-08-10 14:28:08] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 189, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:08] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 268, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:09] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-10 14:28:09] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-10 14:28:09] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-10 14:28:09] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-10 14:28:09] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-10 14:28:09] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-10 14:28:09] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-10 14:28:09] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-10 14:28:09] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-10 14:28:09] Slow framerate: game 4.60, capture 0.72, convert 0.00, encode 6.08, network 51.17, decode 1.05, display 3.55 (network)
+[2022-08-10 14:28:09] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 373, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:09] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 212, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:09] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 116ms IN: 1493.1kbit 392.3 pkt/s qual 100.0OUT: 222.9kbit 267.6 pkt/s qual 100.0
+[2022-08-10 14:28:09] Slow framerate: game 4.66, capture 0.70, convert 0.00, encode 6.07, network 45.97, decode 1.23, display 5.09 (network)
+[2022-08-10 14:28:11] Slow framerate: game 4.68, capture 0.70, convert 0.01, encode 6.07, network 35.94, decode 1.04, display 3.19 (network)
+[2022-08-10 14:28:11] Bitrate adapter: state = 2, minRTT = 73, maxRTT = 176, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:12] Slow framerate: game 4.63, capture 0.71, convert 0.00, encode 6.07, network 56.30, decode 1.25, display 7.56 (network)
+[2022-08-10 14:28:12] Bitrate adapter: state = 2, minRTT = 73, maxRTT = 166, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:13] Slow framerate: game 4.51, capture 0.69, convert 0.00, encode 6.04, network 46.07, decode 1.17, display 3.92 (network)
+[2022-08-10 14:28:13] Bitrate adapter: state = 2, minRTT = 73, maxRTT = 215, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:14] Slow framerate: game 4.45, capture 0.70, convert 0.00, encode 6.06, network 86.13, decode 0.96, display 10.01 (network)
+[2022-08-10 14:28:14] Bitrate adapter: state = 2, minRTT = 73, maxRTT = 361, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:14] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] SDR routing message updated, revision 8.  (POP 'lax' last sent ping 52 is outside ping range 59-435 (3 buckets))
+[2022-08-10 14:28:14] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] SDR routing message updated, revision 9.  (POP 'dfw' last sent ping 83 is outside ping range 103-216 (1 buckets))
+[2022-08-10 14:28:14] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] Requesting session from dfw#146 (155.133.253.55:27022).  Ping = 145 = 103+0+42 (front+interior+remote).
+[2022-08-10 14:28:14] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Received P2PSessionEstablished from dfw#146 (155.133.253.55:27022), token @39a0
+[2022-08-10 14:28:14] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] SDR routing message updated, revision 10.  (POP 'dfw' session changed)
+[2022-08-10 14:28:14] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 241ms IN: 1600.4kbit 404.2 pkt/s qual 99.3OUT: 263.5kbit 283.6 pkt/s qual 100.0
+[2022-08-10 14:28:14] Bitrate adapter: state = 2, minRTT = 73, maxRTT = 288, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:14] Slow framerate: game 4.47, capture 0.70, convert 0.00, encode 6.10, network 53.36, decode 1.11, display 5.09 (network)
+[2022-08-10 14:28:15] Bitrate adapter: state = 2, minRTT = 73, maxRTT = 242, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:16] Slow framerate: game 4.46, capture 0.69, convert 0.00, encode 6.23, network 148.65, decode 1.01, display 12.83 (network)
+[2022-08-10 14:28:16] CLIENT: Video overflow (166.37ms queued), requesting keyframe synchronization
+[2022-08-10 14:28:16] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:17] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:17] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:17] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:17] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:18] Slow framerate: game 4.39, capture 0.70, convert 0.00, encode 6.22, network 155.55, decode 1.12, display 10.91 (network)
+[2022-08-10 14:28:18] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Switched to backup #1 sea#102 (205.196.6.212:27024) (Ping = 89 = 82+0+7 (front+interior+remote).) as primary, from lax#173 (162.254.195.74:27049) (Ping = 195 = 169+0+26 (front+interior+remote).  Connection gap 2294ms.)
+[2022-08-10 14:28:18] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Selecting dfw#146 (155.133.253.55:27022) as backup #1 (Ping = 145 = 103+0+42 (front+interior+remote).  Offline in 111s.)
+[2022-08-10 14:28:19] Bitrate adapter: state = 2, minRTT = 73, maxRTT = 73, gain = 1.25, bitrate = 3125
+[2022-08-10 14:28:23] Slow framerate: game 4.38, capture 0.00, convert 0.00, encode 0.00, network 87.62, decode 1.04, display 5.86 (network)
+[2022-08-10 14:28:23] Bitrate adapter: state = 2, minRTT = 107, maxRTT = 307, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:24] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-10 14:28:25] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-10 14:28:25] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-10 14:28:25] Slow framerate: game 4.33, capture 0.00, convert 0.00, encode 0.00, network 64.83, decode 1.05, display 4.49 (network)
+[2022-08-10 14:28:27] Bitrate adapter: state = 2, minRTT = 118, maxRTT = 118, gain = 1.25, bitrate = 3125
+[2022-08-10 14:28:28] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:52423 Ping: 852ms IN: 1611.6kbit 410.8 pkt/s qual 98.8OUT: 702.4kbit 401.0 pkt/s qual 100.0
+[2022-08-10 14:28:28] Slow framerate: game 4.41, capture 0.00, convert 0.00, encode 0.00, network 154.34, decode 1.41, display 9.73 (network)
+[2022-08-10 14:28:28] Slow framerate: game 4.41, capture 0.00, convert 0.00, encode 0.00, network 963.11, decode 1.06, display 7.94 (network)
+[2022-08-10 14:28:28] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] ICE route is public UDP to 34.221.19.173:52423
+[2022-08-10 14:28:28] CLIENT: Got video sequence 5221, expected 5073, sending lost data notification
+[2022-08-10 14:28:28] CLIENT: Flushing audio, 3490 ms queued, 326 ms maximum, delivery delay = 113
+[2022-08-10 14:28:28] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [41341,41342).  3 pkts [41338,41341] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-10 14:28:28] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [41345,41347).  3 pkts [41342,41345] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-10 14:28:28] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [41363,41364).  3 pkts [41360,41363] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-10 14:28:29] CLIENT: Flushing audio, 640 ms queued, 326 ms maximum, delivery delay = 113
+[2022-08-10 14:28:29] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] ICE route is public UDP to 34.221.19.173:52423
+[2022-08-10 14:28:29] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] ICE route is public UDP to 34.221.19.173:52423
+[2022-08-10 14:28:29] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] ICE route is public UDP to 34.221.19.173:52423
+[2022-08-10 14:28:29] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:52423 Ping: 1249ms IN: 1045.4kbit 237.9 pkt/s qual 68.9OUT: 1461.2kbit 905.2 pkt/s qual 100.0
+[2022-08-10 14:28:29] CLIENT: Flushing audio, 570 ms queued, 326 ms maximum, delivery delay = 113
+[2022-08-10 14:28:29] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:29] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:29] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:29] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:29] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:29] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:29] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:29] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:30] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:30] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:31] CLIENT: Marking frame 5255 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:31] Bitrate adapter: state = 2, minRTT = 118, maxRTT = 118, gain = 1.25, bitrate = 3906
+[2022-08-10 14:28:33] CLIENT: Marking frame 5256 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5257 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5258 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5259 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5260 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5261 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5262 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5263 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5264 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5265 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5266 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5267 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5268 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5269 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5270 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5273 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5274 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5276 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] CLIENT: Marking frame 5277 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:35] Bitrate adapter: state = 2, minRTT = 94, maxRTT = 358, gain = 0.75, bitrate = 2929
+[2022-08-10 14:28:35] CLIENT: Marking frame 5278 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5399 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5400 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5403 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5407 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5408 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5409 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5410 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5411 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5412 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5413 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5414 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5415 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5416 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5417 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5418 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5419 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5420 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5421 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5422 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5423 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5424 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5425 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5426 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5427 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5428 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5429 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5430 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5431 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5432 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5433 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5434 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5435 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5436 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5437 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5438 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5439 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5440 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5441 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5442 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5443 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5444 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5445 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5446 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5447 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5448 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5449 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5450 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5451 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5452 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5453 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5454 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5455 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5456 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5457 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5458 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5459 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5460 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5461 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5462 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5463 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5464 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5465 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5466 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5467 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5468 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5469 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5470 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5471 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5472 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5473 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5474 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5475 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5476 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5477 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5478 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5479 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5480 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5481 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5482 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5483 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5484 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5485 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5486 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5487 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5488 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5489 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5490 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5491 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5492 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5493 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5494 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5495 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5496 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5497 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5498 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5499 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5500 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5501 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5502 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5503 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5504 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5505 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5506 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5507 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5508 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5509 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] Slow framerate: game 2.81, capture 0.00, convert 0.00, encode 0.00, network 70.22, decode 1.01, display 4.46 (network)
+[2022-08-10 14:28:36] Slow framerate: game 2.81, capture 0.00, convert 0.00, encode 0.00, network 55.39, decode 0.71, display 2.63 (network)
+[2022-08-10 14:28:36] Slow framerate: game 2.81, capture 0.00, convert 0.00, encode 0.00, network 66.88, decode 1.25, display 5.04 (network)
+[2022-08-10 14:28:36] CLIENT: SteamNetworkingSockets connection: Connected SDR->sea->sea  Ping: 1502ms IN: 1385.7kbit 379.3 pkt/s qual 92.8OUT: 1710.2kbit 1089.6 pkt/s qual 100.0
+[2022-08-10 14:28:36] Slow framerate: game 2.81, capture 0.00, convert 0.00, encode 0.00, network 60.79, decode 1.26, display 4.09 (network)
+[2022-08-10 14:28:36] Slow framerate: game 2.81, capture 0.00, convert 0.00, encode 0.00, network 60.58, decode 1.05, display 5.31 (network)
+[2022-08-10 14:28:36] Slow framerate: game 2.81, capture 0.00, convert 0.00, encode 0.00, network 69.43, decode 1.19, display 5.71 (network)
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] SDR routing message updated, revision 11.  (POP 'mdf1' penalty changed 0 -> 268435456)
+[2022-08-10 14:28:36] Slow framerate: game 2.81, capture 0.00, convert 0.00, encode 0.00, network 243.38, decode 1.41, display 7.81 (network)
+[2022-08-10 14:28:36] CLIENT: Got video sequence 5837, expected 5835, sending lost data notification
+[2022-08-10 14:28:36] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] Sent P2P RoutesChanged to sea#102 (205.196.6.212:27024), but we have reason to believe that it might not get through end-to-end.  Also sending via steam
+[2022-08-10 14:28:36] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:36] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-10 14:28:36] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] ICE route is public UDP to 34.221.19.173:52423
+[2022-08-10 14:28:36] CLIENT: Flushing audio, 780 ms queued, 270 ms maximum, delivery delay = 85
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] Sent P2P RoutesChanged to sea#102 (205.196.6.212:27024), but we have reason to believe that it might not get through end-to-end.  Also sending via steam
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31140 previously queued LOCK PROBLEM!
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 139 bytes, queued, 32371 previously queued LOCK PROBLEM!
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 82 bytes, queued, 32514 previously queued LOCK PROBLEM!
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 76 bytes, queued, 32600 previously queued LOCK PROBLEM!
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 82 bytes, queued, 32680 previously queued LOCK PROBLEM!
+[2022-08-10 14:28:36] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30214 previously queued LOCK PROBLEM!
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31445 previously queued LOCK PROBLEM!
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32676 previously queued LOCK PROBLEM!
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 67 bytes, queued, 30506 previously queued LOCK PROBLEM!
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31049 previously queued LOCK PROBLEM!
+[2022-08-10 14:28:36] CLIENT: Flushing audio, 1570 ms queued, 270 ms maximum, delivery delay = 85
+[2022-08-10 14:28:36] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] ICE route is public UDP to 34.221.19.173:52423
+[2022-08-10 14:28:36] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:52423 Ping: 687ms IN: 2043.1kbit 424.5 pkt/s qual 98.8OUT: 1850.6kbit 1262.4 pkt/s qual 23.0
+[2022-08-10 14:28:36] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:36] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:36] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-10 14:28:36] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] Selecting lax#119 (162.254.195.73:27041) as backup #1 (Ping = 195 = 169+0+26 (front+interior+remote).)
+[2022-08-10 14:28:36] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] SDR routing message updated, revision 12.  (POP 'dfw' last sent ping 103 is outside ping range 153-907 (1 buckets))
+[2022-08-10 14:28:36] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:36] CLIENT: Marking frame 5933 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5934 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5935 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5936 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5937 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5938 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5939 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5940 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5941 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5942 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5943 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5944 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5945 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5946 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5947 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5948 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5949 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5950 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5951 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5952 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5953 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5954 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5955 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5956 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5957 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5958 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5959 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:36] CLIENT: Marking frame 5960 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:37] Bitrate adapter: state = 2, minRTT = 94, maxRTT = 176, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:37] Slow framerate: game 2.61, capture 0.71, convert 0.01, encode 6.01, network 206.05, decode 0.87, display 13.58 (network)
+[2022-08-10 14:28:37] Setting target framerate: 60.00 [timing: game 2.61, capture 0.71, convert 0.01, encode 6.01, network 206.05, decode 0.87, display 13.58 (network)]
+[2022-08-10 14:28:38] CLIENT: Flushing audio, 310 ms queued, 270 ms maximum, delivery delay = 85
+[2022-08-10 14:28:38] CLIENT: Targeting 60.00 FPS
+[2022-08-10 14:28:38] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-10 14:28:38] Slow framerate: game 2.40, capture 0.69, convert 0.00, encode 6.10, network 691.53, decode 1.10, display 7.99 (network)
+[2022-08-10 14:28:39] CLIENT: Got video sequence 6175, expected 6170, sending lost data notification
+[2022-08-10 14:28:39] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:39] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-10 14:28:39] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 14:28:39] CLIENT: Flushing audio, 660 ms queued, 270 ms maximum, delivery delay = 85
+[2022-08-10 14:28:39] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:40] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:52423 Ping: 983ms IN: 1960.3kbit 409.4 pkt/s qual 89.7OUT: 1375.9kbit 914.6 pkt/s qual 23.0
+[2022-08-10 14:28:40] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:40] CLIENT: Flushing audio, 300 ms queued, 270 ms maximum, delivery delay = 85
+[2022-08-10 14:28:41] Bitrate adapter: state = 2, minRTT = 94, maxRTT = 94, gain = 1.25, bitrate = 3125
+[2022-08-10 14:28:41] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:41] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:41] CLIENT: Flushing audio, 420 ms queued, 270 ms maximum, delivery delay = 85
+[2022-08-10 14:28:41] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-10 14:28:41] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 14:28:41] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 14:28:41] CLIENT: Marking frame 6177 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6178 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6179 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6180 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6181 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6182 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6235 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6236 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6237 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6238 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6252 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6253 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6254 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6255 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6256 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6257 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6258 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6259 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6260 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6261 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6262 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6263 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6264 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6284 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6285 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6297 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6298 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6299 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6300 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6303 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6304 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6316 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6317 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6327 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6328 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6329 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6330 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6331 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6332 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6333 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6334 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6335 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6336 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6337 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6338 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6339 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6340 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6341 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6342 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6343 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6344 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6345 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6346 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6347 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6348 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6349 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6350 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6351 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6352 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6353 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Video overflow (165.99ms queued), requesting keyframe synchronization
+[2022-08-10 14:28:41] CLIENT: Flushing audio, 940 ms queued, 270 ms maximum, delivery delay = 85
+[2022-08-10 14:28:41] CLIENT: Marking frame 6376 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6377 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6378 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6379 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6380 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6381 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6382 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6383 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6384 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6385 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6386 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6388 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6389 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6390 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6391 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6392 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6393 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6394 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Flushing audio, 500 ms queued, 270 ms maximum, delivery delay = 85
+[2022-08-10 14:28:41] CLIENT: Marking frame 6407 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:41] CLIENT: Marking frame 6408 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 14:28:42] Slow framerate: game 2.06, capture 0.71, convert 0.00, encode 7.47, network 425.76, decode 0.81, display 3.82 (network)
+[2022-08-10 14:28:43] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 176, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:43] Slow framerate: game 2.09, capture 0.71, convert 0.01, encode 7.52, network 59.66, decode 0.88, display 5.42 (network)
+[2022-08-10 14:28:44] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 207, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:44] Slow framerate: game 2.89, capture 0.70, convert 0.00, encode 7.61, network 78.10, decode 1.15, display 7.64 (network)
+[2022-08-10 14:28:45] Slow framerate: game 3.79, capture 0.71, convert 0.00, encode 5.43, network 52.16, decode 1.25, display 3.56 (network)
+[2022-08-10 14:28:45] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:52423 Ping: 91ms IN: 2174.5kbit 458.6 pkt/s qual 84.3OUT: 776.4kbit 395.6 pkt/s qual 23.0
+[2022-08-10 14:28:46] Slow framerate: game 4.31, capture 0.71, convert 0.00, encode 6.15, network 49.22, decode 1.16, display 3.74 (network)
+[2022-08-10 14:28:47] Slow framerate: game 3.90, capture 0.72, convert 0.00, encode 6.34, network 47.78, decode 1.24, display 5.28 (network)
+[2022-08-10 14:28:48] Bitrate adapter: state = 2, minRTT = 84, maxRTT = 105, gain = 1.25, bitrate = 3125
+[2022-08-10 14:28:48] Slow framerate: game 3.27, capture 0.71, convert 0.01, encode 6.34, network 53.84, decode 1.20, display 5.95 (network)
+[2022-08-10 14:28:49] Slow framerate: game 3.07, capture 0.71, convert 0.00, encode 6.50, network 48.52, decode 1.29, display 5.01 (network)
+[2022-08-10 14:28:50] Slow framerate: game 2.96, capture 0.70, convert 0.00, encode 6.33, network 64.59, decode 1.11, display 9.41 (network)
+[2022-08-10 14:28:50] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:52423 Ping: 92ms IN: 2043.2kbit 455.1 pkt/s qual 99.6OUT: 214.4kbit 265.9 pkt/s qual 23.0
+[2022-08-10 14:28:50] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-10 14:28:50] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 14:28:51] Slow framerate: game 2.90, capture 0.70, convert 0.00, encode 6.52, network 57.74, decode 1.10, display 6.68 (network)
+[2022-08-10 14:28:52] Bitrate adapter: state = 2, minRTT = 81, maxRTT = 261, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:52] Slow framerate: game 2.79, capture 0.71, convert 0.00, encode 6.59, network 74.31, decode 1.09, display 7.01 (network)
+[2022-08-10 14:28:53] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-10 14:28:53] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 14:28:53] Changing record window: 00000000
+[2022-08-10 14:28:53] Window title empty
+[2022-08-10 14:28:53] SynchronizeClientState(): setting capture size 1280x800
+[2022-08-10 14:28:53] SynchronizeClientState(): setting activity to k_EStreamActivityDesktop: Steam Controller Configs - Desktop
+[2022-08-10 14:28:53] "SessionStats"
+[2022-08-10 14:28:53] Bitrate adapter: state = 2, minRTT = 81, maxRTT = 435, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:53] >>> Switching video stream from GameOverlay_MovieStream_8240 to NONE
+[2022-08-10 14:28:53] Bitrate adapter: state = 2, minRTT = 19, maxRTT = 376, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:53] Bitrate adapter: state = 2, minRTT = 19, maxRTT = 116, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:54] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2022-08-10 14:28:54] CLIENT: Got control packet k_EStreamControlSetActivity
+[2022-08-10 14:28:54] Slow framerate: game 3.00, capture 0.70, convert 0.00, encode 6.15, network 196.62, decode 1.27, display 8.13 (network)
+[2022-08-10 14:28:54] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] SDR routing message updated, revision 14.  (POP 'atl' last sent ping 97 is outside ping range 119-192 (1 buckets))
+[2022-08-10 14:28:54] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] SDR routing message updated, revision 15.  (POP 'iad' last sent ping 109 is outside ping range 128-194 (1 buckets))
+[2022-08-10 14:28:54] CLIENT: Flushing audio, 400 ms queued, 266 ms maximum, delivery delay = 83
+[2022-08-10 14:28:54] CLIENT: [SteamNetworkingSockets] [#1149480929 P2P ICE steamid:76561199378814893 vport 0] Sequence number from sea#102 (205.196.6.212:27024) is duplicate / old, and end-to-end sequence number is duplicate / old or fails to decrypt.  Dropping.
+[2022-08-10 14:28:54] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-10 14:28:54] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 14:28:54] Changing record window: 00C10570
+[2022-08-10 14:28:54] Window title set to Steam
+[2022-08-10 14:28:54] SynchronizeClientState(): setting capture size 1280x720
+[2022-08-10 14:28:54] SynchronizeClientState(): setting title to Steam
+[2022-08-10 14:28:54] SynchronizeClientState(): setting icon 32x32
+[2022-08-10 14:28:54] SynchronizeClientState(): setting activity to k_EStreamActivityIdle: Steam Controller Configs - Big Picture
+[2022-08-10 14:28:54] Audio mix: start=254724035080, returned=5756160
+[2022-08-10 14:28:54] Slow framerate: game 0.00, capture 0.00, convert 0.02, encode 436.22, network 33.51, decode 1.59, display 8.29 (encode)
+[2022-08-10 14:28:54] Setting target framerate: 60.00 [timing: game 0.00, capture 0.00, convert 0.02, encode 436.22, network 33.51, decode 1.59, display 8.29 (encode)]
+[2022-08-10 14:28:54] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2022-08-10 14:28:54] CLIENT: Got control packet k_EStreamControlSetTitle
+[2022-08-10 14:28:54] CLIENT: Got control packet k_EStreamControlSetIcon
+[2022-08-10 14:28:54] CLIENT: Got control packet k_EStreamControlSetActivity
+[2022-08-10 14:28:54] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 14:28:54] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 14:28:54] CLIENT: Targeting 15.00 FPS
+[2022-08-10 14:28:54] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-10 14:28:54] Bitrate adapter: state = 2, minRTT = 19, maxRTT = 117, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:54] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-10 14:28:54] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 14:28:54] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 14:28:54] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 14:28:54] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-10 14:28:54] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 14:28:54] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-10 14:28:54] CLIENT: Ignoring duplicate controller configuration for 413090, revision 22
+[2022-08-10 14:28:54] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-10 14:28:55] Bitrate adapter: state = 2, minRTT = 19, maxRTT = 111, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:55] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:52423 Ping: 237ms IN: 2113.6kbit 452.8 pkt/s qual 100.0OUT: 232.5kbit 258.4 pkt/s qual 23.0
+[2022-08-10 14:28:55] Bitrate adapter: state = 2, minRTT = 19, maxRTT = 282, gain = 0.75, bitrate = 2500
+[2022-08-10 14:28:55] CLIENT: Flushing audio, 270 ms queued, 266 ms maximum, delivery delay = 83
+[2022-08-10 14:30:34] Streaming initialized and listening on port 0
+[2022-08-10 14:30:43] CLIENT: Sending HID device 0000/11fb/-1  Mobile Touch Control at touch://0

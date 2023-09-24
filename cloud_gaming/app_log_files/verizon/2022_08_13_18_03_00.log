@@ -1,0 +1,154 @@
+[2022-08-13 18:03:00] Streaming started to Samsung SM-G998U1 Android 12 at 0.0.0.0:0, audio channels = 2, MTU = 1472
+[2022-08-13 18:03:00] Streaming quality: k_EStreamQualityBeautiful
+[2022-08-13 18:03:00] Streaming bitrate: Unlimited
+[2022-08-13 18:03:00] Device form factor: phone
+[2022-08-13 18:03:00] Maximum capture: 3840x2160 60.00 FPS
+[2022-08-13 18:03:00] Video Streaming: enabled
+[2022-08-13 18:03:00] Audio Streaming: enabled
+[2022-08-13 18:03:00] Input Streaming: enabled
+[2022-08-13 18:03:00] =====================================================================
+[2022-08-13 18:03:00] Game: Counter-Strike: Global Offensive (730)
+[2022-08-13 18:03:00] Setting target bitrate to 100000 Kbit/s, burst bitrate is 500000 Kbit/s
+[2022-08-13 18:03:00] Streamed game has created a window
+[2022-08-13 18:03:00] SynchronizeClientState(): setting capture size 1280x800
+[2022-08-13 18:03:00] SynchronizeClientState(): setting title to Counter-Strike: Global Offensive - Direct3D 9
+[2022-08-13 18:03:00] SynchronizeClientState(): setting icon 32x32
+[2022-08-13 18:03:00] SynchronizeClientState(): setting cursor hidden
+[2022-08-13 18:03:00] SynchronizeClientState(): setting keymap
+[2022-08-13 18:03:00] SynchronizeClientState(): setting activity to k_EStreamActivityGame: Counter-Strike: Global Offensive
+[2022-08-13 18:03:00] Recording system audio
+[2022-08-13 18:03:00] Audio recording init failed, couldn't get the default audio endpoint: 0x80070490
+[2022-08-13 18:03:00] Failed to init system audio recording: 1
+[2022-08-13 18:03:00] Audio mix: start=115752316036, returned=0
+[2022-08-13 18:03:00] CLIENT: Got control packet k_EStreamControlSetQoS
+[2022-08-13 18:03:00] >>> Switching video stream from NONE to GameOverlay_MovieStream_7060
+[2022-08-13 18:03:00] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2022-08-13 18:03:00] CLIENT: Starting audio stream: frequency=48000, channels=2
+[2022-08-13 18:03:00] CLIENT: Opened audio device: format=2, channels=2, frequency=48000
+[2022-08-13 18:03:00] CLIENT: Initialized audio decoder: codec=3, sample rate=48000, channels=2
+[2022-08-13 18:03:00] CLIENT: Got control packet k_EStreamControlStartAudioData
+[2022-08-13 18:03:00] CLIENT: Got control packet k_EStreamControlSetSpectatorMode
+[2022-08-13 18:03:00] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2022-08-13 18:03:00] CLIENT: Got control packet k_EStreamControlSetTitle
+[2022-08-13 18:03:00] CLIENT: Got control packet k_EStreamControlSetIcon
+[2022-08-13 18:03:00] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-13 18:03:00] CLIENT: Got control packet k_EStreamControlSetKeymap
+[2022-08-13 18:03:00] CLIENT: Got control packet k_EStreamControlSetActivity
+[2022-08-13 18:03:00] CLIENT: [SteamNetworkingSockets] Ping measurement completed
+[2022-08-13 18:03:00] CLIENT: [SteamNetworkingSockets] Ping location: ord=21+2/22+2,atl=54+5/41+2,dfw=48+4/42+2,iad=48+4/42+2,mdf1=88+8/42+2,sea=70+7/68+2,lax=72+7/68+2,lhr=111+11,ams=114+11/114+2,fra=120+12/120+2,gru=164+16/165+16,sgp=239+23/240+23
+[2022-08-13 18:03:00] CLIENT: [SteamNetworkingSockets] SDR RelayNetworkStatus:  avail=OK  config=OK  anyrelay=OK   (OK)
+[2022-08-13 18:03:00] >>> Capture method set to Game threaded D3D9 NV12 + NVENC H264
+[2022-08-13 18:03:00] >>> Capture resolution set to 1280x800
+[2022-08-13 18:03:00] >>> Capture colorspace set to BT.601 limited range
+[2022-08-13 18:03:00] >>> Client video decoder set to Android texture hardware decoding
+[2022-08-13 18:03:00] CLIENT: Android texture hardware decoding
+[2022-08-13 18:03:00] CLIENT: Got control packet k_EStreamControlStartVideoData
+[2022-08-13 18:03:00] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2022-08-13 18:03:01] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-13 18:03:01] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-13 18:03:02] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-13 18:03:02] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-13 18:03:02] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-13 18:03:02] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-13 18:03:02] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-13 18:03:02] Bitrate adapter: state = 1, minRTT = 28, maxRTT = 41, gain = 2.00, bitrate = 5000
+[2022-08-13 18:03:02] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-13 18:03:02] Bitrate adapter: state = 1, minRTT = 28, maxRTT = 46, gain = 2.00, bitrate = 10000
+[2022-08-13 18:03:03] Bitrate adapter: state = 1, minRTT = 28, maxRTT = 43, gain = 2.00, bitrate = 20000
+[2022-08-13 18:03:03] Bitrate adapter: state = 1, minRTT = 28, maxRTT = 40, gain = 2.00, bitrate = 40000
+[2022-08-13 18:03:04] Bitrate adapter: state = 1, minRTT = 28, maxRTT = 41, gain = 2.00, bitrate = 80000
+[2022-08-13 18:03:04] CLIENT: SteamNetworkingSockets connection: Connected SDR->ord->ord  Ping: 34ms IN: 542.5kbit 249.1 pkt/s qual 21.4OUT: 78.1kbit 141.8 pkt/s qual 100.0
+[2022-08-13 18:03:04] Bitrate adapter: state = 1, minRTT = 28, maxRTT = 43, gain = 2.00, bitrate = 100000
+[2022-08-13 18:03:05] CLIENT: Video rect: 2325x1046 at 0,17
+[2022-08-13 18:03:05] CLIENT: Texture rect: 2400x1080 at 0,0
+[2022-08-13 18:03:05] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-13 18:03:05] Bitrate adapter: state = 2, minRTT = 28, maxRTT = 43, gain = 2.00, bitrate = 100000
+[2022-08-13 18:03:07] CLIENT: Ignoring duplicate controller configuration for 730, revision 444
+[2022-08-13 18:03:07] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-13 18:03:07] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-13 18:03:07] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-13 18:03:07] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-13 18:03:07] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-13 18:03:07] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-13 18:03:07] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-13 18:03:07] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-13 18:03:07] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-13 18:03:07] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-13 18:03:09] CLIENT: SteamNetworkingSockets connection: Connected SDR->ord->ord  Ping: 40ms IN: 468.8kbit 257.5 pkt/s qual 23.6OUT: 133.2kbit 241.7 pkt/s qual 100.0
+[2022-08-13 18:03:10] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] Received request to migrate to 162.254.193.72:27029 from ord#202 (162.254.193.99:27048).
+[2022-08-13 18:03:11] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] Started migration to ord#53 (162.254.193.72:27029) at request of current primary ord#202 (162.254.193.99:27048)
+[2022-08-13 18:03:11] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] Requesting session from ord#53 (162.254.193.72:27029).  Ping = 38 = 28+1+9 (front+interior+remote).
+[2022-08-13 18:03:11] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] Received P2PSessionEstablished from ord#53 (162.254.193.72:27029), token @adf7
+[2022-08-13 18:03:11] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] Switched primary to ord#53 (162.254.193.72:27029) (Ping = 38 = 28+1+9 (front+interior+remote).  Migration target.) from ord#202 (162.254.193.99:27048) (Ping = 38 = 28+1+9 (front+interior+remote).  Requested migration.)
+[2022-08-13 18:03:11] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] Selecting iad#35 (162.254.192.69:27049) as backup #1 (Ping = 59 = 48+0+11 (front+interior+remote).)
+[2022-08-13 18:03:11] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] SDR routing message updated, revision 5.  (POP 'ord' session changed)
+[2022-08-13 18:03:14] CLIENT: [SteamNetworkingSockets] ICE: ICE completed
+[2022-08-13 18:03:14] CLIENT: SteamNetworkingSockets connection: Connected SDR->ord->ord  Ping: 36ms IN: 466.3kbit 258.1 pkt/s qual 23.5OUT: 128.2kbit 225.5 pkt/s qual 100.0
+[2022-08-13 18:03:15] Bitrate adapter: state = 2, minRTT = 30, maxRTT = 106, gain = 0.75, bitrate = 75000
+[2022-08-13 18:03:18] CLIENT: Flushing audio, 320 ms queued, 306 ms maximum, delivery delay = 103
+[2022-08-13 18:03:19] Bitrate adapter: state = 2, minRTT = 30, maxRTT = 127, gain = 0.75, bitrate = 56250
+[2022-08-13 18:03:19] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [248884,248892).  1 pkts [248883,248884] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-13 18:03:19] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [248641,248765).  2 pkts [248639,248641] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-13 18:03:19] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] SDR routing message updated, revision 6.  (POP 'ord' last sent ping 28 is outside ping range 31-130 (4 buckets))
+[2022-08-13 18:03:19] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] SDR routing message updated, revision 7.  (Route ord-dfw no longer valid)
+[2022-08-13 18:03:19] Bitrate adapter: state = 2, minRTT = 30, maxRTT = 234, gain = 0.75, bitrate = 42187
+[2022-08-13 18:03:19] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] Requesting session from dfw#29 (155.133.253.38:27043).  Ping = 71 = 48+0+23 (front+interior+remote).
+[2022-08-13 18:03:19] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] Received P2PSessionEstablished from dfw#29 (155.133.253.38:27043), token @68ca
+[2022-08-13 18:03:19] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] SDR routing message updated, revision 8.  (POP 'dfw' session changed)
+[2022-08-13 18:03:19] CLIENT: SteamNetworkingSockets connection: Connected SDR->ord->ord  Ping: 77ms IN: 479.3kbit 246.4 pkt/s qual 15.5OUT: 274.8kbit 264.0 pkt/s qual 100.0
+[2022-08-13 18:03:20] Bitrate adapter: state = 2, minRTT = 30, maxRTT = 90, gain = 0.75, bitrate = 31640
+[2022-08-13 18:03:20] Bitrate adapter: state = 2, minRTT = 30, maxRTT = 115, gain = 0.75, bitrate = 23730
+[2022-08-13 18:03:24] Bitrate adapter: state = 2, minRTT = 31, maxRTT = 31, gain = 1.25, bitrate = 29662
+[2022-08-13 18:03:24] CLIENT: SteamNetworkingSockets connection: Connected SDR->ord->ord  Ping: 190ms IN: 436.6kbit 257.3 pkt/s qual 9.4OUT: 175.3kbit 250.9 pkt/s qual 100.0
+[2022-08-13 18:03:25] Bitrate adapter: state = 2, minRTT = 31, maxRTT = 290, gain = 0.75, bitrate = 22246
+[2022-08-13 18:03:25] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-13 18:03:25] Bitrate adapter: state = 2, minRTT = 31, maxRTT = 249, gain = 0.75, bitrate = 16684
+[2022-08-13 18:03:26] Bitrate adapter: state = 2, minRTT = 31, maxRTT = 300, gain = 0.75, bitrate = 12513
+[2022-08-13 18:03:26] Bitrate adapter: state = 2, minRTT = 31, maxRTT = 239, gain = 0.75, bitrate = 9384
+[2022-08-13 18:03:28] CLIENT: Flushing audio, 300 ms queued, 290 ms maximum, delivery delay = 95
+[2022-08-13 18:03:29] Bitrate adapter: state = 2, minRTT = 50, maxRTT = 198, gain = 0.75, bitrate = 7038
+[2022-08-13 18:03:29] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:60685 Ping: 54ms IN: 509.1kbit 284.5 pkt/s qual 15.5OUT: 300.8kbit 295.5 pkt/s qual 100.0
+[2022-08-13 18:03:30] Bitrate adapter: state = 2, minRTT = 49, maxRTT = 114, gain = 0.75, bitrate = 5278
+[2022-08-13 18:03:34] Bitrate adapter: state = 2, minRTT = 47, maxRTT = 61, gain = 1.25, bitrate = 6597
+[2022-08-13 18:03:34] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:60685 Ping: 49ms IN: 439.4kbit 257.6 pkt/s qual 20.8OUT: 152.7kbit 209.2 pkt/s qual 100.0
+[2022-08-13 18:03:36] CLIENT: Flushing audio, 350 ms queued, 206 ms maximum, delivery delay = 53
+[2022-08-13 18:03:36] CLIENT: Flushing audio, 410 ms queued, 206 ms maximum, delivery delay = 53
+[2022-08-13 18:03:36] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [297292,297299).  2 pkts [297290,297292] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-13 18:03:36] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-13 18:03:36] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from iad#35 (162.254.192.69:27049) is OK?  Dropping.
+[2022-08-13 18:03:36] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from iad#35 (162.254.192.69:27049) is OK?  Dropping.
+[2022-08-13 18:03:36] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from iad#35 (162.254.192.69:27049) is OK?  Dropping.
+[2022-08-13 18:03:36] CLIENT: Flushing audio, 550 ms queued, 206 ms maximum, delivery delay = 53
+[2022-08-13 18:03:36] CLIENT: Flushing audio, 250 ms queued, 206 ms maximum, delivery delay = 53
+[2022-08-13 18:03:36] Bitrate adapter: state = 2, minRTT = 47, maxRTT = 285, gain = 0.75, bitrate = 4947
+[2022-08-13 18:03:36] CLIENT: Flushing audio, 280 ms queued, 206 ms maximum, delivery delay = 53
+[2022-08-13 18:03:38] CLIENT: [SteamNetworkingSockets] [#3747240214 P2P SDR steamid:76561199378814893 vport 0] SDR routing message updated, revision 9.  (#2 route ord-ord was not sent)
+[2022-08-13 18:03:39] CLIENT: SteamNetworkingSockets connection: Connected SDR->ord->ord  Ping: 46ms IN: 521.9kbit 312.0 pkt/s qual 31.5OUT: 420.2kbit 325.4 pkt/s qual 90.0
+[2022-08-13 18:03:40] Bitrate adapter: state = 2, minRTT = 35, maxRTT = 54, gain = 1.25, bitrate = 6183
+[2022-08-13 18:03:41] Bitrate adapter: state = 2, minRTT = 33, maxRTT = 163, gain = 0.75, bitrate = 4637
+[2022-08-13 18:03:44] Bitrate adapter: state = 2, minRTT = 28, maxRTT = 81, gain = 0.75, bitrate = 3477
+[2022-08-13 18:03:44] CLIENT: SteamNetworkingSockets connection: Connected SDR->ord->ord  Ping: 34ms IN: 477.4kbit 281.2 pkt/s qual 24.7OUT: 116.0kbit 207.9 pkt/s qual 90.0
+[2022-08-13 18:03:48] CLIENT: Video size: 2400x1080, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-13 18:03:48] CLIENT: Video rect: 2325x1046 at 0,17
+[2022-08-13 18:03:48] CLIENT: Texture rect: 2400x1080 at 0,0
+[2022-08-13 18:03:48] CLIENT: Video rect: 2325x1046 at 0,17
+[2022-08-13 18:03:48] CLIENT: Texture rect: 2400x1080 at 0,0
+[2022-08-13 18:03:50] CLIENT: SteamNetworkingSockets connection: Connected SDR->ord->ord  Ping: 44ms IN: 332.2kbit 206.6 pkt/s qual 50.0OUT: 97.4kbit 155.6 pkt/s qual 90.0
+[2022-08-13 18:03:55] CLIENT: SteamNetworkingSockets connection: Connected SDR->ord->ord  Ping: 39ms IN: 25.9kbit 72.0 pkt/s qual 100.0OUT: 93.0kbit 115.2 pkt/s qual 90.0
+[2022-08-13 18:03:58] CLIENT: pixel format wanted SDL_PIXELFORMAT_RGBX8888 (2), got SDL_PIXELFORMAT_RGBX8888 (2)
+[2022-08-13 18:03:59] CLIENT: Flushing audio, 4510 ms queued, 160 ms maximum, delivery delay = 30
+[2022-08-13 18:03:59] CLIENT: Flushing audio, 6820 ms queued, 182 ms maximum, delivery delay = 41
+[2022-08-13 18:04:00] Audio mix: start=115752316036, returned=2876160
+[2022-08-13 18:04:00] CLIENT: SteamNetworkingSockets connection: Connected SDR->ord->ord  Ping: 47ms IN: 100.4kbit 84.0 pkt/s qual 99.5OUT: 86.3kbit 104.9 pkt/s qual 100.0
+[2022-08-13 18:04:01] Bitrate adapter: state = 1, minRTT = 35, maxRTT = 218, gain = 2.00, bitrate = 5000
+[2022-08-13 18:04:02] CLIENT: Video size: 2400x1080, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-13 18:04:02] CLIENT: Video rect: 2325x1046 at 0,17
+[2022-08-13 18:04:02] CLIENT: Texture rect: 2400x1080 at 0,0
+[2022-08-13 18:04:02] CLIENT: Video rect: 2325x1046 at 0,17
+[2022-08-13 18:04:02] CLIENT: Texture rect: 2400x1080 at 0,0
+[2022-08-13 18:05:00] Audio mix: start=115752316036, returned=5756160
+[2022-08-13 18:06:00] Audio mix: start=115752316036, returned=8636640
+[2022-08-13 18:07:00] Audio mix: start=115752316036, returned=11516640
+[2022-08-13 18:07:02] "SessionStats"
+[2022-08-13 18:13:07] Streaming initialized and listening on port 0
+[2022-08-13 18:13:12] CLIENT: Sending HID device 0000/11fb/-1  Mobile Touch Control at touch://0

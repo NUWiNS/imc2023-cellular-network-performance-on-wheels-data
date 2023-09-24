@@ -1,0 +1,903 @@
+[2022-08-12 16:26:49] Streaming started to Samsung SM-G998U1 Android 12 at 0.0.0.0:0, audio channels = 2, MTU = 1172
+[2022-08-12 16:26:49] Streaming quality: k_EStreamQualityBeautiful
+[2022-08-12 16:26:49] Streaming bitrate: Unlimited
+[2022-08-12 16:26:49] Device form factor: phone
+[2022-08-12 16:26:49] Maximum capture: 3840x2160 60.00 FPS
+[2022-08-12 16:26:49] Video Streaming: enabled
+[2022-08-12 16:26:49] Audio Streaming: enabled
+[2022-08-12 16:26:49] Input Streaming: enabled
+[2022-08-12 16:26:49] =====================================================================
+[2022-08-12 16:26:49] Game: Counter-Strike: Global Offensive (730)
+[2022-08-12 16:26:49] Setting target bitrate to 100000 Kbit/s, burst bitrate is 500000 Kbit/s
+[2022-08-12 16:26:49] Streamed game has created a window
+[2022-08-12 16:26:49] SynchronizeClientState(): setting capture size 1280x800
+[2022-08-12 16:26:49] SynchronizeClientState(): setting title to Counter-Strike: Global Offensive - Direct3D 9
+[2022-08-12 16:26:49] SynchronizeClientState(): setting icon 32x32
+[2022-08-12 16:26:49] SynchronizeClientState(): setting cursor hidden
+[2022-08-12 16:26:49] SynchronizeClientState(): setting keymap
+[2022-08-12 16:26:49] SynchronizeClientState(): setting activity to k_EStreamActivityGame: Counter-Strike: Global Offensive
+[2022-08-12 16:26:49] Recording system audio
+[2022-08-12 16:26:49] Audio recording init failed, couldn't get the default audio endpoint: 0x80070490
+[2022-08-12 16:26:49] Failed to init system audio recording: 1
+[2022-08-12 16:26:49] Audio mix: start=23581859642, returned=0
+[2022-08-12 16:26:50] >>> Switching video stream from NONE to GameOverlay_MovieStream_6768
+[2022-08-12 16:26:50] >>> Capture method set to Game threaded D3D9 NV12 + NVENC H264
+[2022-08-12 16:26:50] >>> Capture resolution set to 1280x800
+[2022-08-12 16:26:50] >>> Capture colorspace set to BT.601 limited range
+[2022-08-12 16:26:50] CLIENT: Got control packet k_EStreamControlSetQoS
+[2022-08-12 16:26:50] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2022-08-12 16:26:50] CLIENT: Starting audio stream: frequency=48000, channels=2
+[2022-08-12 16:26:50] CLIENT: Opened audio device: format=2, channels=2, frequency=48000
+[2022-08-12 16:26:50] CLIENT: Initialized audio decoder: codec=3, sample rate=48000, channels=2
+[2022-08-12 16:26:50] CLIENT: Got control packet k_EStreamControlStartAudioData
+[2022-08-12 16:26:50] CLIENT: Got control packet k_EStreamControlSetSpectatorMode
+[2022-08-12 16:26:50] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2022-08-12 16:26:50] CLIENT: Got control packet k_EStreamControlSetTitle
+[2022-08-12 16:26:50] CLIENT: Got control packet k_EStreamControlSetIcon
+[2022-08-12 16:26:50] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-12 16:26:50] CLIENT: Got control packet k_EStreamControlSetKeymap
+[2022-08-12 16:26:50] CLIENT: Got control packet k_EStreamControlSetActivity
+[2022-08-12 16:26:50] >>> Client video decoder set to Android texture hardware decoding
+[2022-08-12 16:26:50] CLIENT: Android texture hardware decoding
+[2022-08-12 16:26:50] CLIENT: Got control packet k_EStreamControlStartVideoData
+[2022-08-12 16:26:50] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2022-08-12 16:26:51] Slow framerate: game 4.88, capture 1.25, convert 2.05, encode 3.35, network 329.51, decode 0.94, display 0.00 (network)
+[2022-08-12 16:26:51] Setting target framerate: 60.00 [timing: game 4.88, capture 1.25, convert 2.05, encode 3.35, network 329.51, decode 0.94, display 0.00 (network)]
+[2022-08-12 16:26:51] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-12 16:26:51] CLIENT: Marking frame 24 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-12 16:26:51] CLIENT: Marking frame 25 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Video overflow (200.13ms queued), requesting keyframe synchronization
+[2022-08-12 16:26:51] CLIENT: Android texture hardware decoding
+[2022-08-12 16:26:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:26:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:26:51] CLIENT: Targeting 60.00 FPS
+[2022-08-12 16:26:51] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-12 16:26:51] CLIENT: Marking frame 26 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 27 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 28 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 29 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 30 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 31 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 32 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 33 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 34 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 35 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 36 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 37 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 38 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 39 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 40 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 41 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 42 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 43 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 44 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 45 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 46 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 47 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 48 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 49 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 50 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 51 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 52 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 53 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 54 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 55 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 56 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 57 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 58 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 59 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 60 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 61 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 62 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 63 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 64 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 65 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 66 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 67 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] CLIENT: Marking frame 68 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:51] Bitrate adapter: state = 1, minRTT = 113, maxRTT = 113, gain = 2.00, bitrate = 5000
+[2022-08-12 16:26:52] CLIENT: Marking frame 69 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:52] CLIENT: Marking frame 70 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:52] CLIENT: Marking frame 71 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:26:52] Bitrate adapter: state = 1, minRTT = 113, maxRTT = 113, gain = 2.00, bitrate = 10000
+[2022-08-12 16:26:52] Slow framerate: game 4.92, capture 0.40, convert 0.00, encode 3.23, network 316.47, decode 34.59, display 0.00 (network) (decode)
+[2022-08-12 16:26:52] Setting target framerate: 60.00 [timing: game 4.92, capture 0.40, convert 0.00, encode 3.23, network 316.47, decode 34.59, display 0.00 (network) (decode)]
+[2022-08-12 16:26:52] CLIENT: Video rect: 2325x1046 at 0,17
+[2022-08-12 16:26:52] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-12 16:26:52] CLIENT: Video size: 1280x800, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-12 16:26:52] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-12 16:26:52] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-12 16:26:52] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-12 16:26:52] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-12 16:26:52] Bitrate adapter: state = 2, minRTT = 113, maxRTT = 113, gain = 2.00, bitrate = 20000
+[2022-08-12 16:26:57] Bitrate adapter: state = 2, minRTT = 113, maxRTT = 113, gain = 1.25, bitrate = 25000
+[2022-08-12 16:26:58] CLIENT: [SteamNetworkingSockets] ICE: ICE completed
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:00] Dropping queued frame before encoding
+[2022-08-12 16:27:01] Bitrate adapter: state = 2, minRTT = 313, maxRTT = 313, gain = 1.25, bitrate = 31250
+[2022-08-12 16:27:05] Bitrate adapter: state = 2, minRTT = 1634, maxRTT = 1634, gain = 1.25, bitrate = 39062
+[2022-08-12 16:27:06] Slow framerate: game 5.01, capture 0.00, convert 0.00, encode 0.00, network 325.99, decode 0.76, display 0.00 (network)
+[2022-08-12 16:27:06] Setting target framerate: 60.00 [timing: game 5.01, capture 0.00, convert 0.00, encode 0.00, network 325.99, decode 0.76, display 0.00 (network)]
+[2022-08-12 16:27:06] CLIENT: Targeting 60.00 FPS
+[2022-08-12 16:27:06] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-12 16:27:06] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-12 16:27:06] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-12 16:27:09] Bitrate adapter: state = 2, minRTT = 2273, maxRTT = 2273, gain = 1.25, bitrate = 48827
+[2022-08-12 16:27:12] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-12 16:27:13] Slow framerate: game 5.38, capture 0.00, convert 0.00, encode 0.00, network 320.79, decode 1.00, display 7.97 (network)
+[2022-08-12 16:27:13] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] Switched to backup #1 dfw#92 (155.133.253.39:27060) (Ping = 111 = 88+0+23 (front+interior+remote).) as primary, from ord#28 (162.254.193.71:27042) (Ping = 1009 = 999+1+9 (front+interior+remote).  Connection gap 6733ms.)
+[2022-08-12 16:27:13] Bitrate adapter: state = 2, minRTT = 3292, maxRTT = 3292, gain = 1.25, bitrate = 61033
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] Selecting iad#119 (162.254.192.72:27041) as backup #1 (Ping = 121 = 110+0+11 (front+interior+remote).)
+[2022-08-12 16:27:14] Slow framerate: game 5.29, capture 0.00, convert 0.00, encode 0.00, network 356.23, decode 1.15, display 7.95 (network)
+[2022-08-12 16:27:14] CLIENT: SteamNetworkingSockets connection: Connected SDR->dfw->dfw  Ping: 111ms IN: 638.8kbit 168.8 pkt/s qual 97.3OUT: 82.1kbit 66.5 pkt/s qual 100.0
+[2022-08-12 16:27:14] CLIENT: Flushing audio, 260 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:14] Slow framerate: game 5.29, capture 0.00, convert 0.00, encode 0.00, network 385.76, decode 1.01, display 8.07 (network)
+[2022-08-12 16:27:14] Slow framerate: game 5.29, capture 0.00, convert 0.00, encode 0.00, network 321.24, decode 1.19, display 8.01 (network)
+[2022-08-12 16:27:14] Slow framerate: game 5.29, capture 0.00, convert 0.00, encode 0.00, network 326.58, decode 1.27, display 8.04 (network)
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-12 16:27:14] CLIENT: Video overflow (167.10ms queued), requesting keyframe synchronization
+[2022-08-12 16:27:14] CLIENT: Flushing audio, 190 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:14] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:14] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:14] Changing record window: 00020184
+[2022-08-12 16:27:14] Window title set to Program Manager
+[2022-08-12 16:27:14] >>> Starting desktop stream
+[2022-08-12 16:27:14] SynchronizeClientState(): setting capture size 1024x768
+[2022-08-12 16:27:14] SynchronizeClientState(): setting title to Program Manager
+[2022-08-12 16:27:14] SynchronizeClientState(): setting icon 32x32
+[2022-08-12 16:27:14] SynchronizeClientState(): setting cursor visible
+[2022-08-12 16:27:14] SynchronizeClientState(): setting cursor to 65541
+[2022-08-12 16:27:14] SynchronizeClientState(): setting activity to k_EStreamActivityDesktop: Steam Controller Configs - Desktop
+[2022-08-12 16:27:14] "SessionStats"
+[2022-08-12 16:27:14] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x4c22
+[2022-08-12 16:27:14] Video adapter: NVIDIA Tesla T4, vendor ID: 0x10de, device ID: 0x1eb8
+[2022-08-12 16:27:14] CDesktopCaptureDWM: desktop duplication enabled
+[2022-08-12 16:27:14] >>> Switching video stream from GameOverlay_MovieStream_6768 to Desktop_MovieStream
+[2022-08-12 16:27:14] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:14] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30908 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:14] Slow framerate: game 14.00, capture 0.00, convert 0.00, encode 0.00, network 631.19, decode 1.44, display 7.80 (network)
+[2022-08-12 16:27:14] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:14] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:14] Slow framerate: game 14.00, capture 0.00, convert 0.00, encode 0.00, network 919.01, decode 1.72, display 7.55 (network)
+[2022-08-12 16:27:14] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:57816 Ping: 1932ms IN: 1472.7kbit 371.2 pkt/s qual 93.0OUT: 585.6kbit 355.0 pkt/s qual 95.0
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31010 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30801 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32032 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33263 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30973 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30907 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32138 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 59 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 65 bytes, queued, 34531 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 65 bytes, queued, 34600 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34669 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30844 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32075 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33306 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34537 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:14] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35768 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:15] CDesktopCaptureDWM: Changing to adapter 0x4aa4
+[2022-08-12 16:27:15] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x4aa4
+[2022-08-12 16:27:15] Video adapter: Microsoft Basic Render Driver, vendor ID: 0x1414, device ID: 0x8c
+[2022-08-12 16:27:15] CDesktopCaptureDWM: desktop duplication enabled
+[2022-08-12 16:27:15] >>> Capture method set to Desktop DWM NV12 + NVENC H264
+[2022-08-12 16:27:15] >>> Capture resolution set to 1024x768
+[2022-08-12 16:27:17] Bitrate adapter: state = 2, minRTT = 1539, maxRTT = 1539, gain = 1.25, bitrate = 76291
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36999 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38230 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39461 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30907 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30982 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30844 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32075 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33306 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34537 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35768 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 65 bytes, queued, 30362 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 65 bytes, queued, 30431 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 59 bytes, queued, 30500 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30563 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30913 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30894 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [7752,7787).  2 pkts [7750,7752] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:21] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [7869,7896).  3 pkts [7866,7869] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30774 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32005 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [7791,7821).  4 pkts [7787,7791] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33236 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34467 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35698 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36929 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38160 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39391 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40622 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 278 bytes, queued, 41853 previously queued LOCK PROBLEM!
+[2022-08-12 16:27:21] CLIENT: Flushing audio, 510 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:21] CLIENT: Flushing audio, 190 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [7900,7932).  4 pkts [7896,7900] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:21] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] ICE: ICE OnWritableState now 0
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] ICE reports we are no longer writable
+[2022-08-12 16:27:21] CLIENT: [SteamNetworkingSockets] ICE: ICE OnReceivingState now 0
+[2022-08-12 16:27:21] Bitrate adapter: state = 2, minRTT = 1539, maxRTT = 1539, gain = 1.25, bitrate = 95363
+[2022-08-12 16:27:25] Bitrate adapter: state = 2, minRTT = 1529, maxRTT = 1529, gain = 1.25, bitrate = 100000
+[2022-08-12 16:27:27] CLIENT: SteamNetworkingSockets connection: Connected SDR->dfw->dfw  Ping: 1106ms IN: 8380.4kbit 965.1 pkt/s qual 89.4OUT: 815.4kbit 552.0 pkt/s qual 95.0
+[2022-08-12 16:27:27] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [8013,8043).  6 pkts [8007,8013] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:27] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [7829,7932).  8 pkts [7821,7829] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:27] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [7977,8043).  8 pkts [7969,7977] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:27] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [7685,7711).  9 pkts [7676,7685] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:27] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:27] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [8126,8153).  9 pkts [8117,8126] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:27] CLIENT: Flushing audio, 1840 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:27] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [8512,8542).  13 pkts [8499,8512] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:27] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [8095,8153).  15 pkts [8080,8095] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:27] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [8206,8264).  16 pkts [8190,8206] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:27] CLIENT: [SteamNetworkingSockets] ICE: ICE OnReceivingState now 1
+[2022-08-12 16:27:27] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] ICE: ICE OnWritableState now 1
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] ICE reports we are writable
+[2022-08-12 16:27:31] CLIENT: Flushing audio, 700 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [16044,16093).  5 pkts [16039,16044] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [16101,16145).  8 pkts [16093,16101] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [13776,13801).  12 pkts [13764,13776] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: Flushing audio, 110 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [16431,16470).  16 pkts [16415,16431] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [13894,13910).  19 pkts [13875,13894] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [16598,16630).  19 pkts [16579,16598] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: Flushing audio, 360 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:31] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:31] CLIENT: Flushing audio, 290 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:31] CLIENT: Flushing audio, 250 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [16503,16524).  33 pkts [16470,16503] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [13835,13910).  34 pkts [13801,13835] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [16563,16630).  39 pkts [16524,16563] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:31] CLIENT: Targeting 60.00 FPS
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-12 16:27:31] CLIENT: Flushing audio, 730 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-12 16:27:31] CLIENT: Flushing audio, 960 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] ICE: 3 consecutive end-to-end timeouts
+[2022-08-12 16:27:31] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:57816 Ping: 1932ms IN: 16842.4kbit 1883.0 pkt/s qual 73.5OUT: 1255.8kbit 453.7 pkt/s qual 95.0
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] Received request to migrate to 155.133.253.54:27032 from dfw#92 (155.133.253.39:27060).
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [20604,20630).  2 pkts [20602,20604] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [20601,20630).  8 pkts [20593,20601] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [20651,20668).  21 pkts [20630,20651] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-12 16:27:31] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-12 16:27:31] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:31] CLIENT: Flushing audio, 1630 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] Started migration to dfw#110 (155.133.253.54:27032) at request of current primary dfw#92 (155.133.253.39:27060)
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] ICE: 4 consecutive end-to-end timeouts
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [21166,21188).  15 pkts [21151,21166] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [21220,21226).  32 pkts [21188,21220] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [21255,21264).  29 pkts [21226,21255] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [28374,28380).  1 pkts [28373,28374] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [28398,28416).  18 pkts [28380,28398] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [28446,28459).  30 pkts [28416,28446] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] ICE: 5 consecutive end-to-end timeouts
+[2022-08-12 16:27:31] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:31] CLIENT: Flushing audio, 430 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [33084,33147).  21 pkts [33063,33084] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [33154,33215).  7 pkts [33147,33154] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [33218,33219).  3 pkts [33215,33218] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] ICE: 6 consecutive end-to-end timeouts
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [38497,38547).  7 pkts [38490,38497] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [38549,38550).  2 pkts [38547,38549] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [38557,38576).  7 pkts [38550,38557] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: Flushing audio, 950 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:31] CLIENT: Flushing audio, 2310 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] ICE: 7 consecutive end-to-end timeouts
+[2022-08-12 16:27:31] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:57816 Ping: 1932ms IN: 17899.2kbit 2023.8 pkt/s qual 77.9OUT: 1472.2kbit 511.8 pkt/s qual 95.0
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] ICE: 8 consecutive end-to-end timeouts
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [42816,42818).  18 pkts [42798,42816] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:31] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [43081,43084).  8 pkts [43073,43081] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:32] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] recv packet gap map badly fragmented, discarding gap [43085,43158).  1 pkts [43084,43085] were received, but will now be nacked.  May trigger re-transmission!
+[2022-08-12 16:27:32] CLIENT: Flushing audio, 630 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:32] CLIENT: Flushing audio, 140 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:32] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:32] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-12 16:27:32] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-12 16:27:32] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-12 16:27:32] CLIENT: Ignoring duplicate controller configuration for 730, revision 407
+[2022-08-12 16:27:32] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-12 16:27:32] CLIENT: Ignoring duplicate controller configuration for 730, revision 407
+[2022-08-12 16:27:32] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-12 16:27:32] CLIENT: Ignoring duplicate controller configuration for 730, revision 407
+[2022-08-12 16:27:32] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-12 16:27:34] CLIENT: Ignoring duplicate controller configuration for 730, revision 407
+[2022-08-12 16:27:34] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-12 16:27:34] CLIENT: Ignoring duplicate controller configuration for 730, revision 407
+[2022-08-12 16:27:34] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-12 16:27:34] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2022-08-12 16:27:34] CLIENT: Got control packet k_EStreamControlSetTitle
+[2022-08-12 16:27:35] CLIENT: Got control packet k_EStreamControlSetIcon
+[2022-08-12 16:27:35] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-12 16:27:35] CLIENT: Got control packet k_EStreamControlSetActivity
+[2022-08-12 16:27:35] CLIENT: Flushing audio, 660 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:35] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-12 16:27:35] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-12 16:27:35] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Flushing audio, 3600 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] Sent P2P AckPeerRoutes  to dfw#92 (155.133.253.39:27060), but we have reason to believe that it might not get through end-to-end.  Also sending via steam
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-12 16:27:35] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:57816 Ping: 1932ms IN: 15146.1kbit 1788.7 pkt/s qual 41.9OUT: 2254.7kbit 843.3 pkt/s qual 87.0
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-12 16:27:35] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:35] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Flushing audio, 110 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:37] CLIENT: Flushing audio, 110 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:57816 Ping: 1932ms IN: 3217.2kbit 580.7 pkt/s qual 88.0OUT: 1421.5kbit 867.1 pkt/s qual 87.0
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:37] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:38] CLIENT: Marking frame 1623 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:38] CLIENT: Marking frame 1624 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:38] CLIENT: Marking frame 1625 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:38] CLIENT: Marking frame 1626 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1627 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1628 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1629 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1630 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1631 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1632 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1633 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1634 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1635 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1636 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1637 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1638 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1639 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1640 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1641 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1642 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1643 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1644 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1645 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1646 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1647 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1648 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1649 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1650 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1651 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1652 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1653 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1654 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1655 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1656 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1657 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:42] CLIENT: Marking frame 1658 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1659 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1660 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1661 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1662 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1663 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1664 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1665 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1666 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1667 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1668 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1669 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1670 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1671 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1672 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1673 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1674 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1675 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1676 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1677 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1678 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:43] CLIENT: Marking frame 1679 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1680 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1681 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1682 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1683 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1684 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1685 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1686 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1687 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1688 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1689 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1690 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1691 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1692 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1693 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1694 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1695 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1696 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1697 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1698 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1699 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1700 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1701 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1702 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1703 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1704 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1705 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1706 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1707 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1708 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1709 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1710 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1711 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1712 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1713 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1714 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1715 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1716 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1717 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1718 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1719 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1720 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1721 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1722 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1723 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1724 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1725 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1726 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1727 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1728 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1729 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1730 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1731 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1732 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1733 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1734 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1735 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1736 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1737 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1738 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1739 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1740 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1741 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1742 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1743 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1744 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1745 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1746 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1747 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1748 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Marking frame 1749 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: BSubmitFrame(): Resolution changed from 1280x800 to 1024x768, resetting decoder
+[2022-08-12 16:27:45] CLIENT: Marking frame 1750 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:45] CLIENT: Flushing audio, 140 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:45] CLIENT: Video overflow (179.03ms queued), requesting keyframe synchronization
+[2022-08-12 16:27:45] CLIENT: Android texture hardware decoding
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] ICE: 3 consecutive end-to-end timeouts
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] ICE: 4 consecutive end-to-end timeouts
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:57816 Ping: 1932ms IN: 2218.9kbit 419.6 pkt/s qual 91.9OUT: 801.3kbit 544.7 pkt/s qual 87.0
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] ICE: 5 consecutive end-to-end timeouts
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-12 16:27:45] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-12 16:27:45] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: [SteamNetworkingSockets] ICE: ICE OnWritableState now 0
+[2022-08-12 16:27:45] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] ICE reports we are no longer writable
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:45] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:46] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: [SteamNetworkingSockets] ICE: ICE failed
+[2022-08-12 16:27:48] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] ICE route is unkown
+[2022-08-12 16:27:48] CLIENT: [SteamNetworkingSockets] ICE: ICE OnReceivingState now 0
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: SteamNetworkingSockets connection: Connected SDR->dfw->dfw  Ping: 1250ms IN: 1266.6kbit 295.1 pkt/s qual 91.5OUT: 1104.3kbit 820.8 pkt/s qual 87.0
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: [SteamNetworkingSockets] ICE: ICE OnReceivingState now 1
+[2022-08-12 16:27:48] CLIENT: [SteamNetworkingSockets] ICE: ICE completed
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: [SteamNetworkingSockets] ICE: ICE OnWritableState now 1
+[2022-08-12 16:27:48] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] ICE route is public UDP to 18.223.213.124:57816
+[2022-08-12 16:27:48] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P ICE steamid:76561199378814893 vport 0] ICE reports we are writable
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] ICE: 3 consecutive end-to-end timeouts
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: SteamNetworkingSockets connection: Connected SDR->dfw->dfw  Ping: 1635ms IN: 1061.2kbit 278.1 pkt/s qual 94.4OUT: 786.3kbit 545.1 pkt/s qual 87.0
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] ICE: 4 consecutive end-to-end timeouts
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] ICE: 5 consecutive end-to-end timeouts
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Flushing audio, 220 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Flushing audio, 110 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: SteamNetworkingSockets connection: Connected SDR->dfw->dfw  Ping: 1624ms IN: 996.9kbit 280.4 pkt/s qual 95.1OUT: 813.2kbit 539.1 pkt/s qual 80.0
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:48] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:49] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:49] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:49] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:49] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] ICE: 3 consecutive end-to-end timeouts
+[2022-08-12 16:27:49] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:49] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:49] CLIENT: [SteamNetworkingSockets] ICE: ICE OnWritableState now 0
+[2022-08-12 16:27:49] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] ICE reports we are no longer writable
+[2022-08-12 16:27:49] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:49] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:49] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:49] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:49] Audio mix: start=23581859642, returned=2875680
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] ICE: 4 consecutive end-to-end timeouts
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Flushing audio, 190 ms queued, 100 ms maximum, delivery delay = 0
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: SteamNetworkingSockets connection: Connected SDR->dfw->dfw  Ping: 1606ms IN: 985.5kbit 265.2 pkt/s qual 93.8OUT: 555.6kbit 340.6 pkt/s qual 80.0
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:53] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:53] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:53] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:53] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:53] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:53] CLIENT: [SteamNetworkingSockets] ICE: ICE OnReceivingState now 0
+[2022-08-12 16:27:53] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:53] CLIENT: [SteamNetworkingSockets] ICE: ICE OnReceivingState now 1
+[2022-08-12 16:27:53] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:53] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:55] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:55] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:55] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:55] CLIENT: [SteamNetworkingSockets] ICE: ICE OnWritableState now 1
+[2022-08-12 16:27:55] CLIENT: [SteamNetworkingSockets] [#3361473052 P2P SDR steamid:76561199378814893 vport 0] ICE reports we are writable
+[2022-08-12 16:27:55] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-12 16:27:55] CLIENT: Marking frame 2192 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:55] CLIENT: Marking frame 2193 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:55] CLIENT: Marking frame 2194 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:55] CLIENT: Marking frame 2195 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:55] CLIENT: Marking frame 2196 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:55] CLIENT: Marking frame 2197 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:55] CLIENT: Marking frame 2198 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:56] CLIENT: Marking frame 2199 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:56] CLIENT: Marking frame 2200 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:56] CLIENT: Marking frame 2201 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:56] CLIENT: Marking frame 2202 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:56] CLIENT: Marking frame 2203 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:56] CLIENT: Marking frame 2204 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:56] CLIENT: Marking frame 2205 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:56] CLIENT: Marking frame 2206 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:58] CLIENT: Marking frame 2207 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:58] CLIENT: Marking frame 2208 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:58] CLIENT: Marking frame 2209 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:58] CLIENT: Marking frame 2210 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:58] CLIENT: Marking frame 2211 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:58] CLIENT: Marking frame 2212 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:58] CLIENT: Marking frame 2213 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:27:58] CLIENT: Marking frame 2214 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:28:00] CLIENT: Marking frame 2215 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:28:00] CLIENT: Marking frame 2216 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:28:00] CLIENT: Marking frame 2217 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:28:00] CLIENT: Marking frame 2218 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:28:00] CLIENT: Marking frame 2219 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:28:00] CLIENT: Marking frame 2220 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:28:00] CLIENT: Marking frame 2221 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:28:00] CLIENT: Marking frame 2222 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:28:00] CLIENT: Marking frame 2223 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:28:00] CLIENT: Marking frame 2224 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:13] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:14] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] Dropping queued frame before encoding
+[2022-08-12 16:28:15] >>> Stopped desktop stream
+[2022-08-12 16:28:15] "SessionStats"
+[2022-08-12 16:46:25] Streaming initialized and listening on port 0
+[2022-08-12 16:46:31] CLIENT: Sending HID device 0000/11fb/-1  Mobile Touch Control at touch://0

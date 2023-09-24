@@ -1,0 +1,1762 @@
+[2022-08-10 22:30:50] Streaming started to Samsung SM-G998U1 Android 12 at 0.0.0.0:0, audio channels = 2, MTU = 1472
+[2022-08-10 22:30:50] Streaming quality: k_EStreamQualityBeautiful
+[2022-08-10 22:30:50] Streaming bitrate: Unlimited
+[2022-08-10 22:30:50] Device form factor: phone
+[2022-08-10 22:30:50] Maximum capture: 3840x2160 60.00 FPS
+[2022-08-10 22:30:50] Video Streaming: enabled
+[2022-08-10 22:30:50] Audio Streaming: enabled
+[2022-08-10 22:30:50] Input Streaming: enabled
+[2022-08-10 22:30:50] =====================================================================
+[2022-08-10 22:30:50] Game: UNKNOWN (0)
+[2022-08-10 22:30:50] Setting target bitrate to 100000 Kbit/s, burst bitrate is 500000 Kbit/s
+[2022-08-10 22:30:50] SynchronizeClientState(): setting capture size 1920x1200
+[2022-08-10 22:30:50] SynchronizeClientState(): setting title to HITMAN 2
+[2022-08-10 22:30:50] SynchronizeClientState(): setting icon 32x32
+[2022-08-10 22:30:50] SynchronizeClientState(): setting cursor to 1654195935
+[2022-08-10 22:30:50] SynchronizeClientState(): setting keymap
+[2022-08-10 22:30:50] SynchronizeClientState(): setting activity to k_EStreamActivityGame: HITMAN™ 2
+[2022-08-10 22:30:50] Recording system audio
+[2022-08-10 22:30:50] Audio recording init failed, couldn't get the default audio endpoint: 0x80070490
+[2022-08-10 22:30:50] Failed to init system audio recording: 1
+[2022-08-10 22:30:50] Audio mix: start=283759706874, returned=0
+[2022-08-10 22:30:50] >>> Switching video stream from NONE to GameOverlay_MovieStream_9444
+[2022-08-10 22:30:50] CLIENT: Got control packet k_EStreamControlSetQoS
+[2022-08-10 22:30:50] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2022-08-10 22:30:50] CLIENT: Starting audio stream: frequency=48000, channels=2
+[2022-08-10 22:30:50] CLIENT: Opened audio device: format=2, channels=2, frequency=48000
+[2022-08-10 22:30:50] CLIENT: Initialized audio decoder: codec=3, sample rate=48000, channels=2
+[2022-08-10 22:30:50] CLIENT: Got control packet k_EStreamControlStartAudioData
+[2022-08-10 22:30:50] CLIENT: Got control packet k_EStreamControlSetSpectatorMode
+[2022-08-10 22:30:50] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2022-08-10 22:30:50] CLIENT: Got control packet k_EStreamControlSetTitle
+[2022-08-10 22:30:50] CLIENT: Got control packet k_EStreamControlSetIcon
+[2022-08-10 22:30:50] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:50] CLIENT: Got control packet k_EStreamControlSetKeymap
+[2022-08-10 22:30:50] CLIENT: Got control packet k_EStreamControlSetActivity
+[2022-08-10 22:30:50] >>> Capture method set to Game polled D3D11 NV12 + NVENC H264
+[2022-08-10 22:30:50] >>> Capture resolution set to 1920x1200
+[2022-08-10 22:30:50] >>> Capture colorspace set to BT.601 limited range
+[2022-08-10 22:30:50] >>> Client video decoder set to Android texture hardware decoding
+[2022-08-10 22:30:50] CLIENT: Android texture hardware decoding
+[2022-08-10 22:30:50] CLIENT: Got control packet k_EStreamControlStartVideoData
+[2022-08-10 22:30:50] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2022-08-10 22:30:51] Slow framerate: game 4.17, capture 1.99, convert 1.55, encode 5.44, network 44.45, decode 1.08, display 0.00 (network)
+[2022-08-10 22:30:51] Setting target framerate: 60.00 [timing: game 4.17, capture 1.99, convert 1.55, encode 5.44, network 44.45, decode 1.08, display 0.00 (network)]
+[2022-08-10 22:30:51] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-10 22:30:51] CLIENT: Marking frame 28 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-10 22:30:51] CLIENT: Marking frame 29 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Video overflow (233.80ms queued), requesting keyframe synchronization
+[2022-08-10 22:30:51] CLIENT: Android texture hardware decoding
+[2022-08-10 22:30:51] CLIENT: Targeting 60.00 FPS
+[2022-08-10 22:30:51] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-10 22:30:51] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 22:30:51] CLIENT: Marking frame 30 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 31 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 32 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 33 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 34 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 35 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 36 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 37 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 38 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 39 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 40 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 41 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 42 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 43 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 44 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 45 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 46 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 47 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 48 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 49 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 50 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 51 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 52 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 53 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 54 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 55 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 56 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 57 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 58 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 59 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 60 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 61 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 62 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 63 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 64 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: Marking frame 65 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:51] CLIENT: [SteamNetworkingSockets] Ping measurement completed
+[2022-08-10 22:30:51] CLIENT: [SteamNetworkingSockets] Ping location: dfw=45+4,mdf1=45+4,atl=72+7/66+4,ord=79+7/66+4,lax=73+7/74+7,iad=82+8/84+4,sea=88+8,lhr=139+13,ams=/144+13,fra=183+18/153+13,gru=188+18/196+4,sgp=243+24/240+21
+[2022-08-10 22:30:51] CLIENT: [SteamNetworkingSockets] SDR RelayNetworkStatus:  avail=OK  config=OK  anyrelay=OK   (OK)
+[2022-08-10 22:30:52] Slow framerate: game 4.23, capture 0.72, convert 0.03, encode 5.25, network 41.00, decode 17.67, display 0.00 (network)
+[2022-08-10 22:30:52] Bitrate adapter: state = 1, minRTT = 61, maxRTT = 88, gain = 2.00, bitrate = 5000
+[2022-08-10 22:30:52] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 22:30:52] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 22:30:52] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 22:30:52] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 22:30:52] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 22:30:52] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 22:30:52] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-10 22:30:52] CLIENT: Marking frame 94 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-10 22:30:52] CLIENT: Marking frame 95 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Video overflow (218.41ms queued), requesting keyframe synchronization
+[2022-08-10 22:30:52] CLIENT: Android texture hardware decoding
+[2022-08-10 22:30:52] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 22:30:52] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 22:30:52] Bitrate adapter: state = 1, minRTT = 61, maxRTT = 110, gain = 2.00, bitrate = 10000
+[2022-08-10 22:30:52] CLIENT: Marking frame 96 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 97 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 98 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 99 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 100 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 101 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 102 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 103 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 104 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 105 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 106 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 107 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 108 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 109 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 110 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 111 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 112 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 113 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 114 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 115 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 116 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 117 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 118 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 119 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 120 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 121 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 122 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 123 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 124 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 125 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 126 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 127 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 128 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Marking frame 129 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:52] CLIENT: Video rect: 2325x1046 at 0,17
+[2022-08-10 22:30:52] CLIENT: Texture rect: 2400x1080 at 0,0
+[2022-08-10 22:30:52] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-10 22:30:52] CLIENT: Ignoring duplicate controller configuration for 863550, revision 111
+[2022-08-10 22:30:52] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-10 22:30:52] CLIENT: Video rect: 2325x1046 at 0,17
+[2022-08-10 22:30:52] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 22:30:52] CLIENT: Video size: 1920x1200, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-10 22:30:52] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-10 22:30:52] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 22:30:52] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-10 22:30:52] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 22:30:53] Slow framerate: game 4.22, capture 0.71, convert 0.04, encode 5.39, network 41.77, decode 17.30, display 0.00 (network)
+[2022-08-10 22:30:53] Bitrate adapter: state = 1, minRTT = 61, maxRTT = 102, gain = 2.00, bitrate = 20000
+[2022-08-10 22:30:53] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 22:30:53] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-10 22:30:53] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 22:30:53] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 22:30:53] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-10 22:30:53] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 22:30:53] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 22:30:53] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 22:30:53] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-10 22:30:53] Bitrate adapter: state = 2, minRTT = 61, maxRTT = 89, gain = 2.00, bitrate = 40000
+[2022-08-10 22:30:54] Slow framerate: game 4.24, capture 0.71, convert 0.04, encode 6.01, network 56.24, decode 1.06, display 11.26 (network)
+[2022-08-10 22:30:54] Bitrate adapter: state = 2, minRTT = 61, maxRTT = 310, gain = 0.75, bitrate = 30000
+[2022-08-10 22:30:54] CLIENT: [SteamNetworkingSockets] [#4050703523 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-10 22:30:54] CLIENT: SteamNetworkingSockets connection: Connected SDR->dfw->dfw  Ping: 307ms IN: 1447.0kbit 327.1 pkt/s qual 99.3OUT: 130.7kbit 148.6 pkt/s qual 100.0
+[2022-08-10 22:30:54] Bitrate adapter: state = 2, minRTT = 61, maxRTT = 369, gain = 0.75, bitrate = 22500
+[2022-08-10 22:30:54] CLIENT: Got video sequence 231, expected 229, sending lost data notification
+[2022-08-10 22:30:54] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 22:30:54] CLIENT: Flushing audio, 220 ms queued, 210 ms maximum, delivery delay = 55
+[2022-08-10 22:30:55] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 22:30:55] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-10 22:30:55] CLIENT: Marking frame 231 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 232 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 233 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 234 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 235 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 236 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 237 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 238 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 239 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 240 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 241 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 242 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 243 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 244 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 245 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 246 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 247 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 248 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 249 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 250 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 251 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 252 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 253 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 254 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 255 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 256 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 257 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 258 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 259 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 260 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 261 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 262 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 263 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 264 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 265 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 266 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 267 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 268 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 269 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 270 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 271 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] CLIENT: Marking frame 272 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-10 22:30:55] Bitrate adapter: state = 2, minRTT = 61, maxRTT = 161, gain = 0.75, bitrate = 16875
+[2022-08-10 22:30:55] Slow framerate: game 4.24, capture 0.71, convert 0.04, encode 5.92, network 225.98, decode 1.04, display 12.85 (network)
+[2022-08-10 22:30:55] Bitrate adapter: state = 2, minRTT = 61, maxRTT = 132, gain = 0.75, bitrate = 12656
+[2022-08-10 22:30:56] Slow framerate: game 4.20, capture 0.72, convert 0.04, encode 5.46, network 84.29, decode 1.18, display 2.95 (network)
+[2022-08-10 22:30:57] Slow framerate: game 4.16, capture 0.72, convert 0.04, encode 5.60, network 48.72, decode 1.11, display 4.48 (network)
+[2022-08-10 22:30:57] Bitrate adapter: state = 2, minRTT = 61, maxRTT = 160, gain = 0.75, bitrate = 9492
+[2022-08-10 22:30:58] Slow framerate: game 4.13, capture 0.71, convert 0.04, encode 5.43, network 53.78, decode 1.27, display 2.63 (network)
+[2022-08-10 22:30:58] Bitrate adapter: state = 2, minRTT = 61, maxRTT = 293, gain = 0.75, bitrate = 7119
+[2022-08-10 22:30:58] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 22:30:58] SynchronizeClientState(): setting cursor to 0
+[2022-08-10 22:30:58] SynchronizeClientState(): setting cursor visible
+[2022-08-10 22:30:58] SynchronizeClientState(): setting cursor to 1654195935
+[2022-08-10 22:30:58] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 22:30:58] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:58] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 22:30:58] SynchronizeClientState(): setting cursor to 0
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor visible
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 1654195935
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 0
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor visible
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 1654195935
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 0
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor visible
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 1654195935
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 0
+[2022-08-10 22:30:59] Slow framerate: game 4.15, capture 0.72, convert 0.03, encode 5.31, network 46.47, decode 1.29, display 2.87 (network)
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor visible
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 1654195935
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 0
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor visible
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 1654195935
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 0
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor visible
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 1654195935
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 0
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:59] CLIENT: SteamNetworkingSockets connection: Connected SDR->dfw->dfw  Ping: 92ms IN: 9721.5kbit 1314.4 pkt/s qual 99.6OUT: 275.0kbit 304.6 pkt/s qual 100.0
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 22:30:59] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor visible
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 1654195935
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 0
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor visible
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 1654195935
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 22:30:59] SynchronizeClientState(): setting cursor to 0
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor visible
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor to 1654195935
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor to 0
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor visible
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor to 1654195935
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:31:00] Slow framerate: game 4.32, capture 0.72, convert 0.01, encode 5.30, network 48.65, decode 1.28, display 4.96 (network)
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor to 0
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor visible
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor to 1654195935
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor to 0
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor visible
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor to 1654195935
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor hidden
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor to 0
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor visible
+[2022-08-10 22:31:00] SynchronizeClientState(): setting cursor to 1654195935
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:31:00] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-10 22:31:01] Slow framerate: game 4.36, capture 0.72, convert 0.03, encode 5.26, network 45.18, decode 1.25, display 5.25 (network)
+[2022-08-10 22:31:02] Slow framerate: game 4.35, capture 0.72, convert 0.04, encode 5.33, network 41.65, decode 1.22, display 6.90 (network)
+[2022-08-10 22:31:02] Bitrate adapter: state = 2, minRTT = 62, maxRTT = 103, gain = 1.25, bitrate = 8898
+[2022-08-10 22:31:03] Slow framerate: game 4.23, capture 0.70, convert 0.04, encode 5.38, network 42.25, decode 1.14, display 13.70 (network)
+[2022-08-10 22:31:04] CLIENT: [SteamNetworkingSockets] ICE: ICE completed
+[2022-08-10 22:31:04] Slow framerate: game 4.23, capture 0.72, convert 0.04, encode 5.36, network 43.07, decode 0.92, display 11.78 (network)
+[2022-08-10 22:31:04] CLIENT: SteamNetworkingSockets connection: Connected SDR->dfw->dfw  Ping: 79ms IN: 707.5kbit 380.8 pkt/s qual 99.5OUT: 209.6kbit 276.1 pkt/s qual 100.0
+[2022-08-10 22:31:05] Slow framerate: game 4.20, capture 0.71, convert 0.04, encode 5.29, network 50.43, decode 0.94, display 3.42 (network)
+[2022-08-10 22:31:05] Bitrate adapter: state = 2, minRTT = 75, maxRTT = 157, gain = 0.75, bitrate = 6673
+[2022-08-10 22:31:06] Slow framerate: game 4.08, capture 0.71, convert 0.04, encode 5.24, network 40.57, decode 1.28, display 3.38 (network)
+[2022-08-10 22:31:07] Slow framerate: game 3.96, capture 0.71, convert 0.03, encode 5.39, network 41.50, decode 1.22, display 7.21 (network)
+[2022-08-10 22:31:08] Slow framerate: game 3.90, capture 0.71, convert 0.03, encode 5.42, network 39.91, decode 1.09, display 8.58 (network)
+[2022-08-10 22:31:09] Slow framerate: game 3.91, capture 0.71, convert 0.03, encode 5.47, network 39.92, decode 1.16, display 14.11 (network)
+[2022-08-10 22:31:09] Bitrate adapter: state = 2, minRTT = 76, maxRTT = 94, gain = 1.25, bitrate = 8341
+[2022-08-10 22:31:09] CLIENT: SteamNetworkingSockets connection: Connected SDR->dfw->dfw  Ping: 84ms IN: 521.8kbit 337.9 pkt/s qual 100.0OUT: 254.3kbit 323.5 pkt/s qual 80.0
+[2022-08-10 22:31:10] Slow framerate: game 4.02, capture 0.70, convert 0.03, encode 5.60, network 40.08, decode 0.98, display 6.75 (network)
+[2022-08-10 22:31:11] Slow framerate: game 4.03, capture 0.71, convert 0.03, encode 5.51, network 39.93, decode 1.19, display 4.31 (network)
+[2022-08-10 22:31:12] Slow framerate: game 3.94, capture 0.70, convert 0.03, encode 5.50, network 40.43, decode 1.10, display 4.53 (network)
+[2022-08-10 22:31:13] Slow framerate: game 3.83, capture 0.71, convert 0.03, encode 5.54, network 44.10, decode 0.86, display 4.10 (network)
+[2022-08-10 22:31:13] Bitrate adapter: state = 2, minRTT = 75, maxRTT = 134, gain = 0.75, bitrate = 6255
+[2022-08-10 22:31:14] Slow framerate: game 3.81, capture 0.71, convert 0.03, encode 5.51, network 41.98, decode 1.03, display 6.26 (network)
+[2022-08-10 22:31:14] CLIENT: SteamNetworkingSockets connection: Connected SDR->dfw->dfw  Ping: 78ms IN: 191.7kbit 294.1 pkt/s qual 99.5OUT: 180.8kbit 239.1 pkt/s qual 80.0
+[2022-08-10 22:31:15] Slow framerate: game 3.85, capture 0.71, convert 0.03, encode 5.47, network 41.95, decode 0.95, display 9.80 (network)
+[2022-08-10 22:31:15] Bitrate adapter: state = 2, minRTT = 75, maxRTT = 163, gain = 0.75, bitrate = 4691
+[2022-08-10 22:31:16] Slow framerate: game 3.85, capture 0.71, convert 0.03, encode 5.48, network 45.90, decode 0.86, display 10.65 (network)
+[2022-08-10 22:31:17] CLIENT: [SteamNetworkingSockets] [#4050703523 P2P SDR steamid:76561199378814893 vport 0] SDR routing message updated, revision 6.  (POP 'dfw' last sent ping 74 is outside ping range 38-48 (3 buckets))
+[2022-08-10 22:31:17] Slow framerate: game 3.86, capture 0.70, convert 0.03, encode 5.49, network 40.48, decode 1.19, display 9.32 (network)
+[2022-08-10 22:31:18] Slow framerate: game 3.89, capture 0.70, convert 0.03, encode 5.48, network 43.06, decode 1.15, display 9.01 (network)
+[2022-08-10 22:31:18] Bitrate adapter: state = 2, minRTT = 75, maxRTT = 136, gain = 0.75, bitrate = 3518
+[2022-08-10 22:31:19] Slow framerate: game 3.87, capture 0.70, convert 0.03, encode 5.48, network 51.23, decode 1.08, display 6.69 (network)
+[2022-08-10 22:31:19] Bitrate adapter: state = 2, minRTT = 75, maxRTT = 165, gain = 0.75, bitrate = 2638
+[2022-08-10 22:31:19] CLIENT: SteamNetworkingSockets connection: Connected SDR->dfw->dfw  Ping: 82ms IN: 191.5kbit 292.7 pkt/s qual 99.9OUT: 212.6kbit 269.9 pkt/s qual 80.0
+[2022-08-10 22:31:20] Slow framerate: game 4.01, capture 0.70, convert 0.03, encode 5.53, network 42.34, decode 1.13, display 3.62 (network)
+[2022-08-10 22:31:21] Slow framerate: game 3.99, capture 0.70, convert 0.03, encode 5.49, network 41.74, decode 1.19, display 6.88 (network)
+[2022-08-10 22:31:22] Bitrate adapter: state = 2, minRTT = 75, maxRTT = 162, gain = 0.75, bitrate = 2500
+[2022-08-10 22:31:22] Slow framerate: game 4.02, capture 0.70, convert 0.03, encode 5.47, network 47.30, decode 1.20, display 13.17 (network)
+[2022-08-10 22:31:23] Slow framerate: game 3.91, capture 0.71, convert 0.03, encode 5.43, network 42.66, decode 1.00, display 3.20 (network)
+[2022-08-10 22:31:24] Slow framerate: game 3.89, capture 0.71, convert 0.03, encode 5.42, network 43.95, decode 1.00, display 4.93 (network)
+[2022-08-10 22:31:24] CLIENT: SteamNetworkingSockets connection: Connected SDR->dfw->dfw  Ping: 78ms IN: 195.4kbit 295.0 pkt/s qual 99.9OUT: 256.5kbit 314.4 pkt/s qual 80.0
+[2022-08-10 22:31:24] Bitrate adapter: state = 2, minRTT = 75, maxRTT = 135, gain = 0.75, bitrate = 2500
+[2022-08-10 22:31:24] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-10 22:31:24] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-10 22:31:25] Slow framerate: game 3.87, capture 0.70, convert 0.03, encode 5.49, network 45.54, decode 1.11, display 5.44 (network)
+[2022-08-10 22:31:26] Slow framerate: game 3.88, capture 0.71, convert 0.03, encode 5.49, network 41.81, decode 1.04, display 4.99 (network)
+[2022-08-10 22:31:27] Slow framerate: game 3.91, capture 0.72, convert 0.03, encode 5.50, network 40.71, decode 1.00, display 8.42 (network)
+[2022-08-10 22:31:28] Slow framerate: game 3.93, capture 0.70, convert 0.03, encode 5.51, network 40.41, decode 0.91, display 12.93 (network)
+[2022-08-10 22:31:28] Bitrate adapter: state = 2, minRTT = 75, maxRTT = 99, gain = 1.25, bitrate = 3125
+[2022-08-10 22:31:29] Slow framerate: game 3.94, capture 0.71, convert 0.03, encode 5.53, network 40.05, decode 1.09, display 15.84 (network)
+[2022-08-10 22:31:29] CLIENT: SteamNetworkingSockets connection: Connected SDR->dfw->dfw  Ping: 84ms IN: 192.8kbit 294.2 pkt/s qual 100.0OUT: 190.1kbit 247.4 pkt/s qual 81.0
+[2022-08-10 22:31:30] Slow framerate: game 3.99, capture 0.70, convert 0.03, encode 5.53, network 40.52, decode 1.01, display 6.03 (network)
+[2022-08-10 22:31:30] "SessionStats"
+[2022-08-11 12:49:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:36] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31994 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33225 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34456 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35687 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36918 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38149 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39380 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40611 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41842 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43073 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44304 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45535 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46766 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 47997 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49228 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50459 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51690 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52921 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54152 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 55383 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 56614 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 57845 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 959 bytes, queued, 59076 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 41 bytes, queued, 60039 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 53 bytes, queued, 60084 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:37] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 39ms IN: 97341.8kbit 10376.0 pkt/s qual 100.0OUT: 194.8kbit 221.0 pkt/s qual 100.0
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49240 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50471 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51702 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52933 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54164 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 55395 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 56626 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 57857 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:39] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:39] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30832 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:39] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32063 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:39] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33294 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:39] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34525 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:39] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35756 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:39] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36987 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:39] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38218 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:39] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39449 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:39] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:39] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:39] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:39] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:39] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:40] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:40] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:40] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:40] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:40] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:41] Bitrate adapter: state = 2, minRTT = 34, maxRTT = 113, gain = 0.75, bitrate = 75000
+[2022-08-11 12:49:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:42] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:42] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 38ms IN: 97047.8kbit 10343.5 pkt/s qual 99.7OUT: 171.3kbit 209.6 pkt/s qual 100.0
+[2022-08-11 12:49:44] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30871 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:45] Bitrate adapter: state = 2, minRTT = 34, maxRTT = 44, gain = 1.25, bitrate = 93750
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49240 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50471 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51702 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1215 bytes, queued, 52933 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54152 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:47] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 36ms IN: 78028.5kbit 8365.8 pkt/s qual 100.0OUT: 124.0kbit 165.8 pkt/s qual 100.0
+[2022-08-11 12:49:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:49] Bitrate adapter: state = 2, minRTT = 35, maxRTT = 44, gain = 1.25, bitrate = 100000
+[2022-08-11 12:49:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:51] CLIENT: [SteamNetworkingSockets] [#1991265387 P2P ICE steamid:76561199378814893 vport 0] SDR routing message updated, revision 8.  (POP 'mdf1' last sent ping 56 is outside ping range 37-44 (1 buckets))
+[2022-08-11 12:49:51] CLIENT: [SteamNetworkingSockets] [#1991265387 P2P ICE steamid:76561199378814893 vport 0] SDR routing message updated, revision 9.  (POP 'ord' last sent ping 65 is outside ping range 38-51 (1 buckets))
+[2022-08-11 12:49:51] CLIENT: [SteamNetworkingSockets] [#1991265387 P2P ICE steamid:76561199378814893 vport 0] SDR routing message updated, revision 10.  (POP 'atl' last sent ping 71 is outside ping range 53-62 (1 buckets))
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 933 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 47 bytes, queued, 31712 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] Audio mix: start=335181593273, returned=5756160
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49240 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50471 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51702 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52933 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54164 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 55395 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 56626 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 57857 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 59088 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 60319 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 37ms IN: 92563.2kbit 9872.6 pkt/s qual 100.0OUT: 124.9kbit 162.1 pkt/s qual 100.0
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49240 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50471 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51702 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52933 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:54] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:56] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:56] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:56] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:56] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:56] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:56] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:57] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 38ms IN: 96468.9kbit 10285.7 pkt/s qual 99.9OUT: 147.6kbit 184.7 pkt/s qual 100.0
+[2022-08-11 12:49:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 890 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 41 bytes, queued, 40286 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 53 bytes, queued, 40331 previously queued LOCK PROBLEM!
+[2022-08-11 12:49:59] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:00] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:00] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:00] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:00] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:00] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:00] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:00] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:00] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:00] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:00] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:00] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:00] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:00] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:00] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:00] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:02] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 40ms IN: 97654.7kbit 10401.2 pkt/s qual 100.0OUT: 136.9kbit 178.0 pkt/s qual 100.0
+[2022-08-11 12:50:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:07] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 37ms IN: 97442.8kbit 10384.2 pkt/s qual 99.8OUT: 120.6kbit 164.0 pkt/s qual 100.0
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1215 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49228 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50459 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51690 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52921 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54152 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 55383 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 56614 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 57845 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 59076 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 60307 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 61538 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 62769 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 64000 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 65231 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 66462 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:09] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30832 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:09] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32063 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:09] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33294 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:09] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34525 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:09] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35756 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:09] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36987 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:09] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38218 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49240 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50471 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51702 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52933 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54164 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30832 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32063 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33294 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34525 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35756 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36987 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38218 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39449 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:12] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 36ms IN: 98013.1kbit 10436.1 pkt/s qual 100.0OUT: 147.7kbit 176.8 pkt/s qual 100.0
+[2022-08-11 12:50:12] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:12] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:12] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:12] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:12] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:12] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:13] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:13] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:13] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:13] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:13] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:13] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:15] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:15] CLIENT: Got video sequence 8243, expected 8242, sending lost data notification
+[2022-08-11 12:50:15] CLIENT: Marking frame 8243 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:15] CLIENT: Marking frame 8244 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:15] CLIENT: Marking frame 8245 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:15] CLIENT: Marking frame 8246 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:15] CLIENT: Marking frame 8247 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:15] CLIENT: Marking frame 8248 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:15] CLIENT: Marking frame 8249 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:15] CLIENT: Marking frame 8250 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:15] CLIENT: Marking frame 8251 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:15] CLIENT: Marking frame 8252 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:16] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:17] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 37ms IN: 98193.2kbit 10458.1 pkt/s qual 99.7OUT: 123.7kbit 160.7 pkt/s qual 100.0
+[2022-08-11 12:50:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1215 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36918 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31994 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33225 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34456 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35687 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36918 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38149 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:21] CLIENT: Got video sequence 8600, expected 8599, sending lost data notification
+[2022-08-11 12:50:21] CLIENT: Marking frame 8600 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:21] CLIENT: Marking frame 8601 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:21] CLIENT: Marking frame 8602 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:21] CLIENT: Marking frame 8603 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:21] CLIENT: Marking frame 8604 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:21] CLIENT: Marking frame 8605 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:21] CLIENT: Marking frame 8606 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:21] CLIENT: Marking frame 8607 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:21] CLIENT: Marking frame 8608 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:21] CLIENT: Marking frame 8609 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:21] CLIENT: Marking frame 8610 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:21] CLIENT: Marking frame 8611 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:22] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 38ms IN: 97795.6kbit 10414.9 pkt/s qual 100.0OUT: 151.0kbit 192.5 pkt/s qual 100.0
+[2022-08-11 12:50:23] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1079 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:25] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:27] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 39ms IN: 99086.7kbit 10552.5 pkt/s qual 99.4OUT: 142.4kbit 183.8 pkt/s qual 100.0
+[2022-08-11 12:50:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30766 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31997 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33228 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34459 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35690 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36921 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38152 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39383 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40614 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41845 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43076 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44307 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45538 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46769 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:29] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30826 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:29] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:32] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 40ms IN: 98139.7kbit 10452.8 pkt/s qual 100.0OUT: 139.5kbit 176.0 pkt/s qual 100.0
+[2022-08-11 12:50:35] CLIENT: Got video sequence 9443, expected 9442, sending lost data notification
+[2022-08-11 12:50:35] CLIENT: Marking frame 9443 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:35] CLIENT: Marking frame 9444 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:35] CLIENT: Marking frame 9445 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:35] CLIENT: Marking frame 9446 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:35] CLIENT: Marking frame 9447 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:35] CLIENT: Marking frame 9448 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:35] CLIENT: Marking frame 9449 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:35] CLIENT: Marking frame 9450 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:35] CLIENT: Marking frame 9451 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:35] CLIENT: Marking frame 9452 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:35] CLIENT: Marking frame 9453 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:35] CLIENT: Marking frame 9454 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-11 12:50:37] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 39ms IN: 98269.6kbit 10466.8 pkt/s qual 99.7OUT: 121.9kbit 165.1 pkt/s qual 100.0
+[2022-08-11 12:50:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:40] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:40] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:40] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:40] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:40] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:40] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:40] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:40] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:40] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:40] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:42] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 38ms IN: 97806.8kbit 10416.6 pkt/s qual 100.0OUT: 128.1kbit 166.6 pkt/s qual 100.0
+[2022-08-11 12:50:42] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:42] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:42] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:42] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:42] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:42] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:44] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:47] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 39ms IN: 98205.3kbit 10459.8 pkt/s qual 99.7OUT: 118.5kbit 160.9 pkt/s qual 100.0
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49240 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:48] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50471 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:50] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:50] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31994 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:50] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33225 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:50] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34456 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:50] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35687 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:50] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36918 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:50] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38149 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:50] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39380 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:50] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40611 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:50] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41842 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:50] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43073 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:50] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44304 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30870 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32101 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33332 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34563 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35794 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 37025 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38256 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39487 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40718 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41949 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:52] Audio mix: start=335181593273, returned=8636640
+[2022-08-11 12:50:52] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-11 12:50:52] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:50263 Ping: 38ms IN: 97913.3kbit 10432.6 pkt/s qual 100.0OUT: 139.4kbit 174.3 pkt/s qual 100.0
+[2022-08-11 12:50:53] Slow framerate: game 5.46, capture 0.72, convert 0.00, encode 9.54, network 614.52, decode 2.14, display 9.85 (network)
+[2022-08-11 12:50:53] Setting target framerate: 60.00 [timing: game 5.46, capture 0.72, convert 0.00, encode 9.54, network 614.52, decode 2.14, display 9.85 (network)]
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:54] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:55] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:56] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:57] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:58] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:50:59] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:00] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:01] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:02] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:03] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:04] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:05] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:06] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:07] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:08] Dropping queued frame before encoding
+[2022-08-11 12:51:09] Dropping queued frame before encoding
+[2022-08-11 12:51:09] Dropping queued frame before encoding
+[2022-08-11 12:51:09] Dropping queued frame before encoding
+[2022-08-11 12:51:09] Dropping queued frame before encoding
+[2022-08-11 12:51:09] Dropping queued frame before encoding
+[2022-08-11 12:51:09] Dropping queued frame before encoding
+[2022-08-11 12:51:09] Dropping queued frame before encoding
+[2022-08-11 12:51:09] Dropping queued frame before encoding
+[2022-08-11 12:51:09] Dropping queued frame before encoding
+[2022-08-11 12:51:09] Dropping queued frame before encoding
+[2022-08-11 12:51:09] Dropping queued frame before encoding
+[2022-08-11 12:51:09] "SessionStats"
+[2022-08-11 14:03:55] Streaming initialized and listening on port 0
+[2022-08-11 14:04:00] CLIENT: Sending HID device 0000/11fb/-1  Mobile Touch Control at touch://0

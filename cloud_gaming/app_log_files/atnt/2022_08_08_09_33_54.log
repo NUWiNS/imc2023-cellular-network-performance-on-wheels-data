@@ -1,0 +1,1400 @@
+[2022-08-08 09:33:54] Streaming started to Samsung SM-G998U1 Android 12 at 0.0.0.0:0, audio channels = 2, MTU = 1472
+[2022-08-08 09:33:54] Streaming quality: k_EStreamQualityBeautiful
+[2022-08-08 09:33:54] Streaming bitrate: Unlimited
+[2022-08-08 09:33:54] Device form factor: phone
+[2022-08-08 09:33:54] Maximum capture: 3840x2160 60.00 FPS
+[2022-08-08 09:33:54] Video Streaming: enabled
+[2022-08-08 09:33:54] Audio Streaming: enabled
+[2022-08-08 09:33:54] Input Streaming: enabled
+[2022-08-08 09:33:54] =====================================================================
+[2022-08-08 09:33:54] Game: UNKNOWN (0)
+[2022-08-08 09:33:54] Setting target bitrate to 100000 Kbit/s, burst bitrate is 500000 Kbit/s
+[2022-08-08 09:33:54] Changing record window: 00070388
+[2022-08-08 09:33:54] Window title set to Steam
+[2022-08-08 09:33:54] >>> Starting desktop stream
+[2022-08-08 09:33:54] SynchronizeClientState(): setting capture size 1280x720
+[2022-08-08 09:33:54] SynchronizeClientState(): setting title to Steam
+[2022-08-08 09:33:54] SynchronizeClientState(): setting icon 32x32
+[2022-08-08 09:33:54] SynchronizeClientState(): setting cursor hidden
+[2022-08-08 09:33:54] SynchronizeClientState(): setting keymap
+[2022-08-08 09:33:54] SynchronizeClientState(): setting activity to k_EStreamActivityIdle: Steam Controller Configs - Big Picture
+[2022-08-08 09:33:54] Recording system audio
+[2022-08-08 09:33:54] Audio recording init failed, couldn't get the default audio endpoint: 0x80070490
+[2022-08-08 09:33:54] Failed to init system audio recording: 1
+[2022-08-08 09:33:54] Audio mix: start=64344517668, returned=0
+[2022-08-08 09:33:54] CLIENT: Sending HID device 0000/11fb/-1  Mobile Touch Control at touch://0
+[2022-08-08 09:33:54] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x4b47
+[2022-08-08 09:33:54] Video adapter: NVIDIA Tesla T4, vendor ID: 0x10de, device ID: 0x1eb8
+[2022-08-08 09:33:54] CLIENT: Got control packet k_EStreamControlSetQoS
+[2022-08-08 09:33:54] CDesktopCaptureDWM: desktop duplication enabled
+[2022-08-08 09:33:54] >>> Switching video stream from NONE to Desktop_MovieStream
+[2022-08-08 09:33:54] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2022-08-08 09:33:54] CLIENT: Starting audio stream: frequency=48000, channels=2
+[2022-08-08 09:33:54] CLIENT: Opened audio device: format=2, channels=2, frequency=48000
+[2022-08-08 09:33:54] CLIENT: Initialized audio decoder: codec=3, sample rate=48000, channels=2
+[2022-08-08 09:33:54] CLIENT: Got control packet k_EStreamControlStartAudioData
+[2022-08-08 09:33:54] CLIENT: Got control packet k_EStreamControlSetSpectatorMode
+[2022-08-08 09:33:54] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2022-08-08 09:33:54] CLIENT: Got control packet k_EStreamControlSetTitle
+[2022-08-08 09:33:54] CLIENT: Got control packet k_EStreamControlSetIcon
+[2022-08-08 09:33:54] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-08 09:33:54] CLIENT: Got control packet k_EStreamControlSetKeymap
+[2022-08-08 09:33:54] CLIENT: Got control packet k_EStreamControlSetActivity
+[2022-08-08 09:33:54] >>> Capture method set to Steam D3D10 NV12 + NVENC H264
+[2022-08-08 09:33:54] >>> Capture resolution set to 1280x800
+[2022-08-08 09:33:54] >>> Capture colorspace set to BT.601 limited range
+[2022-08-08 09:33:54] >>> Capture resolution set to 1280x720
+[2022-08-08 09:33:54] >>> Client video decoder set to Android texture hardware decoding
+[2022-08-08 09:33:54] CLIENT: Android texture hardware decoding
+[2022-08-08 09:33:54] CLIENT: Got control packet k_EStreamControlStartVideoData
+[2022-08-08 09:33:54] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2022-08-08 09:33:54] CLIENT: BSubmitFrame(): Resolution changed from 1280x800 to 1280x720, resetting decoder
+[2022-08-08 09:33:54] CLIENT: Marking frame 1 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:54] CLIENT: [SteamNetworkingSockets] Ping measurement completed
+[2022-08-08 09:33:54] CLIENT: [SteamNetworkingSockets] Ping location: lax=33+3,dfw=54+5,sea=58+5/57+3,atl=67+6/68+6,ord=85+8/76+5,iad=97+9/80+6,lim=188+18/134+3,tyo=139+13,tyo1=141+14/149+3,fra=181+18/165+6,gru=190+19/198+6,sgp=198+19/199+19
+[2022-08-08 09:33:54] CLIENT: [SteamNetworkingSockets] SDR RelayNetworkStatus:  avail=OK  config=OK  anyrelay=OK   (OK)
+[2022-08-08 09:33:54] CLIENT: Android texture hardware decoding
+[2022-08-08 09:33:54] CLIENT: Marking frame 5 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:54] CLIENT: Marking frame 6 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:54] CLIENT: Marking frame 7 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:54] CLIENT: Marking frame 8 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:54] CLIENT: Marking frame 9 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:54] CLIENT: Marking frame 10 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-08 09:33:55] CLIENT: Marking frame 32 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-08 09:33:55] CLIENT: Marking frame 33 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Video overflow (210.89ms queued), requesting keyframe synchronization
+[2022-08-08 09:33:55] CLIENT: Android texture hardware decoding
+[2022-08-08 09:33:55] CLIENT: Marking frame 34 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 35 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 36 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 37 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 38 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 39 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 40 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 41 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 42 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 43 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 44 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 45 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 46 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 47 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 48 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 49 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 50 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 51 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 52 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 53 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 54 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 55 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 56 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 57 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 58 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 59 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 60 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 61 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 62 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 63 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 64 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 65 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:55] CLIENT: Marking frame 66 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] Bitrate adapter: state = 1, minRTT = 49, maxRTT = 65, gain = 2.00, bitrate = 5000
+[2022-08-08 09:33:56] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-08 09:33:56] CLIENT: Marking frame 87 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-08 09:33:56] CLIENT: Marking frame 88 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Video overflow (218.00ms queued), requesting keyframe synchronization
+[2022-08-08 09:33:56] CLIENT: Android texture hardware decoding
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:33:56] CLIENT: Marking frame 89 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 90 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 91 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 92 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 93 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 94 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 95 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 96 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 97 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 98 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 99 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 100 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 101 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 102 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 103 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 104 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 105 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 106 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 107 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 108 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 109 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 110 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 111 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 112 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 113 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 114 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 115 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 116 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 117 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 118 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 119 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 120 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Marking frame 121 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:33:56] CLIENT: Video rect: 2325x1046 at 0,17
+[2022-08-08 09:33:56] CLIENT: Texture rect: 2400x1080 at 0,0
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-08 09:33:56] CLIENT: Ignoring duplicate controller configuration for 413090, revision 22
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-08 09:33:56] Bitrate adapter: state = 1, minRTT = 49, maxRTT = 74, gain = 2.00, bitrate = 10000
+[2022-08-08 09:33:56] CLIENT: Video rect: 2325x1046 at 0,17
+[2022-08-08 09:33:56] CLIENT: Texture rect: 1280x720 at 0,0
+[2022-08-08 09:33:56] CLIENT: Video size: 1280x720, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:33:56] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:33:56] CLIENT: Texture rect: 1280x720 at 0,0
+[2022-08-08 09:33:56] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:33:56] CLIENT: Texture rect: 1280x720 at 0,0
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:33:56] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:33:57] Bitrate adapter: state = 1, minRTT = 49, maxRTT = 69, gain = 2.00, bitrate = 20000
+[2022-08-08 09:33:57] Bitrate adapter: state = 1, minRTT = 49, maxRTT = 66, gain = 2.00, bitrate = 40000
+[2022-08-08 09:33:57] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:33:57] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:33:57] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:33:57] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:33:57] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:33:57] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:33:57] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:33:57] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:33:57] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:33:58] Bitrate adapter: state = 2, minRTT = 48, maxRTT = 72, gain = 2.00, bitrate = 80000
+[2022-08-08 09:33:58] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 51ms IN: 3010.4kbit 477.5 pkt/s qual 99.5OUT: 61.0kbit 76.4 pkt/s qual 100.0
+[2022-08-08 09:34:00] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:34:00] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:34:01] >>> Stopped desktop stream
+[2022-08-08 09:34:01] >>> Starting desktop stream
+[2022-08-08 09:34:01] CDesktopCaptureDWM: Reinitializing D3D for adapter 0x4b47
+[2022-08-08 09:34:01] Video adapter: NVIDIA Tesla T4, vendor ID: 0x10de, device ID: 0x1eb8
+[2022-08-08 09:34:01] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:34:01] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:34:01] CDesktopCaptureDWM: desktop duplication enabled
+[2022-08-08 09:34:01] Bitrate adapter: state = 2, minRTT = 47, maxRTT = 66, gain = 1.25, bitrate = 100000
+[2022-08-08 09:34:02] Bitrate adapter: state = 2, minRTT = 47, maxRTT = 825, gain = 0.75, bitrate = 75000
+[2022-08-08 09:34:03] >>> Capture resolution set to 1280x800
+[2022-08-08 09:34:03] >>> Capture resolution set to 1280x720
+[2022-08-08 09:34:03] Slow framerate: game 10.00, capture 0.23, convert 0.00, encode 6.25, network 30.50, decode 1.19, display 36.62 (display)
+[2022-08-08 09:34:03] Setting target framerate: 60.00 [timing: game 10.00, capture 0.23, convert 0.00, encode 6.25, network 30.50, decode 1.19, display 36.62 (display)]
+[2022-08-08 09:34:03] CLIENT: BSubmitFrame(): Resolution changed from 1280x720 to 1280x800, resetting decoder
+[2022-08-08 09:34:03] CLIENT: Marking frame 431 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:03] CLIENT: Flushing audio, 780 ms queued, 174 ms maximum, delivery delay = 37
+[2022-08-08 09:34:03] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:34:03] CLIENT: Marking frame 435 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:03] CLIENT: Marking frame 436 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:03] CLIENT: Marking frame 437 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:03] CLIENT: Marking frame 438 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:03] CLIENT: Marking frame 439 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:03] CLIENT: Marking frame 440 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:03] CLIENT: BSubmitFrame(): Resolution changed from 1280x800 to 1280x720, resetting decoder
+[2022-08-08 09:34:03] CLIENT: Marking frame 441 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:03] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:03] CLIENT: Marking frame 442 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:03] CLIENT: Targeting 60.00 FPS
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-08 09:34:03] CLIENT: Marking frame 430 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:03] CLIENT: Marking frame 432 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:03] CLIENT: Marking frame 433 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:03] CLIENT: Marking frame 434 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:34:03] Changing record window: 00060496
+[2022-08-08 09:34:03] Window title set to HITMAN 2
+[2022-08-08 09:34:03] SynchronizeClientState(): setting capture size 1280x800
+[2022-08-08 09:34:03] SynchronizeClientState(): setting title to HITMAN 2
+[2022-08-08 09:34:03] SynchronizeClientState(): setting icon 32x32
+[2022-08-08 09:34:03] SynchronizeClientState(): setting cursor visible
+[2022-08-08 09:34:03] SynchronizeClientState(): setting cursor to 65545
+[2022-08-08 09:34:03] SynchronizeClientState(): setting activity to k_EStreamActivityGame: HITMAN™ 2
+[2022-08-08 09:34:03] SynchronizeClientState(): setting capture size 608x344
+[2022-08-08 09:34:03] SynchronizeClientState(): setting cursor to 65541
+[2022-08-08 09:34:03] >>> Capture method set to Desktop DWM NV12 + NVENC H264
+[2022-08-08 09:34:03] >>> Capture resolution set to 608x344
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlSetTitle
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlSetIcon
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlSetActivity
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-08 09:34:03] CLIENT: BSubmitFrame(): Resolution changed from 1280x720 to 608x344, resetting decoder
+[2022-08-08 09:34:03] CLIENT: Marking frame 463 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:03] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:34:03] CLIENT: Marking frame 465 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:03] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:03] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:03] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:03] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:03] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:03] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:03] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:03] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:03] CLIENT: Marking frame 464 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:03] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:03] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:03] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:03] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:03] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:03] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:03] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:03] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:03] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:03] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-08 09:34:03] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:03] CLIENT: Marking frame 473 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:03] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:03] CLIENT: Marking frame 476 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:03] CLIENT: Marking frame 477 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:03] CLIENT: Marking frame 478 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:03] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:03] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:03] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:03] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:03] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:03] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:03] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:03] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:03] CLIENT: Marking frame 474 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:03] CLIENT: Marking frame 475 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:03] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:03] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:03] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:03] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:03] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:03] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:03] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:04] CLIENT: Marking frame 485 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:04] CLIENT: Marking frame 487 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Marking frame 488 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Marking frame 489 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Marking frame 490 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:04] CLIENT: Marking frame 486 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:04] Setting target framerate: 60.00 [timing: game 10.00, capture 0.61, convert 0.96, encode 3.78, network 31.56, decode 1.33, display 12.78]
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:04] CLIENT: Marking frame 494 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:04] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 52ms IN: 7371.3kbit 926.0 pkt/s qual 100.0OUT: 19.0kbit 46.1 pkt/s qual 100.0
+[2022-08-08 09:34:04] CLIENT: Marking frame 497 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Marking frame 498 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:04] CLIENT: Marking frame 495 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:04] CLIENT: Marking frame 496 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: Targeting 60.00 FPS
+[2022-08-08 09:34:04] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-08 09:34:04] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:04] CLIENT: Marking frame 504 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:04] CLIENT: Marking frame 506 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Marking frame 507 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Marking frame 508 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:04] CLIENT: Marking frame 505 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:04] CLIENT: Marking frame 515 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:04] CLIENT: Marking frame 517 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Marking frame 518 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Marking frame 519 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:04] CLIENT: Marking frame 516 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:04] CLIENT: Marking frame 525 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:04] CLIENT: Marking frame 527 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Marking frame 528 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Marking frame 529 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Marking frame 530 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:04] CLIENT: Marking frame 526 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:04] CLIENT: Marking frame 534 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:04] CLIENT: Marking frame 537 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Marking frame 538 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Marking frame 539 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:04] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:04] CLIENT: Marking frame 535 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:04] CLIENT: Marking frame 536 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:04] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:04] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:04] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:05] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:05] CLIENT: Marking frame 545 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:05] CLIENT: Marking frame 547 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 548 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 549 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 550 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:05] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:05] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:05] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:05] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:05] CLIENT: Marking frame 546 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:05] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:05] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:05] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:05] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:05] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:05] CLIENT: Marking frame 555 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:05] CLIENT: Marking frame 557 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 558 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 559 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 560 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:05] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:05] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:05] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:05] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:05] CLIENT: Marking frame 556 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:05] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:05] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:05] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:05] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:05] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:05] CLIENT: Marking frame 565 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:05] CLIENT: Marking frame 566 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 567 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 568 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 569 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 570 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:05] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:05] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:05] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:05] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:05] CLIENT: Marking frame 564 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:05] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:05] CLIENT: Marking frame 574 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:05] CLIENT: Marking frame 575 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 576 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 577 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 578 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 579 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:05] CLIENT: Marking frame 573 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:05] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:05] CLIENT: Marking frame 583 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:05] CLIENT: Marking frame 584 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 585 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 586 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 587 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 588 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:05] CLIENT: Marking frame 582 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:05] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:05] CLIENT: Marking frame 592 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:05] CLIENT: Marking frame 593 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 594 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 595 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 596 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Marking frame 597 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:05] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:05] CLIENT: Marking frame 591 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:05] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:05] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:05] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:05] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:05] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:06] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:06] CLIENT: Marking frame 602 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:06] CLIENT: Marking frame 604 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Marking frame 605 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Marking frame 606 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Marking frame 607 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:06] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:06] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:06] CLIENT: Marking frame 603 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:06] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:06] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:06] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:06] CLIENT: Marking frame 612 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:06] CLIENT: Marking frame 614 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Marking frame 615 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Marking frame 616 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Marking frame 617 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:06] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:06] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:06] CLIENT: Marking frame 613 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:06] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:06] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:06] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:06] CLIENT: Marking frame 621 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:06] CLIENT: Marking frame 623 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Marking frame 624 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Marking frame 625 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Marking frame 626 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:06] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:06] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:06] CLIENT: Marking frame 622 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:06] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:06] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:06] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:06] CLIENT: Marking frame 630 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:06] CLIENT: Marking frame 632 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:06] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:06] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:06] CLIENT: Marking frame 631 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:06] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:06] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:06] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:06] CLIENT: Marking frame 636 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:06] CLIENT: Marking frame 638 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:06] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:06] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:06] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:06] CLIENT: Marking frame 637 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:06] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:06] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:06] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:06] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:07] Bitrate adapter: state = 2, minRTT = 47, maxRTT = 63, gain = 1.25, bitrate = 93750
+[2022-08-08 09:34:07] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:07] CLIENT: Marking frame 643 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:07] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:07] CLIENT: Marking frame 645 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:07] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:07] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:07] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:07] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:07] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:07] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:07] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:07] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:07] CLIENT: Marking frame 644 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:07] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:07] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:07] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:07] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:07] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:07] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:07] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:07] SynchronizeClientState(): setting cursor to 65545
+[2022-08-08 09:34:07] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 608x344, resetting decoder
+[2022-08-08 09:34:07] CLIENT: Marking frame 648 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:07] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:07] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-08 09:34:07] CLIENT: Marking frame 649 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:07] CLIENT: Marking frame 650 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:07] CLIENT: Marking frame 651 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:07] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:07] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:07] CLIENT: Video size: 608x344, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:07] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:07] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:07] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:07] CLIENT: Texture rect: 608x344 at 0,0
+[2022-08-08 09:34:07] CLIENT: Fixing suspicious bottom crop value 343 -> 341
+[2022-08-08 09:34:07] CLIENT: Video rect: 1910x1080 at 208,0
+[2022-08-08 09:34:07] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:07] CLIENT: Video size: 608x342, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:07] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:07] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:07] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:07] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:07] CDesktopCaptureDWM: GetWindowSurface() failed for window 00060496
+[2022-08-08 09:34:07] Changing record window: 00070388
+[2022-08-08 09:34:07] Window title set to Steam
+[2022-08-08 09:34:07] SynchronizeClientState(): setting capture size 1280x720
+[2022-08-08 09:34:07] SynchronizeClientState(): setting title to Steam
+[2022-08-08 09:34:07] SynchronizeClientState(): setting icon 32x32
+[2022-08-08 09:34:07] SynchronizeClientState(): setting cursor hidden
+[2022-08-08 09:34:07] SynchronizeClientState(): setting cursor to 0
+[2022-08-08 09:34:07] SynchronizeClientState(): setting activity to k_EStreamActivityIdle: Steam Controller Configs - Big Picture
+[2022-08-08 09:34:07] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2022-08-08 09:34:07] CLIENT: Got control packet k_EStreamControlSetTitle
+[2022-08-08 09:34:07] CLIENT: Got control packet k_EStreamControlSetIcon
+[2022-08-08 09:34:07] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-08 09:34:07] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-08 09:34:07] CLIENT: Got control packet k_EStreamControlSetActivity
+[2022-08-08 09:34:07] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:34:07] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:34:07] >>> Capture method set to Steam D3D10 NV12 + NVENC H264
+[2022-08-08 09:34:07] >>> Capture resolution set to 1280x800
+[2022-08-08 09:34:07] >>> Capture resolution set to 1280x720
+[2022-08-08 09:34:07] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:07] CLIENT: Texture rect: 608x342 at 0,0
+[2022-08-08 09:34:07] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:34:07] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:34:08] CLIENT: BSubmitFrame(): Resolution changed from 608x342 to 1280x800, resetting decoder
+[2022-08-08 09:34:08] CLIENT: Marking frame 672 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: BSubmitFrame(): Resolution changed from 1280x800 to 1280x720, resetting decoder
+[2022-08-08 09:34:08] CLIENT: Marking frame 673 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:08] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2022-08-08 09:34:08] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-08 09:34:08] CLIENT: Marking frame 675 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Marking frame 676 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Marking frame 677 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Marking frame 678 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Marking frame 679 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Marking frame 680 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Marking frame 681 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Marking frame 682 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Marking frame 683 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:08] CLIENT: Texture rect: 1280x720 at 0,0
+[2022-08-08 09:34:08] CLIENT: Video size: 1280x720, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:08] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:08] CLIENT: Texture rect: 1280x720 at 0,0
+[2022-08-08 09:34:08] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:08] CLIENT: Texture rect: 1280x720 at 0,0
+[2022-08-08 09:34:08] CLIENT: Marking frame 674 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:08] CLIENT: [SteamNetworkingSockets] ICE: ICE completed
+[2022-08-08 09:34:08] Changing record window: 000304E6
+[2022-08-08 09:34:08] Window title set to HITMAN 2
+[2022-08-08 09:34:08] SynchronizeClientState(): setting capture size 1280x800
+[2022-08-08 09:34:08] SynchronizeClientState(): setting title to HITMAN 2
+[2022-08-08 09:34:08] SynchronizeClientState(): setting icon 32x32
+[2022-08-08 09:34:08] SynchronizeClientState(): setting activity to k_EStreamActivityGame: HITMAN™ 2
+[2022-08-08 09:34:08] CDesktopCaptureDWM: desktop access lost, reacquiring
+[2022-08-08 09:34:08] CDesktopCaptureDWM: IDXGIOutput1::DuplicateOutput failed: 0x80070005
+[2022-08-08 09:34:08] CDesktopCaptureDWM: desktop duplication enabled
+[2022-08-08 09:34:08] >>> Capture method set to Desktop DWM NV12 + NVENC H264
+[2022-08-08 09:34:08] >>> Capture resolution set to 608x344
+[2022-08-08 09:34:08] >>> Capture resolution set to 1280x800
+[2022-08-08 09:34:08] CDesktopCaptureDWM: desktop access lost, reacquiring
+[2022-08-08 09:34:08] CDesktopCaptureDWM: desktop duplication enabled
+[2022-08-08 09:34:08] CDesktopCaptureDWM: Couldn't get next desktop frame: 0x887a0026
+[2022-08-08 09:34:08] >>> Capture method set to Desktop BitBlt RGB + libyuv + NVENC H264
+[2022-08-08 09:34:08] CDesktopCaptureDWM: desktop access lost, reacquiring
+[2022-08-08 09:34:08] CDesktopCaptureDWM: IDXGIOutput1::DuplicateOutput failed: 0x80070005
+[2022-08-08 09:34:08] >>> Capture method set to Desktop DWM NV12 + NVENC H264
+[2022-08-08 09:34:08] CDesktopCaptureDWM: desktop duplication enabled
+[2022-08-08 09:34:08] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2022-08-08 09:34:08] CLIENT: Got control packet k_EStreamControlSetTitle
+[2022-08-08 09:34:08] CLIENT: Got control packet k_EStreamControlSetIcon
+[2022-08-08 09:34:08] CLIENT: Got control packet k_EStreamControlSetActivity
+[2022-08-08 09:34:08] CLIENT: BSubmitFrame(): Resolution changed from 1280x720 to 608x344, resetting decoder
+[2022-08-08 09:34:08] CLIENT: Marking frame 702 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:08] CLIENT: Marking frame 704 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2022-08-08 09:34:08] CLIENT: BSubmitFrame(): Resolution changed from 608x344 to 1280x800, resetting decoder
+[2022-08-08 09:34:08] CLIENT: Marking frame 705 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:08] CLIENT: Marking frame 707 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Marking frame 708 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Marking frame 709 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Marking frame 710 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Marking frame 711 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:08] CLIENT: Video rect: 1920x1080 at 202,0
+[2022-08-08 09:34:08] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-08 09:34:08] CLIENT: Video size: 1280x800, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:08] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-08 09:34:08] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-08 09:34:08] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-08 09:34:08] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-08 09:34:08] CLIENT: Marking frame 703 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:08] CLIENT: Marking frame 706 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:08] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 50ms IN: 9034.0kbit 1159.4 pkt/s qual 99.6OUT: 134.0kbit 123.2 pkt/s qual 100.0
+[2022-08-08 09:34:08] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2022-08-08 09:34:08] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2022-08-08 09:34:08] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] Received request to migrate to 162.254.195.72:27032 from lax#129 (162.254.195.73:27051).
+[2022-08-08 09:34:08] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] Started migration to lax#64 (162.254.195.72:27032) at request of current primary lax#129 (162.254.195.73:27051)
+[2022-08-08 09:34:08] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] Requesting session from lax#64 (162.254.195.72:27032).  Ping = 61 = 35+0+26 (front+interior+remote).
+[2022-08-08 09:34:08] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] Received P2PSessionEstablished from lax#64 (162.254.195.72:27032), token @9dd1
+[2022-08-08 09:34:08] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] Switched primary to lax#64 (162.254.195.72:27032) (Ping = 61 = 35+0+26 (front+interior+remote).  Migration target.) from lax#129 (162.254.195.73:27051) (Ping = 61 = 35+0+26 (front+interior+remote).  Requested migration.)
+[2022-08-08 09:34:08] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] Selecting sea#71 (205.196.6.211:27039) as backup #1 (Ping = 64 = 58+0+6 (front+interior+remote).)
+[2022-08-08 09:34:08] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] SDR routing message updated, revision 6.  (POP 'lax' session changed)
+[2022-08-08 09:34:08] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:34:08] >>> Stopped desktop stream
+[2022-08-08 09:34:08] SynchronizeClientState(): setting capture size 1920x1200
+[2022-08-08 09:34:10] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-08 09:34:10] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-08 09:34:10] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:34:10] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:34:10] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2022-08-08 09:34:11] >>> Switching video stream from Desktop_MovieStream to GameOverlay_MovieStream_888
+[2022-08-08 09:34:11] Bitrate adapter: state = 2, minRTT = 47, maxRTT = 71, gain = 1.25, bitrate = 100000
+[2022-08-08 09:34:11] NVENC - recreating due to quality or resolution change
+[2022-08-08 09:34:11] >>> Capture method set to Game polled D3D11 NV12 + NVENC H264
+[2022-08-08 09:34:11] >>> Capture resolution set to 1920x1200
+[2022-08-08 09:34:11] CLIENT: BSubmitFrame(): Resolution changed from 1280x800 to 1920x1200, resetting decoder
+[2022-08-08 09:34:11] CLIENT: Marking frame 790 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:11] CLIENT: Android texture hardware decoding
+[2022-08-08 09:34:11] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-08 09:34:11] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-08 09:34:11] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2022-08-08 09:34:11] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:34:11] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-08 09:34:11] CLIENT: Marking frame 794 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:11] CLIENT: Marking frame 795 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:11] CLIENT: Marking frame 796 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:34:11] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-08 09:34:11] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-08 09:34:11] CLIENT: Video size: 1920x1200, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-08 09:34:11] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-08 09:34:11] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-08 09:34:11] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-08 09:34:11] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-08 09:34:11] CLIENT: Marking frame 791 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:11] CLIENT: Marking frame 792 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:11] CLIENT: Marking frame 793 complete with status k_EStreamFrameResultDroppedNetworkLost
+[2022-08-08 09:34:11] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-08 09:34:11] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-08 09:34:11] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-08 09:34:11] CLIENT: Ignoring duplicate controller configuration for 863550, revision 111
+[2022-08-08 09:34:11] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-08 09:34:11] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-08 09:34:11] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-08 09:34:11] CLIENT: Got control packet k_EStreamControlSetTouchIconData
+[2022-08-08 09:34:12] Bitrate adapter: state = 2, minRTT = 47, maxRTT = 135, gain = 0.75, bitrate = 75000
+[2022-08-08 09:34:14] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 56ms IN: 7302.8kbit 963.9 pkt/s qual 100.0OUT: 74.1kbit 105.3 pkt/s qual 100.0
+[2022-08-08 09:34:16] Bitrate adapter: state = 2, minRTT = 48, maxRTT = 70, gain = 1.25, bitrate = 93750
+[2022-08-08 09:34:19] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 53ms IN: 21941.6kbit 2509.1 pkt/s qual 100.0OUT: 104.3kbit 155.4 pkt/s qual 100.0
+[2022-08-08 09:34:20] Bitrate adapter: state = 2, minRTT = 48, maxRTT = 69, gain = 1.25, bitrate = 100000
+[2022-08-08 09:34:24] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 54ms IN: 3071.4kbit 556.2 pkt/s qual 100.0OUT: 101.4kbit 152.1 pkt/s qual 100.0
+[2022-08-08 09:34:29] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 52ms IN: 1834.9kbit 440.1 pkt/s qual 100.0OUT: 97.9kbit 147.6 pkt/s qual 100.0
+[2022-08-08 09:34:34] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 54ms IN: 9625.6kbit 1232.7 pkt/s qual 100.0OUT: 104.8kbit 155.9 pkt/s qual 100.0
+[2022-08-08 09:34:36] SynchronizeClientState(): setting cursor visible
+[2022-08-08 09:34:36] SynchronizeClientState(): setting cursor to 7275841
+[2022-08-08 09:34:36] SynchronizeClientState(): setting cursor hidden
+[2022-08-08 09:34:36] SynchronizeClientState(): setting cursor to 0
+[2022-08-08 09:34:36] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-08 09:34:36] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-08 09:34:36] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-08 09:34:37] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-08 09:34:37] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-08 09:34:37] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-08 09:34:37] Slow framerate: game 6.70, capture 0.91, convert 0.01, encode 12.46, network 45.53, decode 1.45, display 6.56 (network)
+[2022-08-08 09:34:37] Setting target framerate: 60.00 [timing: game 6.70, capture 0.91, convert 0.01, encode 12.46, network 45.53, decode 1.45, display 6.56 (network)]
+[2022-08-08 09:34:37] CLIENT: Targeting 60.00 FPS
+[2022-08-08 09:34:37] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-08 09:34:37] Bitrate adapter: state = 2, minRTT = 50, maxRTT = 108, gain = 0.75, bitrate = 75000
+[2022-08-08 09:34:38] SynchronizeClientState(): setting cursor visible
+[2022-08-08 09:34:38] SynchronizeClientState(): setting cursor to 7275841
+[2022-08-08 09:34:38] Bitrate adapter: state = 2, minRTT = 50, maxRTT = 116, gain = 0.75, bitrate = 56250
+[2022-08-08 09:34:38] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-08 09:34:38] Slow framerate: game 4.24, capture 0.68, convert 0.02, encode 11.23, network 41.96, decode 1.37, display 7.37 (network)
+[2022-08-08 09:34:39] SynchronizeClientState(): setting cursor hidden
+[2022-08-08 09:34:39] SynchronizeClientState(): setting cursor to 0
+[2022-08-08 09:34:39] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-08 09:34:39] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-08 09:34:39] Slow framerate: game 2.46, capture 0.69, convert 0.03, encode 10.98, network 37.29, decode 1.47, display 5.10 (network)
+[2022-08-08 09:34:39] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:65109 Ping: 58ms IN: 31157.4kbit 3471.5 pkt/s qual 100.0OUT: 114.9kbit 164.3 pkt/s qual 100.0
+[2022-08-08 09:34:40] Slow framerate: game 4.14, capture 0.98, convert 0.00, encode 11.39, network 36.34, decode 1.46, display 12.30 (network)
+[2022-08-08 09:34:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31994 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:41] Slow framerate: game 3.49, capture 0.72, convert 0.00, encode 9.94, network 39.19, decode 1.40, display 11.74 (network)
+[2022-08-08 09:34:41] SynchronizeClientState(): setting cursor visible
+[2022-08-08 09:34:41] SynchronizeClientState(): setting cursor to 7275841
+[2022-08-08 09:34:41] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-08 09:34:42] Bitrate adapter: state = 2, minRTT = 51, maxRTT = 78, gain = 1.25, bitrate = 70312
+[2022-08-08 09:34:42] Slow framerate: game 3.90, capture 0.70, convert 0.04, encode 10.06, network 38.00, decode 1.49, display 13.30 (network)
+[2022-08-08 09:34:43] Slow framerate: game 1.15, capture 0.68, convert 0.03, encode 10.65, network 36.65, decode 1.50, display 13.96 (network)
+[2022-08-08 09:34:43] SynchronizeClientState(): setting cursor hidden
+[2022-08-08 09:34:43] SynchronizeClientState(): setting cursor to 0
+[2022-08-08 09:34:43] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-08 09:34:43] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-08 09:34:44] Slow framerate: game 5.58, capture 0.72, convert 0.02, encode 10.60, network 34.67, decode 1.32, display 13.78 (network)
+[2022-08-08 09:34:44] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:65109 Ping: 56ms IN: 33077.8kbit 3696.5 pkt/s qual 99.8OUT: 163.3kbit 214.3 pkt/s qual 100.0
+[2022-08-08 09:34:45] Setting target framerate: 60.00 [timing: game 9.88, capture 0.77, convert 0.01, encode 11.82, network 34.28, decode 1.36, display 13.58]
+[2022-08-08 09:34:45] CLIENT: Targeting 60.00 FPS
+[2022-08-08 09:34:45] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-08 09:34:46] Bitrate adapter: state = 2, minRTT = 51, maxRTT = 70, gain = 1.25, bitrate = 87890
+[2022-08-08 09:34:47] Slow framerate: game 14.46, capture 0.88, convert 0.00, encode 10.97, network 34.95, decode 1.57, display 6.16 (network)
+[2022-08-08 09:34:47] Setting target framerate: 60.00 [timing: game 14.46, capture 0.88, convert 0.00, encode 10.97, network 34.95, decode 1.57, display 6.16 (network)]
+[2022-08-08 09:34:47] CLIENT: Targeting 60.00 FPS
+[2022-08-08 09:34:47] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-08 09:34:48] Setting target framerate: 60.00 [timing: game 11.63, capture 0.68, convert 0.00, encode 5.47, network 34.12, decode 1.35, display 10.89]
+[2022-08-08 09:34:48] CLIENT: Targeting 60.00 FPS
+[2022-08-08 09:34:48] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-08 09:34:49] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:65109 Ping: 58ms IN: 20224.9kbit 2338.0 pkt/s qual 100.0OUT: 128.5kbit 169.8 pkt/s qual 100.0
+[2022-08-08 09:34:50] Bitrate adapter: state = 2, minRTT = 51, maxRTT = 73, gain = 1.25, bitrate = 100000
+[2022-08-08 09:34:54] Audio mix: start=64344517668, returned=2876160
+[2022-08-08 09:34:54] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30766 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:54] Slow framerate: game 2.99, capture 0.76, convert 0.01, encode 7.08, network 35.87, decode 1.52, display 5.05 (network)
+[2022-08-08 09:34:54] Setting target framerate: 60.00 [timing: game 2.99, capture 0.76, convert 0.01, encode 7.08, network 35.87, decode 1.52, display 5.05 (network)]
+[2022-08-08 09:34:54] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:65109 Ping: 62ms IN: 5566.8kbit 816.8 pkt/s qual 100.0OUT: 121.5kbit 163.8 pkt/s qual 100.0
+[2022-08-08 09:34:54] CLIENT: Targeting 60.00 FPS
+[2022-08-08 09:34:54] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-08 09:34:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31994 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33225 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34456 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35687 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36918 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38149 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39380 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40611 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41842 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:55] Slow framerate: game 4.20, capture 0.74, convert 0.00, encode 7.29, network 44.47, decode 1.51, display 4.38 (network)
+[2022-08-08 09:34:56] Slow framerate: game 5.13, capture 0.72, convert 0.00, encode 7.33, network 42.29, decode 1.69, display 6.07 (network)
+[2022-08-08 09:34:57] Slow framerate: game 4.93, capture 0.69, convert 0.00, encode 7.81, network 44.57, decode 1.83, display 11.55 (network)
+[2022-08-08 09:34:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30815 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32046 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33277 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34508 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35739 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36970 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38201 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39432 previously queued LOCK PROBLEM!
+[2022-08-08 09:34:58] Slow framerate: game 4.35, capture 0.69, convert 0.00, encode 7.50, network 44.12, decode 1.73, display 9.24 (network)
+[2022-08-08 09:34:58] Bitrate adapter: state = 2, minRTT = 53, maxRTT = 117, gain = 0.75, bitrate = 75000
+[2022-08-08 09:34:59] Slow framerate: game 4.05, capture 0.70, convert 0.00, encode 6.94, network 40.45, decode 1.66, display 4.74 (network)
+[2022-08-08 09:34:59] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:65109 Ping: 63ms IN: 82101.8kbit 8771.3 pkt/s qual 100.0OUT: 166.8kbit 201.9 pkt/s qual 100.0
+[2022-08-08 09:35:00] Slow framerate: game 4.09, capture 0.74, convert 0.00, encode 7.17, network 37.06, decode 1.72, display 9.73 (network)
+[2022-08-08 09:35:01] Slow framerate: game 4.17, capture 0.73, convert 0.00, encode 7.41, network 39.06, decode 1.61, display 7.61 (network)
+[2022-08-08 09:35:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30832 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32063 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33294 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34525 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:02] Slow framerate: game 4.19, capture 0.71, convert 0.00, encode 7.47, network 37.40, decode 1.66, display 4.20 (network)
+[2022-08-08 09:35:02] Bitrate adapter: state = 2, minRTT = 54, maxRTT = 75, gain = 1.25, bitrate = 93750
+[2022-08-08 09:35:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:03] Slow framerate: game 4.25, capture 0.73, convert 0.00, encode 7.79, network 37.79, decode 1.73, display 6.21 (network)
+[2022-08-08 09:35:04] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:04] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:04] Slow framerate: game 4.33, capture 0.72, convert 0.00, encode 7.88, network 41.73, decode 1.83, display 9.89 (network)
+[2022-08-08 09:35:04] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:65109 Ping: 59ms IN: 78002.3kbit 8342.1 pkt/s qual 100.0OUT: 184.5kbit 227.5 pkt/s qual 100.0
+[2022-08-08 09:35:04] Bitrate adapter: state = 2, minRTT = 54, maxRTT = 129, gain = 0.75, bitrate = 70312
+[2022-08-08 09:35:05] Slow framerate: game 3.96, capture 0.73, convert 0.01, encode 7.36, network 38.98, decode 1.86, display 5.74 (network)
+[2022-08-08 09:35:06] Slow framerate: game 3.57, capture 0.74, convert 0.00, encode 7.04, network 39.60, decode 1.67, display 5.63 (network)
+[2022-08-08 09:35:07] Slow framerate: game 2.78, capture 0.74, convert 0.00, encode 6.45, network 38.31, decode 1.65, display 4.63 (network)
+[2022-08-08 09:35:08] Slow framerate: game 2.57, capture 0.69, convert 0.00, encode 6.63, network 39.51, decode 1.77, display 5.60 (network)
+[2022-08-08 09:35:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:08] Bitrate adapter: state = 2, minRTT = 53, maxRTT = 79, gain = 1.25, bitrate = 87890
+[2022-08-08 09:35:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:08] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:09] Slow framerate: game 2.36, capture 0.73, convert 0.00, encode 6.94, network 39.96, decode 1.76, display 7.03 (network)
+[2022-08-08 09:35:09] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:65109 Ping: 66ms IN: 76457.4kbit 8187.3 pkt/s qual 99.9OUT: 209.0kbit 256.3 pkt/s qual 100.0
+[2022-08-08 09:35:10] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:10] Slow framerate: game 2.39, capture 0.74, convert 0.00, encode 7.24, network 38.39, decode 1.83, display 6.67 (network)
+[2022-08-08 09:35:11] Slow framerate: game 2.31, capture 0.73, convert 0.00, encode 7.10, network 39.02, decode 1.75, display 6.73 (network)
+[2022-08-08 09:35:12] Slow framerate: game 2.17, capture 0.71, convert 0.00, encode 7.34, network 38.83, decode 1.89, display 8.23 (network)
+[2022-08-08 09:35:12] Bitrate adapter: state = 2, minRTT = 53, maxRTT = 81, gain = 1.25, bitrate = 100000
+[2022-08-08 09:35:13] Slow framerate: game 2.13, capture 0.72, convert 0.00, encode 7.64, network 38.60, decode 2.79, display 7.37 (network)
+[2022-08-08 09:35:14] Slow framerate: game 2.58, capture 0.73, convert 0.00, encode 8.48, network 39.67, decode 2.16, display 3.68 (network)
+[2022-08-08 09:35:14] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:65109 Ping: 61ms IN: 84831.5kbit 9057.4 pkt/s qual 99.9OUT: 181.1kbit 224.2 pkt/s qual 100.0
+[2022-08-08 09:35:15] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:15] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:15] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:15] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1215 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:15] Slow framerate: game 2.54, capture 0.72, convert 0.00, encode 7.72, network 41.42, decode 1.92, display 7.27 (network)
+[2022-08-08 09:35:16] Slow framerate: game 2.51, capture 0.74, convert 0.00, encode 7.57, network 40.49, decode 1.95, display 12.04 (network)
+[2022-08-08 09:35:17] Slow framerate: game 1.93, capture 0.70, convert 0.00, encode 7.57, network 39.18, decode 1.88, display 9.61 (network)
+[2022-08-08 09:35:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:18] Slow framerate: game 1.91, capture 0.70, convert 0.00, encode 8.27, network 39.51, decode 1.85, display 5.99 (network)
+[2022-08-08 09:35:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:19] Slow framerate: game 1.95, capture 0.72, convert 0.00, encode 8.29, network 39.65, decode 1.91, display 6.24 (network)
+[2022-08-08 09:35:19] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:65109 Ping: 65ms IN: 97825.5kbit 10406.9 pkt/s qual 99.7OUT: 180.1kbit 225.0 pkt/s qual 100.0
+[2022-08-08 09:35:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:20] Slow framerate: game 2.10, capture 0.72, convert 0.00, encode 7.48, network 38.72, decode 1.94, display 5.60 (network)
+[2022-08-08 09:35:21] Slow framerate: game 2.22, capture 0.74, convert 0.00, encode 7.53, network 38.69, decode 1.91, display 7.77 (network)
+[2022-08-08 09:35:21] Bitrate adapter: state = 2, minRTT = 55, maxRTT = 143, gain = 0.75, bitrate = 75000
+[2022-08-08 09:35:22] Slow framerate: game 2.12, capture 0.72, convert 0.01, encode 7.08, network 37.03, decode 1.77, display 5.22 (network)
+[2022-08-08 09:35:23] Slow framerate: game 2.04, capture 0.74, convert 0.00, encode 6.71, network 37.15, decode 1.70, display 5.39 (network)
+[2022-08-08 09:35:24] Slow framerate: game 1.88, capture 0.73, convert 0.00, encode 7.00, network 37.86, decode 1.71, display 6.57 (network)
+[2022-08-08 09:35:24] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:65109 Ping: 57ms IN: 89362.7kbit 9526.0 pkt/s qual 99.9OUT: 199.8kbit 254.3 pkt/s qual 100.0
+[2022-08-08 09:35:25] Slow framerate: game 1.77, capture 0.71, convert 0.00, encode 7.08, network 40.85, decode 1.79, display 5.64 (network)
+[2022-08-08 09:35:25] Bitrate adapter: state = 2, minRTT = 52, maxRTT = 84, gain = 1.25, bitrate = 93750
+[2022-08-08 09:35:26] Slow framerate: game 1.82, capture 0.73, convert 0.00, encode 7.04, network 40.58, decode 1.81, display 5.82 (network)
+[2022-08-08 09:35:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:27] Slow framerate: game 1.87, capture 0.73, convert 0.00, encode 7.30, network 43.08, decode 1.74, display 6.73 (network)
+[2022-08-08 09:35:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:27] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:28] Slow framerate: game 1.92, capture 0.71, convert 0.00, encode 7.57, network 38.91, decode 1.71, display 4.82 (network)
+[2022-08-08 09:35:29] Slow framerate: game 1.94, capture 0.71, convert 0.00, encode 7.59, network 39.73, decode 1.91, display 5.37 (network)
+[2022-08-08 09:35:29] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:65109 Ping: 68ms IN: 79191.2kbit 8470.0 pkt/s qual 99.8OUT: 159.8kbit 200.0 pkt/s qual 100.0
+[2022-08-08 09:35:29] Bitrate adapter: state = 2, minRTT = 51, maxRTT = 82, gain = 1.25, bitrate = 100000
+[2022-08-08 09:35:30] Slow framerate: game 2.19, capture 0.70, convert 0.01, encode 8.33, network 39.45, decode 1.90, display 6.94 (network)
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] Slow framerate: game 3.12, capture 0.74, convert 0.01, encode 9.29, network 36.93, decode 1.90, display 6.18 (network)
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49240 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50471 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51702 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52933 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54164 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:32] Slow framerate: game 3.72, capture 0.74, convert 0.00, encode 8.77, network 38.74, decode 1.97, display 8.28 (network)
+[2022-08-08 09:35:33] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30688 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:33] Slow framerate: game 4.30, capture 0.71, convert 0.00, encode 9.63, network 39.99, decode 1.90, display 8.87 (network)
+[2022-08-08 09:35:34] Bitrate adapter: state = 2, minRTT = 52, maxRTT = 106, gain = 0.75, bitrate = 75000
+[2022-08-08 09:35:34] Slow framerate: game 4.31, capture 0.69, convert 0.00, encode 9.49, network 42.35, decode 2.96, display 6.96 (network)
+[2022-08-08 09:35:34] CLIENT: SteamNetworkingSockets connection: Connected UDP@34.221.19.173:65109 Ping: 67ms IN: 95643.8kbit 10177.8 pkt/s qual 100.0OUT: 253.9kbit 304.5 pkt/s qual 100.0
+[2022-08-08 09:35:35] Slow framerate: game 4.43, capture 0.68, convert 0.00, encode 8.21, network 38.87, decode 1.80, display 4.29 (network)
+[2022-08-08 09:35:36] Slow framerate: game 4.32, capture 0.69, convert 0.00, encode 7.25, network 38.24, decode 1.71, display 5.03 (network)
+[2022-08-08 09:35:37] Slow framerate: game 3.54, capture 0.71, convert 0.00, encode 6.71, network 39.52, decode 1.76, display 12.08 (network)
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49240 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50471 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51702 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52933 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54164 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-08 09:35:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-08 09:35:38] CLIENT: Video overflow (151.00ms queued), requesting keyframe synchronization
+[2022-08-08 09:35:38] Bitrate adapter: state = 2, minRTT = 53, maxRTT = 78, gain = 1.25, bitrate = 93750
+[2022-08-08 09:35:38] Slow framerate: game 2.73, capture 0.72, convert 0.00, encode 6.58, network 39.72, decode 3.09, display 9.56 (network)
+[2022-08-08 09:35:39] Slow framerate: game 2.12, capture 0.71, convert 0.00, encode 7.11, network 34.69, decode 1.86, display 4.88 (network)
+[2022-08-08 09:35:39] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 60ms IN: 80875.2kbit 8640.5 pkt/s qual 99.7OUT: 181.2kbit 223.4 pkt/s qual 100.0
+[2022-08-08 09:35:40] Slow framerate: game 2.07, capture 0.73, convert 0.00, encode 7.26, network 36.09, decode 1.83, display 6.16 (network)
+[2022-08-08 09:35:41] Slow framerate: game 2.01, capture 0.70, convert 0.00, encode 7.62, network 35.96, decode 1.79, display 7.55 (network)
+[2022-08-08 09:35:42] Bitrate adapter: state = 2, minRTT = 50, maxRTT = 74, gain = 1.25, bitrate = 100000
+[2022-08-08 09:35:42] Slow framerate: game 1.81, capture 0.71, convert 0.00, encode 7.77, network 34.35, decode 1.80, display 3.88 (network)
+[2022-08-08 09:35:43] CLIENT: Got video sequence 6232, expected 6231, sending lost data notification
+[2022-08-08 09:35:43] CLIENT: Didn't get keyframe, resending lost data notification
+[2022-08-08 09:35:43] CLIENT: Marking frame 6232 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:43] CLIENT: Marking frame 6233 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:43] CLIENT: Marking frame 6234 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:43] CLIENT: Marking frame 6235 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:43] CLIENT: Marking frame 6236 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:43] CLIENT: Marking frame 6237 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:43] CLIENT: Marking frame 6238 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:43] CLIENT: Marking frame 6239 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:43] CLIENT: Marking frame 6240 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:43] CLIENT: Marking frame 6241 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:43] CLIENT: Marking frame 6242 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:43] CLIENT: Marking frame 6243 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:43] CLIENT: Marking frame 6244 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:43] CLIENT: Marking frame 6245 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:43] Slow framerate: game 1.69, capture 0.69, convert 0.00, encode 7.43, network 39.99, decode 1.76, display 6.37 (network)
+[2022-08-08 09:35:44] Slow framerate: game 1.73, capture 0.72, convert 0.00, encode 7.62, network 36.50, decode 1.70, display 11.73 (network)
+[2022-08-08 09:35:44] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 59ms IN: 89722.0kbit 9550.1 pkt/s qual 99.8OUT: 180.9kbit 247.9 pkt/s qual 100.0
+[2022-08-08 09:35:45] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] Received request to migrate to 162.254.195.72:27042 from lax#64 (162.254.195.72:27032).
+[2022-08-08 09:35:45] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] Started migration to lax#74 (162.254.195.72:27042) at request of current primary lax#64 (162.254.195.72:27032)
+[2022-08-08 09:35:45] Slow framerate: game 1.84, capture 0.71, convert 0.00, encode 7.70, network 35.98, decode 1.81, display 16.30 (network)
+[2022-08-08 09:35:45] CLIENT: [SteamNetworkingSockets] Relay lax#74 (162.254.195.72:27042) is going offline in 182 seconds
+[2022-08-08 09:35:45] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] Switched primary to lax#129 (162.254.195.73:27051) (Ping = 64 = 58+0+6 (front+interior+remote).) from lax#64 (162.254.195.72:27032) (Ping = 71 = 45+0+26 (front+interior+remote).  Requested migration.)
+[2022-08-08 09:35:45] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] Selecting sea#71 (205.196.6.211:27039) as backup #1 (Ping = 64 = 58+0+6 (front+interior+remote).)
+[2022-08-08 09:35:45] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] SDR routing message updated, revision 7.  (POP 'lax' session changed)
+[2022-08-08 09:35:46] Slow framerate: game 2.00, capture 0.72, convert 0.00, encode 7.79, network 37.80, decode 1.82, display 10.24 (network)
+[2022-08-08 09:35:47] Slow framerate: game 2.09, capture 0.72, convert 0.00, encode 7.56, network 38.34, decode 1.83, display 9.36 (network)
+[2022-08-08 09:35:48] Slow framerate: game 2.13, capture 0.71, convert 0.00, encode 7.50, network 41.89, decode 1.77, display 7.55 (network)
+[2022-08-08 09:35:49] CLIENT: Got video sequence 6591, expected 6590, sending lost data notification
+[2022-08-08 09:35:49] CLIENT: Marking frame 6591 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] CLIENT: Marking frame 6592 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] CLIENT: Marking frame 6593 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] CLIENT: Marking frame 6594 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] CLIENT: Marking frame 6595 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] CLIENT: Marking frame 6596 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] CLIENT: Marking frame 6597 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] CLIENT: Marking frame 6598 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] CLIENT: Marking frame 6599 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] CLIENT: Marking frame 6600 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] CLIENT: Marking frame 6601 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] CLIENT: Marking frame 6602 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] CLIENT: Marking frame 6603 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] CLIENT: Marking frame 6604 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] CLIENT: Marking frame 6605 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] CLIENT: Marking frame 6606 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:35:49] Slow framerate: game 2.16, capture 0.73, convert 0.00, encode 7.35, network 42.26, decode 1.82, display 6.98 (network)
+[2022-08-08 09:35:49] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 58ms IN: 96311.0kbit 10237.8 pkt/s qual 100.0OUT: 164.1kbit 227.7 pkt/s qual 100.0
+[2022-08-08 09:35:50] Slow framerate: game 2.19, capture 0.72, convert 0.00, encode 7.52, network 43.52, decode 1.91, display 6.47 (network)
+[2022-08-08 09:35:51] Slow framerate: game 2.20, capture 0.71, convert 0.00, encode 7.69, network 41.96, decode 1.82, display 4.22 (network)
+[2022-08-08 09:35:52] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] SDR routing message updated, revision 8.  (POP 'atl' last sent ping 67 is outside ping range 76-81 (1 buckets))
+[2022-08-08 09:35:52] Slow framerate: game 2.13, capture 0.72, convert 0.00, encode 7.67, network 40.40, decode 2.44, display 4.78 (network)
+[2022-08-08 09:35:53] CLIENT: [SteamNetworkingSockets] Relay scl#4 (155.133.249.162:27018) is going offline in 552 seconds
+[2022-08-08 09:35:53] Slow framerate: game 2.19, capture 0.71, convert 0.00, encode 7.67, network 39.04, decode 1.75, display 6.17 (network)
+[2022-08-08 09:35:54] Audio mix: start=64344517668, returned=5756160
+[2022-08-08 09:35:54] CLIENT: [SteamNetworkingSockets] Relay gru#322 (205.185.194.196:27041) is going offline in 503 seconds
+[2022-08-08 09:35:54] Slow framerate: game 2.35, capture 0.72, convert 0.00, encode 7.99, network 39.46, decode 1.78, display 6.84 (network)
+[2022-08-08 09:35:54] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 57ms IN: 97459.4kbit 10351.8 pkt/s qual 99.9OUT: 220.8kbit 310.6 pkt/s qual 100.0
+[2022-08-08 09:35:55] Slow framerate: game 2.74, capture 0.72, convert 0.00, encode 7.95, network 38.57, decode 1.78, display 4.55 (network)
+[2022-08-08 09:35:56] Slow framerate: game 3.09, capture 0.71, convert 0.00, encode 8.27, network 41.05, decode 1.71, display 4.89 (network)
+[2022-08-08 09:35:57] Slow framerate: game 3.62, capture 0.70, convert 0.00, encode 7.73, network 37.13, decode 1.92, display 8.67 (network)
+[2022-08-08 09:35:58] Bitrate adapter: state = 2, minRTT = 51, maxRTT = 104, gain = 0.75, bitrate = 75000
+[2022-08-08 09:35:58] Slow framerate: game 3.99, capture 0.71, convert 0.01, encode 7.17, network 36.16, decode 1.80, display 12.75 (network)
+[2022-08-08 09:35:59] Slow framerate: game 4.27, capture 0.70, convert 0.00, encode 6.92, network 39.85, decode 1.85, display 6.67 (network)
+[2022-08-08 09:35:59] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 60ms IN: 95886.5kbit 10184.0 pkt/s qual 100.0OUT: 161.4kbit 227.5 pkt/s qual 100.0
+[2022-08-08 09:36:00] Bitrate adapter: state = 2, minRTT = 51, maxRTT = 134, gain = 0.75, bitrate = 56250
+[2022-08-08 09:36:00] Slow framerate: game 4.40, capture 0.70, convert 0.00, encode 6.88, network 38.02, decode 1.73, display 5.07 (network)
+[2022-08-08 09:36:01] Slow framerate: game 4.34, capture 0.71, convert 0.00, encode 7.05, network 35.39, decode 1.60, display 3.90 (network)
+[2022-08-08 09:36:02] Slow framerate: game 4.60, capture 0.71, convert 0.00, encode 6.23, network 34.98, decode 1.69, display 3.50 (network)
+[2022-08-08 09:36:03] Setting target framerate: 60.00 [timing: game 4.10, capture 0.70, convert 0.00, encode 6.38, network 34.19, decode 1.72, display 4.27]
+[2022-08-08 09:36:03] CLIENT: Targeting 60.00 FPS
+[2022-08-08 09:36:03] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-08 09:36:04] Bitrate adapter: state = 2, minRTT = 51, maxRTT = 75, gain = 1.25, bitrate = 70312
+[2022-08-08 09:36:04] Slow framerate: game 3.33, capture 0.70, convert 0.00, encode 6.82, network 35.32, decode 1.75, display 6.26 (network)
+[2022-08-08 09:36:04] Setting target framerate: 60.00 [timing: game 3.33, capture 0.70, convert 0.00, encode 6.82, network 35.32, decode 1.75, display 6.26 (network)]
+[2022-08-08 09:36:04] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 61ms IN: 61593.8kbit 6622.7 pkt/s qual 100.0OUT: 142.6kbit 201.0 pkt/s qual 100.0
+[2022-08-08 09:36:04] CLIENT: Targeting 60.00 FPS
+[2022-08-08 09:36:04] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-08 09:36:05] Slow framerate: game 2.34, capture 0.72, convert 0.00, encode 7.68, network 35.66, decode 1.64, display 7.52 (network)
+[2022-08-08 09:36:06] Setting target framerate: 60.00 [timing: game 2.06, capture 0.71, convert 0.00, encode 8.38, network 33.97, decode 1.68, display 5.72]
+[2022-08-08 09:36:06] CLIENT: Targeting 60.00 FPS
+[2022-08-08 09:36:06] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-08 09:36:07] Slow framerate: game 2.06, capture 0.70, convert 0.00, encode 8.69, network 35.04, decode 1.82, display 7.54 (network)
+[2022-08-08 09:36:07] Setting target framerate: 60.00 [timing: game 2.06, capture 0.70, convert 0.00, encode 8.69, network 35.04, decode 1.82, display 7.54 (network)]
+[2022-08-08 09:36:07] CLIENT: Targeting 60.00 FPS
+[2022-08-08 09:36:07] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-08 09:36:08] Bitrate adapter: state = 2, minRTT = 49, maxRTT = 79, gain = 1.25, bitrate = 87890
+[2022-08-08 09:36:08] Slow framerate: game 2.06, capture 0.71, convert 0.00, encode 8.82, network 36.55, decode 1.76, display 9.05 (network)
+[2022-08-08 09:36:09] Slow framerate: game 2.18, capture 0.72, convert 0.00, encode 9.02, network 36.67, decode 1.87, display 7.21 (network)
+[2022-08-08 09:36:09] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 65ms IN: 64264.3kbit 6907.5 pkt/s qual 100.0OUT: 134.5kbit 192.8 pkt/s qual 100.0
+[2022-08-08 09:36:10] Slow framerate: game 2.31, capture 0.71, convert 0.00, encode 8.47, network 39.32, decode 2.06, display 7.07 (network)
+[2022-08-08 09:36:11] Slow framerate: game 2.36, capture 0.72, convert 0.00, encode 8.57, network 40.25, decode 1.90, display 7.15 (network)
+[2022-08-08 09:36:12] Bitrate adapter: state = 2, minRTT = 49, maxRTT = 85, gain = 1.25, bitrate = 100000
+[2022-08-08 09:36:12] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from lax#129 (162.254.195.73:27051) is OK?  Dropping.
+[2022-08-08 09:36:12] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from lax#129 (162.254.195.73:27051) is OK?  Dropping.
+[2022-08-08 09:36:12] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from lax#129 (162.254.195.73:27051) is OK?  Dropping.
+[2022-08-08 09:36:12] CLIENT: Got video sequence 7996, expected 7995, sending lost data notification
+[2022-08-08 09:36:12] CLIENT: Marking frame 7996 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:12] CLIENT: Marking frame 7997 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:12] CLIENT: Marking frame 7998 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:12] CLIENT: Marking frame 7999 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:12] CLIENT: Marking frame 8000 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:12] CLIENT: Marking frame 8001 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:12] CLIENT: Marking frame 8002 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:12] CLIENT: Marking frame 8003 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:12] CLIENT: Marking frame 8004 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:12] CLIENT: Marking frame 8005 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:12] CLIENT: Marking frame 8006 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:12] CLIENT: Marking frame 8007 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:12] CLIENT: Marking frame 8008 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:12] CLIENT: Marking frame 8009 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:12] Slow framerate: game 2.22, capture 0.70, convert 0.00, encode 7.48, network 41.65, decode 1.73, display 9.28 (network)
+[2022-08-08 09:36:12] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] SDR routing message updated, revision 9.  (POP 'lax' last sent ping 45 is outside ping range 31-36 (3 buckets))
+[2022-08-08 09:36:13] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from lax#129 (162.254.195.73:27051) is OK?  Dropping.
+[2022-08-08 09:36:13] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from lax#129 (162.254.195.73:27051) is OK?  Dropping.
+[2022-08-08 09:36:13] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from lax#129 (162.254.195.73:27051) is OK?  Dropping.
+[2022-08-08 09:36:13] CLIENT: Got video sequence 8072, expected 8071, sending lost data notification
+[2022-08-08 09:36:13] Slow framerate: game 2.09, capture 0.69, convert 0.00, encode 7.29, network 39.21, decode 1.78, display 3.00 (network)
+[2022-08-08 09:36:13] CLIENT: Marking frame 8072 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:13] CLIENT: Marking frame 8073 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:13] CLIENT: Marking frame 8074 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:13] CLIENT: Marking frame 8075 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:13] CLIENT: Marking frame 8076 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:13] CLIENT: Marking frame 8077 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:13] CLIENT: Marking frame 8078 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:13] CLIENT: Marking frame 8079 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:13] CLIENT: Marking frame 8080 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:13] CLIENT: Marking frame 8081 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:13] CLIENT: Marking frame 8082 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:13] CLIENT: Marking frame 8083 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:13] CLIENT: Marking frame 8084 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:13] CLIENT: Marking frame 8085 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:14] Slow framerate: game 2.09, capture 0.72, convert 0.00, encode 7.43, network 40.56, decode 1.84, display 4.04 (network)
+[2022-08-08 09:36:14] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 51ms IN: 87503.6kbit 9324.6 pkt/s qual 99.7OUT: 164.6kbit 234.8 pkt/s qual 100.0
+[2022-08-08 09:36:15] Bitrate adapter: state = 2, minRTT = 49, maxRTT = 118, gain = 0.75, bitrate = 75000
+[2022-08-08 09:36:15] Slow framerate: game 2.13, capture 0.73, convert 0.00, encode 7.23, network 38.26, decode 1.68, display 3.72 (network)
+[2022-08-08 09:36:16] Slow framerate: game 2.24, capture 0.72, convert 0.00, encode 7.17, network 40.43, decode 1.64, display 3.74 (network)
+[2022-08-08 09:36:17] Slow framerate: game 2.45, capture 0.71, convert 0.00, encode 6.95, network 37.44, decode 1.71, display 4.69 (network)
+[2022-08-08 09:36:18] Slow framerate: game 2.69, capture 0.71, convert 0.00, encode 7.22, network 36.37, decode 1.78, display 4.16 (network)
+[2022-08-08 09:36:19] Bitrate adapter: state = 2, minRTT = 49, maxRTT = 98, gain = 1.25, bitrate = 93750
+[2022-08-08 09:36:19] Slow framerate: game 3.44, capture 0.70, convert 0.00, encode 7.21, network 40.69, decode 1.76, display 4.95 (network)
+[2022-08-08 09:36:19] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 62ms IN: 82124.8kbit 8765.0 pkt/s qual 99.7OUT: 204.1kbit 286.0 pkt/s qual 100.0
+[2022-08-08 09:36:20] Slow framerate: game 4.04, capture 0.71, convert 0.00, encode 7.18, network 40.15, decode 1.66, display 4.30 (network)
+[2022-08-08 09:36:21] Slow framerate: game 4.61, capture 0.72, convert 0.01, encode 6.94, network 40.11, decode 1.72, display 6.33 (network)
+[2022-08-08 09:36:22] Bitrate adapter: state = 2, minRTT = 49, maxRTT = 109, gain = 0.75, bitrate = 70312
+[2022-08-08 09:36:22] Slow framerate: game 4.72, capture 0.71, convert 0.00, encode 7.33, network 45.68, decode 1.72, display 6.67 (network)
+[2022-08-08 09:36:23] Slow framerate: game 4.76, capture 0.72, convert 0.00, encode 7.12, network 40.27, decode 1.69, display 5.84 (network)
+[2022-08-08 09:36:24] Slow framerate: game 4.87, capture 0.71, convert 0.00, encode 7.01, network 38.55, decode 1.58, display 8.65 (network)
+[2022-08-08 09:36:24] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 57ms IN: 85140.6kbit 9076.6 pkt/s qual 99.9OUT: 154.2kbit 223.6 pkt/s qual 100.0
+[2022-08-08 09:36:25] Slow framerate: game 4.97, capture 0.74, convert 0.00, encode 6.83, network 37.77, decode 1.74, display 11.59 (network)
+[2022-08-08 09:36:26] Bitrate adapter: state = 2, minRTT = 50, maxRTT = 75, gain = 1.25, bitrate = 87890
+[2022-08-08 09:36:26] Slow framerate: game 4.85, capture 0.72, convert 0.00, encode 6.59, network 37.05, decode 1.67, display 14.10 (network)
+[2022-08-08 09:36:27] Slow framerate: game 4.76, capture 0.71, convert 0.01, encode 6.88, network 37.86, decode 1.80, display 11.90 (network)
+[2022-08-08 09:36:28] Slow framerate: game 4.67, capture 0.72, convert 0.00, encode 6.88, network 38.99, decode 1.68, display 4.02 (network)
+[2022-08-08 09:36:29] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 54ms IN: 73921.2kbit 7911.6 pkt/s qual 100.0OUT: 145.8kbit 205.4 pkt/s qual 100.0
+[2022-08-08 09:36:29] Slow framerate: game 4.51, capture 0.70, convert 0.00, encode 7.30, network 36.96, decode 1.69, display 5.52 (network)
+[2022-08-08 09:36:30] Bitrate adapter: state = 2, minRTT = 50, maxRTT = 79, gain = 1.25, bitrate = 100000
+[2022-08-08 09:36:30] Slow framerate: game 3.80, capture 0.72, convert 0.00, encode 7.08, network 39.45, decode 1.73, display 4.95 (network)
+[2022-08-08 09:36:31] Slow framerate: game 3.33, capture 0.72, convert 0.00, encode 8.10, network 40.90, decode 1.77, display 5.33 (network)
+[2022-08-08 09:36:32] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from lax#129 (162.254.195.73:27051) is OK?  Dropping.
+[2022-08-08 09:36:32] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from lax#129 (162.254.195.73:27051) is OK?  Dropping.
+[2022-08-08 09:36:32] CLIENT: [SteamNetworkingSockets] [#1943450453 P2P SDR steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from lax#129 (162.254.195.73:27051) is OK?  Dropping.
+[2022-08-08 09:36:32] CLIENT: Got video sequence 9196, expected 9195, sending lost data notification
+[2022-08-08 09:36:32] CLIENT: Marking frame 9196 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:32] CLIENT: Marking frame 9197 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:32] CLIENT: Marking frame 9198 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:32] CLIENT: Marking frame 9199 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:32] CLIENT: Marking frame 9200 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:32] CLIENT: Marking frame 9201 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:32] CLIENT: Marking frame 9202 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:32] CLIENT: Marking frame 9203 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:32] CLIENT: Marking frame 9204 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:32] CLIENT: Marking frame 9205 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:32] CLIENT: Marking frame 9206 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:32] CLIENT: Marking frame 9207 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:32] CLIENT: Marking frame 9208 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:32] Slow framerate: game 3.25, capture 0.70, convert 0.00, encode 7.40, network 42.58, decode 1.69, display 6.88 (network)
+[2022-08-08 09:36:33] Slow framerate: game 3.63, capture 0.72, convert 0.00, encode 7.78, network 40.42, decode 1.73, display 6.59 (network)
+[2022-08-08 09:36:34] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 65ms IN: 92458.8kbit 9834.3 pkt/s qual 99.6OUT: 178.7kbit 239.4 pkt/s qual 100.0
+[2022-08-08 09:36:34] Slow framerate: game 4.27, capture 0.71, convert 0.00, encode 7.84, network 43.11, decode 1.85, display 8.21 (network)
+[2022-08-08 09:36:35] Slow framerate: game 4.57, capture 0.72, convert 0.00, encode 8.44, network 40.45, decode 1.88, display 7.22 (network)
+[2022-08-08 09:36:36] Slow framerate: game 5.00, capture 0.71, convert 0.01, encode 8.36, network 41.23, decode 1.82, display 5.94 (network)
+[2022-08-08 09:36:37] Slow framerate: game 4.97, capture 0.72, convert 0.00, encode 8.23, network 39.58, decode 1.92, display 5.71 (network)
+[2022-08-08 09:36:38] Slow framerate: game 5.09, capture 0.72, convert 0.00, encode 8.26, network 40.31, decode 1.79, display 6.98 (network)
+[2022-08-08 09:36:39] Bitrate adapter: state = 2, minRTT = 50, maxRTT = 119, gain = 0.75, bitrate = 75000
+[2022-08-08 09:36:39] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 55ms IN: 96172.6kbit 10221.2 pkt/s qual 99.9OUT: 173.9kbit 239.6 pkt/s qual 100.0
+[2022-08-08 09:36:39] Slow framerate: game 5.10, capture 0.71, convert 0.01, encode 8.04, network 41.81, decode 1.78, display 6.76 (network)
+[2022-08-08 09:36:40] Slow framerate: game 5.04, capture 0.72, convert 0.00, encode 8.05, network 36.72, decode 1.71, display 9.90 (network)
+[2022-08-08 09:36:41] Slow framerate: game 5.17, capture 0.73, convert 0.00, encode 8.43, network 35.95, decode 1.65, display 14.18 (network)
+[2022-08-08 09:36:42] Slow framerate: game 5.38, capture 0.75, convert 0.00, encode 8.17, network 36.45, decode 1.85, display 15.78 (network)
+[2022-08-08 09:36:43] Bitrate adapter: state = 2, minRTT = 50, maxRTT = 76, gain = 1.25, bitrate = 93750
+[2022-08-08 09:36:43] Slow framerate: game 5.59, capture 0.75, convert 0.01, encode 8.60, network 37.79, decode 1.75, display 9.18 (network)
+[2022-08-08 09:36:44] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 59ms IN: 77408.7kbit 8271.0 pkt/s qual 100.0OUT: 143.6kbit 198.9 pkt/s qual 100.0
+[2022-08-08 09:36:44] Slow framerate: game 5.56, capture 0.74, convert 0.00, encode 8.76, network 37.63, decode 1.78, display 8.92 (network)
+[2022-08-08 09:36:45] Slow framerate: game 5.44, capture 0.72, convert 0.00, encode 8.34, network 41.08, decode 1.78, display 7.28 (network)
+[2022-08-08 09:36:46] Slow framerate: game 5.41, capture 0.73, convert 0.00, encode 8.60, network 39.68, decode 1.71, display 6.33 (network)
+[2022-08-08 09:36:47] Bitrate adapter: state = 2, minRTT = 49, maxRTT = 84, gain = 1.25, bitrate = 100000
+[2022-08-08 09:36:47] Slow framerate: game 5.39, capture 0.72, convert 0.00, encode 8.86, network 40.07, decode 1.92, display 6.01 (network)
+[2022-08-08 09:36:48] Slow framerate: game 5.36, capture 0.72, convert 0.00, encode 8.76, network 36.48, decode 1.80, display 4.55 (network)
+[2022-08-08 09:36:49] Bitrate adapter: state = 2, minRTT = 49, maxRTT = 107, gain = 0.75, bitrate = 75000
+[2022-08-08 09:36:49] CLIENT: Got video sequence 10216, expected 10209, sending lost data notification
+[2022-08-08 09:36:49] CLIENT: Marking frame 10216 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:49] CLIENT: Marking frame 10217 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:49] CLIENT: Marking frame 10218 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:49] CLIENT: Marking frame 10219 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:49] CLIENT: Marking frame 10220 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:49] CLIENT: Marking frame 10221 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:49] CLIENT: Marking frame 10222 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:49] CLIENT: Marking frame 10223 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:49] CLIENT: Marking frame 10224 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:49] CLIENT: Marking frame 10225 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:49] CLIENT: Marking frame 10226 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:49] CLIENT: Marking frame 10227 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-08 09:36:49] Slow framerate: game 5.32, capture 0.72, convert 0.00, encode 8.58, network 41.52, decode 1.81, display 6.40 (network)
+[2022-08-08 09:36:49] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 64ms IN: 91183.3kbit 9698.2 pkt/s qual 99.9OUT: 128.9kbit 184.1 pkt/s qual 100.0
+[2022-08-08 09:36:50] Slow framerate: game 5.20, capture 0.71, convert 0.00, encode 8.35, network 36.70, decode 1.72, display 4.45 (network)
+[2022-08-08 09:36:51] Slow framerate: game 5.13, capture 0.74, convert 0.00, encode 8.07, network 35.28, decode 1.60, display 4.31 (network)
+[2022-08-08 09:36:52] Bitrate adapter: state = 2, minRTT = 49, maxRTT = 129, gain = 0.75, bitrate = 56250
+[2022-08-08 09:36:52] Slow framerate: game 4.91, capture 0.72, convert 0.01, encode 7.85, network 36.24, decode 1.68, display 4.26 (network)
+[2022-08-08 09:36:53] Slow framerate: game 4.83, capture 0.70, convert 0.00, encode 7.84, network 36.22, decode 1.60, display 3.62 (network)
+[2022-08-08 09:36:54] Audio mix: start=64344517668, returned=8636160
+[2022-08-08 09:36:54] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-08 09:36:54] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-08 09:36:54] Setting target framerate: 60.00 [timing: game 4.76, capture 0.70, convert 0.00, encode 8.24, network 33.85, decode 1.65, display 5.20]
+[2022-08-08 09:36:54] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->lax  Ping: 62ms IN: 75368.7kbit 8053.9 pkt/s qual 99.8OUT: 118.3kbit 171.6 pkt/s qual 100.0
+[2022-08-08 09:36:55] CLIENT: Targeting 60.00 FPS
+[2022-08-08 09:36:55] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-08 09:36:55] Slow framerate: game 4.70, capture 0.71, convert 0.00, encode 8.12, network 34.90, decode 1.70, display 5.62 (network)
+[2022-08-08 09:36:55] Setting target framerate: 60.00 [timing: game 4.70, capture 0.71, convert 0.00, encode 8.12, network 34.90, decode 1.70, display 5.62 (network)]
+[2022-08-08 09:36:56] CLIENT: Targeting 60.00 FPS
+[2022-08-08 09:36:56] CLIENT: Got control packet k_EStreamControlSetTargetFramerate
+[2022-08-08 09:36:56] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-08 09:36:56] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-08 09:36:56] Bitrate adapter: state = 2, minRTT = 48, maxRTT = 81, gain = 1.25, bitrate = 70312
+[2022-08-08 09:36:56] Slow framerate: game 4.67, capture 0.71, convert 0.00, encode 7.15, network 37.04, decode 1.66, display 5.63 (network)
+[2022-08-08 09:36:57] Slow framerate: game 4.54, capture 0.71, convert 0.01, encode 6.81, network 36.28, decode 1.71, display 5.93 (network)
+[2022-08-08 09:36:58] Slow framerate: game 4.61, capture 0.71, convert 0.00, encode 7.92, network 35.42, decode 1.74, display 5.69 (network)
+[2022-08-08 09:36:59] Slow framerate: game 4.65, capture 0.70, convert 0.00, encode 7.20, network 36.53, decode 1.70, display 6.77 (network)
+[2022-08-08 09:36:59] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->sea  Ping: 57ms IN: 58551.8kbit 6312.7 pkt/s qual 100.0OUT: 130.0kbit 184.9 pkt/s qual 100.0
+[2022-08-08 09:37:00] Bitrate adapter: state = 2, minRTT = 48, maxRTT = 78, gain = 1.25, bitrate = 87890
+[2022-08-08 09:37:00] Slow framerate: game 4.77, capture 0.70, convert 0.00, encode 7.49, network 36.73, decode 1.83, display 7.08 (network)
+[2022-08-08 09:37:01] Slow framerate: game 4.68, capture 0.70, convert 0.00, encode 7.11, network 37.77, decode 1.76, display 8.32 (network)
+[2022-08-08 09:37:02] Slow framerate: game 4.64, capture 0.70, convert 0.00, encode 7.17, network 36.92, decode 1.81, display 8.31 (network)
+[2022-08-08 09:37:03] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-08 09:37:03] CLIENT: Texture rect: 1920x1200 at 0,0
+[2022-08-08 09:37:03] Slow framerate: game 4.55, capture 0.70, convert 0.00, encode 7.07, network 38.96, decode 1.77, display 8.99 (network)
+[2022-08-08 09:37:04] Bitrate adapter: state = 2, minRTT = 48, maxRTT = 87, gain = 1.25, bitrate = 100000
+[2022-08-08 09:37:04] Slow framerate: game 4.39, capture 0.71, convert 0.00, encode 7.43, network 37.99, decode 1.76, display 8.93 (network)
+[2022-08-08 09:37:04] CLIENT: SteamNetworkingSockets connection: Connected SDR->lax->sea  Ping: 61ms IN: 76550.2kbit 8178.3 pkt/s qual 100.0OUT: 125.7kbit 184.4 pkt/s qual 100.0
+[2022-08-08 09:37:05] Slow framerate: game 4.13, capture 0.69, convert 0.00, encode 7.68, network 39.11, decode 1.81, display 9.02 (network)
+[2022-08-08 09:37:06] "SessionStats"
+{
+	"ClientDeviceID"		"Samsung SM-G998U1"
+	"ClientDeviceVersionID"		"Android 12"
+	"GameNameID"		"HITMAN™ 2"
+	"appid"		"863550"
+	"TimeSubmitted"		"1659976626"
+	"ResolutionX"		"1920"
+	"ResolutionY"		"1200"
+	"CaptureDescriptionID"		"Game polled D3D11 NV12 + NVENC H264"
+	"DecoderDescriptionID"		"Android texture hardware decoding"
+	"BandwidthLimit"		"100000"
+	"FramerateLimit"		"60"
+	"Transport"		"4"
+	"SlowGamePercent"		"0"
+	"SlowCapturePercent"		"0"
+	"SlowConvertPercent"		"0"
+	"SlowEncodePercent"		"0"
+	"SlowNetworkPercent"		"72.0883102416992188"
+	"SlowDecodePercent"		"0"
+	"SlowDisplayPercent"		"0"
+	"AvgClientBitrate"		"125.741859436035156"
+	"StdDevClientBitrate"		"32.32257080078125"
+	"AvgServerBitrate"		"66338.046875"
+	"StdDevServerBitrate"		"0"
+	"AvgLinkBandwidth"		"100000.0078125"
+	"AvgPingMS"		"64.3363571166992188"
+	"StdDevPingMS"		"2.47141027450561523"
+	"AvgCaptureMS"		"0.7177315354347229"
+	"StdDevCaptureMS"		"0.286686599254608154"
+	"AvgConvertMS"		"0.0309765972197055817"
+	"StdDevConvertMS"		"2.76295804977416992"
+	"AvgEncodeMS"		"8.15782260894775391"
+	"StdDevEncodeMS"		"1.78784382343292236"
+	"AvgNetworkMS"		"37.0602149963378906"
+	"StdDevNetworkMS"		"7.70208740234375"
+	"AvgDecodeMS"		"1.66792666912078857"
+	"StdDevDecodeMS"		"0.706878602504730225"
+	"AvgDisplayMS"		"7.09006881713867188"
+	"StdDevDisplayMS"		"6.86487436294555664"
+	"AvgFrameMS"		"70.1721954345703125"
+	"StdDevFrameMS"		"11.7348470687866211"
+	"AvgFPS"		"65.999114990234375"
+	"StdDevFPS"		"24.5015316009521484"
+	"BigPicture"		"1"
+	"KeyboardMouseInput"		"1"
+	"SteamControllerInput"		"0"
+	"TouchControllerInput"		"1"
+	"GameControllerInput"		"0"
+	"XBox360ControllerInput"		"0"
+	"XBoxOneControllerInput"		"0"
+	"PS3ControllerInput"		"0"
+	"PS4ControllerInput"		"0"
+	"PS5ControllerInput"		"0"
+	"OtherControllerInput"		"0"
+	"WasSpectating"		"0"
+	"RemotePlayTogether"		"0"
+}
+[2022-08-08 10:01:15] Streaming initialized and listening on port 0

@@ -1,0 +1,2 @@
+- Figure 22 a: plot_performance_cdf()
+- Figure 22 b: plot_performance_scatter()

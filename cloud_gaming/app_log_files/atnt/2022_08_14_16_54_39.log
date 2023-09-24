@@ -1,0 +1,913 @@
+[2022-08-14 16:54:39] Streaming started to Samsung SM-G998U1 Android 12 at 0.0.0.0:0, audio channels = 2, MTU = 1472
+[2022-08-14 16:54:39] Streaming quality: k_EStreamQualityBeautiful
+[2022-08-14 16:54:39] Streaming bitrate: Unlimited
+[2022-08-14 16:54:39] Device form factor: phone
+[2022-08-14 16:54:39] Maximum capture: 3840x2160 60.00 FPS
+[2022-08-14 16:54:39] Video Streaming: enabled
+[2022-08-14 16:54:39] Audio Streaming: enabled
+[2022-08-14 16:54:39] Input Streaming: enabled
+[2022-08-14 16:54:39] =====================================================================
+[2022-08-14 16:54:39] Game: Counter-Strike: Global Offensive (730)
+[2022-08-14 16:54:39] Setting target bitrate to 100000 Kbit/s, burst bitrate is 500000 Kbit/s
+[2022-08-14 16:54:39] Streamed game has created a window
+[2022-08-14 16:54:39] SynchronizeClientState(): setting capture size 1280x800
+[2022-08-14 16:54:39] SynchronizeClientState(): setting title to Counter-Strike: Global Offensive - Direct3D 9
+[2022-08-14 16:54:39] SynchronizeClientState(): setting icon 32x32
+[2022-08-14 16:54:39] SynchronizeClientState(): setting cursor hidden
+[2022-08-14 16:54:39] SynchronizeClientState(): setting keymap
+[2022-08-14 16:54:39] SynchronizeClientState(): setting activity to k_EStreamActivityGame: Counter-Strike: Global Offensive
+[2022-08-14 16:54:39] Recording system audio
+[2022-08-14 16:54:39] Audio recording init failed, couldn't get the default audio endpoint: 0x80070490
+[2022-08-14 16:54:39] Failed to init system audio recording: 1
+[2022-08-14 16:54:39] Audio mix: start=198051730728, returned=0
+[2022-08-14 16:54:39] >>> Switching video stream from NONE to GameOverlay_MovieStream_7864
+[2022-08-14 16:54:39] CLIENT: Got control packet k_EStreamControlSetQoS
+[2022-08-14 16:54:39] CLIENT: Got control packet k_EStreamControlSetTargetBitrate
+[2022-08-14 16:54:39] CLIENT: Starting audio stream: frequency=48000, channels=2
+[2022-08-14 16:54:39] CLIENT: Opened audio device: format=2, channels=2, frequency=48000
+[2022-08-14 16:54:39] CLIENT: Initialized audio decoder: codec=3, sample rate=48000, channels=2
+[2022-08-14 16:54:39] CLIENT: Got control packet k_EStreamControlStartAudioData
+[2022-08-14 16:54:39] CLIENT: Got control packet k_EStreamControlSetSpectatorMode
+[2022-08-14 16:54:39] CLIENT: Got control packet k_EStreamControlSetCaptureSize
+[2022-08-14 16:54:39] CLIENT: Got control packet k_EStreamControlSetTitle
+[2022-08-14 16:54:39] CLIENT: Got control packet k_EStreamControlSetIcon
+[2022-08-14 16:54:39] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-14 16:54:39] CLIENT: Got control packet k_EStreamControlSetKeymap
+[2022-08-14 16:54:39] CLIENT: Got control packet k_EStreamControlSetActivity
+[2022-08-14 16:54:39] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P SDR steamid:76561199378814893 vport 0] ICE route is public UDP to 18.223.213.124:55131
+[2022-08-14 16:54:39] CLIENT: [SteamNetworkingSockets] ICE: ICE OnWritableState now 1
+[2022-08-14 16:54:39] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P SDR steamid:76561199378814893 vport 0] ICE reports we are writable
+[2022-08-14 16:54:39] CLIENT: [SteamNetworkingSockets] ICE: ICE OnReceivingState now 1
+[2022-08-14 16:54:39] >>> Capture method set to Game threaded D3D9 NV12 + NVENC H264
+[2022-08-14 16:54:39] >>> Capture resolution set to 1280x800
+[2022-08-14 16:54:39] >>> Capture colorspace set to BT.601 limited range
+[2022-08-14 16:54:39] >>> Client video decoder set to Android texture hardware decoding
+[2022-08-14 16:54:39] CLIENT: Android texture hardware decoding
+[2022-08-14 16:54:39] CLIENT: Got control packet k_EStreamControlStartVideoData
+[2022-08-14 16:54:39] CLIENT: Got control packet k_EStreamControlVideoEncoderInfo
+[2022-08-14 16:54:40] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-14 16:54:40] CLIENT: Marking frame 24 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-14 16:54:40] CLIENT: Marking frame 25 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Video overflow (216.81ms queued), requesting keyframe synchronization
+[2022-08-14 16:54:40] CLIENT: Android texture hardware decoding
+[2022-08-14 16:54:40] CLIENT: Marking frame 26 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 27 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 28 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 29 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 30 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 31 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 32 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 33 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 34 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 35 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 36 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 37 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 38 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 39 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 40 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 41 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 42 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 43 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 44 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 45 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 46 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 47 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 48 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 49 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 50 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 51 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 52 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 53 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 54 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 55 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 56 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: Marking frame 57 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:40] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-14 16:54:40] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-14 16:54:40] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-14 16:54:40] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] Peer appears to be using 'SDR' transport as primary
+[2022-08-14 16:54:40] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P SDR steamid:76561199378814893 vport 0] Peer appears to be using 'ICE' transport as primary
+[2022-08-14 16:54:41] Bitrate adapter: state = 1, minRTT = 11, maxRTT = 27, gain = 2.00, bitrate = 5000
+[2022-08-14 16:54:41] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-14 16:54:41] CLIENT: Marking frame 82 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: BSubmitFrame(): No input buffer available
+[2022-08-14 16:54:41] CLIENT: Marking frame 83 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Video overflow (215.99ms queued), requesting keyframe synchronization
+[2022-08-14 16:54:41] CLIENT: Android texture hardware decoding
+[2022-08-14 16:54:41] CLIENT: Marking frame 84 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 85 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 86 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 87 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 88 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 89 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 90 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 91 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 92 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 93 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 94 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 95 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 96 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 97 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 98 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 99 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 100 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 101 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 102 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 103 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 104 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 105 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 106 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 107 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 108 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 109 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 110 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 111 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 112 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 113 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Marking frame 114 complete with status k_EStreamFrameResultDroppedReset
+[2022-08-14 16:54:41] CLIENT: Video rect: 2325x1046 at 0,17
+[2022-08-14 16:54:41] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:54:41] CLIENT: Video size: 1280x800, output size: 2325x1080, overlay size: 2325x1080
+[2022-08-14 16:54:41] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:54:41] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:54:41] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:54:41] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:54:41] Bitrate adapter: state = 1, minRTT = 11, maxRTT = 24, gain = 2.00, bitrate = 10000
+[2022-08-14 16:54:41] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-14 16:54:41] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-14 16:54:41] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-14 16:54:42] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-14 16:54:42] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-14 16:54:42] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-14 16:54:42] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-14 16:54:42] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:54:42] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:54:42] CLIENT: Got control packet k_EStreamControlSetTouchConfigData
+[2022-08-14 16:54:42] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-14 16:54:42] Bitrate adapter: state = 1, minRTT = 11, maxRTT = 23, gain = 2.00, bitrate = 20000
+[2022-08-14 16:54:42] Bitrate adapter: state = 2, minRTT = 11, maxRTT = 23, gain = 2.00, bitrate = 40000
+[2022-08-14 16:54:43] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-14 16:54:43] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-14 16:54:43] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-14 16:54:43] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-14 16:54:43] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-14 16:54:43] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-14 16:54:43] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-14 16:54:43] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-14 16:54:43] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 15ms IN: 5536.1kbit 758.8 pkt/s qual 99.6OUT: 73.3kbit 96.9 pkt/s qual 100.0
+[2022-08-14 16:54:43] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-14 16:54:46] CLIENT: [SteamNetworkingSockets] Ping measurement completed
+[2022-08-14 16:54:46] CLIENT: [SteamNetworkingSockets] Ping location: atl=29+2/30+2,ord=32+3/33+3,dfw=39+3,mdf1=42+4/40+3,iad=45+4/42+2,sea=64+6,lax=69+6/72+3,lhr=104+10,par=107+10,fra=127+12/116+10,gru=152+15/160+2,sgp=230+23/231+23
+[2022-08-14 16:54:46] CLIENT: [SteamNetworkingSockets] SDR RelayNetworkStatus:  avail=OK  config=OK  anyrelay=OK   (OK)
+[2022-08-14 16:54:47] Bitrate adapter: state = 2, minRTT = 11, maxRTT = 28, gain = 1.25, bitrate = 50000
+[2022-08-14 16:54:48] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 17ms IN: 40584.8kbit 4475.4 pkt/s qual 100.0OUT: 117.8kbit 161.3 pkt/s qual 100.0
+[2022-08-14 16:54:51] Bitrate adapter: state = 2, minRTT = 11, maxRTT = 28, gain = 1.25, bitrate = 62500
+[2022-08-14 16:54:51] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:54:51] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:54:53] CLIENT: [SteamNetworkingSockets] ICE: ICE completed
+[2022-08-14 16:54:53] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 24ms IN: 54357.7kbit 5908.2 pkt/s qual 100.0OUT: 119.3kbit 162.6 pkt/s qual 100.0
+[2022-08-14 16:54:55] Bitrate adapter: state = 2, minRTT = 12, maxRTT = 24, gain = 1.25, bitrate = 78125
+[2022-08-14 16:54:58] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 18ms IN: 70420.1kbit 7581.2 pkt/s qual 100.0OUT: 115.6kbit 159.7 pkt/s qual 100.0
+[2022-08-14 16:54:59] Bitrate adapter: state = 2, minRTT = 12, maxRTT = 32, gain = 1.25, bitrate = 97656
+[2022-08-14 16:55:00] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:55:01] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31998 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33229 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34460 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35691 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 36922 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38149 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39380 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40611 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41842 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43073 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44304 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45535 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46766 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 47997 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49228 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 50459 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51686 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52917 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:02] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31998 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] Bitrate adapter: state = 2, minRTT = 12, maxRTT = 44, gain = 1.25, bitrate = 100000
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31998 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33229 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34460 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35691 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36922 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 38153 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39380 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40611 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41842 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43073 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44304 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45535 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46766 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 47997 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49228 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50459 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 51690 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30770 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32001 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33232 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:03] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 18ms IN: 88717.7kbit 9475.1 pkt/s qual 100.0OUT: 123.7kbit 152.6 pkt/s qual 100.0
+[2022-08-14 16:55:03] Bitrate adapter: state = 2, minRTT = 12, maxRTT = 63, gain = 0.75, bitrate = 75000
+[2022-08-14 16:55:05] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:05] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31998 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:05] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33229 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:05] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34460 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:05] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35691 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:05] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36922 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:05] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38153 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:05] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 39384 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:05] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40611 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:05] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41842 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:05] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43073 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:05] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44304 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:05] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45535 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:05] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46766 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31994 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33225 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34456 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35687 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36918 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38149 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39380 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40611 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41842 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 43073 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44300 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45531 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46762 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:07] Bitrate adapter: state = 2, minRTT = 12, maxRTT = 25, gain = 1.25, bitrate = 93750
+[2022-08-14 16:55:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:08] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 19ms IN: 75204.8kbit 8081.7 pkt/s qual 100.0OUT: 127.1kbit 164.1 pkt/s qual 100.0
+[2022-08-14 16:55:09] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:09] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31998 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:09] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30771 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:09] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32002 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:09] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30771 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:09] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:11] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:55:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:11] Bitrate adapter: state = 2, minRTT = 12, maxRTT = 33, gain = 1.25, bitrate = 100000
+[2022-08-14 16:55:13] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 23ms IN: 92444.4kbit 9875.4 pkt/s qual 100.0OUT: 128.5kbit 164.8 pkt/s qual 100.0
+[2022-08-14 16:55:18] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 17ms IN: 96581.4kbit 10322.6 pkt/s qual 100.0OUT: 140.0kbit 178.2 pkt/s qual 100.0
+[2022-08-14 16:55:20] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:55:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:21] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:55:21] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:23] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 18ms IN: 96996.1kbit 10343.3 pkt/s qual 100.0OUT: 117.5kbit 154.3 pkt/s qual 100.0
+[2022-08-14 16:55:23] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:23] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:23] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:26] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:26] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:26] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:26] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:26] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:26] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:28] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 18ms IN: 95760.1kbit 10213.4 pkt/s qual 100.0OUT: 118.1kbit 155.5 pkt/s qual 100.0
+[2022-08-14 16:55:29] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:29] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:29] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:29] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:29] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:33] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 20ms IN: 65944.2kbit 7109.3 pkt/s qual 100.0OUT: 104.9kbit 142.3 pkt/s qual 100.0
+[2022-08-14 16:55:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:38] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:38] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 17ms IN: 96534.8kbit 10300.7 pkt/s qual 100.0OUT: 118.9kbit 158.6 pkt/s qual 100.0
+[2022-08-14 16:55:39] Audio mix: start=198051730728, returned=2876160
+[2022-08-14 16:55:40] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:55:41] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:55:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31994 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33225 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:43] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 18ms IN: 96656.6kbit 10293.6 pkt/s qual 100.0OUT: 88.9kbit 124.3 pkt/s qual 100.0
+[2022-08-14 16:55:44] Bitrate adapter: state = 2, minRTT = 12, maxRTT = 82, gain = 0.75, bitrate = 75000
+[2022-08-14 16:55:45] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:48] Bitrate adapter: state = 2, minRTT = 13, maxRTT = 26, gain = 1.25, bitrate = 93750
+[2022-08-14 16:55:48] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 21ms IN: 76899.8kbit 8254.2 pkt/s qual 100.0OUT: 115.3kbit 154.1 pkt/s qual 100.0
+[2022-08-14 16:55:49] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:51] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:55:52] Bitrate adapter: state = 2, minRTT = 12, maxRTT = 26, gain = 1.25, bitrate = 100000
+[2022-08-14 16:55:53] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 24ms IN: 89336.5kbit 9548.5 pkt/s qual 100.0OUT: 115.9kbit 156.7 pkt/s qual 100.0
+[2022-08-14 16:55:56] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:55:57] Bitrate adapter: state = 2, minRTT = 12, maxRTT = 82, gain = 0.75, bitrate = 75000
+[2022-08-14 16:55:58] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 15ms IN: 91461.1kbit 9775.4 pkt/s qual 100.0OUT: 122.3kbit 159.7 pkt/s qual 100.0
+[2022-08-14 16:56:00] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:56:01] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:56:01] Bitrate adapter: state = 2, minRTT = 12, maxRTT = 28, gain = 1.25, bitrate = 93750
+[2022-08-14 16:56:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31994 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33225 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34456 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35687 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36918 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38149 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39380 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 40611 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41838 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43069 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:03] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:03] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 24ms IN: 78435.8kbit 8418.7 pkt/s qual 100.0OUT: 115.7kbit 152.5 pkt/s qual 100.0
+[2022-08-14 16:56:05] Bitrate adapter: state = 2, minRTT = 12, maxRTT = 76, gain = 0.75, bitrate = 70312
+[2022-08-14 16:56:06] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:06] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 31998 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:07] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:56:07] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:56:07] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-14 16:56:08] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 17ms IN: 64233.9kbit 6933.0 pkt/s qual 100.0OUT: 108.1kbit 146.2 pkt/s qual 100.0
+[2022-08-14 16:56:09] Bitrate adapter: state = 2, minRTT = 12, maxRTT = 29, gain = 1.25, bitrate = 87890
+[2022-08-14 16:56:10] SynchronizeClientState(): setting cursor visible
+[2022-08-14 16:56:10] SynchronizeClientState(): setting cursor to 65541
+[2022-08-14 16:56:10] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-14 16:56:10] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:56:13] Bitrate adapter: state = 2, minRTT = 11, maxRTT = 26, gain = 1.25, bitrate = 100000
+[2022-08-14 16:56:13] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 17ms IN: 24013.9kbit 2733.3 pkt/s qual 100.0OUT: 85.7kbit 127.4 pkt/s qual 100.0
+[2022-08-14 16:56:16] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:56:16] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:56:17] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:56:17] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:56:17] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:56:17] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:56:18] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:56:18] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:56:18] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:56:18] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:56:18] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:56:18] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:56:18] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 16ms IN: 9908.3kbit 1267.0 pkt/s qual 100.0OUT: 86.1kbit 128.9 pkt/s qual 100.0
+[2022-08-14 16:56:18] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:56:18] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:56:19] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-14 16:56:19] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-14 16:56:19] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-14 16:56:23] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 17ms IN: 24387.1kbit 2774.6 pkt/s qual 100.0OUT: 86.2kbit 129.2 pkt/s qual 100.0
+[2022-08-14 16:56:28] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 19ms IN: 23557.7kbit 2686.8 pkt/s qual 100.0OUT: 84.4kbit 127.4 pkt/s qual 100.0
+[2022-08-14 16:56:32] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:56:32] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:56:32] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-14 16:56:32] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:56:32] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:56:32] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-14 16:56:33] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 17ms IN: 21738.0kbit 2496.7 pkt/s qual 100.0OUT: 86.2kbit 128.5 pkt/s qual 100.0
+[2022-08-14 16:56:35] SynchronizeClientState(): setting cursor hidden
+[2022-08-14 16:56:35] SynchronizeClientState(): setting cursor to 0
+[2022-08-14 16:56:35] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:56:35] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:56:35] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-14 16:56:35] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-14 16:56:35] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-14 16:56:35] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:56:35] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:56:37] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:56:37] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:56:37] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:56:37] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:56:37] CLIENT: Got control packet k_EStreamControlControllerConfigMsg
+[2022-08-14 16:56:37] CLIENT: Got control packet k_EStreamControlTouchActionSetActive
+[2022-08-14 16:56:37] CLIENT: Got control packet k_EStreamControlTouchConfigActive
+[2022-08-14 16:56:38] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 15ms IN: 61649.7kbit 6656.6 pkt/s qual 100.0OUT: 108.1kbit 146.3 pkt/s qual 100.0
+[2022-08-14 16:56:39] Audio mix: start=198051730728, returned=5756160
+[2022-08-14 16:56:40] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:56:40] SynchronizeClientState(): setting cursor visible
+[2022-08-14 16:56:40] SynchronizeClientState(): setting cursor to 65541
+[2022-08-14 16:56:40] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-14 16:56:40] SynchronizeClientState(): setting cursor hidden
+[2022-08-14 16:56:40] SynchronizeClientState(): setting cursor to 0
+[2022-08-14 16:56:40] CLIENT: Got control packet k_EStreamControlHideCursor
+[2022-08-14 16:56:40] CLIENT: Got control packet k_EStreamControlSetCursor
+[2022-08-14 16:56:41] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:56:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:41] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:43] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 17ms IN: 88905.6kbit 9503.2 pkt/s qual 100.0OUT: 113.4kbit 151.4 pkt/s qual 100.0
+[2022-08-14 16:56:44] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:44] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31998 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:44] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33229 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:44] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34460 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:44] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35691 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:44] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 36922 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:44] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38149 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:44] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39380 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:44] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40611 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:44] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41842 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30826 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32057 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33288 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34519 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35750 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36981 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38212 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39443 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40674 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41905 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:46] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43136 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44367 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45598 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46829 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48060 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49291 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50522 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51753 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:47] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:48] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 16ms IN: 96538.6kbit 10291.4 pkt/s qual 100.0OUT: 108.9kbit 144.9 pkt/s qual 100.0
+[2022-08-14 16:56:50] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:56:51] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:56:53] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 16ms IN: 96211.5kbit 10263.2 pkt/s qual 99.9OUT: 125.1kbit 166.2 pkt/s qual 100.0
+[2022-08-14 16:56:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:55] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:58] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:56:59] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 16ms IN: 96553.4kbit 10300.2 pkt/s qual 100.0OUT: 124.3kbit 162.8 pkt/s qual 100.0
+[2022-08-14 16:57:00] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:57:00] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] SDR: 3 consecutive end-to-end timeouts
+[2022-08-14 16:57:01] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:57:01] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:57:01] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:57:03] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 13ms IN: 61569.9kbit 6646.4 pkt/s qual 100.0OUT: 94.9kbit 135.3 pkt/s qual 100.0
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49240 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50471 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51702 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52933 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54164 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 55395 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 56626 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 57857 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 59088 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 60319 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 61550 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 62781 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 64012 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 65243 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 66474 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 67705 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 68936 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 70167 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 71398 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 72629 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 73860 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 75091 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 76322 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 77553 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 78784 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 80015 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 81246 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 82477 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 83708 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 84939 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31994 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33225 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34456 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35687 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36918 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:07] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38149 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:08] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 16ms IN: 74886.4kbit 8030.4 pkt/s qual 100.0OUT: 105.2kbit 141.8 pkt/s qual 100.0
+[2022-08-14 16:57:09] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:09] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31998 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33229 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34460 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35691 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36922 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38153 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 39384 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40611 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41842 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43073 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44304 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45535 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46766 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 47997 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49228 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50459 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31994 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:11] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33225 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:12] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:57:12] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30816 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:12] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32047 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:14] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] Switched to backup #1 atl#140 (162.254.199.180:27016) (Ping = 53 = 29+13+11 (front+interior+remote).) as primary, from ord#74 (162.254.193.72:27050) (Ping = 39 = 29+1+9 (front+interior+remote).  Connection gap 1919ms.)
+[2022-08-14 16:57:14] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] Selecting ord#74 (162.254.193.72:27050) as backup #1 (Ping = 39 = 29+1+9 (front+interior+remote).  Connection gap 1919ms.)
+[2022-08-14 16:57:14] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 19ms IN: 80895.3kbit 8651.3 pkt/s qual 100.0OUT: 92.9kbit 131.8 pkt/s qual 100.0
+[2022-08-14 16:57:16] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49240 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50471 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51702 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52933 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54164 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 55395 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 56626 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 57857 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 59088 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 42 bytes, queued, 60319 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 53 bytes, queued, 60365 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49240 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50471 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51702 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52933 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54164 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 55395 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 56626 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 57857 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 59088 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 60319 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 61550 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 62781 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 64012 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 65243 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 66474 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 67705 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 68936 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 70167 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 71398 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 72629 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 73860 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 75091 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 76322 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 77553 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 78784 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 825 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:17] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 41 bytes, queued, 31604 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31994 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33225 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34456 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35687 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36918 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38149 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39380 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40611 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41842 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 43073 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44300 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45531 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46762 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 47993 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49224 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50455 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51686 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52917 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54148 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 55379 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 56610 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 57837 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 59068 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 60299 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 61530 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 62761 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 63992 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 65223 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 66454 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 67685 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 68916 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 70147 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 71378 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 72609 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 73840 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 75071 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 76302 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 77533 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 78764 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 79995 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 81226 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 82457 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 83688 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 84919 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 86150 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 87381 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 88612 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 89843 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 91074 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 92305 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 93536 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 94767 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 95998 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 97229 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:18] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 15ms IN: 76506.2kbit 8199.5 pkt/s qual 100.0OUT: 127.6kbit 151.1 pkt/s qual 100.0
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31994 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33225 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34456 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35687 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36918 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38149 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39380 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40611 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41842 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49240 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50471 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51702 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52933 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54164 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 55395 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 56626 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 57857 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 59088 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 60319 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 61550 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 62781 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 64012 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 65243 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 66474 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 67705 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 68936 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 48009 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49240 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50471 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51702 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52933 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54164 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 55395 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 56626 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 57857 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 59088 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 60319 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 61550 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 62781 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 64012 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 65243 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 66474 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 67705 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 68936 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 70167 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 71398 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 72629 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 73860 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 75091 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 76322 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 77553 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 78784 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 80015 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 81246 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 82477 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 83708 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 84939 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 86170 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 87401 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 88632 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 89863 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 91094 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 92325 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 93556 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 94787 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 96018 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 97249 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 98480 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:19] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:20] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:21] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:57:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41854 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43085 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44316 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45547 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:22] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 868 bytes, queued, 46778 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:22] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from atl#140 (162.254.199.180:27016) is OK?  Dropping.
+[2022-08-14 16:57:23] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:23] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:23] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:23] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:23] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:23] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:23] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:23] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:23] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:23] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:23] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:23] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] Switched to backup #1 ord#74 (162.254.193.72:27050) (Ping = 40 = 30+1+9 (front+interior+remote).) as primary, from atl#140 (162.254.199.180:27016) (Ping = 54 = 30+13+11 (front+interior+remote).  Connection gap 1888ms.)
+[2022-08-14 16:57:23] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] Selecting atl#140 (162.254.199.180:27016) as backup #1 (Ping = 54 = 30+13+11 (front+interior+remote).  Connection gap 1888ms.)
+[2022-08-14 16:57:24] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 15ms IN: 96575.2kbit 10285.9 pkt/s qual 100.0OUT: 128.8kbit 153.8 pkt/s qual 100.0
+[2022-08-14 16:57:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31998 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33229 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34460 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35691 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36922 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:24] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38153 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31998 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33229 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34460 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35691 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36922 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38153 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 39384 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40611 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41842 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43073 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44304 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45535 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46766 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 47997 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49228 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50459 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51690 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 52921 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54148 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 55379 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 56610 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 57841 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 59072 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 60303 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 61534 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:28] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 62765 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:29] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 15ms IN: 60785.6kbit 6554.9 pkt/s qual 100.0OUT: 98.8kbit 133.2 pkt/s qual 100.0
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1223 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 31994 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33225 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34456 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35687 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36918 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38149 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39380 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40611 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 41842 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 43073 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 44304 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 45535 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 46766 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 47997 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 49228 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 50459 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 51690 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 52921 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 54152 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 55383 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 56614 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 57845 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 59076 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 60307 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 61538 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 62769 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 64000 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:30] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 65231 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:31] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:57:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30775 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 32006 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 33237 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 34468 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 35699 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 36930 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 38161 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 39392 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 40623 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:31] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30763 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:32] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:57:33] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] SDR: 5 consecutive end-to-end timeouts
+[2022-08-14 16:57:33] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:57:33] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] SDR: 6 consecutive end-to-end timeouts
+[2022-08-14 16:57:33] CLIENT: [SteamNetworkingSockets] CConnectionTransportP2PICE_WebRTC::OnData 1227 bytes, queued, 30767 previously queued LOCK PROBLEM!
+[2022-08-14 16:57:33] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:57:33] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] SDR: 7 consecutive end-to-end timeouts
+[2022-08-14 16:57:33] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:57:34] CLIENT: SteamNetworkingSockets connection: Connected UDP@18.223.213.124:55131 Ping: 13ms IN: 96574.5kbit 10288.6 pkt/s qual 100.0OUT: 103.1kbit 139.0 pkt/s qual 100.0
+[2022-08-14 16:57:34] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] SDR: 8 consecutive end-to-end timeouts
+[2022-08-14 16:57:34] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:57:34] CLIENT: [SteamNetworkingSockets] [#4056792718 P2P ICE steamid:76561199378814893 vport 0] End-to-end sequence number is duplicate or old, or fails to decrypt, but relay sequence number from ord#74 (162.254.193.72:27050) is OK?  Dropping.
+[2022-08-14 16:57:36] CLIENT: Video rect: 1728x1080 at 298,0
+[2022-08-14 16:57:36] CLIENT: Texture rect: 1280x800 at 0,0
+[2022-08-14 16:57:38] "SessionStats"
+[2022-08-14 17:52:03] Streaming initialized and listening on port 0
+[2022-08-14 17:52:07] CLIENT: Sending HID device 0000/11fb/-1  Mobile Touch Control at touch://0
