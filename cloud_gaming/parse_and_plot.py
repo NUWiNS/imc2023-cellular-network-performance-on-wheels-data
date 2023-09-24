@@ -386,7 +386,7 @@ def get_average_df(df):
     """
     result  =   pd.DataFrame(pd.DataFrame(np.mean(df)).T)
     return result  
-def bitrate_info_all(log_files, do_print=True, overwrite=False):
+def get_bitrate_info_all(log_files, do_print=True, overwrite=False):
     """
     """
     regex   =   r"(.*\/.*\/\d{4}_\d{2}_\d{2}_\d{2}_\d{2}_\d{2})\.log"
@@ -450,7 +450,7 @@ def get_app_info_per_operator(operator):
     """
     """
     log_files   =   sorted(glob(APP_LOG_DIR+ operator + '/*.log'))
-    df1 =   bitrate_info_all(log_files).reset_index(drop=True)
+    df1 =   get_bitrate_info_all(log_files).reset_index(drop=True)
     df2  =   get_timing_info_all(log_files).reset_index(drop=True)
     df3 =   get_dropped_frame_info_all(log_files).reset_index(drop=True)
     result  =   pd.concat([df1, df2, df3], axis = 1).drop(columns='TIME_STAMP') 
