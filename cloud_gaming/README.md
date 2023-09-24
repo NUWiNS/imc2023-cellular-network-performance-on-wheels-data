@@ -32,6 +32,8 @@ get_dropped_frame_info_all(log_files, do_print=False, overwrite=False)
 After preprocessing steps, the following metrics of interest are used in the
 paper:
 | Column Name             | Meaning                            | Unit         |
+|-------------------------|------------------------------------|--------------|
 | `bitrate`               | Application average bit rate       | Kbps         |
 | `network`               | Network average end-to-end latency | milliseconds |
 | `Frame drop percentage` | Average frame drop percentage      | percent      |
+
