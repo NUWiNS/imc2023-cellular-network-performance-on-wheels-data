@@ -2,7 +2,7 @@
 
 ## Dataset Structure
 
-For the videoi streaming experiments, we configure each apps to stream videos hosted at the remote cloud/edge server, for each of the three operators. For each operator
+For the video streaming experiments, we configure each apps to stream videos hosted at the remote cloud/edge server, for each of the three operators. For each operator
 we have a pair of files from the application side and xcal side. For ease of use for the reader these files are aggregated, matched and put into one single files for each operator in
 [plot](./plot) folder.
 
