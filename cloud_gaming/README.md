@@ -13,13 +13,13 @@ that operator in a file named '<operator>_all.csv', including the pairing of the
 files and the plotted metrics. For instance,
 get_app_info_per_operator('tmobile') will generate tmobile_all.csv with the
 necessary metrics for T-mobile operators. Then, you can run all the necessary
-function as commented in the scripts.
+functions as commented in the scripts.
 
 ## App Log Format
-The application event logs for cloud gaming do not come automatically in csv
-format to be imports as pandas dataframe. Therefore, a preprocessing step was
+the application event logs for cloud gaming do not come automatically in csv
+format to be imported as pandas dataframes. Therefore, a preprocessing step was
 performed to generate three corresponding csv files for each *.log file. This
-step can reproduced using the three following functions in the [`main
+step can reproduced (though not needed) using the three following functions in the [`main
 script`](./parse_and_plot.py)
 ```python
 # Obtain all bit rate related statistics from event logs
@@ -31,9 +31,22 @@ get_dropped_frame_info_all(log_files, do_print=False, overwrite=False)
 ```
 After preprocessing steps, the following metrics of interest are used in the
 paper:
-| Column Name             | Meaning                            | Unit         |
-|-------------------------|------------------------------------|--------------|
-| `bitrate`               | Application average bit rate       | Kbps         |
-| `network`               | Network average end-to-end latency | milliseconds |
-| `Frame drop percentage` | Average frame drop percentage      | percent      |
+| Column Name             | Meaning                       | Unit         |
+|-------------------------|-------------------------------|--------------|
+| `bitrate`               | Application average bit rate  | Kbps         |
+| `network`               | Network end-to-end latency    | milliseconds |
+| `Frame drop percentage` | Average frame drop percentage | percent      |
 
+
+## Steps to reproduce
+1. Install python3 dependencies
+```bash 
+pip3 install numpy, pandas, geopy, matplotlib
+```
+
+2. Run the [`main script`](./parse_and_plot.py)
+```bash
+python3 plot_and_parse.py
+```
+3. Examine figures  16.a, 16.b, 22.a, 22.b
+ 
