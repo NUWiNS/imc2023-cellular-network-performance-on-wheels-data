@@ -1,4 +1,4 @@
-#360 degree Video Streaming
+# 360 degree Video Streaming
 
 ## Dataset Structure
 
