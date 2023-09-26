@@ -15,6 +15,8 @@ geolocator = Nominatim(user_agent="http")
 from timezonefinder import TimezoneFinder
 obj = TimezoneFinder()
 import geopy.distance
+import warnings
+warnings.filterwarnings("ignore")
 
 arfcn_freq_dict = {'177020' : 885.100, '2083329' : 28249.800, '2071667' : 27550.080, '648672' : 3730.080, '2078331' : 27949.920, '2073333' : 27650.040, '177000' : 885.000, '174800' : 874.000, '175000' : 875.000, '650004' : 3750.060, '2239999' : 37650.000, '125400' : 627.000, '125900' : 629.500, '126400' : 632.000, '126490' :632.450, '126510' : 632.550, '126530' : 632.650, '126900' : 634.500, '506280' : 2531.400, '508296' : 2541.480, '509202' : 2546.010, '514056' : 2570.280, '520020' : 2600.100, '525204' :2626.020, '526002' : 2630.010, '526404' : 2632.020, '527202' : 2636.010, '528000' : 2640.000, '528696' : 2643.480, '529998' : 2649.990, '530700' : 2653.500}
 
@@ -97,7 +99,6 @@ def modify_speed_list(speed_list):
                     recovery_speed = next_10_speed_vals[idx]
                     break
             if recovery_speed == None:
-                print("WTF!")
                 # replace with the average
                 mod_speed_list.append(np.mean(speed_list))
                 prev_speed = current_speed
@@ -114,7 +115,6 @@ def modify_speed_list(speed_list):
             current_idx+=1
     
     if len(speed_list) != len(mod_speed_list):
-        print("WTF 2!")
         sys.exit(1)
 
     return mod_speed_list
@@ -208,15 +208,11 @@ for op in ['verizon', 'tmobile', 'atnt']:
     edge_tech_dict = {"LTE" : [], "LTE-A" : [], "5G-low" : [], "5G-sub6" : [], "5G-mmWave 28 GHz" : [], "5G-mmWave 39 GHz" : []}
     rtt_5g_percent_dict = {}
     color_dict = {"LTE" : "indianred", "LTE-A" : "red", "5G-low" : "greenyellow", "5G-sub6" : "darkolivegreen", "5G-mmWave 28 GHz" : "aqua", "5G-mmWave 39 GHz" : "blue" }
-    ping_path = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc_dataset\rtt\\" + op
+    ping_path = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\rtt\\" + op
     ping_folders = glob.glob(ping_path + "\\run-*")
     ping_lat_lon_dict = []
     for ping_folder in ping_folders:
-        if "atnt" in ping_folder and "run-4" in ping_folder:
-            print()
         lte_only = 0
-        print("*******************")
-        print("Parsing " + ping_folder)
         out_file = glob.glob(ping_folder + "\\*.out")
         df_file = glob.glob(ping_folder + "\\xcal.csv")
         edge_found, rtt_list = get_avg_ping(out_file[0])
@@ -242,7 +238,6 @@ for op in ['verizon', 'tmobile', 'atnt']:
                     df_short_ho = df[df['Event 5G-NR/LTE Events'].str.contains("Handover Success") | df['Event 5G-NR/LTE Events'].str.contains("NR SCG Addition Success") | df['Event 5G-NR/LTE Events'].str.contains("NR SCG Modification Success")]
 
                     if len(df_short_ho) == 0:
-                        print("No HO!")
                         total_count = df_tech[(df_tech['5G KPI PCell RF Frequency [MHz]'].notna())].shape[0]
                         count_greater_than_1000 = df_tech['5G KPI PCell RF Frequency [MHz]'].gt(1000).sum()
                         percentage = count_greater_than_1000/total_count
@@ -374,7 +369,7 @@ for op in ['verizon', 'tmobile', 'atnt']:
                 # lat lon not found 
                 # match it with all dict
                 # if still None, nothing can be done
-                merged_csv_all = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc_dataset\coverage\all_tests_combined.csv"
+                merged_csv_all = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\all_tests_combined.csv"
                 lat_lon_df = df[["TIME_STAMP", "Lat", "Lon"]]
                 lat_lon_df.drop(lat_lon_df.tail(8).index, inplace=True)
                 atnt_df = lat_lon_df
@@ -410,8 +405,6 @@ for op in ['verizon', 'tmobile', 'atnt']:
                     ping_lat_lon_dict.append([lat, lon, avg_rtt, ping_folder])
                     lat_lon_df = df_merged.copy()
                 else:
-                    print("Hopeless data! Wtf!")
-                    print("try once more ")
                     lat_lon_fh = open(ping_folder + "\\lat_lon.txt", "rb")
                     data = lat_lon_fh.readlines()
                     lat, lon = data[0].decode().strip().split(",")
@@ -556,7 +549,7 @@ for op in ['verizon', 'tmobile', 'atnt']:
                                 10.7]
         main_op_dict[op].append([vegas_county_lat, vegas_county_lon, vegas_vz_driving_ping])
         # for this vegas run, get speed
-        ping_vegas_df = pd.read_csv(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc_dataset\rtt\verizon\vegas_ping.csv")
+        ping_vegas_df = pd.read_csv(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\rtt\verizon\vegas_ping.csv")
         ping_vegas_df.drop(ping_vegas_df.tail(8).index,inplace=True)
         ping_vegas_df["TIME_STAMP"] = ping_vegas_df["TIME_STAMP"].apply(datetime_to_timestamp)
         speed_list = get_speed_for_df(ping_vegas_df)
@@ -583,7 +576,7 @@ for op in ['verizon', 'tmobile', 'atnt']:
         op_speed_dict[op].extend([0] * len(rtt_list))
         op_rtt_dict[op].extend(rtt_list)
         op_tech_dict[op].extend(['5G-mmWave 39 GHz'] * len(rtt_list))
-filehandler = open(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc_dataset\rtt\processed\rtt_all.pkl", "wb")
+filehandler = open(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\rtt\processed\main_op_link_dict.pkl", "wb")
 lst = [main_op_dict, main_rtt_5g_dict, main_rtt_tech_dict, main_edge_tech_dict, op_speed_dict, op_rtt_dict, op_tech_dict]
 pickle.dump(lst, filehandler)
 filehandler.close()

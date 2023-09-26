@@ -17,6 +17,8 @@ import geopy.distance
 import time
 from collections import OrderedDict
 import scipy.stats
+import warnings
+warnings.filterwarnings("ignore")
 
 earfcn_freq_dict = {'1099' : 1979.90, '1100' : 1980.00, '1123' : 1982.30, '1125' : 1982.50, '1126' : 1982.60, '1148' : 1984.80, '1150' : 1985.00, '2000' : 2115.00, '2050' : 2120.00, '2125' : 2127.50, '2175' : 2132.50, '2200' : 2135.00, '2225' : 2137.50, '2300' : 2145.00, '2325' : 2147.50, '2460': 875.0,  '39750' : 2506.00, '39907' : 2521.70, '39948' : 2525.80, '40072' : 2538.20, '40384' : 2569.40, '40770' : 2608.00, '40810' : 2612.00, '41176' : 2648.60, '41238' : 2654.80, '41490' : 2680.00, '5035' : 731.50, '5090' : 737, '5095' : 737.50, '5110' : 739.00, '5330' : 763.00, '5780' : 739, '5815': 742.5, '66486': 2115.00, '66487' : 2115.10, '66536' : 2120.00, '66561' : 2122.5, '66586' : 2125, '66661' : 2132.50, '66686' : 2135, '66711' : 2137.50, '66736' : 2140.00, '66786' : 2145.00, '66811': 2147.5, '66836': 2150, '66886': 2150, '66911': 2150, '66961': 2150, '66986' : 2165.00, '67011': 2167.5, '675' : 1937.50, '676': 1937.6, '677': 1937.7, '68611': 619.5, '68636': 622, '68661': 624.5, '68686': 627, '68786': 637, '68836': 637, '68861': 637, '68886': 637, '68911': 649.5, '700' : 1940.00, '725': 1942.5, '750': 1942.5, '775': 1942.5, '801': 1950.1, '8115': 1937.5, '825': 1952.5, '8264': 1952.4, '8290': 1952.4, '8315': 1952.4, '8465': 1972.5, '850' : 1955.00, '851': 1955.1, '852': 1955.1, '8539': 1979.9, '8562': 1982.2, '8640': 1982.2, '8665': 1992.5, '875' : 1957.50, '876': 1957.6, '8763': 866.3, '877': 1957.7, '8950': 885, '901': 1960.1, '925' : 1962.50, '41305' : 2661.50, '66761' : 2142.50, '1000' : 1970.00, '1025' :  1972.50, '1050' : 1975, '1075' : 1977.50, '1125' : 1982.50 , '2100' : 2125.00, '2450' : 874.0, '2460' : 875.0, '2559' : 884.90, '2560' : 885.00, '2561' : 885.10, '2600' : 889.00, '5230' : 751.00, '5780' : 739.00, '66486' : 2115.00, '66536' : 2120.00, '66561' : 2122.50, '66586' : 2125.00, '66611' : 2127.50, '66636' : 2130.0, '66686' : 2135.00, '66711' : 2137.50, '66761' : 2142.50, '66786' : 2145.00, '66811' : 2147.50, '66836' : 2150.00, '66911' : 2157.50, '66936' : 2160.00, '66986' : 2165.00, '67011' : 2167.50, '67086' : 2175.00, '750' : 1945.00, '775' : 1947.50, '825' : 1952.50, '925' : 1962.50, '950' : 1965.00, '975' : 1967.50, '800' : 1950, '1025' :  1972.50, '1075' : 1977.50, '1100' : 1980.00, '1125' : 1982.50, '1150' : 1985.00, '2175' : 2132.50, '41094' : 2640.40, '41490' : 2680.00, '5035' : 731.50, '5090' : 737.00, '5110' : 739.00, '5145' : 742.50, '5330' : 763.00, '625' : 1932.50, '650' : 1935.00, '66461' : 2112.50, '66486' : 2115.00, '66511' : 2117.50, '66611' : 2127.50, '66661' : 2132.50, '66686' : 2135.00, '66711' : 2137.50, '66736' : 2140.00, '66786' : 2145.00, '66936' : 2160.00, '66985' : 2164.90, '66986' : 2165.00, '67086' : 2175.00, '675' : 1937.50, '700' : 1940.00, '800' : 1950.00, '850' : 1955.00, '875' : 1957.50, '900' : 1960.00, '925' : 1962.50, '950' : 1965, '9820' : 765.00}
 
@@ -60,7 +62,6 @@ def modify_speed_list(speed_list):
                     recovery_speed = next_10_speed_vals[idx]
                     break
             if recovery_speed == None:
-                print("WTF!")
                 # replace with the average
                 mod_speed_list.append(np.mean(speed_list))
                 prev_speed = current_speed
@@ -77,7 +78,6 @@ def modify_speed_list(speed_list):
             current_idx+=1
     
     if len(speed_list) != len(mod_speed_list):
-        print("WTF 2!")
         sys.exit(1)
 
     return mod_speed_list
@@ -103,7 +103,7 @@ def get_tz_info(first_lat_lon, last_lat_lon):
             temp_last_tz = 'America/New_York'
         
         if temp_first_tz != temp_last_tz:
-            print("WTF! Return start TZ")
+            print("Return start TZ")
         
         return temp_first_tz
     except Exception as ex:
@@ -237,7 +237,6 @@ def get_speed_dl_tput_ca_verizon(df_main, df_short_tput):
                     
             # last check -> if still empty continue
             if lte_empty == True and fiveg_empty == True:
-                # print("CA empty!")
                 continue
         total_cell_count = fiveg_cell_count + lte_cell_count
         current_lat_lon = (lat, lon)
@@ -259,13 +258,11 @@ def get_speed_dl_tput_ca_verizon(df_main, df_short_tput):
                 else:
                     prev_lat_lon = (lat, lon)
                     prev_ts = ts
-                    # print("Different trace?")
                     continue
 
             else:
                 prev_lat_lon = (lat, lon)
                 prev_ts = ts
-                # print("Different trace? - 2")
                 continue
 
         elif distance_current == 0:
@@ -277,7 +274,6 @@ def get_speed_dl_tput_ca_verizon(df_main, df_short_tput):
         if round(speed) > 150:
             prev_lat_lon = (lat, lon)
             prev_ts = ts
-            # print("Speed > 150!")
             continue
         
         # if speed > 0 and speed < 1:
@@ -289,8 +285,6 @@ def get_speed_dl_tput_ca_verizon(df_main, df_short_tput):
             speed = random.randint(0, 20)
 
         if pd.isnull(fiveg_mcs) and pd.isnull(lte_mcs):
-            # print("That is weird!")
-            # let's backtrack 1 second - mcs
             main_index = short_index - 1
             found = 0
             while ts - df_main.iloc[main_index]["TIME_STAMP"] <= 1.0:
@@ -322,8 +316,6 @@ def get_speed_dl_tput_ca_verizon(df_main, df_short_tput):
             mcs_list.append(fiveg_mcs)
 
         if pd.isnull(fiveg_bler) and pd.isnull(lte_bler):
-            # print("That is weird! - BLER")
-            # "LTE KPI PDSCH BLER[%]", "5G KPI PCell Layer1 DL BLER [%]"
             # let's backtrack 1 second - bler
             main_index = short_index - 1
             found = 0
@@ -356,8 +348,6 @@ def get_speed_dl_tput_ca_verizon(df_main, df_short_tput):
             bler_list.append(fiveg_bler)
 
         if pd.isnull(fiveg_rsrp) and pd.isnull(lte_rsrp):
-            # print("That is weird! - RSRP")
-            # 'LTE KPI PCell Serving RSRP[dBm]', '5G KPI PCell RF Serving SS-RSRP [dBm]'
             # let's backtrack 1 second - rsrp
             main_index = short_index - 1
             found = 0
@@ -413,8 +403,6 @@ def get_speed_dl_tput_ca_verizon(df_main, df_short_tput):
         if 0 in percentages.keys():
             if percentages[0] > 85:
                 #static run
-                # global_static_removed_dl_df.append(df_current)
-                print()
                 pass                            
             else:
                 for speed, dist, tput, ca, fiveg_ca, lte_ca, tz_temp, mcs, bler, rsrp, wl in zip(speed_list, dist_list, tput_current_list, ca_list, fiveg_ca_list, lte_ca_list, tz_list, mcs_list, bler_list, rsrp_list, wl_list):
@@ -681,7 +669,6 @@ def get_speed_ul_tput_ca_verizon(df_main, df_short_tput):
             speed = random.randint(0, 20)
 
         if pd.isnull(fiveg_mcs) and pd.isnull(lte_mcs):
-            print("That is weird!")
             # let's backtrack 1 second - mcs
             main_index = short_index - 1
             found = 0
@@ -714,8 +701,6 @@ def get_speed_ul_tput_ca_verizon(df_main, df_short_tput):
             mcs_list.append(fiveg_mcs)
 
         if pd.isnull(fiveg_bler) and pd.isnull(lte_bler):
-            print("That is weird! - BLER")
-            # "LTE KPI PDSCH BLER[%]", "5G KPI PCell Layer1 DL BLER [%]"
             # let's backtrack 1 second - bler
             main_index = short_index - 1
             found = 0
@@ -748,8 +733,6 @@ def get_speed_ul_tput_ca_verizon(df_main, df_short_tput):
             bler_list.append(fiveg_bler)
 
         if pd.isnull(fiveg_rsrp) and pd.isnull(lte_rsrp):
-            # print("That is weird! - RSRP")
-            # 'LTE KPI PCell Serving RSRP[dBm]', '5G KPI PCell RF Serving SS-RSRP [dBm]'
             # let's backtrack 1 second - rsrp
             main_index = short_index - 1
             found = 0
@@ -1055,7 +1038,6 @@ def get_speed_dl_tput_ca_tmobile(df_main, df_short_tput):
             speed = random.randint(0, 20)
 
         if pd.isnull(fiveg_mcs) and pd.isnull(lte_mcs):
-            print("That is weird!")
             # let's backtrack 1 second - mcs
             main_index = short_index - 1
             found = 0
@@ -1089,8 +1071,6 @@ def get_speed_dl_tput_ca_tmobile(df_main, df_short_tput):
 
 
         if pd.isnull(fiveg_bler) and pd.isnull(lte_bler):
-            print("That is weird! - BLER")
-            # "LTE KPI PDSCH BLER[%]", "5G KPI PCell Layer1 DL BLER [%]"
             # let's backtrack 1 second - bler
             main_index = short_index - 1
             found = 0
@@ -1123,8 +1103,6 @@ def get_speed_dl_tput_ca_tmobile(df_main, df_short_tput):
             bler_list.append(fiveg_bler)
 
         if pd.isnull(fiveg_rsrp) and pd.isnull(lte_rsrp):
-            # print("That is weird! - RSRP")
-            # 'LTE KPI PCell Serving RSRP[dBm]', '5G KPI PCell RF Serving SS-RSRP [dBm]'
             # let's backtrack 1 second - rsrp
             main_index = short_index - 1
             found = 0
@@ -1437,7 +1415,6 @@ def get_speed_ul_tput_ca_tmobile(df_main, df_short_tput):
             speed = random.randint(0, 20)
 
         if pd.isnull(fiveg_mcs) and pd.isnull(lte_mcs):
-            print("That is weird!")
             # let's backtrack 1 second - mcs
             main_index = short_index - 1
             found = 0
@@ -1470,8 +1447,6 @@ def get_speed_ul_tput_ca_tmobile(df_main, df_short_tput):
             mcs_list.append(fiveg_mcs)
 
         if pd.isnull(fiveg_bler) and pd.isnull(lte_bler):
-            print("That is weird! - BLER")
-            # "LTE KPI PDSCH BLER[%]", "5G KPI PCell Layer1 DL BLER [%]"
             # let's backtrack 1 second - bler
             main_index = short_index - 1
             found = 0
@@ -1504,8 +1479,6 @@ def get_speed_ul_tput_ca_tmobile(df_main, df_short_tput):
             bler_list.append(fiveg_bler)
 
         if pd.isnull(fiveg_rsrp) and pd.isnull(lte_rsrp):
-            # print("That is weird! - RSRP")
-            # 'LTE KPI PCell Serving RSRP[dBm]', '5G KPI PCell RF Serving SS-RSRP [dBm]'
             # let's backtrack 1 second - rsrp
             main_index = short_index - 1
             found = 0
@@ -1801,7 +1774,6 @@ def get_speed_dl_tput_ca_atnt(df_main, df_short_tput):
             speed = random.randint(0, 20)
 
         if pd.isnull(fiveg_mcs) and pd.isnull(lte_mcs):
-            print("That is weird!")
             # let's backtrack 1 second - mcs
             main_index = short_index - 1
             found = 0
@@ -1835,8 +1807,6 @@ def get_speed_dl_tput_ca_atnt(df_main, df_short_tput):
 
 
         if pd.isnull(fiveg_bler) and pd.isnull(lte_bler):
-            print("That is weird! - BLER")
-            # "LTE KPI PDSCH BLER[%]", "5G KPI PCell Layer1 DL BLER [%]"
             # let's backtrack 1 second - bler
             main_index = short_index - 1
             found = 0
@@ -1869,8 +1839,6 @@ def get_speed_dl_tput_ca_atnt(df_main, df_short_tput):
             bler_list.append(fiveg_bler)
 
         if pd.isnull(fiveg_rsrp) and pd.isnull(lte_rsrp):
-            # print("That is weird! - RSRP")
-            # 'LTE KPI PCell Serving RSRP[dBm]', '5G KPI PCell RF Serving SS-RSRP [dBm]'
             # let's backtrack 1 second - rsrp
             main_index = short_index - 1
             found = 0
@@ -2169,7 +2137,6 @@ def get_speed_ul_tput_ca_atnt(df_main, df_short_tput):
             speed = random.randint(0, 20)
 
         if pd.isnull(fiveg_mcs) and pd.isnull(lte_mcs):
-            print("That is weird!")
             # let's backtrack 1 second - mcs
             main_index = short_index - 1
             found = 0
@@ -2202,8 +2169,6 @@ def get_speed_ul_tput_ca_atnt(df_main, df_short_tput):
             mcs_list.append(fiveg_mcs)
 
         if pd.isnull(fiveg_bler) and pd.isnull(lte_bler):
-            print("That is weird! - BLER")
-            # "LTE KPI PDSCH BLER[%]", "5G KPI PCell Layer1 DL BLER [%]"
             # let's backtrack 1 second - bler
             main_index = short_index - 1
             found = 0
@@ -2236,8 +2201,6 @@ def get_speed_ul_tput_ca_atnt(df_main, df_short_tput):
             bler_list.append(fiveg_bler)
 
         if pd.isnull(fiveg_rsrp) and pd.isnull(lte_rsrp):
-            # print("That is weird! - RSRP")
-            # 'LTE KPI PCell Serving RSRP[dBm]', '5G KPI PCell RF Serving SS-RSRP [dBm]'
             # let's backtrack 1 second - rsrp
             main_index = short_index - 1
             found = 0
@@ -2381,7 +2344,7 @@ def get_speed_ul_tput_ca_atnt(df_main, df_short_tput):
     return [speed_tput_tuple, speed_ca_tuple, speed_fiveg_ca_tuple, speed_lte_ca_tuple, speed_tz_tuple, speed_dist_tuple, speed_mcs_tuple, speed_bler_tuple, speed_rsrp_tuple]
 
 
-base = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc_dataset\tput\driving"
+base = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\driving"
 main_op_link_dict = {"verizon" : {"dl" : 0, "ul" : 0}, "tmobile" : {"dl" : 0, "ul" : 0}, "atnt" : {"dl" : 0, "ul" : 0}}
 for op in ["verizon", "tmobile", "atnt"]:
     for link in ["dl", "ul"]:

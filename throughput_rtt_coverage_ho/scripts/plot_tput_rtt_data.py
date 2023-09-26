@@ -61,7 +61,7 @@ def parse_tput(filename):
         print("weird! this should not happen!")
         sys.exit(1)
     if run_type not in filename:
-        print("Weird!")
+        print("!")
     tput_list = np.array(tput_list[20:])
     arr_len = int((len(tput_list) // 10) * 10)
     tput_list = tput_list[:arr_len]
@@ -139,22 +139,22 @@ def plot_static_cdf_3a(base, plot_path):
         dl_linspace = np.linspace(0, 1, sorted_dl_data.size)
         sorted_ul_data = np.sort(static_ul_list)
         ul_linspace = np.linspace(0, 1, sorted_ul_data.size)
-        print("********************")
-        print("Op is " + op)
-        print("Min dl tput = " + str(np.quantile(sorted_dl_data, 0)))
-        print("Median dl tput = " + str(np.median(sorted_dl_data)))
-        print("75 percentile dl tput = " + str(np.quantile(sorted_dl_data, 0.75)))
-        print("Max dl tput = " + str(np.quantile(sorted_dl_data, 1)))
+        # print("********************")
+        # print("Op is " + op)
+        # print("Min dl tput = " + str(np.quantile(sorted_dl_data, 0)))
+        # print("Median dl tput = " + str(np.median(sorted_dl_data)))
+        # print("75 percentile dl tput = " + str(np.quantile(sorted_dl_data, 0.75)))
+        # print("Max dl tput = " + str(np.quantile(sorted_dl_data, 1)))
         # print("100 percentile dl tput = " + str(np.quantile(sorted_dl_data, 1)))
-        print("Min ul tput = " + str(np.quantile(sorted_ul_data, 0)))
-        print("Median ul tput = " + str(np.median(sorted_ul_data)))
-        print("75 percentile ul tput = " + str(np.quantile(sorted_ul_data, 0.75)))
-        print("Max ul tput = " + str(np.quantile(sorted_ul_data, 1)))
+        # print("Min ul tput = " + str(np.quantile(sorted_ul_data, 0)))
+        # print("Median ul tput = " + str(np.median(sorted_ul_data)))
+        # print("75 percentile ul tput = " + str(np.quantile(sorted_ul_data, 0.75)))
+        # print("Max ul tput = " + str(np.quantile(sorted_ul_data, 1)))
         # print("100 percentile ul tput = " + str(np.quantile(sorted_ul_data, 1)))
-        print("Min ping = " + str(np.quantile(sorted_ping_data, 0)))
-        print("Median ping tput = " + str(np.median(sorted_ping_data)))
-        print("75 percentile ping = " + str(np.quantile(sorted_ping_data, 0.75)))
-        print("Max ping = " + str(np.quantile(sorted_ping_data, 1)))
+        # print("Min ping = " + str(np.quantile(sorted_ping_data, 0)))
+        # print("Median ping tput = " + str(np.median(sorted_ping_data)))
+        # print("75 percentile ping = " + str(np.quantile(sorted_ping_data, 0.75)))
+        # print("Max ping = " + str(np.quantile(sorted_ping_data, 1)))
         # print("100 percentile ping = " + str(np.quantile(sorted_ping_data, 1)))
         ax[0].plot(sorted_dl_data, dl_linspace, label=operator_dict[op], color=color_dict[op], linewidth=4)
         ax[0].set_xlabel("DL Throughput (Mbps)", fontsize=25)
@@ -405,11 +405,11 @@ def plot_fig_7(main_op_link_tput_dict, plot_path):
     label_dict = {'LTE' : 'LTE', 'LTE-A' : 'LTE-A', '5G-low' : '5G-low', '5G-sub6' : '5G-mid', '5G-mmWave 28 GHz' : '5G-mmWave (28 GHz)', '5G-mmWave 39 GHz' : '5G-mmWave (39 GHz)'}
     color_dict = {"LTE" : "#08710C", "LTE-A" : "#70CA32", "5G-low" : "#F3FF33", "5G-sub6" : "#FFB233", "5G-mmWave 28 GHz" : "#FF4629", "5G-mmWave 39 GHz" : "#CB0404" }
     for op in ["verizon", "tmobile", "atnt"]:
-        print("****************************************************")
-        print("Operator is == " + op)
+        # print("****************************************************")
+        # print("Operator is == " + op)
         for link in ["dl", "ul"]:
-            print("Link is == " + link)
-            print("****************************************************")
+            # print("Link is == " + link)
+            # print("****************************************************")
             tput_speed_tech_dict = main_op_link_tput_dict[op][link][0]
             if 1:
                 fig, ax = plt.subplots(figsize=(20, 5))
@@ -485,11 +485,7 @@ def plot_fig_8(main_op_link_rtt_dict, plot_path):
             tech_key = grouped_dataframe['Tech'].iloc[0]
             if "mmWave" in tech_key and "39" in tech_key and op == "verizon":
                 continue
-            if "mmWave" in tech_key and op == "atnt":
-                print()
             unique_speeds, speed_latencies = return_speed_latency(grouped_dataframe)
-            print()
-
             x_val, y_val = zip(*sorted(zip(unique_speeds, speed_latencies)))
             for xe, ye in zip(x_val, y_val):
                 ax[count].scatter([xe] * len(ye), ye, color= color_dict[tech_key], marker=".")
@@ -646,22 +642,22 @@ def plot_fig_9(main_op_link_tput_dict, main_op_link_rtt_dict, plot_path):
     plt.close()
 
 # load tput processed data
-base_tput = r'C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc_dataset\tput'
+base_tput = r'C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput'
 filehandler = open(base_tput + r'\driving\processed\main_op_link_dict.pkl', "rb")
 # main_op_link_tput_dict format == [tput_speed_tech_dict, ca_speed_tech_dict, fiveg_ca_speed_dict, lte_ca_speed_dict, tput_tz_tech_dict, dist_speed_tech_dict, mcs_speed_dict, bler_speed_dict, rsrp_speed_dict, wl_speed_dict, overall_mean_list, overall_std_list, overall_5g_high_percent]
 main_op_link_tput_dict = pickle.load(filehandler)
 filehandler.close()
 
 # load rtt processed data
-base_rtt = r'C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc_dataset\rtt'
+base_rtt = r'C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\rtt'
 filehandler = open(base_rtt + "\\" + r'processed\main_op_link_dict.pkl', "rb")
 # main_op_link_rtt_dict format == [main_op_rtt_dict, main_rtt_5g_dict, main_rtt_tech_dict, main_rtt_edge_tech_dict, op_speed_dict, op_rtt_dict, op_tech_dict] 
 main_op_link_rtt_dict = pickle.load(filehandler)
 filehandler.close()
 
 # static CDF 3-a
-base = r'C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc_dataset\tput\static'
-plot_path = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc_dataset\plots"
+base = r'C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\static'
+plot_path = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots"
 plot_static_cdf_3a(base, plot_path)
 # static CDF 3-b
 plot_driving_cdf_3b(main_op_link_tput_dict, main_op_link_rtt_dict, plot_path)
