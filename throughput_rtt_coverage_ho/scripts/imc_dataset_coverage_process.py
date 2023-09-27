@@ -10,7 +10,7 @@ vz_phone_num_list = [6178231553, 6174291464, 6174294649]
 tmobile_phone_num_list = [18576930597, 18576930598, 18576930599]
 atnt_phone_num_list = [18573612771, 18573526798]
 
-df_all = pd.read_csv(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\all_tests_combined.csv")
+df_all = pd.read_csv(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\all_tests_combined.csv")
 df_all.drop(df_all.head(5).index,inplace=True)
 df_all = df_all.reset_index()
 not_yet_started = 0
@@ -156,7 +156,7 @@ for index, row in df_all.iterrows():
                     current_line = tmobile_phone_num_list[0]
 
 
-filehandler = open(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\processed\operator_break_unsorted.pkl", "wb")
+filehandler = open(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\processed\operator_break_unsorted.pkl", "wb")
 pickle.dump(df_dict,filehandler)
 filehandler.close()
 

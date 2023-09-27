@@ -642,22 +642,22 @@ def plot_fig_9(main_op_link_tput_dict, main_op_link_rtt_dict, plot_path):
     plt.close()
 
 # load tput processed data
-base_tput = r'C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput'
+base_tput = r'C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput'
 filehandler = open(base_tput + r'\driving\processed\main_op_link_dict.pkl', "rb")
 # main_op_link_tput_dict format == [tput_speed_tech_dict, ca_speed_tech_dict, fiveg_ca_speed_dict, lte_ca_speed_dict, tput_tz_tech_dict, dist_speed_tech_dict, mcs_speed_dict, bler_speed_dict, rsrp_speed_dict, wl_speed_dict, overall_mean_list, overall_std_list, overall_5g_high_percent]
 main_op_link_tput_dict = pickle.load(filehandler)
 filehandler.close()
 
 # load rtt processed data
-base_rtt = r'C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\rtt'
+base_rtt = r'C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\rtt'
 filehandler = open(base_rtt + "\\" + r'processed\main_op_link_dict.pkl', "rb")
 # main_op_link_rtt_dict format == [main_op_rtt_dict, main_rtt_5g_dict, main_rtt_tech_dict, main_rtt_edge_tech_dict, op_speed_dict, op_rtt_dict, op_tech_dict] 
 main_op_link_rtt_dict = pickle.load(filehandler)
 filehandler.close()
 
 # static CDF 3-a
-base = r'C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\static'
-plot_path = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots"
+base = r'C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\static'
+plot_path = r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots"
 plot_static_cdf_3a(base, plot_path)
 # static CDF 3-b
 plot_driving_cdf_3b(main_op_link_tput_dict, main_op_link_rtt_dict, plot_path)
