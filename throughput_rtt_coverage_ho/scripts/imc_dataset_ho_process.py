@@ -16,7 +16,6 @@ obj = TimezoneFinder()
 import geopy.distance
 import time
 from collections import OrderedDict
-import scipy.stats
 import warnings
 warnings.filterwarnings("ignore")
 

@@ -16,7 +16,6 @@ obj = TimezoneFinder()
 import geopy.distance
 import time
 from collections import OrderedDict
-import scipy.stats
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 import matplotlib.patches as patches
 
