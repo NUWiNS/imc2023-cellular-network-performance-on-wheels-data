@@ -11,9 +11,10 @@ This sub-dataset is divided into 4 sections:
 The respective raw data (application + XCAL) are in the aforementioned directories. Additionally, there are processed data under each subdirectory with a subfolder named "processed".
 
 [`scripts`](./scripts) folder contains scripts starting with "imc_dataset_*_process.py" to generate the processed data. Scripts starting with "plot_*.py" generates figures 1 to 13 in the IMC paper.  
+
 Note: The dataset already contains processed data to generate the plots used in the IMC paper, and processing scripts are provided as a starting point for users to extract various KPIs (used in the paper) according to their specific requirements
 
-## Steps to Reproduce IMC Paper Plots
+## Steps to Reproduce IMC Paper Plots (Use a Windows system to generate the plots)
 
 1. Install dependencies with pip:
     ```bash
