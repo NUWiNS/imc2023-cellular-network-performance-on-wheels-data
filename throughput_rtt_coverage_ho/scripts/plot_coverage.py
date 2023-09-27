@@ -10,9 +10,11 @@ import os
 from collections import defaultdict
 from geopy.geocoders import Nominatim
 import geopy.distance
+from operator import add
 geolocator = Nominatim(user_agent="http")
 from timezonefinder import TimezoneFinder
 obj = TimezoneFinder()
+from matplotlib.lines import Line2D
 
 vz_phone_num_list = [6178231553, 6174291464, 6174294649]
 tmobile_phone_num_list = [18576930597, 18576930598, 18576930599]
@@ -54,14 +56,14 @@ def remove_static(df_all, op):
     global skip_ts_start_list
     global skip_ts_end_list
     if (op == "atnt" or op == "tmobile") and (len(skip_ts_start_list) > 0 or len(skip_ts_end_list) > 0):
-        print("WTF is happening! The lists should be empty!")
+        print("Ehh!  is happening! The lists should be empty!")
         sys.exit(1)
     if op == "verizon":
-        df_static_list = glob.glob(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\static\verizon\*.csv")
+        df_static_list = glob.glob(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\static\verizon\*.csv")
     elif op == "tmobile":
-        df_static_list = glob.glob(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\static\tmobile\*.csv")
+        df_static_list = glob.glob(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\static\tmobile\*.csv")
     elif op == "atnt":
-        df_static_list = glob.glob(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\static\atnt\*.csv")
+        df_static_list = glob.glob(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\static\atnt\*.csv")
     
     ts_list = []
     for df_temp in df_static_list:
@@ -106,12 +108,11 @@ def modify_atnt_df(atnt_df):
     df_merged = pd.merge_asof(atnt_null_df, all_time_lat_lon_all, on="TIME_STAMP", direction="nearest", tolerance=300)
     df_atnt = pd.concat([atnt_not_null_df, df_merged])
     df_atnt = df_atnt.sort_values("TIME_STAMP")
-    # df_atnt.to_csv(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\atnt\tput_merge_one_user\csvs\ATNT_UL_STATIC_ONE_USER_ALL_MOD.csv")
     return df_atnt
 
 
-if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\processed\dist_tz_speed_operator.pkl"):
-    filehandler = open(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\processed\operator_break_unsorted.pkl", "rb")
+if not os.path.exists(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\processed\dist_tz_speed_operator.pkl"):
+    filehandler = open(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\processed\operator_break_unsorted.pkl", "rb")
     operator_wise_df = pickle.load(filehandler)
     filehandler.close()
 
@@ -241,7 +242,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                     count+=1
                 
                 fig_tech.update_layout(geo_scope="usa", showlegend=False)
-                fig_tech.write_image(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1e.pdf")
+                fig_tech.write_image(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1e.pdf")
 
         tmobile_parse = True
         if tmobile_parse:
@@ -363,7 +364,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                     count+=1
                 
                 fig_tech.update_layout(showlegend=False, geo_scope="usa")
-                fig_tech.write_image(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1f.pdf")
+                fig_tech.write_image(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1f.pdf")
 
         atnt_parse = True
         if atnt_parse:
@@ -486,7 +487,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                     count+=1
                 
                 fig_tech.update_layout(showlegend=False, geo_scope="usa")
-                fig_tech.write_image(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1g.pdf")
+                fig_tech.write_image(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1g.pdf")
 
 
     tech_parse_distance = True
@@ -587,7 +588,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         cur_ts, cur_lat, cur_lon = tple
                         if (cur_ts - prev_ts) < 0:
                             #not sorted
-                            print("WTF!")
+                            print("Ehh! !")
                             # sys.exit(1)
                         elif (cur_ts - prev_ts) > 5:
                             # probably different run
@@ -597,7 +598,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         else:
                             distance = geopy.distance.geodesic((cur_lat, cur_lon), (prev_lat, prev_lon)).miles
                             if distance > 0.3:
-                                print("WTF!")
+                                print("Ehh! !")
                             else:
                                 total_dist+=distance
                                 dist_dict[tech]+=distance
@@ -617,7 +618,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         cur_ts, cur_lat, cur_lon = tple
                         if (cur_ts - prev_ts) < 0:
                             #not sorted
-                            print("WTF!")
+                            print("Ehh! !")
                             # sys.exit(1)
                         elif (cur_ts - prev_ts) > 5:
                             # probably different run
@@ -627,7 +628,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         else:
                             distance = geopy.distance.geodesic((cur_lat, cur_lon), (prev_lat, prev_lon)).miles
                             if distance > 0.3:
-                                print("WTF!")
+                                print("Ehh! !")
                             else:
                                 temp_tz = obj.timezone_at(lng=cur_lon, lat=cur_lat)
                                 if "Indiana" in temp_tz:
@@ -635,7 +636,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                                 elif temp_tz == 'America/Phoenix':
                                     temp_tz = 'America/Denver'
                                 if temp_tz not in list(tz_name_dict.keys()) and temp_tz != 'Etc/GMT':
-                                    print("WTF")
+                                    print("Ehh! ")
                                 if temp_tz in list(tz_name_dict.keys()):
                                     timezone = tz_name_dict[temp_tz]
                                     total_dist[timezone]+=distance
@@ -737,7 +738,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         cur_ts, cur_lat, cur_lon = tple
                         if (cur_ts - prev_ts) < 0:
                             #not sorted
-                            print("WTF!")
+                            print("Ehh! !")
                             # sys.exit(1)
                         elif (cur_ts - prev_ts) > 5:
                             # probably different run
@@ -747,7 +748,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         else:
                             distance = geopy.distance.geodesic((cur_lat, cur_lon), (prev_lat, prev_lon)).miles
                             if distance > 0.3:
-                                print("WTF!")
+                                print("Ehh! !")
                             else:
                                 total_dist+=distance
                                 dist_dict[tech]+=distance
@@ -768,7 +769,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         cur_ts, cur_lat, cur_lon = tple
                         if (cur_ts - prev_ts) < 0:
                             #not sorted
-                            print("WTF!")
+                            print("Ehh! !")
                             # sys.exit(1)
                         elif (cur_ts - prev_ts) > 5:
                             # probably different run
@@ -778,7 +779,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         else:
                             distance = geopy.distance.geodesic((cur_lat, cur_lon), (prev_lat, prev_lon)).miles
                             if distance > 0.3:
-                                print("WTF!")
+                                print("Ehh! !")
                             else:
                                 temp_tz = obj.timezone_at(lng=cur_lon, lat=cur_lat)
                                 if "Indiana" in temp_tz:
@@ -786,7 +787,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                                 elif temp_tz == 'America/Phoenix':
                                     temp_tz = 'America/Denver'
                                 if temp_tz not in list(tz_name_dict.keys()) and temp_tz != 'Etc/GMT':
-                                    print("WTF")
+                                    print("Ehh! ")
                                 if temp_tz in list(tz_name_dict.keys()):
                                     timezone = tz_name_dict[temp_tz]
                                     total_dist[timezone]+=distance
@@ -891,7 +892,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         cur_ts, cur_lat, cur_lon = tple
                         if (cur_ts - prev_ts) < 0:
                             #not sorted
-                            print("WTF!")
+                            print("Ehh! !")
                             # sys.exit(1)
                         elif (cur_ts - prev_ts) > 5:
                             # probably different run
@@ -901,7 +902,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         else:
                             distance = geopy.distance.geodesic((cur_lat, cur_lon), (prev_lat, prev_lon)).miles
                             if distance > 0.3:
-                                print("WTF!")
+                                print("Ehh! !")
                             else:
                                 total_dist+=distance
                                 dist_dict[tech]+=distance
@@ -922,7 +923,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         cur_ts, cur_lat, cur_lon = tple
                         if (cur_ts - prev_ts) < 0:
                             #not sorted
-                            print("WTF!")
+                            print("Ehh! !")
                             # sys.exit(1)
                         elif (cur_ts - prev_ts) > 5:
                             # probably different run
@@ -932,7 +933,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         else:
                             distance = geopy.distance.geodesic((cur_lat, cur_lon), (prev_lat, prev_lon)).miles
                             if distance > 0.3:
-                                print("WTF!")
+                                print("Ehh! !")
                             else:
                                 temp_tz = obj.timezone_at(lng=cur_lon, lat=cur_lat)
                                 if "Indiana" in temp_tz:
@@ -940,7 +941,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                                 elif temp_tz == 'America/Phoenix':
                                     temp_tz = 'America/Denver'
                                 if temp_tz not in list(tz_name_dict.keys()) and temp_tz != 'Etc/GMT':
-                                    print("WTF")
+                                    print("Ehh! ")
                                 if temp_tz in list(tz_name_dict.keys()):
                                     timezone = tz_name_dict[temp_tz]
                                     total_dist[timezone]+=distance
@@ -1051,7 +1052,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         cur_ts, cur_lat, cur_lon = tple
                         if (cur_ts - prev_ts) < 0:
                             #not sorted
-                            print("WTF!")
+                            print("Ehh! !")
                             # sys.exit(1)
                         elif (cur_ts - prev_ts) > 5:
                             # probably different run
@@ -1062,7 +1063,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                             
                             distance = geopy.distance.geodesic((cur_lat, cur_lon), (prev_lat, prev_lon)).miles
                             if distance > 0.3:
-                                print("WTF!")
+                                print("Ehh! !")
                             else:
                                 if cur_ts - prev_ts == 0:
                                     speed = (distance/ (prev_diff_ts)) * 3600
@@ -1182,7 +1183,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         cur_ts, cur_lat, cur_lon = tple
                         if (cur_ts - prev_ts) <= 0:
                             #not sorted
-                            print("WTF!")
+                            print("Ehh! !")
                             # sys.exit(1)
                         elif (cur_ts - prev_ts) > 5:
                             # probably different run
@@ -1192,7 +1193,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         else:
                             distance = geopy.distance.geodesic((cur_lat, cur_lon), (prev_lat, prev_lon)).miles
                             if distance > 0.3:
-                                print("WTF!")
+                                print("Ehh! !")
                             else:
                                 if cur_ts - prev_ts == 0:
                                     speed = (distance/ (prev_diff_ts)) * 3600
@@ -1317,7 +1318,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         cur_ts, cur_lat, cur_lon = tple
                         if (cur_ts - prev_ts) <= 0:
                             #not sorted
-                            print("WTF!")
+                            print("Ehh! !")
                             # sys.exit(1)
                         elif (cur_ts - prev_ts) > 5:
                             # probably different run
@@ -1327,7 +1328,7 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                         else:
                             distance = geopy.distance.geodesic((cur_lat, cur_lon), (prev_lat, prev_lon)).miles
                             if distance > 0.3:
-                                print("WTF!")
+                                print("Ehh! !")
                             else:
                                 if cur_ts - prev_ts == 0:
                                     speed = (distance/ (prev_diff_ts)) * 3600
@@ -1357,5 +1358,215 @@ if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\im
                 total_dist_speed_operator["atnt"] = total_dist   
                 breakup_dist_speed_operator["atnt"] = dist_dict
                 speed_tech_operator["atnt"] = speed_tech_tuple
-    
-       
+else:
+    pass    
+    filehandler = open(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\processed\dist_tz_speed_operator.pkl", "rb")
+    total_dist_operator, breakup_dist_operator, total_dist_tz_operator, breakup_dist_tz_operator, total_dist_speed_operator, breakup_dist_speed_operator = pickle.load(filehandler)
+    filehandler.close()
+
+    # figure 2a
+    #adding atnt mmWave 39 GHz DL/UL distance which got missed
+    breakup_dist_operator['atnt']['5G-mmWave 39 GHz']+=0.5
+    filehandler.close()
+    tech_list = ['LTE', 'LTE-A', '5G-low', '5G-sub6', '5G-mmWave 28 GHz', '5G-mmWave 39 GHz']
+    op_wise_dist_percentage = {"verizon" : {}, "tmobile" : {}, "atnt" : {}}
+    labels = ["Verizon", "T-Mobile", "AT&T"]
+    op_list = ["verizon", "tmobile", "atnt"]
+    width = 0.35
+    for op in total_dist_operator.keys():
+        total_dist = total_dist_operator[op]
+        for tech in tech_list:
+            op_wise_dist_percentage[op][tech] = (breakup_dist_operator[op][tech] / total_dist) * 100
+    tech_dict = {'LTE' : [], 'LTE-A' : [], '5G-low' : [], '5G-sub6' : [], '5G-mmWave 28 GHz' : [], '5G-mmWave 39 GHz' : []}
+    label_dict = {'LTE' : 'LTE', 'LTE-A' : 'LTE-A', '5G-low' : '5G-low', '5G-sub6' : '5G-mid', '5G-mmWave 28 GHz' : '5G-mmWave (28 GHz)', '5G-mmWave 39 GHz' : '5G-mmWave (39 GHz)'}
+    color_dict = {"LTE" : "#08710C", "LTE-A" : "#70CA32", "5G-low" : "#F3FF33", "5G-sub6" : "#FFB233", "5G-mmWave 28 GHz" : "#FF4629", "5G-mmWave 39 GHz" : "#CB0404" }
+    # color_dict = {"LTE" : "navy", "LTE-A" : "deepskyblue", "5G-low" : "green", "5G-sub6" : "yellow", "5G-mmWave 28 GHz" : "red", "5G-mmWave 39 GHz" : "maroon" }
+    for tech in tech_list:
+        for op in op_list:
+            tech_dict[tech].append(op_wise_dist_percentage[op][tech])
+    fig, ax = plt.subplots(figsize=(4, 5.5))
+    count = 0
+    for tech in tech_dict.keys():
+        if count == 0:
+            ax.bar(labels, tech_dict[tech], width, label=label_dict[tech], color=color_dict[tech])
+            prev = tech_dict[tech]
+        else:
+            ax.bar(labels, tech_dict[tech], width, label=label_dict[tech], bottom=prev, color=color_dict[tech])
+            temp = []
+            for i in range(0, len(prev)):
+                temp.append(prev[i] + tech_dict[tech][i])
+            prev = temp.copy()
+        count+=1
+    # ax.set_ylabel("Percentage coverage per mile (%)")
+    ax.set_ylabel("Fraction of miles covered (%)")
+    # ax.set_xlabel("Cellular Operator")
+    ax.set_ylim(ymax=120)
+    ax.set_yticks([0, 20, 40, 60, 80, 100])
+    plt.tight_layout()
+    plt.savefig(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_2\fig_2a.pdf")
+    plt.close()
+
+    # figure 2b
+    pickle_path = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\driving\processed\main_op_link_dict.pkl"
+    filehandler = open(pickle_path, "rb")
+    # main_op_link_tput_dict format == [tput_speed_tech_dict, ca_speed_tech_dict, fiveg_ca_speed_dict, lte_ca_speed_dict, tput_tz_tech_dict, dist_speed_tech_dict, mcs_speed_dict, bler_speed_dict, rsrp_speed_dict, wl_speed_dict, overall_mean_list, overall_std_list, overall_5g_high_percent]
+    main_op_link_tput_dict = pickle.load(filehandler)
+    filehandler.close()
+    tech_percent_dict = {"verizon" : [], "tmobile" : [], "atnt" : []}
+    tech_values_dict = {"verizon" : [], "tmobile" : [], "atnt" : []}
+    color_dict = {"LTE" : "indianred", "LTE-A" : "red", "5G-low" : "greenyellow", "5G-sub6" : "darkolivegreen", "5G-mmWave 28 GHz" : "aqua", "5G-mmWave 39 GHz" : "blue" }
+    label_dict = {'LTE' : 'LTE', 'LTE-A' : 'LTE-A', '5G-low' : '5G-low', '5G-sub6' : '5G-mid', '5G-mmWave 28 GHz' : '5G-mmWave (28 GHz)', '5G-mmWave 39 GHz' : '5G-mmWave (39 GHz)'}
+    color_dict = {"LTE" : "navy", "LTE-A" : "deepskyblue", "5G-low" : "green", "5G-sub6" : "yellow", "5G-mmWave 28 GHz" : "red", "5G-mmWave 39 GHz" : "maroon" }
+    color_dict = {"LTE" : "#08710C", "LTE-A" : "#70CA32", "5G-low" : "#F3FF33", "5G-sub6" : "#FFB233", "5G-mmWave 28 GHz" : "#FF4629", "5G-mmWave 39 GHz" : "#CB0404" }
+    fig, ax = plt.subplots(1, 2, figsize=(7,5.5), sharey=True)
+    op_list_mod = ["Verizon", "T-Mobile", "AT&T"]
+    i = 0
+    for link in ["dl", "ul"]:
+        tech_percent_dict = {"verizon" : [], "tmobile" : [], "atnt" : []}
+        tech_values_dict = {"verizon" : [], "tmobile" : [], "atnt" : []}
+        for op in ["verizon", "tmobile", "atnt"]:
+            total = 0
+            pickle_file = pickle_path + "\\" + op + "_" + link + ".pkl"
+            tput_tech_dict = main_op_link_tput_dict[op][link][5]
+            dummy_tech_dict = {'LTE' : 0 , 'LTE-A' : 0, '5G-low' : 0, '5G-sub6' : 0, '5G-mmWave 28 GHz' : 0, '5G-mmWave 39 GHz' : 0}
+            for tech in tech_list:
+                if tech in tput_tech_dict.keys():
+                    dummy_tech_dict[tech] = sum(tput_tech_dict[tech])
+                    total+=sum(tput_tech_dict[tech])
+            tech_values_dict[op].append(dummy_tech_dict.copy())
+            temp = dummy_tech_dict.copy()
+            for tech in dummy_tech_dict.keys():
+                dummy_tech_dict[tech] = round((dummy_tech_dict[tech]/total) * 100,4)
+            tech_percent_dict[op] = dummy_tech_dict
+        op_list = ["verizon", "tmobile", "atnt"]
+        tech_percent_dict_graph = {'LTE' : [] , 'LTE-A' : [], '5G-low' : [], '5G-sub6' : [], '5G-mmWave 28 GHz' : [], '5G-mmWave 39 GHz' : []}
+        for tech in tech_percent_dict_graph.keys():
+            for op in op_list:
+                tech_percent_dict_graph[tech].append(tech_percent_dict[op][tech])
+        width=0.35
+        ax[i].bar(op_list_mod, tech_percent_dict_graph['LTE'], width, color=color_dict["LTE"], label="LTE")
+        prev = tech_percent_dict_graph['LTE']
+        for tech in ['LTE-A', '5G-low', '5G-sub6', '5G-mmWave 28 GHz', '5G-mmWave 39 GHz']:
+            ax[i].bar(op_list_mod, tech_percent_dict_graph[tech], width, color=color_dict[tech], bottom=prev, label=label_dict[tech])
+            prev = list( map(add, prev, tech_percent_dict_graph[tech]))
+        i+=1
+    # ax[0].set_ylabel("Percentage coverage per mile (%)")
+    ax[0].set_ylim(0, 120)
+    # ax[0].legend(ncol=2, loc="upper left", fontsize=9.5)
+    ax[0].set_title("Downlink", fontweight="bold", fontsize=15)
+    ax[1].set_title("Uplink", fontweight="bold", fontsize=15)
+    ax[0].set_yticks([0, 20, 40, 60, 80, 100])
+    plt.tight_layout()
+    plt.savefig(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_2\fig_2b.pdf")
+    plt.close()
+    print()
+
+    # figure 2c
+    #adding atnt mmWave 39 GHz DL/UL distance which got missed
+    breakup_dist_tz_operator['atnt']['5G-mmWave 39 GHz']['EasternTime']+=0.5
+    filehandler.close()
+    fig, ax = plt.subplots(1, 4, figsize=(15, 7), sharey=True)
+    graph_no = 0
+    tz_name_dict = {'PacificTime' : "Pacific Time", 'MountainTime' : "Mountain Time", 'CentralTime' : "Central Time", 'EasternTime' : "Eastern Time"}
+    for tz in ['PacificTime', 'MountainTime', 'CentralTime', 'EasternTime']:
+        tech_list = ['LTE', 'LTE-A', '5G-low', '5G-sub6', '5G-mmWave 28 GHz', '5G-mmWave 39 GHz']
+        op_wise_dist_percentage = {"verizon" : {}, "tmobile" : {}, "atnt" : {}}
+        labels = ["Verizon", "T-Mobile", "AT&T"]
+        op_list = ["verizon", "tmobile", "atnt"]
+        width = 0.35
+        for op in total_dist_tz_operator.keys():
+            total_dist = total_dist_tz_operator[op][tz]
+            for tech in tech_list:
+                op_wise_dist_percentage[op][tech] = (breakup_dist_tz_operator[op][tech][tz] / total_dist) * 100
+        tech_dict = {'LTE' : [], 'LTE-A' : [], '5G-low' : [], '5G-sub6' : [], '5G-mmWave 28 GHz' : [], '5G-mmWave 39 GHz' : []}
+        label_dict = {'LTE' : 'LTE', 'LTE-A' : 'LTE-A', '5G-low' : '5G-low', '5G-sub6' : '5G-mid', '5G-mmWave 28 GHz' : '5G-mmWave (28 GHz)', '5G-mmWave 39 GHz' : '5G-mmWave (39 GHz)'}
+        color_dict = {"LTE" : "navy", "LTE-A" : "deepskyblue", "5G-low" : "green", "5G-sub6" : "yellow", "5G-mmWave 28 GHz" : "red", "5G-mmWave 39 GHz" : "maroon" }
+        color_dict = {"LTE" : "#08710C", "LTE-A" : "#70CA32", "5G-low" : "#F3FF33", "5G-sub6" : "#FFB233", "5G-mmWave 28 GHz" : "#FF4629", "5G-mmWave 39 GHz" : "#CB0404" }
+        for tech in tech_list:
+            for op in op_list:
+                tech_dict[tech].append(op_wise_dist_percentage[op][tech])
+        count = 0
+        for tech in tech_dict.keys():
+            if count == 0:
+                ax[graph_no].bar(labels, tech_dict[tech], width, label=label_dict[tech], color=color_dict[tech])
+                prev = tech_dict[tech]
+            else:
+                ax[graph_no].bar(labels, tech_dict[tech], width, label=label_dict[tech], bottom=prev, color=color_dict[tech])
+                temp = []
+                for i in range(0, len(prev)):
+                    temp.append(prev[i] + tech_dict[tech][i])
+                prev = temp.copy()
+            count+=1
+        # if graph_no == 0:
+        #     ax[0].set_ylabel("Percentage coverage per mile (%)")
+        #     ax[0].legend(loc = "upper left")
+        # ax[graph_no].set_xlabel("Cellular Operator")
+        ax[graph_no].set_ylim(ymax=120)
+        ax[graph_no].set_title(tz_name_dict[tz], fontsize=20, fontweight='bold')
+        ax[graph_no].set_yticks([0, 20, 40, 60, 80, 100])
+        ax[graph_no].tick_params(axis='x', labelsize=18)
+        if graph_no == 0:
+            custom_lines = [Line2D([0], [0], color="#08710C", lw=6), Line2D([0], [0], color="#70CA32", lw=6),]
+            ax[graph_no].legend(custom_lines, ['LTE', 'LTE-A'], fontsize=18, loc='upper center', ncols=1)
+        elif graph_no == 1:
+            custom_lines = [Line2D([0], [0], color="#F3FF33", lw=6), Line2D([0], [0], color= "#FFB233", lw=6),]
+            ax[graph_no].legend(custom_lines, ['5G-low', '5G-mid'], fontsize=18, loc='upper center', ncols=1)
+        elif graph_no == 2:
+            custom_lines = [Line2D([0], [0], color="#FF4629", lw=6)]
+            ax[graph_no].legend(custom_lines, ['5G-mmWave\n(28 GHz)'], fontsize=18, loc='upper center', ncols=1)
+        else:
+            custom_lines = [Line2D([0], [0], color="#CB0404", lw=6)]
+            ax[graph_no].legend(custom_lines, ['5G-mmWave\n(39 GHz)'], fontsize=18, loc='upper center', ncols=1)
+        graph_no+=1
+    plt.tight_layout()
+    plt.savefig(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_2\fig_2c.pdf")
+    plt.close()
+    print()
+
+    # figure 2d
+    #adding atnt mmWave 39 GHz DL/UL distance which got missed
+    breakup_dist_speed_operator['atnt']['5G-mmWave 39 GHz']['0-20']+=0.5
+    total_dist_speed_operator['atnt']['0-20']+=0.5
+    filehandler.close()
+    fig, ax = plt.subplots(1, 3, figsize=(11, 6), sharey=True)
+    graph_no = 0
+    tz_name_dict = {'PacificTime' : "Pacific Time", 'MountainTime' : "Mountain Time", 'CentralTime' : "Central Time", 'EasternTime' : "Eastern Time"}
+    for speed_bin in ['0-20', '20-60', '60+']:
+        tech_list = ['LTE', 'LTE-A', '5G-low', '5G-sub6', '5G-mmWave 28 GHz', '5G-mmWave 39 GHz']
+        op_wise_dist_percentage = {"verizon" : {}, "tmobile" : {}, "atnt" : {}}
+        labels = ["Verizon", "T-Mobile", "AT&T"]
+        op_list = ["verizon", "tmobile", "atnt"]
+        width = 0.35
+        for op in total_dist_speed_operator.keys():
+            total_dist = total_dist_speed_operator[op][speed_bin]
+            for tech in tech_list:
+                op_wise_dist_percentage[op][tech] = (breakup_dist_speed_operator[op][tech][speed_bin] / total_dist) * 100
+        tech_dict = {'LTE' : [], 'LTE-A' : [], '5G-low' : [], '5G-sub6' : [], '5G-mmWave 28 GHz' : [], '5G-mmWave 39 GHz' : []}
+        label_dict = {'LTE' : 'LTE', 'LTE-A' : 'LTE-A', '5G-low' : '5G-low', '5G-sub6' : '5G-mid', '5G-mmWave 28 GHz' : '5G-mmWave (28 GHz)', '5G-mmWave 39 GHz' : '5G-mmWave (39 GHz)'}
+        color_dict = {"LTE" : "navy", "LTE-A" : "deepskyblue", "5G-low" : "green", "5G-sub6" : "yellow", "5G-mmWave 28 GHz" : "red", "5G-mmWave 39 GHz" : "maroon" }
+        color_dict = {"LTE" : "#08710C", "LTE-A" : "#70CA32", "5G-low" : "#F3FF33", "5G-sub6" : "#FFB233", "5G-mmWave 28 GHz" : "#FF4629", "5G-mmWave 39 GHz" : "#CB0404" }
+        for tech in tech_list:
+            for op in op_list:
+                tech_dict[tech].append(op_wise_dist_percentage[op][tech])
+        count = 0
+        for tech in tech_dict.keys():
+            if count == 0:
+                ax[graph_no].bar(labels, tech_dict[tech], width, label=label_dict[tech], color=color_dict[tech])
+                prev = tech_dict[tech]
+            else:
+                ax[graph_no].bar(labels, tech_dict[tech], width, label=label_dict[tech], bottom=prev, color=color_dict[tech])
+                temp = []
+                for i in range(0, len(prev)):
+                    temp.append(prev[i] + tech_dict[tech][i])
+                prev = temp.copy()
+            count+=1
+        if graph_no == 0:
+            ax[0].set_ylabel("Fraction of miles covered (%)")
+        ax[graph_no].set_ylim(ymax=120)
+        ax[graph_no].set_title(speed_bin + " (miles/hr)", fontsize=20, fontweight='bold')
+        ax[graph_no].set_yticks([0, 20, 40, 60, 80, 100])
+        ax[graph_no].tick_params(axis='x', labelsize=18)
+        graph_no+=1
+    plt.tight_layout()
+    plt.savefig(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_2\fig_2d.pdf")
+    plt.close()

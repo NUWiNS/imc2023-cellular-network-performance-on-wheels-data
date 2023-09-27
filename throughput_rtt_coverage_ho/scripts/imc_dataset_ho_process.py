@@ -85,7 +85,7 @@ def modify_speed_list(speed_list):
     return mod_speed_list
 
 
-base = r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\driving"
+base = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\driving"
 main_op_link_ho_per_mile_dict = {"verizon" : {"dl" : 0, "ul" : 0}, "tmobile" : {"dl" : 0, "ul" : 0}, "atnt" : {"dl" : 0, "ul" : 0}}
 main_op_link_ho_duration_dict = {"verizon" : {"dl" : 0, "ul" : 0}, "tmobile" : {"dl" : 0, "ul" : 0}, "atnt" : {"dl" : 0, "ul" : 0}}
 main_op_link_ho_tput_dict = {"verizon" : {"dl" : 0, "ul" : 0}, "tmobile" : {"dl" : 0, "ul" : 0}, "atnt" : {"dl" : 0, "ul" : 0}}
@@ -611,14 +611,14 @@ for op in ["verizon", "tmobile", "atnt"]:
         all_list = [pre_ho_list, post_ho_list, pre_post_ho_tput_diff, all_ho_t_list]
         main_op_link_ho_tput_dict[op][link] = all_list
 
-filehandler = open(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\ho\processed\main_op_link_ho_per_mile_dict.pkl", "wb")
+filehandler = open(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\ho\processed\main_op_link_ho_per_mile_dict.pkl", "wb")
 pickle.dump(main_op_link_ho_per_mile_dict, filehandler)
 filehandler.close()
 
-filehandler = open(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\ho\processed\main_op_link_ho_duration_dict.pkl", "wb")
+filehandler = open(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\ho\processed\main_op_link_ho_duration_dict.pkl", "wb")
 pickle.dump(main_op_link_ho_duration_dict, filehandler)
 filehandler.close()
 
-filehandler = open(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\ho\processed\main_op_link_ho_tput_dict.pkl", "wb")
+filehandler = open(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\ho\processed\main_op_link_ho_tput_dict.pkl", "wb")
 pickle.dump(main_op_link_ho_tput_dict, filehandler)
 filehandler.close()

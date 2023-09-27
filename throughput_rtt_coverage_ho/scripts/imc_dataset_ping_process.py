@@ -208,7 +208,7 @@ for op in ['verizon', 'tmobile', 'atnt']:
     edge_tech_dict = {"LTE" : [], "LTE-A" : [], "5G-low" : [], "5G-sub6" : [], "5G-mmWave 28 GHz" : [], "5G-mmWave 39 GHz" : []}
     rtt_5g_percent_dict = {}
     color_dict = {"LTE" : "indianred", "LTE-A" : "red", "5G-low" : "greenyellow", "5G-sub6" : "darkolivegreen", "5G-mmWave 28 GHz" : "aqua", "5G-mmWave 39 GHz" : "blue" }
-    ping_path = r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\rtt\\" + op
+    ping_path = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\rtt\\" + op
     ping_folders = glob.glob(ping_path + "\\run-*")
     ping_lat_lon_dict = []
     for ping_folder in ping_folders:
@@ -369,7 +369,7 @@ for op in ['verizon', 'tmobile', 'atnt']:
                 # lat lon not found 
                 # match it with all dict
                 # if still None, nothing can be done
-                merged_csv_all = r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\all_tests_combined.csv"
+                merged_csv_all = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\all_tests_combined.csv"
                 lat_lon_df = df[["TIME_STAMP", "Lat", "Lon"]]
                 lat_lon_df.drop(lat_lon_df.tail(8).index, inplace=True)
                 atnt_df = lat_lon_df
@@ -549,7 +549,7 @@ for op in ['verizon', 'tmobile', 'atnt']:
                                 10.7]
         main_op_dict[op].append([vegas_county_lat, vegas_county_lon, vegas_vz_driving_ping])
         # for this vegas run, get speed
-        ping_vegas_df = pd.read_csv(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\rtt\verizon\vegas_ping.csv")
+        ping_vegas_df = pd.read_csv(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\rtt\verizon\vegas_ping.csv")
         ping_vegas_df.drop(ping_vegas_df.tail(8).index,inplace=True)
         ping_vegas_df["TIME_STAMP"] = ping_vegas_df["TIME_STAMP"].apply(datetime_to_timestamp)
         speed_list = get_speed_for_df(ping_vegas_df)
@@ -576,7 +576,7 @@ for op in ['verizon', 'tmobile', 'atnt']:
         op_speed_dict[op].extend([0] * len(rtt_list))
         op_rtt_dict[op].extend(rtt_list)
         op_tech_dict[op].extend(['5G-mmWave 39 GHz'] * len(rtt_list))
-filehandler = open(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\rtt\processed\main_op_link_dict.pkl", "wb")
+filehandler = open(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\rtt\processed\main_op_link_dict.pkl", "wb")
 lst = [main_op_dict, main_rtt_5g_dict, main_rtt_tech_dict, main_edge_tech_dict, op_speed_dict, op_rtt_dict, op_tech_dict]
 pickle.dump(lst, filehandler)
 filehandler.close()

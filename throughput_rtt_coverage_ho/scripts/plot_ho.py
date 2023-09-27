@@ -24,7 +24,7 @@ if not sys.warnoptions:
     warnings.simplefilter("ignore")
 
 
-base = r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\ho\processed"
+base = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\ho\processed"
 filehandler = open(base + "\\main_op_link_ho_per_mile_dict.pkl", "rb")
 main_op_link_ho_per_mile_dict = pickle.load(filehandler)
 filehandler.close()
@@ -53,11 +53,11 @@ ax[0].tick_params(axis='both', which='minor', labelsize=13)
 ax[1].tick_params(axis='both', which='major', labelsize=13)
 ax[1].tick_params(axis='both', which='minor', labelsize=13)
 plt.tight_layout()
-plt.savefig(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_11a.pdf")
+plt.savefig(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_11a.pdf")
 plt.close()
 
 
-base = r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\ho\processed"
+base = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\ho\processed"
 filehandler = open(base + "\\main_op_link_ho_duration_dict.pkl", "rb")
 main_op_link_ho_duration_dict = pickle.load(filehandler)
 filehandler.close()
@@ -94,7 +94,7 @@ ax[0].tick_params(axis='both', which='minor', labelsize=13)
 ax[1].tick_params(axis='both', which='major', labelsize=13)
 ax[1].tick_params(axis='both', which='minor', labelsize=13)
 plt.tight_layout()
-plt.savefig(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_11b.pdf")
+plt.savefig(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_11b.pdf")
 plt.close()                     
 
 
@@ -103,7 +103,7 @@ op_list = ["verizon", "tmobile", "atnt"]
 op_dict = {"verizon" : "Verizon", "tmobile" : "T-Mobile", "atnt" : "AT&T"}
 link_list = ["dl", "ul"]
 color_dict = {'4G->5G' : "red", '5G->4G' : "orange", '4G->4G' : "green", '5G->5G' : "royalblue"}
-base = r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\ho\processed"
+base = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\ho\processed"
 filehandler = open(base + "\\main_op_link_ho_tput_dict.pkl", "rb")
 main_op_link_ho_tput_dict = pickle.load(filehandler)
 filehandler.close()
@@ -148,7 +148,7 @@ for link in link_list:
             ax.set_title("$(T_{3} - (T_{2} + T_{4})/2)$", fontsize=20, fontweight="bold")
             ax.set_xlim(-50, 50)
         plt.tight_layout()
-        plt.savefig(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_13" + "\\" + op + "_" + link + "_diff_t3.pdf")
+        plt.savefig(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_13" + "\\" + op + "_" + link + "_diff_t3.pdf")
         plt.close()
         fig, ax = plt.subplots(figsize=(5, 4), sharey=True)
         for ho_type in pre_post_diff_dict.keys():
@@ -170,6 +170,6 @@ for link in link_list:
         ax.set_ylim(ymin=0, ymax=1)
         i+=1
         plt.tight_layout()
-        plt.savefig(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_13" + "\\" + op + "_" + link + "_diff_tput.pdf")
+        plt.savefig(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_13" + "\\" + op + "_" + link + "_diff_tput.pdf")
         plt.close()
         print()
