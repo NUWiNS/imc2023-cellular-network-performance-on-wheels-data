@@ -21,10 +21,10 @@ on the link to each subfolder for more details:
 
 | Task | Subfolder |
 | :--- | :---: |
-| Throughput Tests | |
+| Throughput Tests | [throughput_rtt_coverage_ho](./throughput_rtt_coverage_ho) |
 | Augmented Reality (AR) and Connected Autonomous Vehicle (CAV) | [ar_cav](./ar_cav) |
 | Video Streaming | [360video](./360video)   |
-| Cloud Gaming |  |
+| Cloud Gaming | [cloud_gaming](./cloud_gaming) |
 
 ## References
 
