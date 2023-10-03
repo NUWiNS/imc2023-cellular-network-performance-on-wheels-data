@@ -3,16 +3,89 @@
 ## Dataset Structure
 
 This sub-dataset is divided into 4 sections:
-    * Coverage ([`coverage`](./coverage))
-    * Throughput Data ([`tput`](./tput))
-    * RTT Data ([`rtt`](./rtt))
-    * Handover Data ([`ho`](./ho))
+
+* Coverage ([`coverage`](./coverage))
+* Throughput Data ([`tput`](./tput))
+* RTT Data ([`rtt`](./rtt))
+* Handover Data ([`ho`](./ho))
 
 The respective raw data (application + XCAL) are in the aforementioned directories. Additionally, there are processed data under each subdirectory with a subfolder named "processed".
 
 [`scripts`](./scripts) folder contains scripts starting with "imc_dataset_`*`_process.py" to generate the processed data. Scripts starting with "plot_`*`_.py" generates figures 1 to 12 in the IMC paper.  
 
 Note: The dataset already contains processed data to generate the plots used in the IMC paper, and processing scripts are provided as a starting point for users to extract various KPIs (used in the paper) according to their specific requirements
+
+## Using the processed data
+
+In each sub-folder (coverage/tput/rtt/ho) there is a folder called "processed". The following explains how to use those processed data:
+
+* Coverage:
+  ```bash
+  # Filename: dist_tz_speed_operator.pkl
+  import pickle
+  filehandler = open("dist_tz_speed_operator.pkl", "rb")
+  total_dist_operator, breakup_dist_operator, total_dist_tz_operator, breakup_dist_tz_operator, total_dist_speed_operator, breakup_dist_speed_operator = pickle.load(filehandler)
+  filehandler.close()
+  ```
+  Variable information and structure:
+  | Variable | Description | Structure |
+  | :-- | :---- | :----- |
+  | `total_dist_operator` | Operator-wise total distance travelled in miles | `{operator1 : x, operator2 : y, ...}` |
+  | `breakup_dist_operator` | Operator-wise and technology-wise breakdown <br/>- of distance travelled in miles| `{operator1 : {tech1 : x1, tech2: x2, ..}, operator2 : {tech1 : y1, tech2: y2, ..},...}` |
+  | `total_dist_tz_operator` | Operator-wise total distance travelled <br/>- per timezone in miles | `{operator1 : {tz1 : x1, tz2 : x2, ...}, operator2 : {tz1 : y1, tz2 : y2, ...}}` |
+  | `breakup_dist_tz_operator` | Operator-wise and technology-wise breakdown <br/>- of distance travelled per timezone in miles | `{operator1 : {tech1: {tz1 : x11, tz2 : x12, ...}, tech2: {tz1 : x21, tz2 : x22, ...}}, <br/>- operator2 : {tech1 : {tz1 : y11, tz2 : y12, ...}, tech2 : {tz1 : y21, tz2 : y22, ...}}}` |
+  | `total_dist_speed_operator` | Operator-wise total distance travelled <br/>- per speed range in miles | `{operator1 : {speed-range1 : x1, speed-range2 : x2, ...}, <br/>- operator2 : {speed-range1 : y1, speed-range2 : y2, ...}` |
+  | `breakup_dist_speed_operator` | Operator-wise and technology-wise breakdown <br/>- of distance travelled per speed range in miles | `{operator1 : {tech1 : {speed-range1 : x11, speed-range2 : x12, ...}, tech2 : {speed-range1 : x21, speed-range2 : x22, ...}}, <br/>- operator2 : {tech1 : {speed-range1 : y11, speed-range2 : y12, ...}, tech2 : {speed-range1 : y21, speed-range2 : y22, ...}}` |
+
+* Throughput data:
+  The `main_op_link_dict.pkl` has a dict which contains data in the following format:
+  ```bash
+  ├──operator
+      ├── dwonlink or uplink
+          ├── tput_speed_tech_dict
+          ├── ca_speed_tech_dict
+          ├── fiveg_ca_speed_dict
+          ├── lte_ca_speed_dict
+          ├── tput_tz_tech_dict
+          ├── dist_speed_tech_dict
+          ├── mcs_speed_dict
+          ├── bler_speed_dict
+          ├── rsrp_speed_dict
+          ├── wl_speed_dict
+          ├── overall_mean_list
+          ├── overall_std_list
+          ├── overall_5g_high_percent
+  ```
+  ```bash
+  # Filename: main_op_link_dict.pkl
+  import pickle
+  filehandler = open("main_op_link_dict.pkl", "rb")
+  main_op_link_tput_dict = pickle.load(filehandler)
+  for op in main_op_link_tput_dict.keys():
+     for link in ['dl', 'ul']: 
+        tput_speed_tech_dict, ca_speed_tech_dict, fiveg_ca_speed_dict, lte_ca_speed_dict, tput_tz_tech_dict, dist_speed_tech_dict, mcs_speed_dict, bler_speed_dict, rsrp_speed_dict, wl_speed_dict, overall_mean_list, overall_std_list, overall_5g_high_percent = main_op_link_tput_dict[op][link]
+  filehandler.close()
+  ```
+  Variable information and structure:
+  | Variable | Structure |
+  | :-- | :----- |
+  | `tput_speed_tech_dict` | `{tech1 : {speed1 : [throughput values], speed2 : [throughput values]}, tech2 : {speed1 : [throughput values], speed2 : [throughput values]}}, ...}` |
+  | `ca_speed_tech_dict` | `{tech1 : {speed1 : [total ca values], speed2 : [total ca values]}, tech2 : {speed1 : [total ca values], speed2 : [total ca values]}}, ...}` |
+  | `fiveg_ca_speed_dict` | `{tech1 : {speed1 : [5g ca values], speed2 : [5g ca values]}, tech2 : {speed1 : [5g ca values], speed2 : [5g ca values]}}, ...}`  |
+  | `lte_ca_speed_dict` | `{tech1 : {speed1 : [lte ca values], speed2 : [lte ca values]}, tech2 : {speed1 : [lte ca values], speed2 : [lte ca values]}}, ...}` |
+  | `tput_tz_tech_dict` | `{tz1 : [throughput values], tz2 : [throughput values], ...}` |
+  | `dist_speed_tech_dict` | `x` |
+  | `mcs_speed_dict` | `{tech1 : {speed1 : [mcs values], speed2 : [mcs values]}, tech2 : {speed1 : [mcs values], speed2 : [mcs values]}}, ...}` |
+  | `bler_speed_dict` | `{tech1 : {speed1 : [bler values], speed2 : [bler values]}, tech2 : {speed1 : [bler values], speed2 : [bler values]}}, ...}` |
+  | `rsrp_speed_dict` | `{tech1 : {speed1 : [rsrp values], speed2 : [rsrp values]}, tech2 : {speed1 : [rsrp values], speed2 : [rsrp values]}}, ...}` |
+  | `wl_speed_dict` | `{tech1 : {speed1 : [edge used or not values], speed2 : [edge used or not values]}, tech2 : {speed1 : [edge used or not values], speed2 : [edge used or not values]}}, ...}` |
+  | `overall_mean_list` | `[average of each 30-35 seconds throughput test]` |
+  | `overall_std_list` | `[standard deviation of each 30-35 seconds throughput test]` |
+  | `overall_5g_high_percent` | `[% of 5G mid/mmWave in each 30-35 seconds throughput test]` |
+  ```
+  
+   
+  
 
 ## Steps to Reproduce IMC Paper Plots (Use a Windows system to generate the plots)
 
