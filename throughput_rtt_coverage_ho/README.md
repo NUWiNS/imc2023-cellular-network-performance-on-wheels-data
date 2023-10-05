@@ -30,12 +30,12 @@ In each sub-folder (coverage/tput/rtt/ho) there is a folder called `processed`. 
   Variable information and structure:
   | Variable | Description | Structure |
   | :-- | :---- | :----- |
-  | `total_dist_operator` | Operator-wise total distance travelled in miles | `{operator1 : x, operator2 : y, ...}` |
-  | `breakup_dist_operator` | Operator-wise and technology-wise breakdown <br/>- of distance travelled in miles| `{operator1 : {tech1 : x1, tech2: x2, ..}, operator2 : {tech1 : y1, tech2: y2, ..},...}` |
-  | `total_dist_tz_operator` | Operator-wise total distance travelled <br/>- per timezone in miles | `{operator1 : {tz1 : x1, tz2 : x2, ...}, operator2 : {tz1 : y1, tz2 : y2, ...}}` |
-  | `breakup_dist_tz_operator` | Operator-wise and technology-wise breakdown <br/>- of distance travelled per timezone in miles | `{operator1 : {tech1: {tz1 : x11, tz2 : x12, ...}, tech2: {tz1 : x21, tz2 : x22, ...}}, <br/>- operator2 : {tech1 : {tz1 : y11, tz2 : y12, ...}, tech2 : {tz1 : y21, tz2 : y22, ...}}}` |
-  | `total_dist_speed_operator` | Operator-wise total distance travelled <br/>- per speed range in miles | `{operator1 : {speed-range1 : x1, speed-range2 : x2, ...}, <br/>- operator2 : {speed-range1 : y1, speed-range2 : y2, ...}` |
-  | `breakup_dist_speed_operator` | Operator-wise and technology-wise breakdown <br/>- of distance travelled per speed range in miles | `{operator1 : {tech1 : {speed-range1 : x11, speed-range2 : x12, ...}, tech2 : {speed-range1 : x21, speed-range2 : x22, ...}}, <br/>- operator2 : {tech1 : {speed-range1 : y11, speed-range2 : y12, ...}, tech2 : {speed-range1 : y21, speed-range2 : y22, ...}}` |
+  | `total_dist_operator` | Operator-wise total distance travelled in miles | <pre>{<br />   "operator1":"x",<br />   "operator2":"y",<br />   ...<br />}<br /></pre> |
+  | `breakup_dist_operator` | Operator-wise and technology-wise breakdown <br/>- of distance travelled in miles| <pre>{<br />  "operator1":{<br />    "tech1":x1,<br />    "tech2":x2,<br />    "…"<br />  },<br />  "…"<br />}<br /></pre> |
+  | `total_dist_tz_operator` | Operator-wise total distance travelled <br/>- per timezone in miles | <pre>{<br />  "operator1":{<br />    "tz1":x1,<br />    "tz2":x2,<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
+  | `breakup_dist_tz_operator` | Operator-wise and technology-wise breakdown <br/>- of distance travelled per timezone in miles | <pre>{<br />  "operator1":{<br />    "tech1":{<br />      "tz1":x11,<br />      "tz2":x12,<br />      ...<br />    },<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
+  | `total_dist_speed_operator` | Operator-wise total distance travelled <br/>- per speed range in miles | <pre>{<br />  "operator1":{<br />    "speed-range1":x1,<br />    "speed-range2":x2,<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
+  | `breakup_dist_speed_operator` | Operator-wise and technology-wise breakdown <br/>- of distance travelled per speed range in miles | <pre>{<br />  "operator1":{<br />    "tech1":{<br />      "speed-range1":x11,<br />      "speed-range2":x12,<br />      ...<br />    },<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
 
 * Throughput data:
   
@@ -70,16 +70,16 @@ In each sub-folder (coverage/tput/rtt/ho) there is a folder called `processed`. 
   Variable information and structure:
   | Variable | Structure |
   | :-- | :----- |
-  | `tput_speed_tech_dict` | `{tech1 : {speed1 : [throughput values], speed2 : [throughput values]}, tech2 : {speed1 : [throughput values], speed2 : [throughput values]}}, ...}` |
-  | `ca_speed_tech_dict` | `{tech1 : {speed1 : [total ca values], speed2 : [total ca values]}, tech2 : {speed1 : [total ca values], speed2 : [total ca values]}}, ...}` |
-  | `fiveg_ca_speed_dict` | `{tech1 : {speed1 : [5g ca values], speed2 : [5g ca values]}, tech2 : {speed1 : [5g ca values], speed2 : [5g ca values]}}, ...}`  |
-  | `lte_ca_speed_dict` | `{tech1 : {speed1 : [lte ca values], speed2 : [lte ca values]}, tech2 : {speed1 : [lte ca values], speed2 : [lte ca values]}}, ...}` |
-  | `tput_tz_tech_dict` | `{tz1 : [throughput values], tz2 : [throughput values], ...}` |
+  | `tput_speed_tech_dict` | <pre>{<br />  "tech1":{<br />    "speed1":[<br />      "throughput values"<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
+  | `ca_speed_tech_dict` | <pre>{<br />  "tech1":{<br />    "speed1":[<br />      "total ca values"<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
+  | `fiveg_ca_speed_dict` | <pre>{<br />  "tech1":{<br />    "speed1":[<br />      5g ca values<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre>  |
+  | `lte_ca_speed_dict` | <pre>{<br />  "tech1":{<br />    "speed1":[<br />      "lte ca values"<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
+  | `tput_tz_tech_dict` | <pre>{<br />  "tz1":[<br />    "throughput values"<br />  ],<br />  "tz2":[<br />    "throughput values"<br />  ],<br />  ...<br />}<br /></pre> |
   | `dist_speed_tech_dict` | `x` |
-  | `mcs_speed_dict` | `{tech1 : {speed1 : [mcs values], speed2 : [mcs values]}, tech2 : {speed1 : [mcs values], speed2 : [mcs values]}}, ...}` |
-  | `bler_speed_dict` | `{tech1 : {speed1 : [bler values], speed2 : [bler values]}, tech2 : {speed1 : [bler values], speed2 : [bler values]}}, ...}` |
-  | `rsrp_speed_dict` | `{tech1 : {speed1 : [rsrp values], speed2 : [rsrp values]}, tech2 : {speed1 : [rsrp values], speed2 : [rsrp values]}}, ...}` |
-  | `wl_speed_dict` | `{tech1 : {speed1 : [edge used or not values], speed2 : [edge used or not values]}, tech2 : {speed1 : [edge used or not values], speed2 : [edge used or not values]}}, ...}` |
+  | `mcs_speed_dict` | <pre>{<br />  "tech1":{<br />    "speed1":[<br />      "mcs values"<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
+  | `bler_speed_dict` | <pre>{<br />  "tech1":{<br />    "speed1":[<br />      "bler values"<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
+  | `rsrp_speed_dict` | <pre>{<br />  "tech1":{<br />    "speed1":[<br />      "rsrp values"<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
+  | `wl_speed_dict` | <pre>{<br />  "tech1":{<br />    "speed1":[<br />      "edge used or not values"<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
   | `overall_mean_list` | `[average of each 30-35 seconds throughput test]` |
   | `overall_std_list` | `[standard deviation of each 30-35 seconds throughput test]` |
   | `overall_5g_high_percent` | `[% of 5G mid/mmWave in each 30-35 seconds throughput test]` |
@@ -118,9 +118,9 @@ In each sub-folder (coverage/tput/rtt/ho) there is a folder called `processed`. 
   Variable information and structure:
   | Variable | Structure |
   | :-- | :----- |
-  | `main_op_link_ho_per_mile_dict` | `{operator1 : {linkype1 : [[list of latitude longitude pairs], [handover count list], [distance travelled list], [handovers per mile list]], ...}, ...}` |
-  | `main_op_link_ho_duration_dict` | `{operator1 : {linktype1 : [list of handover duration], ...}, ...}` |
-  | `main_op_link_ho_tput_dict` | `{operator1 : {linktype1: [{dictionary of different handovers with pre-handover throughput list}, {dictionary of different handovers with post-ho throughput list}, {list of post - pre handover throughput values}, [list of t1, t2, t3, t4, t5 from the paper]], ...}, ...}`  |
+  | `main_op_link_ho_per_mile_dict` | <pre>{<br />  "operator1":{<br />    "linkype1":[<br />      [<br />        "list of latitude longitude pairs"<br />      ],<br />      [<br />        "handover count list"<br />      ],<br />      [<br />        "distance travelled list"<br />      ],<br />      [<br />        "handovers per mile list"<br />      ]<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
+  | `main_op_link_ho_duration_dict` | <pre>{<br />  "operator1":{<br />    "linktype1":[<br />      "list of handover duration"<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
+  | `main_op_link_ho_tput_dict` | <pre>{<br />  "operator1":{<br />    "linktype1":[<br />      {<br />        "dictionary of different handovers with pre-handover throughput list"<br />      },<br />      {<br />        "dictionary of different handovers with post-ho throughput list"<br />      },<br />      {<br />        "list of post - pre handover throughput values"<br />      },<br />      [<br />        list of t1,<br />        t2,<br />        t3,<br />        t4,<br />        t5 from the paper<br />      ]<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre>  |
   ```
 
 * RTT:
@@ -160,13 +160,13 @@ In each sub-folder (coverage/tput/rtt/ho) there is a folder called `processed`. 
   Variable information and structure:
   | Variable | Structure |
   | :-- | :----- |
-  | `main_op_rtt_dict` | `{operator1 : [[latitude, longitude, [list of rtt values], path_to_rtt_file]], ...}` |
-  | `main_rtt_5g_dict` | `{operator1 : {percent-high-5g : [list of rtt values]}}, ...}` |
-  | `main_rtt_tech_dict` | `{operator1 : {tech1 : [list of rtt values], ...}, ...}`  |
-  | `main_rtt_edge_tech_dict` | `{operator1 : {tech1 : [list indicating whether an rtt values was from a edge/cloud server test], ...}, ...}` |
-  | `op_rtt_dict` | `{operator1: [list of each 200 ms rtt samples], ...}`  |
-  | `op_speed_dict` | `{operator1: [list of speed in miles for each rtt sample], ...}` |
-  | `op_tech_dict` | `{operator1: [list of cellular technology for each rtt sample], ...}`  |
+  | `main_op_rtt_dict` | <pre>{<br />  "operator1":[<br />    [<br />      "latitude",<br />      "longitude",<br />      [<br />        "list of rtt values"<br />      ],<br />      "path_to_rtt_file"<br />    ]<br />  ],<br />  ...<br />}<br /></pre> |
+  | `main_rtt_5g_dict` | <pre>{<br />  "operator1":{<br />    "percent-high-5g":[<br />      "list of rtt values"<br />    ]<br />  }<br />}<br /></pre> |
+  | `main_rtt_tech_dict` | <pre>{<br />  "operator1":{<br />    "tech1":[<br />      "list of rtt values"<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre>  |
+  | `main_rtt_edge_tech_dict` | <pre>{<br />  "operator1":{<br />    "tech1":[<br />      "list indicating whether an rtt values was from a edge/cloud server test"<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
+  | `op_rtt_dict` | <pre>{<br />  "operator1":[<br />    list of each 200 ms rtt samples<br />  ],<br />  ...<br />}:<br /></pre>  |
+  | `op_speed_dict` | <pre>{<br />  "operator1":[<br />    "list of speed in miles for each rtt sample"<br />  ],<br />  ...<br />}<br /></pre> |
+  | `op_tech_dict` | <pre>{<br />  "operator1":[<br />    "list of cellular technology for each rtt sample"<br />  ],<br />  ...<br />}<br /></pre>  |
   ```
 
 ## Steps to Reproduce IMC Paper Plots (Use a Windows system to generate the plots)
