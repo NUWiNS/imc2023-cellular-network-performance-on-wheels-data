@@ -167,7 +167,6 @@ In each sub-folder (coverage/tput/rtt/ho) there is a folder called `processed`. 
   | `op_rtt_dict` | <pre>{<br />  "operator1":[<br />    list of each 200 ms rtt samples<br />  ],<br />  ...<br />}:<br /></pre>  |
   | `op_speed_dict` | <pre>{<br />  "operator1":[<br />    "list of speed in miles for each rtt sample"<br />  ],<br />  ...<br />}<br /></pre> |
   | `op_tech_dict` | <pre>{<br />  "operator1":[<br />    "list of cellular technology for each rtt sample"<br />  ],<br />  ...<br />}<br /></pre>  |
-  ```
 
 ## Steps to Reproduce IMC Paper Plots (Use a Windows system to generate the plots)
 
