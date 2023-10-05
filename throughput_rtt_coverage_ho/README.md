@@ -83,7 +83,6 @@ In each sub-folder (coverage/tput/rtt/ho) there is a folder called `processed`. 
   | `overall_mean_list` | `[average of each 30-35 seconds throughput test]` |
   | `overall_std_list` | `[standard deviation of each 30-35 seconds throughput test]` |
   | `overall_5g_high_percent` | `[% of 5G mid/mmWave in each 30-35 seconds throughput test]` |
-  ```
 
 * Handovers:
   
@@ -121,7 +120,6 @@ In each sub-folder (coverage/tput/rtt/ho) there is a folder called `processed`. 
   | `main_op_link_ho_per_mile_dict` | <pre>{<br />  "operator1":{<br />    "linkype1":[<br />      [<br />        "list of latitude longitude pairs"<br />      ],<br />      [<br />        "handover count list"<br />      ],<br />      [<br />        "distance travelled list"<br />      ],<br />      [<br />        "handovers per mile list"<br />      ]<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
   | `main_op_link_ho_duration_dict` | <pre>{<br />  "operator1":{<br />    "linktype1":[<br />      "list of handover duration"<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre> |
   | `main_op_link_ho_tput_dict` | <pre>{<br />  "operator1":{<br />    "linktype1":[<br />      {<br />        "dictionary of different handovers with pre-handover throughput list"<br />      },<br />      {<br />        "dictionary of different handovers with post-ho throughput list"<br />      },<br />      {<br />        "list of post - pre handover throughput values"<br />      },<br />      [<br />        list of t1,<br />        t2,<br />        t3,<br />        t4,<br />        t5 from the paper<br />      ]<br />    ],<br />    ...<br />  },<br />  ...<br />}<br /></pre>  |
-  ```
 
 * RTT:
   
