@@ -1,0 +1,1784 @@
+--------- beginning of main
+08-13 15:29:45.324 11921 11921 D cellinfo: Country == United States
+08-13 15:29:45.324 11921 11921 D cellinfo: City == Brookston
+08-13 15:29:45.324 11921 11921 D cellinfo: GPS Info == I-65, Brookston, IN 47923, USA
+08-13 15:29:45.324 11921 11921 D cellinfo: Network Operator == Verizon 
+08-13 15:29:45.325 11921 11921 D cellinfo: User movement == Static
+08-13 15:29:45.325 11921 11921 D cellinfo: isEastCoast == true
+08-13 15:29:45.325 11921 11921 D cellinfo: isWestCoast == false
+08-13 15:29:45.325 11921 11921 D cellinfo: isBoston == false
+08-13 15:29:45.325 11921 11921 D cellinfo: All GPS info fetched. Saving city and country info
+08-13 15:29:45.326 11921 11983 D cellinfo: Timestamp: 1660418985
+08-13 15:29:45.828 11921 11984 D cellinfo: Logging started
+08-13 15:29:45.834 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:29:45.834 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -100 rsrq: -10 rssi: -83 rssnr: 8
+08-13 15:29:45.841 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77883676 CellConnectionStatus: 1
+08-13 15:29:45.842 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 5, 66, 2] Bandwidth: 10000 Cell ID: 58884640 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:29:45.843 11921 11921 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: LTE-CA
+08-13 15:29:46.330 11921 11983 D cellinfo: Ping command fired: /system/bin/ping -i 0.2 -s 38 54.197.223.49
+08-13 15:29:46.452 11921 11983 D cellinfo: PING 54.197.223.49 (54.197.223.49) 38(66) bytes of data.
+08-13 15:29:46.452 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1 ttl=40 time=97.1 ms
+08-13 15:29:46.613 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=2 ttl=40 time=57.1 ms
+08-13 15:29:46.813 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=3 ttl=40 time=56.3 ms
+08-13 15:29:47.014 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=4 ttl=40 time=55.9 ms
+08-13 15:29:47.214 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=5 ttl=40 time=56.4 ms
+08-13 15:29:47.414 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=6 ttl=40 time=55.1 ms
+08-13 15:29:47.615 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=7 ttl=40 time=55.4 ms
+08-13 15:29:47.813 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=8 ttl=40 time=52.1 ms
+08-13 15:29:48.013 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=9 ttl=40 time=52.0 ms
+08-13 15:29:48.055 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -98 rsrq: -11 rssi: -79 rssnr: 10
+08-13 15:29:48.213 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=10 ttl=40 time=51.7 ms
+08-13 15:29:48.429 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=11 ttl=40 time=68.1 ms
+08-13 15:29:48.626 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=12 ttl=40 time=63.3 ms
+08-13 15:29:48.821 11921 11921 D cellinfo: Latitude is 40.5461322
+08-13 15:29:48.821 11921 11921 D cellinfo: Longitude is -86.9219764
+08-13 15:29:48.821 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:29:48.821 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5461322, -86.9219764
+08-13 15:29:48.831 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=13 ttl=40 time=67.7 ms
+08-13 15:29:48.839 11921 11921 D cellinfo: Latitude is 40.5461322
+08-13 15:29:48.839 11921 11921 D cellinfo: Longitude is -86.9219764
+08-13 15:29:48.839 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:29:48.839 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5461322, -86.9219764
+08-13 15:29:49.023 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=14 ttl=40 time=59.3 ms
+08-13 15:29:49.224 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=15 ttl=40 time=60.1 ms
+08-13 15:29:49.439 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=16 ttl=40 time=74.3 ms
+08-13 15:29:49.626 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=17 ttl=40 time=60.3 ms
+08-13 15:29:49.833 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=18 ttl=40 time=66.2 ms
+08-13 15:29:50.024 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=19 ttl=40 time=57.0 ms
+08-13 15:29:50.225 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=20 ttl=40 time=57.7 ms
+08-13 15:29:50.430 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=21 ttl=40 time=62.9 ms
+08-13 15:29:50.626 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=22 ttl=40 time=57.3 ms
+08-13 15:29:50.833 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=23 ttl=40 time=64.2 ms
+08-13 15:29:51.023 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=24 ttl=40 time=53.0 ms
+08-13 15:29:51.142 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77889421 CellConnectionStatus: 1
+08-13 15:29:51.142 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 5, 66, 2] Bandwidth: 10000 Cell ID: 58884640 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:29:51.240 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=25 ttl=40 time=70.3 ms
+08-13 15:29:51.327 11921 11921 D cellinfo: Latitude is 40.5461322
+08-13 15:29:51.327 11921 11921 D cellinfo: Longitude is -86.9219764
+08-13 15:29:51.327 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:29:51.327 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5461322, -86.9219764
+08-13 15:29:51.432 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=26 ttl=40 time=61.8 ms
+08-13 15:29:51.632 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=27 ttl=40 time=61.3 ms
+08-13 15:29:51.823 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=28 ttl=40 time=52.1 ms
+08-13 15:29:52.023 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=29 ttl=40 time=51.3 ms
+08-13 15:29:52.232 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=30 ttl=40 time=60.3 ms
+08-13 15:29:52.435 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=31 ttl=40 time=62.4 ms
+08-13 15:29:52.634 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=32 ttl=40 time=60.7 ms
+08-13 15:29:52.842 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=33 ttl=40 time=68.0 ms
+08-13 15:29:53.034 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=34 ttl=40 time=58.9 ms
+08-13 15:29:53.236 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=35 ttl=40 time=61.2 ms
+08-13 15:29:53.433 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=36 ttl=40 time=57.9 ms
+08-13 15:29:53.634 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=37 ttl=40 time=58.5 ms
+08-13 15:29:53.835 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=38 ttl=40 time=58.8 ms
+08-13 15:29:54.033 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=39 ttl=40 time=56.0 ms
+08-13 15:29:54.057 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -112 rsrq: -15 rssi: -89 rssnr: 5
+08-13 15:29:54.241 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=40 ttl=40 time=64.9 ms
+08-13 15:29:54.438 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=41 ttl=40 time=60.2 ms
+08-13 15:29:54.650 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=42 ttl=40 time=71.3 ms
+08-13 15:29:54.814 11921 11921 D cellinfo: Latitude is 40.5461025
+08-13 15:29:54.814 11921 11921 D cellinfo: Longitude is -86.9219444
+08-13 15:29:54.814 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:29:54.814 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5461025, -86.9219444
+08-13 15:29:54.818 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77892662 CellConnectionStatus: 1
+08-13 15:29:54.818 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 5, 66, 2] Bandwidth: 10000 Cell ID: 58884640 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:29:54.852 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=43 ttl=40 time=73.7 ms
+08-13 15:29:54.900 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:29:55.043 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=44 ttl=40 time=63.2 ms
+08-13 15:29:55.233 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=45 ttl=40 time=53.1 ms
+08-13 15:29:55.434 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=46 ttl=40 time=53.2 ms
+08-13 15:29:55.641 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=47 ttl=40 time=59.5 ms
+08-13 15:29:55.869 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=48 ttl=40 time=86.2 ms
+08-13 15:29:56.053 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=49 ttl=40 time=69.6 ms
+08-13 15:29:56.244 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=50 ttl=40 time=60.7 ms
+08-13 15:29:56.453 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=51 ttl=40 time=68.5 ms
+08-13 15:29:56.645 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=52 ttl=40 time=60.2 ms
+08-13 15:29:56.862 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=53 ttl=40 time=75.5 ms
+08-13 15:29:57.043 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=54 ttl=40 time=56.8 ms
+08-13 15:29:57.262 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=55 ttl=40 time=76.2 ms
+08-13 15:29:57.368 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77895651 CellConnectionStatus: 1
+08-13 15:29:57.368 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 5, 2] Bandwidth: 10000 Cell ID: 58915862 Physical Cell ID: 166 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:29:57.451 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=56 ttl=40 time=63.7 ms
+08-13 15:29:57.643 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=57 ttl=40 time=55.4 ms
+08-13 15:29:57.844 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=58 ttl=40 time=51.8 ms
+08-13 15:29:57.916 11921 11921 D cellinfo: Latitude is 40.5444553
+08-13 15:29:57.916 11921 11921 D cellinfo: Longitude is -86.919988
+08-13 15:29:57.916 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:29:57.916 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5444553, -86.919988
+08-13 15:29:57.919 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -117 rsrq: -18 rssi: -89 rssnr: -5
+08-13 15:29:58.045 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=59 ttl=40 time=55.4 ms
+08-13 15:29:58.245 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=60 ttl=40 time=55.3 ms
+08-13 15:29:58.444 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=61 ttl=40 time=53.4 ms
+08-13 15:29:58.652 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=62 ttl=40 time=60.9 ms
+08-13 15:29:58.844 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=63 ttl=40 time=52.1 ms
+08-13 15:29:59.053 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=64 ttl=40 time=60.2 ms
+08-13 15:29:59.264 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=65 ttl=40 time=70.7 ms
+08-13 15:29:59.453 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=66 ttl=40 time=59.8 ms
+08-13 15:29:59.653 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=67 ttl=40 time=59.0 ms
+08-13 15:29:59.861 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=68 ttl=40 time=65.7 ms
+08-13 15:30:00.163 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=69 ttl=40 time=166 ms
+08-13 15:30:00.255 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=70 ttl=40 time=59.3 ms
+08-13 15:30:00.467 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=71 ttl=40 time=70.1 ms
+08-13 15:30:00.729 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=72 ttl=40 time=131 ms
+08-13 15:30:00.863 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=73 ttl=40 time=63.3 ms
+08-13 15:30:00.930 11921 11921 D cellinfo: Latitude is 40.5443248
+08-13 15:30:00.930 11921 11921 D cellinfo: Longitude is -86.9198242
+08-13 15:30:00.930 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:00.930 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5443248, -86.9198242
+08-13 15:30:00.934 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77898648 CellConnectionStatus: 1
+08-13 15:30:00.934 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 5, 2] Bandwidth: 10000 Cell ID: 58915862 Physical Cell ID: 166 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:30:00.935 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:00.935 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 5000, 10000]
+08-13 15:30:01.055 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=74 ttl=40 time=54.2 ms
+08-13 15:30:01.255 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=75 ttl=40 time=53.3 ms
+08-13 15:30:01.470 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=76 ttl=40 time=67.1 ms
+08-13 15:30:01.814 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -113 rsrq: -12 rssi: -91 rssnr: -6
+08-13 15:30:01.827 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=77 ttl=40 time=222 ms
+08-13 15:30:01.895 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=78 ttl=40 time=87.1 ms
+08-13 15:30:01.903 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 10000]
+08-13 15:30:02.099 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=79 ttl=40 time=89.7 ms
+08-13 15:30:02.284 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=80 ttl=40 time=73.5 ms
+08-13 15:30:02.495 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=81 ttl=40 time=83.8 ms
+08-13 15:30:02.689 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=82 ttl=40 time=77.5 ms
+08-13 15:30:02.890 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=83 ttl=40 time=77.2 ms
+08-13 15:30:03.112 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=84 ttl=40 time=97.4 ms
+08-13 15:30:03.282 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=85 ttl=40 time=68.4 ms
+08-13 15:30:03.498 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=86 ttl=40 time=82.9 ms
+08-13 15:30:03.692 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=87 ttl=40 time=76.3 ms
+08-13 15:30:03.865 11921 11921 D cellinfo: Latitude is 40.5439494
+08-13 15:30:03.865 11921 11921 D cellinfo: Longitude is -86.9193542
+08-13 15:30:03.865 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:03.865 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5439494, -86.9193542
+08-13 15:30:03.869 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77901667 CellConnectionStatus: 1
+08-13 15:30:03.869 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 5] Bandwidth: 10000 Cell ID: 58911265 Physical Cell ID: 53 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:30:03.888 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=88 ttl=40 time=72.2 ms
+08-13 15:30:04.251 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=89 ttl=40 time=234 ms
+08-13 15:30:04.643 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=90 ttl=40 time=423 ms
+08-13 15:30:04.906 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -120 rsrq: -18 rssi: -93 rssnr: -5
+08-13 15:30:04.912 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=91 ttl=40 time=491 ms
+08-13 15:30:04.912 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=92 ttl=40 time=287 ms
+08-13 15:30:05.004 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=93 ttl=40 time=179 ms
+08-13 15:30:05.101 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=94 ttl=40 time=77.1 ms
+08-13 15:30:05.363 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=95 ttl=40 time=138 ms
+08-13 15:30:05.534 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=96 ttl=40 time=108 ms
+08-13 15:30:05.731 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=97 ttl=40 time=104 ms
+08-13 15:30:05.902 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=98 ttl=40 time=73.7 ms
+08-13 15:30:06.190 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=99 ttl=40 time=161 ms
+08-13 15:30:06.212 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:06.230 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=99 ttl=40 time=202 ms (DUP!)
+08-13 15:30:06.284 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=100 ttl=40 time=54.3 ms
+08-13 15:30:06.292 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:06.511 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=101 ttl=40 time=80.8 ms
+08-13 15:30:06.824 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=102 ttl=40 time=190 ms
+08-13 15:30:06.855 11921 11921 D cellinfo: Latitude is 40.5438894
+08-13 15:30:06.855 11921 11921 D cellinfo: Longitude is -86.919281
+08-13 15:30:06.855 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:06.855 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5438894, -86.919281
+08-13 15:30:06.858 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77904648 CellConnectionStatus: 1
+08-13 15:30:06.859 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 5, 66, 2] Bandwidth: 10000 Cell ID: 58884640 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:30:06.906 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=103 ttl=40 time=74.3 ms
+08-13 15:30:07.102 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=104 ttl=40 time=68.9 ms
+08-13 15:30:07.299 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=105 ttl=40 time=65.7 ms
+08-13 15:30:07.496 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=106 ttl=40 time=61.9 ms
+08-13 15:30:07.703 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=107 ttl=40 time=68.2 ms
+08-13 15:30:07.901 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=108 ttl=40 time=65.0 ms
+08-13 15:30:08.110 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=109 ttl=40 time=72.7 ms
+08-13 15:30:08.218 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -104 rsrq: -9 rssi: -87 rssnr: 4
+08-13 15:30:08.293 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=110 ttl=40 time=55.4 ms
+08-13 15:30:08.493 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=111 ttl=40 time=54.3 ms
+08-13 15:30:08.694 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=112 ttl=40 time=54.5 ms
+08-13 15:30:08.893 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=113 ttl=40 time=52.4 ms
+08-13 15:30:09.098 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=114 ttl=40 time=56.3 ms
+08-13 15:30:09.318 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=115 ttl=40 time=74.3 ms
+08-13 15:30:09.381 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77907662 CellConnectionStatus: 1
+08-13 15:30:09.381 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 5, 66, 2] Bandwidth: 10000 Cell ID: 58884640 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:30:09.500 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=116 ttl=40 time=56.1 ms
+08-13 15:30:09.801 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=117 ttl=40 time=156 ms
+08-13 15:30:09.913 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=118 ttl=40 time=67.6 ms
+08-13 15:30:10.103 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=119 ttl=40 time=56.1 ms
+08-13 15:30:10.147 11921 11921 D cellinfo: Latitude is 40.5419877
+08-13 15:30:10.147 11921 11921 D cellinfo: Longitude is -86.9169181
+08-13 15:30:10.147 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:10.147 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5419877, -86.9169181
+08-13 15:30:10.320 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=120 ttl=40 time=73.4 ms
+08-13 15:30:10.516 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=121 ttl=40 time=67.8 ms
+08-13 15:30:10.689 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:10.718 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=122 ttl=40 time=69.2 ms
+08-13 15:30:10.909 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=123 ttl=40 time=59.9 ms
+08-13 15:30:11.108 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=124 ttl=40 time=57.7 ms
+08-13 15:30:11.325 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=125 ttl=40 time=73.8 ms
+08-13 15:30:11.507 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=126 ttl=40 time=55.5 ms
+08-13 15:30:11.660 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -111 rsrq: -13 rssi: -89 rssnr: 0
+08-13 15:30:11.722 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=127 ttl=40 time=70.0 ms
+08-13 15:30:11.908 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=128 ttl=40 time=55.3 ms
+08-13 15:30:12.119 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=129 ttl=40 time=65.5 ms
+08-13 15:30:12.308 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=130 ttl=40 time=53.3 ms
+08-13 15:30:12.512 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=131 ttl=40 time=55.4 ms
+08-13 15:30:12.736 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=132 ttl=40 time=77.3 ms
+08-13 15:30:12.760 11921 11921 D cellinfo: Latitude is 40.5418704
+08-13 15:30:12.761 11921 11921 D cellinfo: Longitude is -86.9167695
+08-13 15:30:12.761 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:12.761 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5418704, -86.9167695
+08-13 15:30:12.765 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77910655 CellConnectionStatus: 1
+08-13 15:30:12.765 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 5, 2] Bandwidth: 10000 Cell ID: 58915862 Physical Cell ID: 166 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:30:12.945 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=133 ttl=40 time=86.0 ms
+08-13 15:30:13.119 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=134 ttl=40 time=59.6 ms
+08-13 15:30:13.320 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=135 ttl=40 time=60.2 ms
+08-13 15:30:13.537 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=136 ttl=40 time=75.5 ms
+08-13 15:30:13.731 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=137 ttl=40 time=68.8 ms
+08-13 15:30:13.942 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=138 ttl=40 time=79.5 ms
+08-13 15:30:14.129 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=139 ttl=40 time=65.5 ms
+08-13 15:30:14.311 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:14.322 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=140 ttl=40 time=58.6 ms
+08-13 15:30:14.525 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=141 ttl=40 time=61.6 ms
+08-13 15:30:14.722 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=142 ttl=40 time=58.4 ms
+08-13 15:30:14.931 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=143 ttl=40 time=66.3 ms
+08-13 15:30:15.136 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=144 ttl=40 time=69.1 ms
+08-13 15:30:15.255 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -99 rsrq: -9 rssi: -81 rssnr: 12
+08-13 15:30:15.337 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=145 ttl=40 time=70.8 ms
+08-13 15:30:15.530 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=146 ttl=40 time=63.6 ms
+08-13 15:30:15.729 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=147 ttl=40 time=60.7 ms
+08-13 15:30:15.772 11921 11921 D cellinfo: Latitude is 40.5415243
+08-13 15:30:15.772 11921 11921 D cellinfo: Longitude is -86.9163351
+08-13 15:30:15.772 11921 11921 D cellinfo: Instantaneous GPS information: United States, 561 W 850 N, West Lafayette, IN 47906, USA
+08-13 15:30:15.772 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5415243, -86.9163351
+08-13 15:30:15.776 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77913639 CellConnectionStatus: 1
+08-13 15:30:15.776 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 5, 2] Bandwidth: 10000 Cell ID: 58884640 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:30:15.937 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=148 ttl=40 time=68.3 ms
+08-13 15:30:16.140 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=149 ttl=40 time=71.1 ms
+08-13 15:30:16.339 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=150 ttl=40 time=69.3 ms
+08-13 15:30:16.526 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=151 ttl=40 time=54.2 ms
+08-13 15:30:16.757 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=152 ttl=40 time=85.0 ms
+08-13 15:30:16.928 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=153 ttl=40 time=53.7 ms
+08-13 15:30:17.126 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=154 ttl=40 time=52.6 ms
+08-13 15:30:17.326 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=155 ttl=40 time=51.5 ms
+08-13 15:30:17.535 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=156 ttl=40 time=60.5 ms
+08-13 15:30:17.735 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=157 ttl=40 time=60.1 ms
+08-13 15:30:17.937 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=158 ttl=40 time=60.5 ms
+08-13 15:30:18.136 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=159 ttl=40 time=59.7 ms
+08-13 15:30:18.332 11921 11921 D cellinfo: Latitude is 40.5415167
+08-13 15:30:18.333 11921 11921 D cellinfo: Longitude is -86.9163272
+08-13 15:30:18.333 11921 11921 D cellinfo: Instantaneous GPS information: United States, 561 W 850 N, West Lafayette, IN 47906, USA
+08-13 15:30:18.333 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5415167, -86.9163272
+08-13 15:30:18.353 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=160 ttl=40 time=75.2 ms
+08-13 15:30:18.381 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77916663 CellConnectionStatus: 1
+08-13 15:30:18.381 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 5, 2] Bandwidth: 10000 Cell ID: 58884640 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:30:18.537 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=161 ttl=40 time=59.0 ms
+08-13 15:30:18.752 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=162 ttl=40 time=73.2 ms
+08-13 15:30:18.943 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=163 ttl=40 time=63.4 ms
+08-13 15:30:19.137 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=164 ttl=40 time=55.6 ms
+08-13 15:30:19.261 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -106 rsrq: -7 rssi: -91 rssnr: 9
+08-13 15:30:19.339 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=165 ttl=40 time=57.8 ms
+08-13 15:30:19.541 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=166 ttl=40 time=59.3 ms
+08-13 15:30:19.735 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=167 ttl=40 time=52.2 ms
+08-13 15:30:19.945 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=168 ttl=40 time=61.3 ms
+08-13 15:30:20.169 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=169 ttl=40 time=84.2 ms
+08-13 15:30:20.373 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=170 ttl=40 time=86.6 ms
+08-13 15:30:20.548 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=171 ttl=40 time=60.8 ms
+08-13 15:30:20.746 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=172 ttl=40 time=58.9 ms
+08-13 15:30:20.962 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=173 ttl=40 time=74.5 ms
+08-13 15:30:21.147 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=174 ttl=40 time=58.4 ms
+08-13 15:30:21.346 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=175 ttl=40 time=57.4 ms
+08-13 15:30:21.371 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77919654 CellConnectionStatus: 1
+08-13 15:30:21.371 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 5, 2] Bandwidth: 10000 Cell ID: 58884640 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:30:21.543 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=176 ttl=40 time=53.5 ms
+08-13 15:30:21.746 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=177 ttl=40 time=54.4 ms
+08-13 15:30:21.951 11921 11921 D cellinfo: Latitude is 40.5393746
+08-13 15:30:21.951 11921 11921 D cellinfo: Longitude is -86.9137057
+08-13 15:30:21.951 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:21.952 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5393746, -86.9137057
+08-13 15:30:21.958 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=178 ttl=40 time=65.6 ms
+08-13 15:30:22.145 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=179 ttl=40 time=52.9 ms
+08-13 15:30:22.370 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=180 ttl=40 time=77.2 ms
+08-13 15:30:22.575 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=181 ttl=40 time=81.0 ms
+08-13 15:30:22.764 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=182 ttl=40 time=69.1 ms
+08-13 15:30:22.957 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=183 ttl=40 time=61.3 ms
+08-13 15:30:23.257 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=184 ttl=40 time=158 ms
+08-13 15:30:23.265 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -116 rsrq: -15 rssi: -91 rssnr: -1
+08-13 15:30:23.363 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=185 ttl=40 time=65.7 ms
+08-13 15:30:23.555 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=186 ttl=40 time=57.2 ms
+08-13 15:30:23.765 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=187 ttl=40 time=66.1 ms
+08-13 15:30:23.964 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=188 ttl=40 time=64.6 ms
+08-13 15:30:24.156 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=189 ttl=40 time=54.5 ms
+08-13 15:30:24.360 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=190 ttl=40 time=58.7 ms
+08-13 15:30:24.563 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=191 ttl=40 time=62.1 ms
+08-13 15:30:24.781 11921 11921 D cellinfo: Latitude is 40.5392533
+08-13 15:30:24.782 11921 11921 D cellinfo: Longitude is -86.9135579
+08-13 15:30:24.782 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:24.782 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5392533, -86.9135579
+08-13 15:30:24.783 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=192 ttl=40 time=79.6 ms
+08-13 15:30:24.789 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77922662 CellConnectionStatus: 1
+08-13 15:30:24.789 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 5, 2] Bandwidth: 10000 Cell ID: 58884640 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:30:24.955 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=193 ttl=40 time=51.6 ms
+08-13 15:30:25.166 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=194 ttl=40 time=61.9 ms
+08-13 15:30:25.365 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=195 ttl=40 time=60.4 ms
+08-13 15:30:25.566 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=196 ttl=40 time=60.3 ms
+08-13 15:30:25.766 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=197 ttl=40 time=59.1 ms
+08-13 15:30:25.966 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=198 ttl=40 time=57.3 ms
+08-13 15:30:26.167 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=199 ttl=40 time=57.2 ms
+08-13 15:30:26.366 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=200 ttl=40 time=55.3 ms
+08-13 15:30:26.566 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=201 ttl=40 time=55.0 ms
+08-13 15:30:26.766 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=202 ttl=40 time=54.6 ms
+08-13 15:30:26.969 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=203 ttl=40 time=57.2 ms
+08-13 15:30:27.168 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=204 ttl=40 time=54.2 ms
+08-13 15:30:27.257 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -102 rsrq: -12 rssi: -79 rssnr: 2
+08-13 15:30:27.375 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=205 ttl=40 time=60.9 ms
+08-13 15:30:27.578 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=206 ttl=40 time=62.7 ms
+08-13 15:30:27.745 11921 11921 D cellinfo: Latitude is 40.5388827
+08-13 15:30:27.745 11921 11921 D cellinfo: Longitude is -86.9131153
+08-13 15:30:27.745 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:27.745 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5388827, -86.9131153
+08-13 15:30:27.748 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77925642 CellConnectionStatus: 1
+08-13 15:30:27.748 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 5, 2] Bandwidth: 10000 Cell ID: 58884640 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:30:27.786 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=207 ttl=40 time=69.6 ms
+08-13 15:30:27.987 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=208 ttl=40 time=70.3 ms
+08-13 15:30:28.186 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=209 ttl=40 time=66.2 ms
+08-13 15:30:28.384 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=210 ttl=40 time=64.7 ms
+08-13 15:30:28.585 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=211 ttl=40 time=64.7 ms
+08-13 15:30:28.821 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=212 ttl=40 time=99.5 ms
+08-13 15:30:28.976 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=213 ttl=40 time=53.9 ms
+08-13 15:30:29.176 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=214 ttl=40 time=53.8 ms
+08-13 15:30:29.409 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=215 ttl=40 time=84.5 ms
+08-13 15:30:29.577 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=216 ttl=40 time=53.1 ms
+08-13 15:30:29.797 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=217 ttl=40 time=72.2 ms
+08-13 15:30:29.990 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=218 ttl=40 time=63.3 ms
+08-13 15:30:30.189 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=219 ttl=40 time=62.0 ms
+08-13 15:30:30.393 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=220 ttl=40 time=64.8 ms
+08-13 15:30:30.586 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=221 ttl=40 time=56.5 ms
+08-13 15:30:30.729 11921 11921 D cellinfo: Latitude is 40.5388684
+08-13 15:30:30.729 11921 11921 D cellinfo: Longitude is -86.9131018
+08-13 15:30:30.729 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:30.729 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5388684, -86.9131018
+08-13 15:30:30.733 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77928663 CellConnectionStatus: 1
+08-13 15:30:30.733 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 5, 2] Bandwidth: 10000 Cell ID: 58884640 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:30:30.801 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=222 ttl=40 time=71.1 ms
+08-13 15:30:30.989 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=223 ttl=40 time=58.1 ms
+08-13 15:30:31.221 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=224 ttl=40 time=89.8 ms
+08-13 15:30:31.252 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -111 rsrq: -13 rssi: -89 rssnr: -6
+08-13 15:30:31.387 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=225 ttl=40 time=55.1 ms
+08-13 15:30:31.590 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=226 ttl=40 time=55.8 ms
+08-13 15:30:31.807 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=227 ttl=40 time=72.1 ms
+08-13 15:30:32.015 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=228 ttl=40 time=79.5 ms
+08-13 15:30:32.196 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=229 ttl=40 time=61.5 ms
+08-13 15:30:32.412 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=230 ttl=40 time=76.2 ms
+08-13 15:30:32.617 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=231 ttl=40 time=79.6 ms
+08-13 15:30:32.824 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=232 ttl=40 time=86.4 ms
+08-13 15:30:32.860 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:32.998 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=233 ttl=40 time=59.0 ms
+08-13 15:30:33.195 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=234 ttl=40 time=55.8 ms
+08-13 15:30:33.361 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77931642 CellConnectionStatus: 1
+08-13 15:30:33.361 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 5, 2] Bandwidth: 10000 Cell ID: 58915862 Physical Cell ID: 166 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:30:33.426 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=235 ttl=40 time=85.6 ms
+08-13 15:30:33.595 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=236 ttl=40 time=54.6 ms
+08-13 15:30:33.805 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=237 ttl=40 time=62.2 ms
+08-13 15:30:33.994 11921 11921 D cellinfo: Latitude is 40.5365114
+08-13 15:30:33.994 11921 11921 D cellinfo: Longitude is -86.9110213
+08-13 15:30:33.994 11921 11921 D cellinfo: Instantaneous GPS information: United States, 240 W 790 N, West Lafayette, IN 47906, USA
+08-13 15:30:33.994 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5365114, -86.9110213
+08-13 15:30:34.005 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=238 ttl=40 time=62.2 ms
+08-13 15:30:34.204 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=239 ttl=40 time=61.7 ms
+08-13 15:30:34.404 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=240 ttl=40 time=61.4 ms
+08-13 15:30:34.611 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=241 ttl=40 time=67.5 ms
+08-13 15:30:34.806 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=242 ttl=40 time=60.3 ms
+08-13 15:30:35.005 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=243 ttl=40 time=58.1 ms
+08-13 15:30:35.213 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=244 ttl=40 time=65.0 ms
+08-13 15:30:35.423 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=245 ttl=40 time=74.7 ms
+08-13 15:30:35.605 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=246 ttl=40 time=56.2 ms
+08-13 15:30:35.805 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=247 ttl=40 time=56.0 ms
+08-13 15:30:36.005 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=248 ttl=40 time=54.4 ms
+08-13 15:30:36.206 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=249 ttl=40 time=56.2 ms
+08-13 15:30:36.411 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=250 ttl=40 time=61.2 ms
+08-13 15:30:36.608 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=251 ttl=40 time=56.5 ms
+08-13 15:30:36.734 11921 11921 D cellinfo: Latitude is 40.5363655
+08-13 15:30:36.734 11921 11921 D cellinfo: Longitude is -86.9109014
+08-13 15:30:36.734 11921 11921 D cellinfo: Instantaneous GPS information: United States, 240 W 790 N, West Lafayette, IN 47906, USA
+08-13 15:30:36.734 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5363655, -86.9109014
+08-13 15:30:36.737 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77934641 CellConnectionStatus: 1
+08-13 15:30:36.737 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 5, 2] Bandwidth: 10000 Cell ID: 58915862 Physical Cell ID: 166 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:30:36.816 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=252 ttl=40 time=63.3 ms
+08-13 15:30:37.021 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=253 ttl=40 time=68.3 ms
+08-13 15:30:37.229 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=254 ttl=40 time=76.2 ms
+08-13 15:30:37.426 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=255 ttl=40 time=72.0 ms
+08-13 15:30:37.728 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=256 ttl=40 time=171 ms
+08-13 15:30:37.812 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -116 rsrq: -14 rssi: -95 rssnr: 7
+08-13 15:30:37.823 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=257 ttl=40 time=67.2 ms
+08-13 15:30:38.040 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=258 ttl=40 time=83.1 ms
+08-13 15:30:38.221 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=259 ttl=40 time=64.8 ms
+08-13 15:30:38.421 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=260 ttl=40 time=64.5 ms
+08-13 15:30:38.621 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=261 ttl=40 time=63.4 ms
+08-13 15:30:38.832 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=262 ttl=40 time=73.3 ms
+08-13 15:30:39.021 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=263 ttl=40 time=61.1 ms
+08-13 15:30:39.236 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=264 ttl=40 time=75.8 ms
+08-13 15:30:39.452 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=265 ttl=40 time=90.8 ms
+08-13 15:30:39.708 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=266 ttl=40 time=145 ms
+08-13 15:30:39.874 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=267 ttl=40 time=110 ms
+08-13 15:30:40.113 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=268 ttl=40 time=148 ms
+08-13 15:30:40.180 11921 11921 D cellinfo: Latitude is 40.5358798
+08-13 15:30:40.180 11921 11921 D cellinfo: Longitude is -86.9105028
+08-13 15:30:40.180 11921 11921 D cellinfo: Instantaneous GPS information: United States, 240 W 790 N, West Lafayette, IN 47906, USA
+08-13 15:30:40.180 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5358798, -86.9105028
+08-13 15:30:40.184 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77937639 CellConnectionStatus: 1
+08-13 15:30:40.184 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 5, 2] Bandwidth: 10000 Cell ID: 58915862 Physical Cell ID: 166 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:30:40.235 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=269 ttl=40 time=71.7 ms
+08-13 15:30:40.490 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=270 ttl=40 time=125 ms
+08-13 15:30:40.613 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=270 ttl=40 time=249 ms (DUP!)
+08-13 15:30:40.731 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=271 ttl=40 time=165 ms
+08-13 15:30:40.764 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000]
+08-13 15:30:40.873 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=272 ttl=40 time=107 ms
+08-13 15:30:41.031 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=273 ttl=40 time=64.4 ms
+08-13 15:30:41.230 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=274 ttl=40 time=63.8 ms
+08-13 15:30:41.434 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=275 ttl=40 time=68.0 ms
+08-13 15:30:41.639 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=276 ttl=40 time=71.9 ms
+08-13 15:30:41.740 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -119 rsrq: -16 rssi: -95 rssnr: -7
+08-13 15:30:41.852 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=277 ttl=40 time=83.6 ms
+08-13 15:30:42.055 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=278 ttl=40 time=86.2 ms
+08-13 15:30:42.259 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=279 ttl=40 time=91.2 ms
+08-13 15:30:42.453 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=280 ttl=40 time=83.6 ms
+08-13 15:30:42.653 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=281 ttl=40 time=82.9 ms
+08-13 15:30:42.849 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=282 ttl=40 time=76.9 ms
+08-13 15:30:43.176 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=283 ttl=40 time=203 ms
+08-13 15:30:43.280 11921 11921 D cellinfo: Latitude is 40.5358375
+08-13 15:30:43.280 11921 11921 D cellinfo: Longitude is -86.9104683
+08-13 15:30:43.280 11921 11921 D cellinfo: Instantaneous GPS information: United States, 240 W 790 N, West Lafayette, IN 47906, USA
+08-13 15:30:43.280 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5358375, -86.9104683
+08-13 15:30:43.284 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77940648 CellConnectionStatus: 1
+08-13 15:30:43.285 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 13] Bandwidth: 10000 Cell ID: 58955788 Physical Cell ID: 123 Tracking Area Code: 58891 EARFCN: 66586
+08-13 15:30:43.286 11921 11921 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: None
+08-13 15:30:43.286 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:43.286 11921 11921 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: LTE-CA
+08-13 15:30:43.286 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:43.308 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=284 ttl=40 time=132 ms
+08-13 15:30:43.441 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=285 ttl=40 time=64.7 ms
+08-13 15:30:43.646 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=286 ttl=40 time=68.8 ms
+08-13 15:30:43.831 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:43.878 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 10000]
+08-13 15:30:43.949 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=287 ttl=40 time=171 ms
+08-13 15:30:44.102 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=288 ttl=40 time=124 ms
+08-13 15:30:44.281 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=289 ttl=40 time=102 ms
+08-13 15:30:44.535 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=290 ttl=40 time=157 ms
+08-13 15:30:44.702 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=291 ttl=40 time=123 ms
+08-13 15:30:44.805 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -120 rsrq: -14 rssi: -99 rssnr: -2
+08-13 15:30:44.944 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=292 ttl=40 time=164 ms
+08-13 15:30:45.262 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=293 ttl=40 time=281 ms
+08-13 15:30:45.365 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=294 ttl=40 time=181 ms
+08-13 15:30:45.373 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:45.398 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:45.404 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77943677 CellConnectionStatus: 1
+08-13 15:30:45.404 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58884611 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:30:45.455 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=294 ttl=40 time=271 ms (DUP!)
+08-13 15:30:45.455 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=295 ttl=40 time=70.5 ms
+08-13 15:30:45.465 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:45.659 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=296 ttl=40 time=73.1 ms
+08-13 15:30:45.873 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=297 ttl=40 time=85.7 ms
+08-13 15:30:46.061 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=298 ttl=40 time=72.7 ms
+08-13 15:30:46.105 11921 11921 D cellinfo: Latitude is 40.5335824
+08-13 15:30:46.105 11921 11921 D cellinfo: Longitude is -86.9086422
+08-13 15:30:46.105 11921 11921 D cellinfo: Instantaneous GPS information: United States, 8020 Meridian Line Rd, West Lafayette, IN 47906, USA
+08-13 15:30:46.105 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5335824, -86.9086422
+08-13 15:30:46.270 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=299 ttl=40 time=81.0 ms
+08-13 15:30:46.528 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=300 ttl=40 time=139 ms
+08-13 15:30:46.681 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=301 ttl=40 time=90.7 ms
+08-13 15:30:46.856 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=302 ttl=40 time=65.0 ms
+08-13 15:30:47.098 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=303 ttl=40 time=106 ms
+08-13 15:30:47.252 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=304 ttl=40 time=60.0 ms
+08-13 15:30:47.472 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=305 ttl=40 time=78.7 ms
+08-13 15:30:47.649 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=306 ttl=40 time=55.0 ms
+08-13 15:30:47.867 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=307 ttl=40 time=72.3 ms
+08-13 15:30:48.074 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=308 ttl=40 time=78.4 ms
+08-13 15:30:48.275 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=309 ttl=40 time=79.6 ms
+08-13 15:30:48.485 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=310 ttl=40 time=89.7 ms
+08-13 15:30:48.678 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=311 ttl=40 time=80.4 ms
+08-13 15:30:48.838 11921 11921 D cellinfo: Latitude is 40.5334733
+08-13 15:30:48.838 11921 11921 D cellinfo: Longitude is -86.9085525
+08-13 15:30:48.838 11921 11921 D cellinfo: Instantaneous GPS information: United States, 8020 Meridian Line Rd, West Lafayette, IN 47906, USA
+08-13 15:30:48.838 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5334733, -86.9085525
+08-13 15:30:48.842 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77946656 CellConnectionStatus: 1
+08-13 15:30:48.842 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58884611 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:30:48.843 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -110 rsrq: -15 rssi: -89 rssnr: -6
+08-13 15:30:48.996 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=312 ttl=40 time=198 ms
+08-13 15:30:49.057 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=313 ttl=40 time=58.6 ms
+08-13 15:30:49.269 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=314 ttl=40 time=71.2 ms
+08-13 15:30:49.469 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=315 ttl=40 time=69.9 ms
+08-13 15:30:49.681 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=316 ttl=40 time=81.7 ms
+08-13 15:30:50.180 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=317 ttl=40 time=379 ms
+08-13 15:30:50.183 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=318 ttl=40 time=179 ms
+08-13 15:30:50.280 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=319 ttl=40 time=74.9 ms
+08-13 15:30:50.670 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:50.715 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=320 ttl=40 time=309 ms
+08-13 15:30:50.715 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=321 ttl=40 time=107 ms
+08-13 15:30:50.780 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000]
+08-13 15:30:50.881 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=322 ttl=40 time=71.1 ms
+08-13 15:30:51.133 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=323 ttl=40 time=123 ms
+08-13 15:30:51.363 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=324 ttl=40 time=153 ms
+08-13 15:30:51.490 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=325 ttl=40 time=78.3 ms
+08-13 15:30:51.681 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=326 ttl=40 time=69.0 ms
+08-13 15:30:51.879 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=327 ttl=40 time=65.9 ms
+08-13 15:30:51.911 11921 11921 D cellinfo: Latitude is 40.5330116
+08-13 15:30:51.912 11921 11921 D cellinfo: Longitude is -86.9081741
+08-13 15:30:51.912 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65 Crest Dr, West Lafayette, IN 47906, USA
+08-13 15:30:51.912 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5330116, -86.9081741
+08-13 15:30:51.916 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77949652 CellConnectionStatus: 1
+08-13 15:30:51.916 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 4] Bandwidth: 10000 Cell ID: 58955777 Physical Cell ID: 123 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:30:51.916 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -106 rsrq: -13 rssi: -85 rssnr: -5
+08-13 15:30:52.086 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=328 ttl=40 time=70.4 ms
+08-13 15:30:52.300 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=329 ttl=40 time=84.9 ms
+08-13 15:30:52.480 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=330 ttl=40 time=64.1 ms
+08-13 15:30:52.681 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=331 ttl=40 time=64.4 ms
+08-13 15:30:52.884 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=332 ttl=40 time=67.2 ms
+08-13 15:30:53.083 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=333 ttl=40 time=64.5 ms
+08-13 15:30:53.286 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=334 ttl=40 time=67.3 ms
+08-13 15:30:53.485 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=335 ttl=40 time=64.9 ms
+08-13 15:30:53.687 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=336 ttl=40 time=66.3 ms
+08-13 15:30:53.890 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=337 ttl=40 time=68.0 ms
+08-13 15:30:54.089 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=338 ttl=40 time=66.1 ms
+08-13 15:30:54.295 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=339 ttl=40 time=71.3 ms
+08-13 15:30:54.484 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=340 ttl=40 time=59.1 ms
+08-13 15:30:54.694 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=341 ttl=40 time=66.5 ms
+08-13 15:30:54.752 11921 11921 D cellinfo: Latitude is 40.5329232
+08-13 15:30:54.752 11921 11921 D cellinfo: Longitude is -86.9081021
+08-13 15:30:54.752 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65 Crest Dr, West Lafayette, IN 47906, USA
+08-13 15:30:54.752 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5329232, -86.9081021
+08-13 15:30:54.756 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77952661 CellConnectionStatus: 1
+08-13 15:30:54.756 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 4] Bandwidth: 10000 Cell ID: 58955777 Physical Cell ID: 123 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:30:54.900 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=342 ttl=40 time=72.0 ms
+08-13 15:30:55.105 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=343 ttl=40 time=75.9 ms
+08-13 15:30:55.304 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=344 ttl=40 time=74.1 ms
+08-13 15:30:55.533 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=345 ttl=40 time=102 ms
+08-13 15:30:55.710 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=346 ttl=40 time=79.2 ms
+08-13 15:30:55.920 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=347 ttl=40 time=87.9 ms
+08-13 15:30:56.343 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=348 ttl=40 time=309 ms
+08-13 15:30:56.455 11921 11921 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: None
+08-13 15:30:56.475 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=349 ttl=40 time=239 ms
+08-13 15:30:56.481 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:56.486 11921 11921 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: LTE-CA
+08-13 15:30:56.529 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:56.548 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=350 ttl=40 time=112 ms
+08-13 15:30:56.579 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:30:56.700 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=351 ttl=40 time=62.8 ms
+08-13 15:30:56.924 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=352 ttl=40 time=85.7 ms
+08-13 15:30:57.096 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=353 ttl=40 time=56.9 ms
+08-13 15:30:57.308 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=354 ttl=40 time=68.7 ms
+08-13 15:30:57.374 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77955658 CellConnectionStatus: 1
+08-13 15:30:57.374 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58884611 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:30:57.500 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=355 ttl=40 time=60.5 ms
+08-13 15:30:57.716 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=356 ttl=40 time=74.4 ms
+08-13 15:30:57.902 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=357 ttl=40 time=59.9 ms
+08-13 15:30:57.959 11921 11921 D cellinfo: Latitude is 40.5305064
+08-13 15:30:57.959 11921 11921 D cellinfo: Longitude is -86.9061796
+08-13 15:30:57.959 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:57.959 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5305064, -86.9061796
+08-13 15:30:58.123 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=358 ttl=40 time=80.7 ms
+08-13 15:30:58.308 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=359 ttl=40 time=65.6 ms
+08-13 15:30:58.526 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=360 ttl=40 time=83.1 ms
+08-13 15:30:58.709 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=361 ttl=40 time=65.4 ms
+08-13 15:30:58.920 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=362 ttl=40 time=75.2 ms
+08-13 15:30:59.121 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=363 ttl=40 time=74.2 ms
+08-13 15:30:59.320 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=364 ttl=40 time=72.7 ms
+08-13 15:30:59.527 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=365 ttl=40 time=79.2 ms
+08-13 15:30:59.717 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=366 ttl=40 time=68.3 ms
+08-13 15:30:59.996 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=367 ttl=40 time=146 ms
+08-13 15:31:00.583 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=368 ttl=40 time=532 ms
+08-13 15:31:00.584 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=369 ttl=40 time=331 ms
+08-13 15:31:00.584 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=370 ttl=40 time=127 ms
+08-13 15:31:00.716 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=371 ttl=40 time=59.5 ms
+08-13 15:31:00.933 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=372 ttl=40 time=74.4 ms
+08-13 15:31:01.015 11921 11921 D cellinfo: Latitude is 40.5303437
+08-13 15:31:01.015 11921 11921 D cellinfo: Longitude is -86.9060459
+08-13 15:31:01.015 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:01.015 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5303437, -86.9060459
+08-13 15:31:01.020 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77958655 CellConnectionStatus: 1
+08-13 15:31:01.020 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58884611 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:01.127 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=373 ttl=40 time=67.1 ms
+08-13 15:31:01.329 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=374 ttl=40 time=68.0 ms
+08-13 15:31:01.531 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=375 ttl=40 time=69.3 ms
+08-13 15:31:01.737 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=376 ttl=40 time=74.8 ms
+08-13 15:31:01.959 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=377 ttl=40 time=96.3 ms
+08-13 15:31:02.129 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=378 ttl=40 time=66.0 ms
+08-13 15:31:02.334 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=379 ttl=40 time=70.1 ms
+08-13 15:31:02.543 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -102 rsrq: -14 rssi: -81 rssnr: -9
+08-13 15:31:02.550 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=380 ttl=40 time=84.0 ms
+08-13 15:31:02.733 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=381 ttl=40 time=67.3 ms
+08-13 15:31:02.935 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=382 ttl=40 time=67.0 ms
+08-13 15:31:03.123 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=383 ttl=40 time=55.4 ms
+08-13 15:31:03.324 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=384 ttl=40 time=55.6 ms
+08-13 15:31:03.642 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=385 ttl=40 time=172 ms
+08-13 15:31:03.731 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=386 ttl=40 time=61.3 ms
+08-13 15:31:03.800 11921 11921 D cellinfo: Latitude is 40.529786
+08-13 15:31:03.800 11921 11921 D cellinfo: Longitude is -86.9055879
+08-13 15:31:03.800 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:03.800 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.529786, -86.9055879
+08-13 15:31:03.803 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77961656 CellConnectionStatus: 1
+08-13 15:31:03.803 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58884611 Physical Cell ID: 137 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:03.932 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=387 ttl=40 time=61.7 ms
+08-13 15:31:04.327 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:04.390 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=388 ttl=40 time=319 ms
+08-13 15:31:04.425 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=389 ttl=40 time=153 ms
+08-13 15:31:04.464 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000]
+08-13 15:31:04.587 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=390 ttl=40 time=115 ms
+08-13 15:31:04.734 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=391 ttl=40 time=61.1 ms
+08-13 15:31:04.932 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=392 ttl=40 time=56.8 ms
+08-13 15:31:05.132 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=393 ttl=40 time=57.0 ms
+08-13 15:31:05.376 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=394 ttl=40 time=100 ms
+08-13 15:31:05.554 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=395 ttl=40 time=77.1 ms
+08-13 15:31:05.753 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=396 ttl=40 time=75.0 ms
+08-13 15:31:05.942 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=397 ttl=40 time=62.7 ms
+08-13 15:31:06.156 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=398 ttl=40 time=75.8 ms
+08-13 15:31:06.300 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -103 rsrq: -13 rssi: -83 rssnr: -2
+08-13 15:31:06.340 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=399 ttl=40 time=59.0 ms
+08-13 15:31:06.547 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=400 ttl=40 time=64.6 ms
+08-13 15:31:06.742 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=401 ttl=40 time=59.1 ms
+08-13 15:31:06.744 11921 11921 D cellinfo: Latitude is 40.5297347
+08-13 15:31:06.744 11921 11921 D cellinfo: Longitude is -86.9055461
+08-13 15:31:06.744 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:06.744 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5297347, -86.9055461
+08-13 15:31:06.748 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77964645 CellConnectionStatus: 1
+08-13 15:31:06.748 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 4] Bandwidth: 10000 Cell ID: 58955777 Physical Cell ID: 123 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:06.950 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=402 ttl=40 time=65.6 ms
+08-13 15:31:07.149 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=403 ttl=40 time=64.5 ms
+08-13 15:31:07.349 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=404 ttl=40 time=64.1 ms
+08-13 15:31:07.549 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=405 ttl=40 time=63.2 ms
+08-13 15:31:07.769 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=406 ttl=40 time=82.1 ms
+08-13 15:31:07.977 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=407 ttl=40 time=89.3 ms
+08-13 15:31:08.175 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=408 ttl=40 time=86.1 ms
+08-13 15:31:08.393 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=409 ttl=40 time=103 ms
+08-13 15:31:08.559 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=410 ttl=40 time=68.1 ms
+08-13 15:31:08.767 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=411 ttl=40 time=75.3 ms
+08-13 15:31:08.951 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=412 ttl=40 time=58.0 ms
+08-13 15:31:09.159 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=413 ttl=40 time=65.1 ms
+08-13 15:31:09.350 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=414 ttl=40 time=55.4 ms
+08-13 15:31:09.387 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77967668 CellConnectionStatus: 1
+08-13 15:31:09.387 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 4] Bandwidth: 10000 Cell ID: 58955777 Physical Cell ID: 123 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:09.558 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=415 ttl=40 time=62.3 ms
+08-13 15:31:09.788 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=416 ttl=40 time=91.0 ms
+08-13 15:31:09.949 11921 11921 D cellinfo: Latitude is 40.5273181
+08-13 15:31:09.949 11921 11921 D cellinfo: Longitude is -86.9035628
+08-13 15:31:09.949 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:09.949 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5273181, -86.9035628
+08-13 15:31:09.960 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=417 ttl=40 time=61.4 ms
+08-13 15:31:10.174 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=418 ttl=40 time=75.5 ms
+08-13 15:31:10.297 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -106 rsrq: -13 rssi: -85 rssnr: -2
+08-13 15:31:10.383 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=419 ttl=40 time=83.8 ms
+08-13 15:31:10.570 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=420 ttl=40 time=70.2 ms
+08-13 15:31:10.767 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=421 ttl=40 time=66.0 ms
+08-13 15:31:10.969 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=422 ttl=40 time=66.0 ms
+08-13 15:31:11.192 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=423 ttl=40 time=88.6 ms
+08-13 15:31:11.538 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=424 ttl=40 time=234 ms
+08-13 15:31:11.579 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=425 ttl=40 time=71.7 ms
+08-13 15:31:11.796 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=426 ttl=40 time=87.6 ms
+08-13 15:31:11.980 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=427 ttl=40 time=70.4 ms
+08-13 15:31:12.171 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=428 ttl=40 time=61.2 ms
+08-13 15:31:12.371 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=429 ttl=40 time=60.3 ms
+08-13 15:31:12.696 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=430 ttl=40 time=184 ms
+08-13 15:31:12.779 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=431 ttl=40 time=66.4 ms
+08-13 15:31:12.958 11921 11921 D cellinfo: Latitude is 40.5271483
+08-13 15:31:12.958 11921 11921 D cellinfo: Longitude is -86.9034232
+08-13 15:31:12.958 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:12.958 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5271483, -86.9034232
+08-13 15:31:12.963 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77970653 CellConnectionStatus: 1
+08-13 15:31:12.963 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 4] Bandwidth: 10000 Cell ID: 58955777 Physical Cell ID: 123 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:12.996 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=432 ttl=40 time=82.3 ms
+08-13 15:31:13.253 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=433 ttl=40 time=139 ms
+08-13 15:31:13.377 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=434 ttl=40 time=62.1 ms
+08-13 15:31:13.570 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=435 ttl=40 time=54.7 ms
+08-13 15:31:13.789 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=436 ttl=40 time=72.2 ms
+08-13 15:31:13.978 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=437 ttl=40 time=60.7 ms
+08-13 15:31:14.202 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=438 ttl=40 time=85.1 ms
+08-13 15:31:14.411 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=439 ttl=40 time=93.4 ms
+08-13 15:31:14.580 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=440 ttl=40 time=62.1 ms
+08-13 15:31:14.805 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=441 ttl=40 time=85.4 ms
+08-13 15:31:14.989 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=442 ttl=40 time=69.8 ms
+08-13 15:31:15.191 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=443 ttl=40 time=71.0 ms
+08-13 15:31:15.404 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=444 ttl=40 time=82.9 ms
+08-13 15:31:15.612 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=445 ttl=40 time=89.3 ms
+08-13 15:31:15.780 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=446 ttl=40 time=57.1 ms
+08-13 15:31:15.930 11921 11921 D cellinfo: Latitude is 40.526567
+08-13 15:31:15.930 11921 11921 D cellinfo: Longitude is -86.902946
+08-13 15:31:15.930 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:15.930 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.526567, -86.902946
+08-13 15:31:15.934 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77973675 CellConnectionStatus: 1
+08-13 15:31:15.934 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 4] Bandwidth: 10000 Cell ID: 58955777 Physical Cell ID: 123 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:16.105 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=447 ttl=40 time=181 ms
+08-13 15:31:16.301 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -111 rsrq: -18 rssi: -85 rssnr: -5
+08-13 15:31:16.794 11921 11921 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: None
+08-13 15:31:16.816 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:16.823 11921 11921 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: LTE-CA
+08-13 15:31:16.884 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:16.948 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=448 ttl=40 time=825 ms
+08-13 15:31:16.948 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=448 ttl=40 time=825 ms (DUP!)
+08-13 15:31:16.956 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=449 ttl=40 time=632 ms
+08-13 15:31:16.956 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=450 ttl=40 time=428 ms
+08-13 15:31:16.956 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=451 ttl=40 time=224 ms
+08-13 15:31:17.004 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=452 ttl=40 time=68.4 ms
+08-13 15:31:17.198 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=453 ttl=40 time=63.0 ms
+08-13 15:31:17.400 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=454 ttl=40 time=64.4 ms
+08-13 15:31:17.597 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=455 ttl=40 time=61.0 ms
+08-13 15:31:17.797 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=456 ttl=40 time=59.8 ms
+08-13 15:31:18.027 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=457 ttl=40 time=88.4 ms
+08-13 15:31:18.197 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=458 ttl=40 time=60.0 ms
+08-13 15:31:18.404 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=459 ttl=40 time=66.3 ms
+08-13 15:31:18.599 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=460 ttl=40 time=59.4 ms
+08-13 15:31:18.729 11921 11921 D cellinfo: Latitude is 40.5265356
+08-13 15:31:18.729 11921 11921 D cellinfo: Longitude is -86.9029205
+08-13 15:31:18.729 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:18.729 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5265356, -86.9029205
+08-13 15:31:18.733 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77976653 CellConnectionStatus: 1
+08-13 15:31:18.733 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:18.810 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=461 ttl=40 time=70.5 ms
+08-13 15:31:18.999 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=462 ttl=40 time=58.3 ms
+08-13 15:31:19.215 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=463 ttl=40 time=72.6 ms
+08-13 15:31:19.398 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=464 ttl=40 time=55.7 ms
+08-13 15:31:19.608 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=465 ttl=40 time=65.1 ms
+08-13 15:31:19.808 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=466 ttl=40 time=64.4 ms
+08-13 15:31:19.940 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -106 rsrq: -14 rssi: -83 rssnr: -2
+08-13 15:31:20.008 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=467 ttl=40 time=62.8 ms
+08-13 15:31:20.209 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=468 ttl=40 time=62.8 ms
+08-13 15:31:20.408 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=469 ttl=40 time=61.8 ms
+08-13 15:31:20.608 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=470 ttl=40 time=61.2 ms
+08-13 15:31:20.808 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=471 ttl=40 time=60.4 ms
+08-13 15:31:21.016 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=472 ttl=40 time=68.3 ms
+08-13 15:31:21.210 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=473 ttl=40 time=63.1 ms
+08-13 15:31:21.372 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77979654 CellConnectionStatus: 1
+08-13 15:31:21.372 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:21.430 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=474 ttl=40 time=81.7 ms
+08-13 15:31:21.608 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=475 ttl=40 time=59.4 ms
+08-13 15:31:21.807 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=476 ttl=40 time=57.7 ms
+08-13 15:31:21.926 11921 11921 D cellinfo: Latitude is 40.5240494
+08-13 15:31:21.926 11921 11921 D cellinfo: Longitude is -86.9011315
+08-13 15:31:21.926 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:21.926 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5240494, -86.9011315
+08-13 15:31:22.016 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=477 ttl=40 time=66.1 ms
+08-13 15:31:22.208 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=478 ttl=40 time=57.9 ms
+08-13 15:31:22.416 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=479 ttl=40 time=65.4 ms
+08-13 15:31:22.657 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=480 ttl=40 time=104 ms
+08-13 15:31:22.835 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=481 ttl=40 time=81.9 ms
+08-13 15:31:22.913 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=481 ttl=40 time=158 ms (DUP!)
+08-13 15:31:22.956 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:23.128 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=482 ttl=40 time=175 ms
+08-13 15:31:23.160 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000]
+08-13 15:31:23.181 11921 11921 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: None
+08-13 15:31:23.198 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:23.205 11921 11921 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: LTE-CA
+08-13 15:31:23.234 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:23.254 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=483 ttl=40 time=101 ms
+08-13 15:31:23.295 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:23.415 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=484 ttl=40 time=61.5 ms
+08-13 15:31:23.616 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=485 ttl=40 time=62.2 ms
+08-13 15:31:23.825 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=486 ttl=40 time=69.3 ms
+08-13 15:31:24.016 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=487 ttl=40 time=59.7 ms
+08-13 15:31:24.256 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=488 ttl=40 time=100 ms
+08-13 15:31:24.501 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=489 ttl=40 time=144 ms
+08-13 15:31:24.723 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=490 ttl=40 time=165 ms
+08-13 15:31:24.816 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=491 ttl=40 time=57.1 ms
+08-13 15:31:24.902 11921 11921 D cellinfo: Latitude is 40.5238846
+08-13 15:31:24.902 11921 11921 D cellinfo: Longitude is -86.9010113
+08-13 15:31:24.902 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:24.902 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5238846, -86.9010113
+08-13 15:31:24.907 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77982656 CellConnectionStatus: 1
+08-13 15:31:24.907 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:24.908 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:24.908 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000]
+08-13 15:31:25.016 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=492 ttl=40 time=56.1 ms
+08-13 15:31:25.219 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=493 ttl=40 time=56.0 ms
+08-13 15:31:25.418 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=494 ttl=40 time=56.7 ms
+08-13 15:31:25.635 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=495 ttl=40 time=73.5 ms
+08-13 15:31:26.619 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -119 rsrq: -20 rssi: -89 rssnr: -8
+08-13 15:31:28.377 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=496 ttl=40 time=2614 ms
+08-13 15:31:28.378 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=497 ttl=40 time=2412 ms
+08-13 15:31:28.378 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=499 ttl=40 time=2004 ms
+08-13 15:31:28.378 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=506 ttl=40 time=572 ms
+08-13 15:31:28.387 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=504 ttl=40 time=990 ms
+08-13 15:31:28.387 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=505 ttl=40 time=785 ms
+08-13 15:31:28.393 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=508 ttl=40 time=179 ms
+08-13 15:31:28.393 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=507 ttl=40 time=383 ms
+08-13 15:31:28.505 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=509 ttl=40 time=91.6 ms
+08-13 15:31:28.705 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=510 ttl=40 time=88.5 ms
+08-13 15:31:28.761 11921 11921 D cellinfo: Latitude is 40.5232915
+08-13 15:31:28.761 11921 11921 D cellinfo: Longitude is -86.9005795
+08-13 15:31:28.761 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:28.761 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5232915, -86.9005795
+08-13 15:31:28.766 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77985652 CellConnectionStatus: 1
+08-13 15:31:28.766 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 4] Bandwidth: 10000 Cell ID: 58955777 Physical Cell ID: 123 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:28.767 11921 11921 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: None
+08-13 15:31:28.767 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000]
+08-13 15:31:28.767 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:28.767 11921 11921 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: LTE-CA
+08-13 15:31:28.922 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=511 ttl=40 time=105 ms
+08-13 15:31:29.091 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=512 ttl=40 time=73.8 ms
+08-13 15:31:29.440 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=513 ttl=40 time=222 ms
+08-13 15:31:29.700 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=514 ttl=40 time=279 ms
+08-13 15:31:29.727 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=515 ttl=40 time=106 ms
+08-13 15:31:29.901 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=516 ttl=40 time=78.9 ms
+08-13 15:31:30.075 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -113 rsrq: -20 rssi: -85 rssnr: -6
+08-13 15:31:31.530 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=517 ttl=40 time=1506 ms
+08-13 15:31:31.530 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=518 ttl=40 time=1305 ms
+08-13 15:31:31.530 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=519 ttl=40 time=1101 ms
+08-13 15:31:31.530 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=520 ttl=40 time=897 ms
+08-13 15:31:31.530 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=521 ttl=40 time=693 ms
+08-13 15:31:31.530 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=522 ttl=40 time=489 ms
+08-13 15:31:31.542 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=523 ttl=40 time=298 ms
+08-13 15:31:31.545 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=524 ttl=40 time=97.0 ms
+08-13 15:31:31.718 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=525 ttl=40 time=69.8 ms
+08-13 15:31:31.868 11921 11921 D cellinfo: Latitude is 40.5232112
+08-13 15:31:31.868 11921 11921 D cellinfo: Longitude is -86.9005213
+08-13 15:31:31.868 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:31.868 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5232112, -86.9005213
+08-13 15:31:31.872 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77988662 CellConnectionStatus: 1
+08-13 15:31:31.872 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 4] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 123 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:31.872 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000]
+08-13 15:31:31.872 11921 11921 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: None
+08-13 15:31:31.873 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:31.873 11921 11921 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: LTE-CA
+08-13 15:31:31.873 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:31.873 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:31.914 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=526 ttl=40 time=64.2 ms
+08-13 15:31:32.118 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=527 ttl=40 time=68.8 ms
+08-13 15:31:32.319 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=528 ttl=40 time=69.4 ms
+08-13 15:31:32.528 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=529 ttl=40 time=75.9 ms
+08-13 15:31:32.726 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=530 ttl=40 time=73.7 ms
+08-13 15:31:32.937 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=531 ttl=40 time=83.3 ms
+08-13 15:31:33.131 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=532 ttl=40 time=76.7 ms
+08-13 15:31:33.320 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=533 ttl=40 time=65.6 ms
+08-13 15:31:33.375 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77991658 CellConnectionStatus: 1
+08-13 15:31:33.375 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:33.528 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=534 ttl=40 time=73.2 ms
+08-13 15:31:33.715 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=535 ttl=40 time=58.7 ms
+08-13 15:31:33.910 11921 11921 D cellinfo: Latitude is 40.5207352
+08-13 15:31:33.910 11921 11921 D cellinfo: Longitude is -86.898723
+08-13 15:31:33.910 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:33.910 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5207352, -86.898723
+08-13 15:31:33.918 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=536 ttl=40 time=61.6 ms
+08-13 15:31:34.117 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=537 ttl=40 time=60.2 ms
+08-13 15:31:34.326 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=538 ttl=40 time=68.2 ms
+08-13 15:31:34.521 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=539 ttl=40 time=62.4 ms
+08-13 15:31:34.719 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=540 ttl=40 time=59.6 ms
+08-13 15:31:34.922 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=541 ttl=40 time=62.4 ms
+08-13 15:31:35.126 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=542 ttl=40 time=66.0 ms
+08-13 15:31:35.323 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=543 ttl=40 time=61.4 ms
+08-13 15:31:35.523 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=544 ttl=40 time=61.1 ms
+08-13 15:31:35.737 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=545 ttl=40 time=74.6 ms
+08-13 15:31:35.929 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=546 ttl=40 time=65.7 ms
+08-13 15:31:36.127 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=547 ttl=40 time=62.8 ms
+08-13 15:31:36.328 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=548 ttl=40 time=63.0 ms
+08-13 15:31:36.542 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=549 ttl=40 time=76.1 ms
+08-13 15:31:36.758 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=550 ttl=40 time=89.9 ms
+08-13 15:31:36.932 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=551 ttl=40 time=63.2 ms
+08-13 15:31:36.973 11921 11921 D cellinfo: Latitude is 40.5205677
+08-13 15:31:36.973 11921 11921 D cellinfo: Longitude is -86.8986009
+08-13 15:31:36.973 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:36.973 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5205677, -86.8986009
+08-13 15:31:36.981 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77994661 CellConnectionStatus: 1
+08-13 15:31:36.981 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:37.135 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=552 ttl=40 time=67.1 ms
+08-13 15:31:37.337 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=553 ttl=40 time=67.6 ms
+08-13 15:31:37.540 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=554 ttl=40 time=69.9 ms
+08-13 15:31:37.728 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=555 ttl=40 time=57.2 ms
+08-13 15:31:37.945 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=556 ttl=40 time=74.0 ms
+08-13 15:31:38.337 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=557 ttl=40 time=264 ms
+08-13 15:31:38.741 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:39.066 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000]
+08-13 15:31:40.680 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=558 ttl=40 time=2403 ms
+08-13 15:31:40.680 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=559 ttl=40 time=2202 ms
+08-13 15:31:40.719 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=558 ttl=40 time=2442 ms (DUP!)
+08-13 15:31:40.719 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=559 ttl=40 time=2241 ms (DUP!)
+08-13 15:31:40.720 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=561 ttl=40 time=1834 ms
+08-13 15:31:40.720 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=560 ttl=40 time=2038 ms
+08-13 15:31:40.720 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=562 ttl=40 time=1630 ms
+08-13 15:31:40.946 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=564 ttl=40 time=1449 ms
+08-13 15:31:40.946 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=565 ttl=40 time=1245 ms
+08-13 15:31:40.946 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=568 ttl=40 time=633 ms
+08-13 15:31:40.946 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=569 ttl=40 time=429 ms
+08-13 15:31:40.946 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=570 ttl=40 time=228 ms
+08-13 15:31:40.946 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=570 ttl=40 time=228 ms (DUP!)
+08-13 15:31:40.986 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=571 ttl=40 time=68.9 ms
+08-13 15:31:41.178 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=572 ttl=40 time=59.3 ms
+08-13 15:31:41.239 11921 11921 D cellinfo: Latitude is 40.51998
+08-13 15:31:41.239 11921 11921 D cellinfo: Longitude is -86.8981729
+08-13 15:31:41.239 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:41.239 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.51998, -86.8981729
+08-13 15:31:41.243 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 77997667 CellConnectionStatus: 1
+08-13 15:31:41.243 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 4] Bandwidth: 10000 Cell ID: 58955777 Physical Cell ID: 123 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:41.244 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -120 rsrq: -20 rssi: -91 rssnr: -10
+08-13 15:31:41.244 11921 11921 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: None
+08-13 15:31:41.244 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:41.244 11921 11921 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: LTE-CA
+08-13 15:31:41.244 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:41.245 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:31:41.402 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=573 ttl=40 time=82.5 ms
+08-13 15:31:41.585 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=574 ttl=40 time=65.1 ms
+08-13 15:31:41.810 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=575 ttl=40 time=90.0 ms
+08-13 15:31:41.985 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=576 ttl=40 time=64.3 ms
+08-13 15:31:42.187 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=577 ttl=40 time=64.6 ms
+08-13 15:31:42.392 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=578 ttl=40 time=70.4 ms
+08-13 15:31:42.602 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=579 ttl=40 time=78.0 ms
+08-13 15:31:42.794 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=580 ttl=40 time=68.2 ms
+08-13 15:31:42.820 11921 11921 D cellinfo: Latitude is 40.5199024
+08-13 15:31:42.821 11921 11921 D cellinfo: Longitude is -86.8981166
+08-13 15:31:42.821 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:42.821 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5199024, -86.8981166
+08-13 15:31:42.824 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78000657 CellConnectionStatus: 1
+08-13 15:31:42.824 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:42.986 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=581 ttl=40 time=61.4 ms
+08-13 15:31:43.194 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=582 ttl=40 time=67.5 ms
+08-13 15:31:43.390 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=583 ttl=40 time=62.4 ms
+08-13 15:31:43.594 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=584 ttl=40 time=65.9 ms
+08-13 15:31:43.794 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=585 ttl=40 time=65.6 ms
+08-13 15:31:43.997 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=586 ttl=40 time=67.3 ms
+08-13 15:31:44.205 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=587 ttl=40 time=74.0 ms
+08-13 15:31:44.395 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=588 ttl=40 time=63.5 ms
+08-13 15:31:44.608 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=589 ttl=40 time=75.1 ms
+08-13 15:31:44.803 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=590 ttl=40 time=70.5 ms
+08-13 15:31:45.020 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=591 ttl=40 time=86.7 ms
+08-13 15:31:45.213 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=592 ttl=40 time=80.2 ms
+08-13 15:31:45.372 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78003656 CellConnectionStatus: 1
+08-13 15:31:45.373 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:45.449 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=593 ttl=40 time=114 ms
+08-13 15:31:45.609 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=594 ttl=40 time=73.6 ms
+08-13 15:31:45.802 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=595 ttl=40 time=65.3 ms
+08-13 15:31:45.927 11921 11921 D cellinfo: Latitude is 40.5174557
+08-13 15:31:45.927 11921 11921 D cellinfo: Longitude is -86.8962642
+08-13 15:31:45.927 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:45.927 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5174557, -86.8962642
+08-13 15:31:45.932 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -109 rsrq: -15 rssi: -85 rssnr: -2
+08-13 15:31:46.009 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=596 ttl=40 time=73.4 ms
+08-13 15:31:46.207 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=597 ttl=40 time=69.2 ms
+08-13 15:31:46.404 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=598 ttl=40 time=67.2 ms
+08-13 15:31:46.610 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=599 ttl=40 time=71.3 ms
+08-13 15:31:46.803 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=600 ttl=40 time=64.3 ms
+08-13 15:31:47.015 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=601 ttl=40 time=74.4 ms
+08-13 15:31:47.213 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=602 ttl=40 time=73.2 ms
+08-13 15:31:47.413 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=603 ttl=40 time=72.7 ms
+08-13 15:31:47.615 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=604 ttl=40 time=72.9 ms
+08-13 15:31:47.818 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=605 ttl=40 time=76.6 ms
+08-13 15:31:48.019 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=606 ttl=40 time=77.0 ms
+08-13 15:31:48.216 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=607 ttl=40 time=73.7 ms
+08-13 15:31:48.422 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=608 ttl=40 time=78.7 ms
+08-13 15:31:48.603 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=609 ttl=40 time=58.8 ms
+08-13 15:31:48.748 11921 11921 D cellinfo: Latitude is 40.5172912
+08-13 15:31:48.748 11921 11921 D cellinfo: Longitude is -86.8961393
+08-13 15:31:48.748 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:48.748 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5172912, -86.8961393
+08-13 15:31:48.752 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78006647 CellConnectionStatus: 1
+08-13 15:31:48.752 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:48.803 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=610 ttl=40 time=59.0 ms
+08-13 15:31:49.005 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=611 ttl=40 time=60.4 ms
+08-13 15:31:49.205 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=612 ttl=40 time=59.5 ms
+08-13 15:31:49.405 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=613 ttl=40 time=58.3 ms
+08-13 15:31:49.631 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=614 ttl=40 time=84.2 ms
+08-13 15:31:49.814 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=615 ttl=40 time=66.9 ms
+08-13 15:31:49.896 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -108 rsrq: -14 rssi: -87 rssnr: 1
+08-13 15:31:50.018 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=616 ttl=40 time=70.3 ms
+08-13 15:31:50.213 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=617 ttl=40 time=65.2 ms
+08-13 15:31:50.409 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=618 ttl=40 time=59.8 ms
+08-13 15:31:50.619 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=619 ttl=40 time=69.0 ms
+08-13 15:31:50.817 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=620 ttl=40 time=65.8 ms
+08-13 15:31:51.016 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=621 ttl=40 time=63.4 ms
+08-13 15:31:51.215 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=622 ttl=40 time=63.3 ms
+08-13 15:31:51.421 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=623 ttl=40 time=68.4 ms
+08-13 15:31:51.636 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=624 ttl=40 time=82.2 ms
+08-13 15:31:51.774 11921 11921 D cellinfo: Latitude is 40.516709
+08-13 15:31:51.775 11921 11921 D cellinfo: Longitude is -86.8956978
+08-13 15:31:51.775 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:51.775 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.516709, -86.8956978
+08-13 15:31:51.779 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78009664 CellConnectionStatus: 1
+08-13 15:31:51.779 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:51.814 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=625 ttl=40 time=59.7 ms
+08-13 15:31:52.023 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=626 ttl=40 time=68.2 ms
+08-13 15:31:52.223 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=627 ttl=40 time=68.2 ms
+08-13 15:31:52.415 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=628 ttl=40 time=59.3 ms
+08-13 15:31:52.623 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=629 ttl=40 time=67.0 ms
+08-13 15:31:52.816 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=630 ttl=40 time=58.7 ms
+08-13 15:31:53.022 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=631 ttl=40 time=63.9 ms
+08-13 15:31:53.222 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=632 ttl=40 time=64.5 ms
+08-13 15:31:53.425 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=633 ttl=40 time=66.9 ms
+08-13 15:31:53.631 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=634 ttl=40 time=71.9 ms
+08-13 15:31:53.842 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=635 ttl=40 time=82.4 ms
+08-13 15:31:54.032 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=636 ttl=40 time=71.9 ms
+08-13 15:31:54.226 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=637 ttl=40 time=65.5 ms
+08-13 15:31:54.435 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=638 ttl=40 time=73.4 ms
+08-13 15:31:54.631 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=639 ttl=40 time=67.7 ms
+08-13 15:31:54.796 11921 11921 D cellinfo: Latitude is 40.5166353
+08-13 15:31:54.796 11921 11921 D cellinfo: Longitude is -86.8956423
+08-13 15:31:54.796 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:54.796 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5166353, -86.8956423
+08-13 15:31:54.801 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78012669 CellConnectionStatus: 1
+08-13 15:31:54.801 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:54.827 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=640 ttl=40 time=63.0 ms
+08-13 15:31:55.046 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=641 ttl=40 time=82.0 ms
+08-13 15:31:55.228 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=642 ttl=40 time=64.8 ms
+08-13 15:31:55.429 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=643 ttl=40 time=65.0 ms
+08-13 15:31:55.638 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=644 ttl=40 time=72.8 ms
+08-13 15:31:55.843 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=645 ttl=40 time=75.4 ms
+08-13 15:31:56.027 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=646 ttl=40 time=59.9 ms
+08-13 15:31:56.226 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=647 ttl=40 time=59.4 ms
+08-13 15:31:56.425 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=648 ttl=40 time=57.4 ms
+08-13 15:31:56.627 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=649 ttl=40 time=58.8 ms
+08-13 15:31:56.826 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=650 ttl=40 time=57.5 ms
+08-13 15:31:57.025 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=651 ttl=40 time=55.6 ms
+08-13 15:31:57.249 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=652 ttl=40 time=78.6 ms
+08-13 15:31:57.362 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78015645 CellConnectionStatus: 1
+08-13 15:31:57.362 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:31:57.426 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=653 ttl=40 time=56.3 ms
+08-13 15:31:57.768 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=654 ttl=40 time=197 ms
+08-13 15:31:57.851 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=655 ttl=40 time=80.2 ms
+08-13 15:31:58.035 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=656 ttl=40 time=63.4 ms
+08-13 15:31:58.180 11921 11921 D cellinfo: Latitude is 40.5141201
+08-13 15:31:58.180 11921 11921 D cellinfo: Longitude is -86.8938374
+08-13 15:31:58.180 11921 11921 D cellinfo: Instantaneous GPS information: United States, 711 E 650 N, West Lafayette, IN 47906, USA
+08-13 15:31:58.180 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5141201, -86.8938374
+08-13 15:31:58.251 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=657 ttl=40 time=79.5 ms
+08-13 15:31:58.435 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=658 ttl=40 time=63.2 ms
+08-13 15:31:58.635 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=659 ttl=40 time=62.2 ms
+08-13 15:31:58.835 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=660 ttl=40 time=61.1 ms
+08-13 15:31:59.042 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=661 ttl=40 time=66.8 ms
+08-13 15:31:59.238 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=662 ttl=40 time=63.3 ms
+08-13 15:31:59.438 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=663 ttl=40 time=62.6 ms
+08-13 15:31:59.636 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=664 ttl=40 time=59.7 ms
+08-13 15:31:59.844 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=665 ttl=40 time=67.2 ms
+08-13 15:32:00.035 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=666 ttl=40 time=57.5 ms
+08-13 15:32:00.235 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=667 ttl=40 time=57.2 ms
+08-13 15:32:00.436 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=668 ttl=40 time=58.0 ms
+08-13 15:32:00.635 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=669 ttl=40 time=55.9 ms
+08-13 15:32:00.760 11921 11921 D cellinfo: Latitude is 40.5139419
+08-13 15:32:00.760 11921 11921 D cellinfo: Longitude is -86.8937021
+08-13 15:32:00.760 11921 11921 D cellinfo: Instantaneous GPS information: United States, 711 E 650 N, West Lafayette, IN 47906, USA
+08-13 15:32:00.760 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5139419, -86.8937021
+08-13 15:32:00.763 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78018647 CellConnectionStatus: 1
+08-13 15:32:00.763 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:00.837 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=670 ttl=40 time=57.5 ms
+08-13 15:32:01.054 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=671 ttl=40 time=73.8 ms
+08-13 15:32:01.234 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=672 ttl=40 time=53.5 ms
+08-13 15:32:01.445 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=673 ttl=40 time=63.3 ms
+08-13 15:32:01.647 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=674 ttl=40 time=64.2 ms
+08-13 15:32:01.854 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=675 ttl=40 time=70.7 ms
+08-13 15:32:02.053 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=676 ttl=40 time=68.9 ms
+08-13 15:32:02.247 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=677 ttl=40 time=63.0 ms
+08-13 15:32:02.453 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=678 ttl=40 time=67.9 ms
+08-13 15:32:02.646 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=679 ttl=40 time=59.9 ms
+08-13 15:32:02.845 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=680 ttl=40 time=58.5 ms
+08-13 15:32:02.891 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -100 rsrq: -15 rssi: -77 rssnr: 2
+08-13 15:32:03.045 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=681 ttl=40 time=58.5 ms
+08-13 15:32:03.245 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=682 ttl=40 time=58.2 ms
+08-13 15:32:03.459 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=683 ttl=40 time=71.8 ms
+08-13 15:32:03.646 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=684 ttl=40 time=57.0 ms
+08-13 15:32:03.771 11921 11921 D cellinfo: Latitude is 40.5132522
+08-13 15:32:03.771 11921 11921 D cellinfo: Longitude is -86.8931792
+08-13 15:32:03.771 11921 11921 D cellinfo: Instantaneous GPS information: United States, 711 E 650 N, West Lafayette, IN 47906, USA
+08-13 15:32:03.771 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5132522, -86.8931792
+08-13 15:32:03.774 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78021647 CellConnectionStatus: 1
+08-13 15:32:03.774 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:03.848 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=685 ttl=40 time=59.5 ms
+08-13 15:32:04.045 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=686 ttl=40 time=55.6 ms
+08-13 15:32:04.253 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=687 ttl=40 time=64.1 ms
+08-13 15:32:04.455 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=688 ttl=40 time=65.0 ms
+08-13 15:32:04.657 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=689 ttl=40 time=66.4 ms
+08-13 15:32:04.855 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=690 ttl=40 time=63.1 ms
+08-13 15:32:05.055 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=691 ttl=40 time=62.2 ms
+08-13 15:32:05.254 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=692 ttl=40 time=61.0 ms
+08-13 15:32:05.456 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=693 ttl=40 time=62.4 ms
+08-13 15:32:05.655 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=694 ttl=40 time=59.9 ms
+08-13 15:32:05.855 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=695 ttl=40 time=59.2 ms
+08-13 15:32:06.055 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=696 ttl=40 time=59.0 ms
+08-13 15:32:06.260 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=697 ttl=40 time=63.5 ms
+08-13 15:32:06.452 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=698 ttl=40 time=55.5 ms
+08-13 15:32:06.665 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=699 ttl=40 time=66.5 ms
+08-13 15:32:06.717 11921 11921 D cellinfo: Latitude is 40.5133141
+08-13 15:32:06.717 11921 11921 D cellinfo: Longitude is -86.8932264
+08-13 15:32:06.717 11921 11921 D cellinfo: Instantaneous GPS information: United States, 711 E 650 N, West Lafayette, IN 47906, USA
+08-13 15:32:06.717 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5133141, -86.8932264
+08-13 15:32:06.725 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78024661 CellConnectionStatus: 1
+08-13 15:32:06.725 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:06.855 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=700 ttl=40 time=56.2 ms
+08-13 15:32:07.055 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=701 ttl=40 time=55.4 ms
+08-13 15:32:07.273 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=702 ttl=40 time=73.7 ms
+08-13 15:32:07.465 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=703 ttl=40 time=65.1 ms
+08-13 15:32:07.665 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=704 ttl=40 time=64.8 ms
+08-13 15:32:07.866 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=705 ttl=40 time=64.4 ms
+08-13 15:32:08.064 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=706 ttl=40 time=61.8 ms
+08-13 15:32:08.267 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=707 ttl=40 time=62.5 ms
+08-13 15:32:08.465 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=708 ttl=40 time=61.5 ms
+08-13 15:32:08.656 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=709 ttl=40 time=50.7 ms
+08-13 15:32:08.865 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=710 ttl=40 time=59.5 ms
+08-13 15:32:09.066 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=711 ttl=40 time=59.7 ms
+08-13 15:32:09.265 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=712 ttl=40 time=58.5 ms
+08-13 15:32:09.381 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78027663 CellConnectionStatus: 1
+08-13 15:32:09.381 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:09.476 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=713 ttl=40 time=68.7 ms
+08-13 15:32:09.668 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=714 ttl=40 time=59.6 ms
+08-13 15:32:09.865 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=715 ttl=40 time=55.8 ms
+08-13 15:32:09.911 11921 11921 D cellinfo: Latitude is 40.5108175
+08-13 15:32:09.911 11921 11921 D cellinfo: Longitude is -86.8914359
+08-13 15:32:09.911 11921 11921 D cellinfo: Instantaneous GPS information: United States, 821 E 650 N, West Lafayette, IN 47906, USA
+08-13 15:32:09.911 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5108175, -86.8914359
+08-13 15:32:10.065 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=716 ttl=40 time=55.5 ms
+08-13 15:32:10.275 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=717 ttl=40 time=63.9 ms
+08-13 15:32:10.475 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=718 ttl=40 time=63.4 ms
+08-13 15:32:10.693 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=719 ttl=40 time=80.3 ms
+08-13 15:32:10.875 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=720 ttl=40 time=61.5 ms
+08-13 15:32:11.076 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=721 ttl=40 time=62.3 ms
+08-13 15:32:11.275 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=722 ttl=40 time=60.1 ms
+08-13 15:32:11.484 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=723 ttl=40 time=67.9 ms
+08-13 15:32:11.676 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=724 ttl=40 time=59.1 ms
+08-13 15:32:11.876 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=725 ttl=40 time=57.3 ms
+08-13 15:32:12.076 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=726 ttl=40 time=57.0 ms
+08-13 15:32:12.275 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=727 ttl=40 time=56.3 ms
+08-13 15:32:12.479 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=728 ttl=40 time=59.2 ms
+08-13 15:32:12.687 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=729 ttl=40 time=65.0 ms
+08-13 15:32:12.739 11921 11921 D cellinfo: Latitude is 40.5105373
+08-13 15:32:12.740 11921 11921 D cellinfo: Longitude is -86.8912318
+08-13 15:32:12.740 11921 11921 D cellinfo: Instantaneous GPS information: United States, 821 E 650 N, West Lafayette, IN 47906, USA
+08-13 15:32:12.740 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5105373, -86.8912318
+08-13 15:32:12.743 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78030662 CellConnectionStatus: 1
+08-13 15:32:12.743 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:12.886 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=730 ttl=40 time=63.1 ms
+08-13 15:32:13.085 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=731 ttl=40 time=61.4 ms
+08-13 15:32:13.284 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=732 ttl=40 time=59.4 ms
+08-13 15:32:13.486 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=733 ttl=40 time=60.3 ms
+08-13 15:32:13.685 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=734 ttl=40 time=58.4 ms
+08-13 15:32:13.888 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=735 ttl=40 time=59.6 ms
+08-13 15:32:13.898 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -95 rsrq: -14 rssi: -73 rssnr: 4
+08-13 15:32:14.086 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=736 ttl=40 time=57.5 ms
+08-13 15:32:14.285 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=737 ttl=40 time=56.1 ms
+08-13 15:32:14.495 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=738 ttl=40 time=65.0 ms
+08-13 15:32:14.689 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=739 ttl=40 time=58.2 ms
+08-13 15:32:14.896 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=740 ttl=40 time=64.4 ms
+08-13 15:32:15.097 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=741 ttl=40 time=64.0 ms
+08-13 15:32:15.295 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=742 ttl=40 time=62.3 ms
+08-13 15:32:15.493 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=743 ttl=40 time=59.7 ms
+08-13 15:32:15.686 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=744 ttl=40 time=51.3 ms
+08-13 15:32:15.744 11921 11921 D cellinfo: Latitude is 40.5100891
+08-13 15:32:15.745 11921 11921 D cellinfo: Longitude is -86.8909063
+08-13 15:32:15.745 11921 11921 D cellinfo: Instantaneous GPS information: United States, 6471 N 75 E, West Lafayette, IN 47906, USA
+08-13 15:32:15.745 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5100891, -86.8909063
+08-13 15:32:15.748 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78033654 CellConnectionStatus: 1
+08-13 15:32:15.748 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:15.895 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=745 ttl=40 time=60.1 ms
+08-13 15:32:16.095 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=746 ttl=40 time=59.3 ms
+08-13 15:32:16.295 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=747 ttl=40 time=58.7 ms
+08-13 15:32:16.495 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=748 ttl=40 time=57.2 ms
+08-13 15:32:16.695 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=749 ttl=40 time=57.7 ms
+08-13 15:32:16.895 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=750 ttl=40 time=56.2 ms
+08-13 15:32:17.095 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=751 ttl=40 time=56.8 ms
+08-13 15:32:17.295 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=752 ttl=40 time=56.1 ms
+08-13 15:32:17.507 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=753 ttl=40 time=66.7 ms
+08-13 15:32:17.709 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=754 ttl=40 time=66.8 ms
+08-13 15:32:17.895 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -97 rsrq: -11 rssi: -79 rssnr: 7
+08-13 15:32:17.915 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=755 ttl=40 time=72.2 ms
+08-13 15:32:18.107 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=756 ttl=40 time=65.5 ms
+08-13 15:32:18.309 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=757 ttl=40 time=66.3 ms
+08-13 15:32:18.507 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=758 ttl=40 time=64.5 ms
+08-13 15:32:18.714 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=759 ttl=40 time=70.3 ms
+08-13 15:32:18.751 11921 11921 D cellinfo: Latitude is 40.5101292
+08-13 15:32:18.751 11921 11921 D cellinfo: Longitude is -86.8909359
+08-13 15:32:18.751 11921 11921 D cellinfo: Instantaneous GPS information: United States, 6471 N 75 E, West Lafayette, IN 47906, USA
+08-13 15:32:18.751 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5101292, -86.8909359
+08-13 15:32:18.756 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78036641 CellConnectionStatus: 1
+08-13 15:32:18.756 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:18.905 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=760 ttl=40 time=61.1 ms
+08-13 15:32:19.108 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=761 ttl=40 time=61.7 ms
+08-13 15:32:19.317 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=762 ttl=40 time=70.5 ms
+08-13 15:32:19.507 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=763 ttl=40 time=61.1 ms
+08-13 15:32:19.706 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=764 ttl=40 time=59.4 ms
+08-13 15:32:19.906 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=765 ttl=40 time=58.9 ms
+08-13 15:32:20.107 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=766 ttl=40 time=59.1 ms
+08-13 15:32:20.306 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=767 ttl=40 time=57.4 ms
+08-13 15:32:20.513 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=768 ttl=40 time=63.5 ms
+08-13 15:32:20.706 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=769 ttl=40 time=56.0 ms
+08-13 15:32:20.916 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=770 ttl=40 time=65.3 ms
+08-13 15:32:21.132 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=771 ttl=40 time=79.9 ms
+08-13 15:32:21.316 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=772 ttl=40 time=62.2 ms
+08-13 15:32:21.373 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78039655 CellConnectionStatus: 1
+08-13 15:32:21.373 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:21.513 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=773 ttl=40 time=59.8 ms
+08-13 15:32:21.727 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=774 ttl=40 time=72.1 ms
+08-13 15:32:21.916 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=775 ttl=40 time=59.6 ms
+08-13 15:32:21.986 11921 11921 D cellinfo: Latitude is 40.5075245
+08-13 15:32:21.986 11921 11921 D cellinfo: Longitude is -86.8890352
+08-13 15:32:21.986 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:32:21.986 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5075245, -86.8890352
+08-13 15:32:22.115 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=776 ttl=40 time=58.5 ms
+08-13 15:32:22.315 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=777 ttl=40 time=57.3 ms
+08-13 15:32:22.515 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=778 ttl=40 time=56.3 ms
+08-13 15:32:22.726 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=779 ttl=40 time=65.3 ms
+08-13 15:32:22.915 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=780 ttl=40 time=54.8 ms
+08-13 15:32:23.133 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=781 ttl=40 time=72.3 ms
+08-13 15:32:23.334 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=782 ttl=40 time=72.0 ms
+08-13 15:32:23.533 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=783 ttl=40 time=70.3 ms
+08-13 15:32:23.727 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=784 ttl=40 time=63.8 ms
+08-13 15:32:23.927 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=785 ttl=40 time=62.7 ms
+08-13 15:32:24.126 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=786 ttl=40 time=61.3 ms
+08-13 15:32:24.326 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=787 ttl=40 time=60.3 ms
+08-13 15:32:24.525 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=788 ttl=40 time=57.8 ms
+08-13 15:32:24.726 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=789 ttl=40 time=57.2 ms
+08-13 15:32:24.762 11921 11921 D cellinfo: Latitude is 40.5073583
+08-13 15:32:24.762 11921 11921 D cellinfo: Longitude is -86.888909
+08-13 15:32:24.762 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:32:24.762 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5073583, -86.888909
+08-13 15:32:24.765 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78042657 CellConnectionStatus: 1
+08-13 15:32:24.765 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:24.933 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=790 ttl=40 time=64.3 ms
+08-13 15:32:25.135 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=791 ttl=40 time=64.9 ms
+08-13 15:32:25.337 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=792 ttl=40 time=66.4 ms
+08-13 15:32:25.535 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=793 ttl=40 time=63.2 ms
+08-13 15:32:25.735 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=794 ttl=40 time=62.1 ms
+08-13 15:32:25.892 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -93 rsrq: -12 rssi: -73 rssnr: 13
+08-13 15:32:25.934 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=795 ttl=40 time=60.0 ms
+08-13 15:32:26.135 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=796 ttl=40 time=60.1 ms
+08-13 15:32:26.343 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=797 ttl=40 time=67.2 ms
+08-13 15:32:26.537 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=798 ttl=40 time=60.1 ms
+08-13 15:32:26.735 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=799 ttl=40 time=57.1 ms
+08-13 15:32:26.937 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=800 ttl=40 time=58.1 ms
+08-13 15:32:27.138 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=801 ttl=40 time=57.4 ms
+08-13 15:32:27.344 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=802 ttl=40 time=63.5 ms
+08-13 15:32:27.545 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=803 ttl=40 time=63.1 ms
+08-13 15:32:27.746 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=804 ttl=40 time=62.0 ms
+08-13 15:32:27.770 11921 11921 D cellinfo: Latitude is 40.5067804
+08-13 15:32:27.770 11921 11921 D cellinfo: Longitude is -86.888471
+08-13 15:32:27.770 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:32:27.770 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5067804, -86.888471
+08-13 15:32:27.774 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78045660 CellConnectionStatus: 1
+08-13 15:32:27.774 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:27.957 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=805 ttl=40 time=72.5 ms
+08-13 15:32:28.145 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=806 ttl=40 time=61.3 ms
+08-13 15:32:28.345 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=807 ttl=40 time=59.6 ms
+08-13 15:32:28.550 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=808 ttl=40 time=64.5 ms
+08-13 15:32:28.750 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=809 ttl=40 time=63.8 ms
+08-13 15:32:28.963 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=810 ttl=40 time=76.2 ms
+08-13 15:32:29.147 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=811 ttl=40 time=58.5 ms
+08-13 15:32:29.351 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=812 ttl=40 time=62.6 ms
+08-13 15:32:29.548 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=813 ttl=40 time=59.3 ms
+08-13 15:32:29.757 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=814 ttl=40 time=66.6 ms
+08-13 15:32:29.902 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -85 rsrq: -10 rssi: -65 rssnr: 16
+08-13 15:32:29.956 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=815 ttl=40 time=65.4 ms
+08-13 15:32:30.156 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=816 ttl=40 time=64.3 ms
+08-13 15:32:30.361 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=817 ttl=40 time=68.0 ms
+08-13 15:32:30.559 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=818 ttl=40 time=64.9 ms
+08-13 15:32:30.766 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=819 ttl=40 time=70.0 ms
+08-13 15:32:30.813 11921 11921 D cellinfo: Latitude is 40.5067122
+08-13 15:32:30.813 11921 11921 D cellinfo: Longitude is -86.8884196
+08-13 15:32:30.813 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:32:30.813 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5067122, -86.8884196
+08-13 15:32:30.817 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78048647 CellConnectionStatus: 1
+08-13 15:32:30.817 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:30.965 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=820 ttl=40 time=69.2 ms
+08-13 15:32:31.156 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=821 ttl=40 time=59.0 ms
+08-13 15:32:31.373 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=822 ttl=40 time=74.3 ms
+08-13 15:32:31.563 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=823 ttl=40 time=64.8 ms
+08-13 15:32:31.765 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=824 ttl=40 time=66.1 ms
+08-13 15:32:31.973 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=825 ttl=40 time=73.0 ms
+08-13 15:32:32.165 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=826 ttl=40 time=64.2 ms
+08-13 15:32:32.366 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=827 ttl=40 time=63.3 ms
+08-13 15:32:32.566 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=828 ttl=40 time=63.1 ms
+08-13 15:32:32.766 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=829 ttl=40 time=62.1 ms
+08-13 15:32:32.976 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=830 ttl=40 time=71.1 ms
+08-13 15:32:33.167 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=831 ttl=40 time=61.1 ms
+08-13 15:32:33.367 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78051650 CellConnectionStatus: 1
+08-13 15:32:33.367 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:33.370 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=832 ttl=40 time=63.7 ms
+08-13 15:32:33.575 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=833 ttl=40 time=68.7 ms
+08-13 15:32:33.773 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=834 ttl=40 time=65.6 ms
+08-13 15:32:33.894 11921 11921 D cellinfo: Latitude is 40.5042044
+08-13 15:32:33.894 11921 11921 D cellinfo: Longitude is -86.8865854
+08-13 15:32:33.894 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:32:33.894 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5042044, -86.8865854
+08-13 15:32:33.896 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -99 rsrq: -11 rssi: -81 rssnr: 17
+08-13 15:32:33.977 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=835 ttl=40 time=68.3 ms
+08-13 15:32:34.174 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=836 ttl=40 time=65.4 ms
+08-13 15:32:34.366 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=837 ttl=40 time=56.2 ms
+08-13 15:32:34.578 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=838 ttl=40 time=67.3 ms
+08-13 15:32:34.780 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=839 ttl=40 time=68.2 ms
+08-13 15:32:34.967 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=840 ttl=40 time=53.7 ms
+08-13 15:32:35.178 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=841 ttl=40 time=64.5 ms
+08-13 15:32:35.384 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=842 ttl=40 time=69.4 ms
+08-13 15:32:35.584 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=843 ttl=40 time=68.5 ms
+08-13 15:32:35.784 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=844 ttl=40 time=69.4 ms
+08-13 15:32:35.985 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=845 ttl=40 time=68.3 ms
+08-13 15:32:36.188 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=846 ttl=40 time=70.8 ms
+08-13 15:32:36.377 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=847 ttl=40 time=60.2 ms
+08-13 15:32:36.572 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=848 ttl=40 time=53.0 ms
+08-13 15:32:36.730 11921 11921 D cellinfo: Latitude is 40.5040324
+08-13 15:32:36.730 11921 11921 D cellinfo: Longitude is -86.8864548
+08-13 15:32:36.730 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:32:36.730 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5040324, -86.8864548
+08-13 15:32:36.733 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78054660 CellConnectionStatus: 1
+08-13 15:32:36.733 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:36.793 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=849 ttl=40 time=73.9 ms
+08-13 15:32:36.978 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=850 ttl=40 time=58.4 ms
+08-13 15:32:37.189 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=851 ttl=40 time=68.1 ms
+08-13 15:32:37.393 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=852 ttl=40 time=69.9 ms
+08-13 15:32:37.593 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=853 ttl=40 time=69.9 ms
+08-13 15:32:37.794 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=854 ttl=40 time=70.2 ms
+08-13 15:32:37.986 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=855 ttl=40 time=60.0 ms
+08-13 15:32:38.187 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=856 ttl=40 time=61.2 ms
+08-13 15:32:38.388 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=857 ttl=40 time=60.1 ms
+08-13 15:32:38.588 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=858 ttl=40 time=59.9 ms
+08-13 15:32:38.786 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=859 ttl=40 time=56.2 ms
+08-13 15:32:39.003 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=860 ttl=40 time=72.0 ms
+08-13 15:32:39.202 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=861 ttl=40 time=71.8 ms
+08-13 15:32:39.405 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=862 ttl=40 time=74.4 ms
+08-13 15:32:39.610 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=863 ttl=40 time=77.3 ms
+08-13 15:32:39.737 11921 11921 D cellinfo: Latitude is 40.5034472
+08-13 15:32:39.737 11921 11921 D cellinfo: Longitude is -86.8860112
+08-13 15:32:39.737 11921 11921 D cellinfo: Instantaneous GPS information: United States, 1119 E 600 N, West Lafayette, IN 47906, USA
+08-13 15:32:39.737 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5034472, -86.8860112
+08-13 15:32:39.741 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78057657 CellConnectionStatus: 1
+08-13 15:32:39.741 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:39.797 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=864 ttl=40 time=64.6 ms
+08-13 15:32:40.017 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=865 ttl=40 time=83.2 ms
+08-13 15:32:40.195 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=866 ttl=40 time=62.8 ms
+08-13 15:32:40.407 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=867 ttl=40 time=73.1 ms
+08-13 15:32:40.598 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=868 ttl=40 time=62.2 ms
+08-13 15:32:40.796 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=869 ttl=40 time=61.1 ms
+08-13 15:32:40.997 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=870 ttl=40 time=60.0 ms
+08-13 15:32:41.195 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=871 ttl=40 time=58.3 ms
+08-13 15:32:41.397 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=872 ttl=40 time=57.9 ms
+08-13 15:32:41.598 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=873 ttl=40 time=58.0 ms
+08-13 15:32:41.806 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=874 ttl=40 time=65.1 ms
+08-13 15:32:41.892 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -95 rsrq: -10 rssi: -75 rssnr: 19
+08-13 15:32:42.006 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=875 ttl=40 time=65.1 ms
+08-13 15:32:42.206 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=876 ttl=40 time=64.4 ms
+08-13 15:32:42.412 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=877 ttl=40 time=69.1 ms
+08-13 15:32:42.603 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=878 ttl=40 time=59.1 ms
+08-13 15:32:42.705 11921 11921 D cellinfo: Latitude is 40.5033746
+08-13 15:32:42.705 11921 11921 D cellinfo: Longitude is -86.8859565
+08-13 15:32:42.705 11921 11921 D cellinfo: Instantaneous GPS information: United States, 1119 E 600 N, West Lafayette, IN 47906, USA
+08-13 15:32:42.705 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5033746, -86.8859565
+08-13 15:32:42.709 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78060649 CellConnectionStatus: 1
+08-13 15:32:42.709 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:42.806 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=879 ttl=40 time=63.1 ms
+08-13 15:32:43.005 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=880 ttl=40 time=61.2 ms
+08-13 15:32:43.206 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=881 ttl=40 time=61.4 ms
+08-13 15:32:43.405 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=882 ttl=40 time=60.3 ms
+08-13 15:32:43.608 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=883 ttl=40 time=61.5 ms
+08-13 15:32:43.811 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=884 ttl=40 time=64.9 ms
+08-13 15:32:44.014 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=885 ttl=40 time=67.3 ms
+08-13 15:32:44.218 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=886 ttl=40 time=70.5 ms
+08-13 15:32:44.416 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=887 ttl=40 time=67.1 ms
+08-13 15:32:44.601 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=888 ttl=40 time=50.9 ms
+08-13 15:32:44.814 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=889 ttl=40 time=63.3 ms
+08-13 15:32:44.896 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -85 rsrq: -8 rssi: -69 rssnr: 24
+08-13 15:32:45.019 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=890 ttl=40 time=67.3 ms
+08-13 15:32:45.228 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=891 ttl=40 time=77.2 ms
+08-13 15:32:45.365 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78063648 CellConnectionStatus: 1
+08-13 15:32:45.365 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:45.423 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=892 ttl=40 time=71.3 ms
+08-13 15:32:45.605 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=893 ttl=40 time=52.3 ms
+08-13 15:32:45.825 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=894 ttl=40 time=70.5 ms
+08-13 15:32:45.888 11921 11921 D cellinfo: Latitude is 40.5015514
+08-13 15:32:45.888 11921 11921 D cellinfo: Longitude is -86.8830787
+08-13 15:32:45.888 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:32:45.888 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5015514, -86.8830787
+08-13 15:32:46.024 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=895 ttl=40 time=69.4 ms
+08-13 15:32:46.221 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=896 ttl=40 time=66.4 ms
+08-13 15:32:46.426 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=897 ttl=40 time=68.8 ms
+08-13 15:32:46.629 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=898 ttl=40 time=71.1 ms
+08-13 15:32:46.823 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=899 ttl=40 time=65.7 ms
+08-13 15:32:47.017 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=900 ttl=40 time=57.4 ms
+08-13 15:32:47.217 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=901 ttl=40 time=59.4 ms
+08-13 15:32:47.416 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=902 ttl=40 time=56.7 ms
+08-13 15:32:47.616 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=903 ttl=40 time=56.2 ms
+08-13 15:32:47.816 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=904 ttl=40 time=56.0 ms
+08-13 15:32:48.032 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=905 ttl=40 time=69.9 ms
+08-13 15:32:48.236 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=906 ttl=40 time=74.8 ms
+08-13 15:32:48.415 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=907 ttl=40 time=53.2 ms
+08-13 15:32:48.617 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=908 ttl=40 time=53.4 ms
+08-13 15:32:48.707 11921 11921 D cellinfo: Latitude is 40.5014459
+08-13 15:32:48.707 11921 11921 D cellinfo: Longitude is -86.8828565
+08-13 15:32:48.707 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:32:48.707 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5014459, -86.8828565
+08-13 15:32:48.710 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78066653 CellConnectionStatus: 1
+08-13 15:32:48.711 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:48.826 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=909 ttl=40 time=62.3 ms
+08-13 15:32:48.894 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -88 rsrq: -11 rssi: -67 rssnr: 25
+08-13 15:32:49.026 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=910 ttl=40 time=61.1 ms
+08-13 15:32:49.225 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=911 ttl=40 time=61.0 ms
+08-13 15:32:49.426 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=912 ttl=40 time=60.7 ms
+08-13 15:32:49.625 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=913 ttl=40 time=60.1 ms
+08-13 15:32:49.826 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=914 ttl=40 time=59.3 ms
+08-13 15:32:50.026 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=915 ttl=40 time=58.3 ms
+08-13 15:32:50.225 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=916 ttl=40 time=57.5 ms
+08-13 15:32:50.426 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=917 ttl=40 time=57.8 ms
+08-13 15:32:50.626 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=918 ttl=40 time=57.2 ms
+08-13 15:32:50.834 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=919 ttl=40 time=64.2 ms
+08-13 15:32:51.037 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=920 ttl=40 time=65.3 ms
+08-13 15:32:51.239 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=921 ttl=40 time=67.9 ms
+08-13 15:32:51.435 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=922 ttl=40 time=63.8 ms
+08-13 15:32:51.642 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=923 ttl=40 time=69.5 ms
+08-13 15:32:51.731 11921 11921 D cellinfo: Latitude is 40.5011
+08-13 15:32:51.731 11921 11921 D cellinfo: Longitude is -86.8821277
+08-13 15:32:51.731 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:32:51.731 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5011, -86.8821277
+08-13 15:32:51.734 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78069657 CellConnectionStatus: 1
+08-13 15:32:51.734 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:51.825 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=924 ttl=40 time=51.9 ms
+08-13 15:32:52.036 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=925 ttl=40 time=62.0 ms
+08-13 15:32:52.246 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=926 ttl=40 time=72.3 ms
+08-13 15:32:52.436 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=927 ttl=40 time=61.9 ms
+08-13 15:32:52.636 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=928 ttl=40 time=61.2 ms
+08-13 15:32:52.836 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=929 ttl=40 time=60.1 ms
+08-13 15:32:53.036 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=930 ttl=40 time=59.0 ms
+08-13 15:32:53.236 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=931 ttl=40 time=59.0 ms
+08-13 15:32:53.436 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=932 ttl=40 time=57.9 ms
+08-13 15:32:53.636 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=933 ttl=40 time=57.2 ms
+08-13 15:32:53.836 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=934 ttl=40 time=56.4 ms
+08-13 15:32:54.045 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=935 ttl=40 time=63.9 ms
+08-13 15:32:54.247 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=936 ttl=40 time=66.3 ms
+08-13 15:32:54.443 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=937 ttl=40 time=61.7 ms
+08-13 15:32:54.655 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=938 ttl=40 time=72.5 ms
+08-13 15:32:54.723 11921 11921 D cellinfo: Latitude is 40.5010599
+08-13 15:32:54.723 11921 11921 D cellinfo: Longitude is -86.8820428
+08-13 15:32:54.723 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:32:54.723 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5010599, -86.8820428
+08-13 15:32:54.726 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78072641 CellConnectionStatus: 1
+08-13 15:32:54.726 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:54.850 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=939 ttl=40 time=67.4 ms
+08-13 15:32:54.893 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -85 rsrq: -12 rssi: -65 rssnr: 27
+08-13 15:32:55.047 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=940 ttl=40 time=63.9 ms
+08-13 15:32:55.245 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=941 ttl=40 time=63.1 ms
+08-13 15:32:55.445 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=942 ttl=40 time=62.1 ms
+08-13 15:32:55.649 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=943 ttl=40 time=63.6 ms
+08-13 15:32:55.851 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=944 ttl=40 time=66.3 ms
+08-13 15:32:56.046 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=945 ttl=40 time=60.0 ms
+08-13 15:32:56.246 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=946 ttl=40 time=60.4 ms
+08-13 15:32:56.446 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=947 ttl=40 time=59.9 ms
+08-13 15:32:56.646 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=948 ttl=40 time=59.4 ms
+08-13 15:32:56.846 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=949 ttl=40 time=59.0 ms
+08-13 15:32:57.046 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=950 ttl=40 time=58.5 ms
+08-13 15:32:57.247 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=951 ttl=40 time=59.6 ms
+08-13 15:32:57.366 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78075647 CellConnectionStatus: 1
+08-13 15:32:57.366 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:32:57.447 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=952 ttl=40 time=58.0 ms
+08-13 15:32:57.666 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=953 ttl=40 time=76.5 ms
+08-13 15:32:57.843 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=954 ttl=40 time=52.4 ms
+08-13 15:32:57.944 11921 11921 D cellinfo: Latitude is 40.5000818
+08-13 15:32:57.944 11921 11921 D cellinfo: Longitude is -86.8787062
+08-13 15:32:57.944 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:32:57.944 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5000818, -86.8787062
+08-13 15:32:58.047 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=955 ttl=40 time=56.5 ms
+08-13 15:32:58.256 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=956 ttl=40 time=65.5 ms
+08-13 15:32:58.464 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=957 ttl=40 time=72.1 ms
+08-13 15:32:58.657 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=958 ttl=40 time=64.5 ms
+08-13 15:32:58.857 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=959 ttl=40 time=64.0 ms
+08-13 15:32:59.056 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=960 ttl=40 time=62.2 ms
+08-13 15:32:59.257 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=961 ttl=40 time=63.2 ms
+08-13 15:32:59.458 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=962 ttl=40 time=63.0 ms
+08-13 15:32:59.657 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=963 ttl=40 time=60.1 ms
+08-13 15:32:59.856 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=964 ttl=40 time=59.4 ms
+08-13 15:33:00.056 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=965 ttl=40 time=58.8 ms
+08-13 15:33:00.258 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=966 ttl=40 time=61.2 ms
+08-13 15:33:00.456 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=967 ttl=40 time=57.7 ms
+08-13 15:33:00.660 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=968 ttl=40 time=61.0 ms
+08-13 15:33:00.716 11921 11921 D cellinfo: Latitude is 40.5000093
+08-13 15:33:00.716 11921 11921 D cellinfo: Longitude is -86.8784814
+08-13 15:33:00.716 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:33:00.716 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.5000093, -86.8784814
+08-13 15:33:00.720 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78078633 CellConnectionStatus: 1
+08-13 15:33:00.720 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:33:00.856 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=969 ttl=40 time=55.5 ms
+08-13 15:33:01.066 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=970 ttl=40 time=64.1 ms
+08-13 15:33:01.266 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=971 ttl=40 time=63.2 ms
+08-13 15:33:01.467 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=972 ttl=40 time=63.0 ms
+08-13 15:33:01.665 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=973 ttl=40 time=60.4 ms
+08-13 15:33:01.866 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=974 ttl=40 time=60.1 ms
+08-13 15:33:02.067 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=975 ttl=40 time=60.3 ms
+08-13 15:33:02.265 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=976 ttl=40 time=57.3 ms
+08-13 15:33:02.466 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=977 ttl=40 time=57.4 ms
+08-13 15:33:02.674 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=978 ttl=40 time=64.3 ms
+08-13 15:33:02.866 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=979 ttl=40 time=55.7 ms
+08-13 15:33:03.076 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=980 ttl=40 time=64.9 ms
+08-13 15:33:03.285 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=981 ttl=40 time=73.1 ms
+08-13 15:33:03.476 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=982 ttl=40 time=63.5 ms
+08-13 15:33:03.676 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=983 ttl=40 time=62.0 ms
+08-13 15:33:03.747 11921 11921 D cellinfo: Latitude is 40.4997707
+08-13 15:33:03.747 11921 11921 D cellinfo: Longitude is -86.877741
+08-13 15:33:03.747 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:33:03.747 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.4997707, -86.877741
+08-13 15:33:03.751 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78081652 CellConnectionStatus: 1
+08-13 15:33:03.751 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:33:03.876 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=984 ttl=40 time=60.7 ms
+08-13 15:33:04.078 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=985 ttl=40 time=61.7 ms
+08-13 15:33:04.277 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=986 ttl=40 time=60.3 ms
+08-13 15:33:04.477 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=987 ttl=40 time=59.7 ms
+08-13 15:33:04.676 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=988 ttl=40 time=58.6 ms
+08-13 15:33:04.877 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=989 ttl=40 time=59.1 ms
+08-13 15:33:05.076 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=990 ttl=40 time=57.1 ms
+08-13 15:33:05.276 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=991 ttl=40 time=56.0 ms
+08-13 15:33:05.485 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=992 ttl=40 time=64.0 ms
+08-13 15:33:05.686 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=993 ttl=40 time=64.3 ms
+08-13 15:33:05.886 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=994 ttl=40 time=63.1 ms
+08-13 15:33:06.086 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=995 ttl=40 time=61.8 ms
+08-13 15:33:06.287 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=996 ttl=40 time=62.2 ms
+08-13 15:33:06.485 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=997 ttl=40 time=58.8 ms
+08-13 15:33:06.677 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=998 ttl=40 time=50.3 ms
+08-13 15:33:06.707 11921 11921 D cellinfo: Latitude is 40.4997501
+08-13 15:33:06.707 11921 11921 D cellinfo: Longitude is -86.8776766
+08-13 15:33:06.707 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:33:06.707 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.4997501, -86.8776766
+08-13 15:33:06.710 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78084652 CellConnectionStatus: 1
+08-13 15:33:06.710 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:33:06.886 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=999 ttl=40 time=58.7 ms
+08-13 15:33:07.092 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1000 ttl=40 time=63.9 ms
+08-13 15:33:07.286 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1001 ttl=40 time=57.3 ms
+08-13 15:33:07.489 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1002 ttl=40 time=59.4 ms
+08-13 15:33:07.687 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1003 ttl=40 time=56.2 ms
+08-13 15:33:07.896 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1004 ttl=40 time=64.3 ms
+08-13 15:33:08.104 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1005 ttl=40 time=71.2 ms
+08-13 15:33:08.297 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1006 ttl=40 time=63.7 ms
+08-13 15:33:08.497 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1007 ttl=40 time=63.1 ms
+08-13 15:33:08.696 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1008 ttl=40 time=61.3 ms
+08-13 15:33:08.898 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1009 ttl=40 time=61.8 ms
+08-13 15:33:09.096 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1010 ttl=40 time=59.0 ms
+08-13 15:33:09.298 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1011 ttl=40 time=60.0 ms
+08-13 15:33:09.360 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78087643 CellConnectionStatus: 1
+08-13 15:33:09.360 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:33:09.508 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1012 ttl=40 time=68.8 ms
+08-13 15:33:09.699 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1013 ttl=40 time=59.3 ms
+08-13 15:33:09.890 11921 11921 D cellinfo: Latitude is 40.4987539
+08-13 15:33:09.890 11921 11921 D cellinfo: Longitude is -86.8746437
+08-13 15:33:09.890 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:33:09.890 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.4987539, -86.8746437
+08-13 15:33:09.904 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1014 ttl=40 time=63.0 ms
+08-13 15:33:10.106 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1015 ttl=40 time=64.2 ms
+08-13 15:33:10.306 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1016 ttl=40 time=63.2 ms
+08-13 15:33:10.506 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1017 ttl=40 time=62.2 ms
+08-13 15:33:10.706 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1018 ttl=40 time=61.8 ms
+08-13 15:33:10.906 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1019 ttl=40 time=60.5 ms
+08-13 15:33:11.117 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1020 ttl=40 time=70.1 ms
+08-13 15:33:11.307 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1021 ttl=40 time=58.9 ms
+08-13 15:33:11.507 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1022 ttl=40 time=58.1 ms
+08-13 15:33:11.714 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1023 ttl=40 time=64.1 ms
+08-13 15:33:11.918 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1024 ttl=40 time=66.4 ms
+08-13 15:33:12.116 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1025 ttl=40 time=64.9 ms
+08-13 15:33:12.316 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1026 ttl=40 time=63.9 ms
+08-13 15:33:12.515 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1027 ttl=40 time=61.9 ms
+08-13 15:33:12.725 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1028 ttl=40 time=69.8 ms
+08-13 15:33:12.754 11921 11921 D cellinfo: Latitude is 40.4986915
+08-13 15:33:12.755 11921 11921 D cellinfo: Longitude is -86.8744405
+08-13 15:33:12.755 11921 11921 D cellinfo: Instantaneous GPS information: United States, 1802 Northgate Ct, Battle Ground, IN 47920, USA
+08-13 15:33:12.755 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.4986915, -86.8744405
+08-13 15:33:12.759 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78090657 CellConnectionStatus: 1
+08-13 15:33:12.759 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:33:12.919 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1029 ttl=40 time=63.9 ms
+08-13 15:33:13.120 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1030 ttl=40 time=64.2 ms
+08-13 15:33:13.326 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1031 ttl=40 time=68.6 ms
+08-13 15:33:13.528 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1032 ttl=40 time=70.6 ms
+08-13 15:33:13.724 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1033 ttl=40 time=65.4 ms
+08-13 15:33:13.924 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1034 ttl=40 time=65.0 ms
+08-13 15:33:14.135 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1035 ttl=40 time=75.0 ms
+08-13 15:33:14.333 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1036 ttl=40 time=72.1 ms
+08-13 15:33:14.551 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1037 ttl=40 time=88.2 ms
+08-13 15:33:14.734 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1038 ttl=40 time=71.7 ms
+08-13 15:33:14.893 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -77 rsrq: -12 rssi: -57 rssnr: 9
+08-13 15:33:14.928 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1039 ttl=40 time=64.7 ms
+08-13 15:33:15.135 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1040 ttl=40 time=71.1 ms
+08-13 15:33:15.335 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1041 ttl=40 time=70.1 ms
+08-13 15:33:15.620 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1042 ttl=40 time=152 ms
+08-13 15:33:15.723 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1043 ttl=40 time=56.1 ms
+08-13 15:33:15.758 11921 11921 D cellinfo: Latitude is 40.4984723
+08-13 15:33:15.758 11921 11921 D cellinfo: Longitude is -86.873726
+08-13 15:33:15.758 11921 11921 D cellinfo: Instantaneous GPS information: United States, 1802 Northgate Ct, Battle Ground, IN 47920, USA
+08-13 15:33:15.758 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.4984723, -86.873726
+08-13 15:33:15.762 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78093653 CellConnectionStatus: 1
+08-13 15:33:15.762 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943747 Physical Cell ID: 245 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:33:15.926 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1044 ttl=40 time=59.3 ms
+08-13 15:33:16.126 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1045 ttl=40 time=57.7 ms
+08-13 15:33:16.326 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1046 ttl=40 time=57.1 ms
+08-13 15:33:16.525 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1047 ttl=40 time=55.5 ms
+08-13 15:33:16.727 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1048 ttl=40 time=57.2 ms
+08-13 15:33:16.943 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1049 ttl=40 time=72.1 ms
+08-13 15:33:17.142 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1050 ttl=40 time=70.9 ms
+08-13 15:33:17.348 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1051 ttl=40 time=76.1 ms
+08-13 15:33:17.546 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1052 ttl=40 time=73.4 ms
+08-13 15:33:17.748 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1053 ttl=40 time=74.3 ms
+08-13 15:33:17.936 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1054 ttl=40 time=62.0 ms
+08-13 15:33:18.156 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1055 ttl=40 time=80.9 ms
+08-13 15:33:18.245 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1055 ttl=40 time=169 ms (DUP!)
+08-13 15:33:18.261 11921 11921 D cellinfo: onServiceStateChanged: Channel Number: 5230 Cell Bandwidths: [10000, 10000, 10000, 5000]
+08-13 15:33:18.340 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1056 ttl=40 time=64.7 ms
+08-13 15:33:18.557 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1057 ttl=40 time=79.9 ms
+08-13 15:33:18.740 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1058 ttl=40 time=59.9 ms
+08-13 15:33:18.809 11921 11921 D cellinfo: Latitude is 40.4984468
+08-13 15:33:18.809 11921 11921 D cellinfo: Longitude is -86.8736425
+08-13 15:33:18.809 11921 11921 D cellinfo: Instantaneous GPS information: United States, 1802 Northgate Ct, Battle Ground, IN 47920, USA
+08-13 15:33:18.809 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.4984468, -86.8736425
+08-13 15:33:18.813 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78096652 CellConnectionStatus: 1
+08-13 15:33:18.813 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943746 Physical Cell ID: 244 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:33:18.938 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1059 ttl=40 time=58.7 ms
+08-13 15:33:19.145 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1060 ttl=40 time=65.7 ms
+08-13 15:33:19.339 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1061 ttl=40 time=58.5 ms
+08-13 15:33:19.378 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -84 rsrq: -12 rssi: -63 rssnr: 3
+08-13 15:33:19.547 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1062 ttl=40 time=66.3 ms
+08-13 15:33:19.738 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1063 ttl=40 time=56.3 ms
+08-13 15:33:19.939 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1064 ttl=40 time=56.5 ms
+08-13 15:33:20.171 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1065 ttl=40 time=86.6 ms
+08-13 15:33:20.347 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1066 ttl=40 time=62.9 ms
+08-13 15:33:20.549 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1067 ttl=40 time=64.1 ms
+08-13 15:33:20.749 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1068 ttl=40 time=62.2 ms
+08-13 15:33:20.948 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1069 ttl=40 time=61.1 ms
+08-13 15:33:21.149 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1070 ttl=40 time=61.1 ms
+08-13 15:33:21.357 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1071 ttl=40 time=66.2 ms
+08-13 15:33:21.377 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78099658 CellConnectionStatus: 1
+08-13 15:33:21.377 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943746 Physical Cell ID: 244 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:33:21.551 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1072 ttl=40 time=61.6 ms
+08-13 15:33:21.752 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1073 ttl=40 time=60.9 ms
+08-13 15:33:21.911 11921 11921 D cellinfo: Latitude is 40.4974204
+08-13 15:33:21.911 11921 11921 D cellinfo: Longitude is -86.8706481
+08-13 15:33:21.911 11921 11921 D cellinfo: Instantaneous GPS information: United States, 5500 IN-43, West Lafayette, IN 47906, USA
+08-13 15:33:21.911 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.4974204, -86.8706481
+08-13 15:33:21.957 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1074 ttl=40 time=66.0 ms
+08-13 15:33:22.159 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1075 ttl=40 time=67.6 ms
+08-13 15:33:22.358 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1076 ttl=40 time=65.5 ms
+08-13 15:33:22.561 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1077 ttl=40 time=67.5 ms
+08-13 15:33:22.767 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1078 ttl=40 time=71.5 ms
+08-13 15:33:22.962 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1079 ttl=40 time=66.9 ms
+08-13 15:33:23.171 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1080 ttl=40 time=74.1 ms
+08-13 15:33:23.363 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1081 ttl=40 time=66.6 ms
+08-13 15:33:23.381 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -57 rsrq: -11 rssi: -51 rssnr: 21
+08-13 15:33:23.559 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1082 ttl=40 time=62.1 ms
+08-13 15:33:23.762 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1083 ttl=40 time=63.8 ms
+08-13 15:33:23.976 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1084 ttl=40 time=77.3 ms
+08-13 15:33:24.174 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1085 ttl=40 time=73.3 ms
+08-13 15:33:24.370 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1086 ttl=40 time=69.9 ms
+08-13 15:33:24.558 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1087 ttl=40 time=56.5 ms
+08-13 15:33:24.728 11921 11921 D cellinfo: Latitude is 40.4973174
+08-13 15:33:24.728 11921 11921 D cellinfo: Longitude is -86.8703124
+08-13 15:33:24.728 11921 11921 D cellinfo: Instantaneous GPS information: United States, 5500 IN-43, West Lafayette, IN 47906, USA
+08-13 15:33:24.728 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.4973174, -86.8703124
+08-13 15:33:24.733 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78102660 CellConnectionStatus: 1
+08-13 15:33:24.733 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943746 Physical Cell ID: 244 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:33:24.771 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1088 ttl=40 time=68.7 ms
+08-13 15:33:24.973 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1089 ttl=40 time=69.6 ms
+08-13 15:33:25.178 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1090 ttl=40 time=74.6 ms
+08-13 15:33:25.370 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1091 ttl=40 time=66.3 ms
+08-13 15:33:25.572 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1092 ttl=40 time=67.1 ms
+08-13 15:33:25.772 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1093 ttl=40 time=66.2 ms
+08-13 15:33:25.975 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1094 ttl=40 time=68.0 ms
+08-13 15:33:26.179 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1095 ttl=40 time=70.3 ms
+08-13 15:33:26.382 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1096 ttl=40 time=74.0 ms
+08-13 15:33:26.584 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1097 ttl=40 time=75.0 ms
+08-13 15:33:26.768 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1098 ttl=40 time=57.5 ms
+08-13 15:33:26.970 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1099 ttl=40 time=58.9 ms
+08-13 15:33:27.168 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1100 ttl=40 time=56.8 ms
+08-13 15:33:27.383 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1101 ttl=40 time=70.9 ms
+08-13 15:33:27.587 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1102 ttl=40 time=73.9 ms
+08-13 15:33:27.789 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1103 ttl=40 time=73.5 ms
+08-13 15:33:27.851 11921 11921 D cellinfo: Latitude is 40.4971538
+08-13 15:33:27.851 11921 11921 D cellinfo: Longitude is -86.8697783
+08-13 15:33:27.851 11921 11921 D cellinfo: Instantaneous GPS information: United States, 5500 IN-43, West Lafayette, IN 47906, USA
+08-13 15:33:27.851 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.4971538, -86.8697783
+08-13 15:33:27.855 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78105660 CellConnectionStatus: 1
+08-13 15:33:27.855 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943746 Physical Cell ID: 244 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:33:27.988 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1104 ttl=40 time=73.2 ms
+08-13 15:33:28.187 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1105 ttl=40 time=70.1 ms
+08-13 15:33:28.394 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1106 ttl=40 time=76.2 ms
+08-13 15:33:28.579 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1107 ttl=40 time=61.2 ms
+08-13 15:33:28.779 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1108 ttl=40 time=60.0 ms
+08-13 15:33:28.979 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1109 ttl=40 time=58.2 ms
+08-13 15:33:29.178 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1110 ttl=40 time=57.4 ms
+08-13 15:33:29.380 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1111 ttl=40 time=57.1 ms
+08-13 15:33:29.579 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1112 ttl=40 time=56.4 ms
+08-13 15:33:29.780 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1113 ttl=40 time=56.4 ms
+08-13 15:33:29.997 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1114 ttl=40 time=73.5 ms
+08-13 15:33:30.189 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1115 ttl=40 time=64.5 ms
+08-13 15:33:30.329 11921 11921 D cellinfo: Latitude is 40.4971519
+08-13 15:33:30.329 11921 11921 D cellinfo: Longitude is -86.8697712
+08-13 15:33:30.329 11921 11921 D cellinfo: Instantaneous GPS information: United States, 5500 IN-43, West Lafayette, IN 47906, USA
+08-13 15:33:30.329 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.4971519, -86.8697712
+08-13 15:33:30.382 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78108664 CellConnectionStatus: 1
+08-13 15:33:30.382 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943746 Physical Cell ID: 244 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:33:30.388 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1116 ttl=40 time=63.2 ms
+08-13 15:33:30.589 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1117 ttl=40 time=63.4 ms
+08-13 15:33:30.788 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1118 ttl=40 time=61.5 ms
+08-13 15:33:30.988 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1119 ttl=40 time=60.5 ms
+08-13 15:33:31.179 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1120 ttl=40 time=51.0 ms
+08-13 15:33:31.390 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1121 ttl=40 time=60.8 ms
+08-13 15:33:31.588 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1122 ttl=40 time=59.0 ms
+08-13 15:33:31.792 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1123 ttl=40 time=60.3 ms
+08-13 15:33:31.989 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1124 ttl=40 time=57.1 ms
+08-13 15:33:32.189 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1125 ttl=40 time=56.0 ms
+08-13 15:33:32.415 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1126 ttl=40 time=80.9 ms
+08-13 15:33:32.600 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1127 ttl=40 time=65.2 ms
+08-13 15:33:32.801 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1128 ttl=40 time=65.9 ms
+08-13 15:33:33.001 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1129 ttl=40 time=65.8 ms
+08-13 15:33:33.199 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1130 ttl=40 time=63.8 ms
+08-13 15:33:33.365 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78111646 CellConnectionStatus: 1
+08-13 15:33:33.365 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943746 Physical Cell ID: 244 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:33:33.400 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1131 ttl=40 time=63.7 ms
+08-13 15:33:33.593 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1132 ttl=40 time=56.6 ms
+08-13 15:33:33.800 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1133 ttl=40 time=62.0 ms
+08-13 15:33:33.873 11921 11921 D cellinfo: Latitude is 40.4961332
+08-13 15:33:33.873 11921 11921 D cellinfo: Longitude is -86.8666591
+08-13 15:33:33.873 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:33:33.873 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.4961332, -86.8666591
+08-13 15:33:34.000 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1134 ttl=40 time=61.8 ms
+08-13 15:33:34.202 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1135 ttl=40 time=63.8 ms
+08-13 15:33:34.398 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1136 ttl=40 time=59.3 ms
+08-13 15:33:34.599 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1137 ttl=40 time=58.4 ms
+08-13 15:33:34.799 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1138 ttl=40 time=57.9 ms
+08-13 15:33:35.011 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1139 ttl=40 time=68.1 ms
+08-13 15:33:35.200 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1140 ttl=40 time=57.3 ms
+08-13 15:33:35.408 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1141 ttl=40 time=65.6 ms
+08-13 15:33:35.610 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1142 ttl=40 time=67.2 ms
+08-13 15:33:35.809 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1143 ttl=40 time=65.1 ms
+08-13 15:33:36.008 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1144 ttl=40 time=63.4 ms
+08-13 15:33:36.209 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1145 ttl=40 time=63.0 ms
+08-13 15:33:36.415 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1146 ttl=40 time=68.8 ms
+08-13 15:33:36.609 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1147 ttl=40 time=61.4 ms
+08-13 15:33:36.719 11921 11921 D cellinfo: Latitude is 40.4960645
+08-13 15:33:36.719 11921 11921 D cellinfo: Longitude is -86.8664461
+08-13 15:33:36.719 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:33:36.719 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.4960645, -86.8664461
+08-13 15:33:36.723 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78114664 CellConnectionStatus: 1
+08-13 15:33:36.723 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943746 Physical Cell ID: 244 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:33:36.811 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1148 ttl=40 time=63.6 ms
+08-13 15:33:37.008 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1149 ttl=40 time=60.4 ms
+08-13 15:33:37.207 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1150 ttl=40 time=59.2 ms
+08-13 15:33:37.409 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1151 ttl=40 time=59.7 ms
+08-13 15:33:37.608 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1152 ttl=40 time=58.9 ms
+08-13 15:33:37.809 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1153 ttl=40 time=58.5 ms
+08-13 15:33:38.020 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1154 ttl=40 time=69.2 ms
+08-13 15:33:38.210 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1155 ttl=40 time=58.8 ms
+08-13 15:33:38.429 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1156 ttl=40 time=76.9 ms
+08-13 15:33:38.611 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1157 ttl=40 time=58.1 ms
+08-13 15:33:38.818 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1158 ttl=40 time=64.9 ms
+08-13 15:33:39.019 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1159 ttl=40 time=65.1 ms
+08-13 15:33:39.229 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1160 ttl=40 time=74.5 ms
+08-13 15:33:39.431 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1161 ttl=40 time=76.4 ms
+08-13 15:33:39.628 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1162 ttl=40 time=71.3 ms
+08-13 15:33:39.720 11921 11921 D cellinfo: Latitude is 40.495828
+08-13 15:33:39.720 11921 11921 D cellinfo: Longitude is -86.8657123
+08-13 15:33:39.720 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:33:39.720 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.495828, -86.8657123
+08-13 15:33:39.723 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78117653 CellConnectionStatus: 1
+08-13 15:33:39.723 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943746 Physical Cell ID: 244 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:33:39.826 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1163 ttl=40 time=69.6 ms
+08-13 15:33:40.020 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1164 ttl=40 time=63.3 ms
+08-13 15:33:40.218 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1165 ttl=40 time=61.3 ms
+08-13 15:33:40.419 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1166 ttl=40 time=60.3 ms
+08-13 15:33:40.619 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1167 ttl=40 time=60.7 ms
+08-13 15:33:40.818 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1168 ttl=40 time=59.3 ms
+08-13 15:33:41.019 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1169 ttl=40 time=58.9 ms
+08-13 15:33:41.220 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1170 ttl=40 time=60.4 ms
+08-13 15:33:41.427 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1171 ttl=40 time=65.9 ms
+08-13 15:33:41.619 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1172 ttl=40 time=56.6 ms
+08-13 15:33:41.818 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1173 ttl=40 time=55.1 ms
+08-13 15:33:42.020 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1174 ttl=40 time=56.3 ms
+08-13 15:33:42.218 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1175 ttl=40 time=54.8 ms
+08-13 15:33:42.423 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1176 ttl=40 time=59.2 ms
+08-13 15:33:42.622 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1177 ttl=40 time=56.3 ms
+08-13 15:33:42.732 11921 11921 D cellinfo: Latitude is 40.4957815
+08-13 15:33:42.733 11921 11921 D cellinfo: Longitude is -86.8655674
+08-13 15:33:42.733 11921 11921 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:33:42.733 11921 11921 D cellinfo: getCurrentLocation() result: Location (success): 40.4957815, -86.8655674
+08-13 15:33:42.735 11921 11921 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 78120647 CellConnectionStatus: 1
+08-13 15:33:42.735 11921 11921 D cellinfo: onCellInfoChanged: LTE Cell Bands: [13, 66, 66, 2] Bandwidth: 10000 Cell ID: 58943746 Physical Cell ID: 244 Tracking Area Code: 58891 EARFCN: 5230
+08-13 15:33:42.833 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1178 ttl=40 time=67.0 ms
+08-13 15:33:43.028 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1179 ttl=40 time=61.8 ms
+08-13 15:33:43.228 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1180 ttl=40 time=62.4 ms
+08-13 15:33:43.428 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1181 ttl=40 time=61.7 ms
+08-13 15:33:43.629 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1182 ttl=40 time=62.3 ms
+08-13 15:33:43.828 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1183 ttl=40 time=60.5 ms
+08-13 15:33:44.028 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1184 ttl=40 time=59.5 ms
+08-13 15:33:44.237 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1185 ttl=40 time=68.6 ms
+08-13 15:33:44.377 11921 11921 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -78 rsrq: -13 rssi: -57 rssnr: 12
+08-13 15:33:44.447 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1186 ttl=40 time=77.6 ms
+08-13 15:33:44.636 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1187 ttl=40 time=65.4 ms
+08-13 15:33:44.828 11921 11983 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=1188 ttl=40 time=56.4 ms

@@ -1,0 +1,1157 @@
+--------- beginning of main
+08-13 15:29:33.841  5121  5121 D cellinfo: Country == United States
+08-13 15:29:33.841  5121  5121 D cellinfo: City == Brookston
+08-13 15:29:33.842  5121  5121 D cellinfo: GPS Info == I-65, Brookston, IN 47923, USA
+08-13 15:29:33.842  5121  5121 D cellinfo: Network Operator == T-Mobile
+08-13 15:29:33.842  5121  5121 D cellinfo: User movement == Static
+08-13 15:29:33.842  5121  5121 D cellinfo: isEastCoast == true
+08-13 15:29:33.842  5121  5121 D cellinfo: isWestCoast == false
+08-13 15:29:33.842  5121  5121 D cellinfo: isBoston == false
+08-13 15:29:33.842  5121  5121 D cellinfo: All GPS info fetched. Saving city and country info
+08-13 15:29:33.843  5121  5203 D cellinfo: Timestamp: 1660418973
+08-13 15:29:34.344  5121  5204 D cellinfo: Logging started
+08-13 15:29:34.352  5121  5121 D cellinfo: onServiceStateChanged: Channel Number: 66736 Cell Bandwidths: [10000, 5000, 10000, 5000]
+08-13 15:29:34.352  5121  5121 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -97 rsrq: -10 rssi: -67 rssnr: 8
+08-13 15:29:34.352  5121  5121 D cellinfo: onsignalStrengthsChanged: 5G-NR Signal Strength info: ssrsrp: -95 ssrsrq: -13 sssinr: 2
+08-13 15:29:34.361  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242850252 CellConnectionStatus: 1
+08-13 15:29:34.361  5121  5121 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 10000 Cell ID: 8575491 Physical Cell ID: 219 Tracking Area Code: 42235 EARFCN: 66736
+08-13 15:29:34.362  5121  5121 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: 5G (Sub-6 GHz)
+08-13 15:29:34.848  5121  5203 D cellinfo: Ping command fired: /system/bin/ping -i 0.2 -s 38 54.197.223.49
+08-13 15:29:35.003  5121  5121 D cellinfo: onServiceStateChanged: Channel Number: 66736 Cell Bandwidths: [10000, 5000, 10000, 5000]
+08-13 15:29:35.503  5121  5203 D cellinfo: PING 54.197.223.49 (54.197.223.49) 38(66) bytes of data.
+08-13 15:29:35.504  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=2 ttl=36 time=445 ms
+08-13 15:29:35.504  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=3 ttl=36 time=241 ms
+08-13 15:29:35.556  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=4 ttl=36 time=89.9 ms
+08-13 15:29:35.756  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=5 ttl=36 time=88.9 ms
+08-13 15:29:35.956  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=6 ttl=36 time=87.7 ms
+08-13 15:29:36.155  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=7 ttl=36 time=86.5 ms
+08-13 15:29:36.356  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=8 ttl=36 time=85.7 ms
+08-13 15:29:36.555  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=9 ttl=36 time=84.0 ms
+08-13 15:29:36.756  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=10 ttl=36 time=84.5 ms
+08-13 15:29:36.963  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=11 ttl=36 time=90.3 ms
+08-13 15:29:37.157  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=12 ttl=36 time=82.1 ms
+08-13 15:29:37.364  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=13 ttl=36 time=88.0 ms
+08-13 15:29:37.428  5121  5121 D cellinfo: Latitude is 40.5477553
+08-13 15:29:37.429  5121  5121 D cellinfo: Longitude is -86.9238548
+08-13 15:29:37.429  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:29:37.429  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5477553, -86.9238548
+08-13 15:29:37.454  5121  5121 D cellinfo: Latitude is 40.5477553
+08-13 15:29:37.454  5121  5121 D cellinfo: Longitude is -86.9238548
+08-13 15:29:37.454  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:29:37.454  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5477553, -86.9238548
+08-13 15:29:37.478  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242853794 CellConnectionStatus: 1
+08-13 15:29:37.479  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 42 Tracking Area Code: 16777215
+08-13 15:29:37.564  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=14 ttl=36 time=88.1 ms
+08-13 15:29:37.757  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=15 ttl=36 time=79.6 ms
+08-13 15:29:37.957  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=16 ttl=36 time=79.5 ms
+08-13 15:29:38.165  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=17 ttl=36 time=86.9 ms
+08-13 15:29:38.367  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=18 ttl=36 time=87.2 ms
+08-13 15:29:38.565  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=19 ttl=36 time=84.7 ms
+08-13 15:29:38.766  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=20 ttl=36 time=84.4 ms
+08-13 15:29:38.967  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=21 ttl=36 time=84.3 ms
+08-13 15:29:39.165  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=22 ttl=36 time=81.4 ms
+08-13 15:29:39.366  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=23 ttl=36 time=80.9 ms
+08-13 15:29:39.577  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=24 ttl=36 time=90.9 ms
+08-13 15:29:39.776  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=25 ttl=36 time=89.2 ms
+08-13 15:29:39.836  5121  5121 D cellinfo: Latitude is 40.5477553
+08-13 15:29:39.836  5121  5121 D cellinfo: Longitude is -86.9238548
+08-13 15:29:39.836  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:29:39.836  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5477553, -86.9238548
+08-13 15:29:39.874  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242856191 CellConnectionStatus: 1
+08-13 15:29:39.874  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 42 Tracking Area Code: 16777215
+08-13 15:29:39.975  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=26 ttl=36 time=87.3 ms
+08-13 15:29:40.176  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=27 ttl=36 time=86.8 ms
+08-13 15:29:40.375  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=28 ttl=36 time=85.3 ms
+08-13 15:29:40.577  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=29 ttl=36 time=86.2 ms
+08-13 15:29:40.776  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=30 ttl=36 time=84.2 ms
+08-13 15:29:40.984  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=31 ttl=36 time=90.9 ms
+08-13 15:29:41.175  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=32 ttl=36 time=81.0 ms
+08-13 15:29:41.386  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=33 ttl=36 time=91.5 ms
+08-13 15:29:41.596  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=34 ttl=36 time=100 ms
+08-13 15:29:41.803  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=35 ttl=36 time=105 ms
+08-13 15:29:41.986  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=36 ttl=36 time=88.5 ms
+08-13 15:29:42.187  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=37 ttl=36 time=89.2 ms
+08-13 15:29:42.386  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=38 ttl=36 time=87.0 ms
+08-13 15:29:42.586  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=39 ttl=36 time=87.0 ms
+08-13 15:29:42.787  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=40 ttl=36 time=86.1 ms
+08-13 15:29:42.840  5121  5121 D cellinfo: Latitude is 40.5477553
+08-13 15:29:42.840  5121  5121 D cellinfo: Longitude is -86.9238548
+08-13 15:29:42.840  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:29:42.840  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5477553, -86.9238548
+08-13 15:29:42.880  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242859197 CellConnectionStatus: 1
+08-13 15:29:42.880  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 42 Tracking Area Code: 16777215
+08-13 15:29:42.988  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=41 ttl=36 time=86.6 ms
+08-13 15:29:43.207  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=42 ttl=36 time=104 ms
+08-13 15:29:43.387  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=43 ttl=36 time=84.7 ms
+08-13 15:29:43.591  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=44 ttl=36 time=88.4 ms
+08-13 15:29:43.786  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=45 ttl=36 time=81.4 ms
+08-13 15:29:43.997  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=46 ttl=36 time=91.0 ms
+08-13 15:29:44.195  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=47 ttl=36 time=88.3 ms
+08-13 15:29:44.396  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=48 ttl=36 time=88.4 ms
+08-13 15:29:44.598  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=49 ttl=36 time=90.4 ms
+08-13 15:29:44.797  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=50 ttl=36 time=87.4 ms
+08-13 15:29:44.995  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=51 ttl=36 time=85.6 ms
+08-13 15:29:45.198  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=52 ttl=36 time=87.8 ms
+08-13 15:29:45.395  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=53 ttl=36 time=84.4 ms
+08-13 15:29:45.597  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=54 ttl=36 time=86.0 ms
+08-13 15:29:45.799  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=55 ttl=36 time=86.7 ms
+08-13 15:29:45.832  5121  5121 D cellinfo: Latitude is 40.5477553
+08-13 15:29:45.832  5121  5121 D cellinfo: Longitude is -86.9238548
+08-13 15:29:45.832  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:29:45.832  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5477553, -86.9238548
+08-13 15:29:45.869  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242862186 CellConnectionStatus: 1
+08-13 15:29:45.869  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 42 Tracking Area Code: 16777215
+08-13 15:29:45.996  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=56 ttl=36 time=82.8 ms
+08-13 15:29:46.196  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=57 ttl=36 time=82.4 ms
+08-13 15:29:46.406  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=58 ttl=36 time=91.5 ms
+08-13 15:29:46.606  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=59 ttl=36 time=90.1 ms
+08-13 15:29:46.806  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=60 ttl=36 time=89.5 ms
+08-13 15:29:47.006  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=61 ttl=36 time=89.2 ms
+08-13 15:29:47.206  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=62 ttl=36 time=89.9 ms
+08-13 15:29:47.406  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=63 ttl=36 time=88.6 ms
+08-13 15:29:47.607  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=64 ttl=36 time=89.7 ms
+08-13 15:29:47.808  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=65 ttl=36 time=89.1 ms
+08-13 15:29:48.014  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=66 ttl=36 time=94.8 ms
+08-13 15:29:48.202  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=67 ttl=36 time=83.7 ms
+08-13 15:29:48.406  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=68 ttl=36 time=86.3 ms
+08-13 15:29:48.607  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=69 ttl=36 time=86.8 ms
+08-13 15:29:48.806  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=70 ttl=36 time=85.5 ms
+08-13 15:29:49.007  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=71 ttl=36 time=86.2 ms
+08-13 15:29:49.207  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=72 ttl=36 time=85.7 ms
+08-13 15:29:49.406  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=73 ttl=36 time=84.3 ms
+08-13 15:29:49.424  5121  5121 D cellinfo: Latitude is 40.5467976
+08-13 15:29:49.424  5121  5121 D cellinfo: Longitude is -86.9228782
+08-13 15:29:49.424  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:29:49.424  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5467976, -86.9228782
+08-13 15:29:49.433  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242865208 CellConnectionStatus: 1
+08-13 15:29:49.433  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 42 Tracking Area Code: 16777215
+08-13 15:29:49.625  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=74 ttl=36 time=100 ms
+08-13 15:29:49.816  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=75 ttl=36 time=91.0 ms
+08-13 15:29:50.015  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=76 ttl=36 time=90.0 ms
+08-13 15:29:50.214  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=77 ttl=36 time=89.2 ms
+08-13 15:29:50.416  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=78 ttl=36 time=89.6 ms
+08-13 15:29:50.602  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=79 ttl=36 time=75.7 ms
+08-13 15:29:50.818  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=80 ttl=36 time=90.1 ms
+08-13 15:29:51.016  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=81 ttl=36 time=87.4 ms
+08-13 15:29:51.216  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=82 ttl=36 time=87.3 ms
+08-13 15:29:51.417  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=83 ttl=36 time=86.8 ms
+08-13 15:29:51.615  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=84 ttl=36 time=84.0 ms
+08-13 15:29:51.816  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=85 ttl=36 time=84.1 ms
+08-13 15:29:51.849  5121  5121 D cellinfo: Latitude is 40.5467976
+08-13 15:29:51.849  5121  5121 D cellinfo: Longitude is -86.9228782
+08-13 15:29:51.849  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:29:51.849  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5467976, -86.9228782
+08-13 15:29:51.901  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242868218 CellConnectionStatus: 1
+08-13 15:29:51.901  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 42 Tracking Area Code: 16777215
+08-13 15:29:52.020  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=86 ttl=36 time=87.2 ms
+08-13 15:29:52.216  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=87 ttl=36 time=82.9 ms
+08-13 15:29:52.417  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=88 ttl=36 time=83.2 ms
+08-13 15:29:52.616  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=89 ttl=36 time=81.2 ms
+08-13 15:29:52.825  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=90 ttl=36 time=89.5 ms
+08-13 15:29:53.025  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=91 ttl=36 time=89.2 ms
+08-13 15:29:53.226  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=92 ttl=36 time=89.7 ms
+08-13 15:29:53.433  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=93 ttl=36 time=95.9 ms
+08-13 15:29:53.641  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=94 ttl=36 time=103 ms
+08-13 15:29:53.825  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=95 ttl=36 time=87.4 ms
+08-13 15:29:54.026  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=96 ttl=36 time=85.7 ms
+08-13 15:29:54.226  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=97 ttl=36 time=86.4 ms
+08-13 15:29:54.427  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=98 ttl=36 time=86.2 ms
+08-13 15:29:54.626  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=99 ttl=36 time=84.4 ms
+08-13 15:29:54.826  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=100 ttl=36 time=83.2 ms
+08-13 15:29:55.034  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=101 ttl=36 time=90.4 ms
+08-13 15:29:55.224  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=102 ttl=36 time=79.9 ms
+08-13 15:29:55.288  5121  5121 D cellinfo: Latitude is 40.5453988
+08-13 15:29:55.288  5121  5121 D cellinfo: Longitude is -86.9211491
+08-13 15:29:55.288  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:29:55.289  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5453988, -86.9211491
+08-13 15:29:55.292  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242871199 CellConnectionStatus: 1
+08-13 15:29:55.292  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 42 Tracking Area Code: 16777215
+08-13 15:29:55.435  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=103 ttl=36 time=90.1 ms
+08-13 15:29:55.636  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=104 ttl=36 time=90.5 ms
+08-13 15:29:55.835  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=105 ttl=36 time=88.8 ms
+08-13 15:29:56.038  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=106 ttl=36 time=90.8 ms
+08-13 15:29:56.237  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=107 ttl=36 time=89.8 ms
+08-13 15:29:56.436  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=108 ttl=36 time=88.2 ms
+08-13 15:29:56.636  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=109 ttl=36 time=87.8 ms
+08-13 15:29:56.837  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=110 ttl=36 time=87.2 ms
+08-13 15:29:57.038  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=111 ttl=36 time=87.7 ms
+08-13 15:29:57.236  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=112 ttl=36 time=86.2 ms
+08-13 15:29:57.436  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=113 ttl=36 time=85.0 ms
+08-13 15:29:57.638  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=114 ttl=36 time=86.3 ms
+08-13 15:29:57.835  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=115 ttl=36 time=83.4 ms
+08-13 15:29:57.838  5121  5121 D cellinfo: Latitude is 40.5453988
+08-13 15:29:57.839  5121  5121 D cellinfo: Longitude is -86.9211491
+08-13 15:29:57.839  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:29:57.839  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5453988, -86.9211491
+08-13 15:29:57.888  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242874201 CellConnectionStatus: 1
+08-13 15:29:57.888  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 42 Tracking Area Code: 16777215
+08-13 15:29:58.045  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=116 ttl=36 time=92.1 ms
+08-13 15:29:58.237  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=117 ttl=36 time=83.9 ms
+08-13 15:29:58.436  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=118 ttl=36 time=83.2 ms
+08-13 15:29:58.638  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=119 ttl=36 time=83.2 ms
+08-13 15:29:58.847  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=120 ttl=36 time=91.3 ms
+08-13 15:29:59.053  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=121 ttl=36 time=96.7 ms
+08-13 15:29:59.236  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=122 ttl=36 time=79.9 ms
+08-13 15:29:59.451  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=123 ttl=36 time=94.6 ms
+08-13 15:29:59.646  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=124 ttl=36 time=88.6 ms
+08-13 15:29:59.847  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=125 ttl=36 time=89.6 ms
+08-13 15:30:00.048  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=126 ttl=36 time=89.9 ms
+08-13 15:30:00.247  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=127 ttl=36 time=88.9 ms
+08-13 15:30:00.447  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=128 ttl=36 time=88.3 ms
+08-13 15:30:00.647  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=129 ttl=36 time=87.5 ms
+08-13 15:30:00.849  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=130 ttl=36 time=87.8 ms
+08-13 15:30:01.047  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=131 ttl=36 time=85.7 ms
+08-13 15:30:01.246  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=132 ttl=36 time=85.1 ms
+08-13 15:30:01.286  5121  5121 D cellinfo: Latitude is 40.5448516
+08-13 15:30:01.286  5121  5121 D cellinfo: Longitude is -86.92046
+08-13 15:30:01.286  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:01.287  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5448516, -86.92046
+08-13 15:30:01.291  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242877202 CellConnectionStatus: 1
+08-13 15:30:01.291  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 42 Tracking Area Code: 16777215
+08-13 15:30:01.446  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=133 ttl=36 time=84.3 ms
+08-13 15:30:01.648  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=134 ttl=36 time=84.5 ms
+08-13 15:30:01.846  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=135 ttl=36 time=82.4 ms
+08-13 15:30:02.059  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=136 ttl=36 time=93.0 ms
+08-13 15:30:02.258  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=137 ttl=36 time=92.7 ms
+08-13 15:30:02.458  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=138 ttl=36 time=91.8 ms
+08-13 15:30:02.658  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=139 ttl=36 time=91.0 ms
+08-13 15:30:02.861  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=140 ttl=36 time=93.3 ms
+08-13 15:30:03.058  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=141 ttl=36 time=88.5 ms
+08-13 15:30:03.261  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=142 ttl=36 time=92.9 ms
+08-13 15:30:03.463  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=143 ttl=36 time=93.9 ms
+08-13 15:30:03.663  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=144 ttl=36 time=92.7 ms
+08-13 15:30:03.838  5121  5121 D cellinfo: Latitude is 40.5448516
+08-13 15:30:03.838  5121  5121 D cellinfo: Longitude is -86.92046
+08-13 15:30:03.838  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:03.838  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5448516, -86.92046
+08-13 15:30:03.867  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=145 ttl=36 time=96.8 ms
+08-13 15:30:03.885  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242880202 CellConnectionStatus: 1
+08-13 15:30:03.885  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 42 Tracking Area Code: 16777215
+08-13 15:30:04.068  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=146 ttl=36 time=96.0 ms
+08-13 15:30:04.265  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=147 ttl=36 time=94.1 ms
+08-13 15:30:04.457  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=148 ttl=36 time=84.8 ms
+08-13 15:30:04.670  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=149 ttl=36 time=96.7 ms
+08-13 15:30:04.870  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=150 ttl=36 time=96.2 ms
+08-13 15:30:05.056  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=151 ttl=36 time=81.7 ms
+08-13 15:30:05.257  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=152 ttl=36 time=83.0 ms
+08-13 15:30:05.455  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=153 ttl=36 time=80.4 ms
+08-13 15:30:05.670  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=154 ttl=36 time=94.7 ms
+08-13 15:30:05.874  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=155 ttl=36 time=97.8 ms
+08-13 15:30:06.077  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=156 ttl=36 time=100 ms
+08-13 15:30:06.273  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=157 ttl=36 time=96.4 ms
+08-13 15:30:06.472  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=158 ttl=36 time=95.0 ms
+08-13 15:30:06.673  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=159 ttl=36 time=94.5 ms
+08-13 15:30:06.873  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=160 ttl=36 time=94.5 ms
+08-13 15:30:06.888  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242883204 CellConnectionStatus: 1
+08-13 15:30:06.889  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 42 Tracking Area Code: 16777215
+08-13 15:30:07.081  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=161 ttl=36 time=101 ms
+08-13 15:30:07.283  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=162 ttl=36 time=103 ms
+08-13 15:30:07.423  5121  5121 D cellinfo: Latitude is 40.5424084
+08-13 15:30:07.424  5121  5121 D cellinfo: Longitude is -86.9174156
+08-13 15:30:07.424  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:07.424  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5424084, -86.9174156
+08-13 15:30:07.484  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=163 ttl=36 time=102 ms
+08-13 15:30:07.669  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=164 ttl=36 time=85.7 ms
+08-13 15:30:07.868  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=165 ttl=36 time=83.9 ms
+08-13 15:30:08.066  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=166 ttl=36 time=81.3 ms
+08-13 15:30:08.283  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=167 ttl=36 time=98.2 ms
+08-13 15:30:08.482  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=168 ttl=36 time=95.8 ms
+08-13 15:30:08.690  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=169 ttl=36 time=103 ms
+08-13 15:30:08.887  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=170 ttl=36 time=99.9 ms
+08-13 15:30:09.083  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=171 ttl=36 time=94.8 ms
+08-13 15:30:09.278  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=172 ttl=36 time=90.0 ms
+08-13 15:30:09.496  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=173 ttl=36 time=106 ms
+08-13 15:30:09.678  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=174 ttl=36 time=88.4 ms
+08-13 15:30:09.837  5121  5121 D cellinfo: Latitude is 40.5424084
+08-13 15:30:09.837  5121  5121 D cellinfo: Longitude is -86.9174156
+08-13 15:30:09.837  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:09.837  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5424084, -86.9174156
+08-13 15:30:09.878  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=175 ttl=36 time=87.1 ms
+08-13 15:30:09.895  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242886208 CellConnectionStatus: 1
+08-13 15:30:09.895  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 42 Tracking Area Code: 16777215
+08-13 15:30:10.076  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=176 ttl=36 time=83.8 ms
+08-13 15:30:10.279  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=177 ttl=36 time=86.7 ms
+08-13 15:30:10.478  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=178 ttl=36 time=85.8 ms
+08-13 15:30:10.677  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=179 ttl=36 time=83.8 ms
+08-13 15:30:10.876  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=180 ttl=36 time=82.5 ms
+08-13 15:30:11.077  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=181 ttl=36 time=81.4 ms
+08-13 15:30:11.295  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=182 ttl=36 time=99.7 ms
+08-13 15:30:11.493  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=183 ttl=36 time=96.8 ms
+08-13 15:30:11.696  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=184 ttl=36 time=99.3 ms
+08-13 15:30:11.886  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=185 ttl=36 time=88.5 ms
+08-13 15:30:12.107  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=186 ttl=36 time=108 ms
+08-13 15:30:12.276  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=187 ttl=36 time=77.8 ms
+08-13 15:30:12.495  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=188 ttl=36 time=95.7 ms
+08-13 15:30:12.688  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=189 ttl=36 time=88.3 ms
+08-13 15:30:12.843  5121  5121 D cellinfo: Latitude is 40.5424084
+08-13 15:30:12.844  5121  5121 D cellinfo: Longitude is -86.9174156
+08-13 15:30:12.844  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:12.844  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5424084, -86.9174156
+08-13 15:30:12.886  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=190 ttl=36 time=85.9 ms
+08-13 15:30:12.896  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242889210 CellConnectionStatus: 1
+08-13 15:30:12.896  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 42 Tracking Area Code: 16777215
+08-13 15:30:13.087  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=191 ttl=36 time=86.4 ms
+08-13 15:30:13.294  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=192 ttl=36 time=91.8 ms
+08-13 15:30:13.487  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=193 ttl=36 time=84.0 ms
+08-13 15:30:13.687  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=194 ttl=36 time=82.9 ms
+08-13 15:30:13.892  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=195 ttl=36 time=88.2 ms
+08-13 15:30:14.086  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=196 ttl=36 time=79.9 ms
+08-13 15:30:14.305  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=197 ttl=36 time=98.5 ms
+08-13 15:30:14.505  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=198 ttl=36 time=97.8 ms
+08-13 15:30:14.696  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=199 ttl=36 time=88.6 ms
+08-13 15:30:14.896  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=200 ttl=36 time=88.0 ms
+08-13 15:30:15.096  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=201 ttl=36 time=87.3 ms
+08-13 15:30:15.296  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=202 ttl=36 time=86.3 ms
+08-13 15:30:15.497  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=203 ttl=36 time=85.7 ms
+08-13 15:30:15.696  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=204 ttl=36 time=84.3 ms
+08-13 15:30:15.839  5121  5121 D cellinfo: Latitude is 40.5424084
+08-13 15:30:15.839  5121  5121 D cellinfo: Longitude is -86.9174156
+08-13 15:30:15.839  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:15.839  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5424084, -86.9174156
+08-13 15:30:15.887  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242892202 CellConnectionStatus: 1
+08-13 15:30:15.887  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 42 Tracking Area Code: 16777215
+08-13 15:30:15.904  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=205 ttl=36 time=92.8 ms
+08-13 15:30:16.097  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=206 ttl=36 time=84.7 ms
+08-13 15:30:16.297  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=207 ttl=36 time=84.3 ms
+08-13 15:30:16.498  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=208 ttl=36 time=83.8 ms
+08-13 15:30:16.743  5121  5121 D cellinfo: onServiceStateChanged: Channel Number: 66736 Cell Bandwidths: [10000, 15000]
+08-13 15:30:16.968  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=209 ttl=36 time=353 ms
+08-13 15:30:16.969  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=210 ttl=36 time=150 ms
+08-13 15:30:17.129  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=211 ttl=36 time=111 ms
+08-13 15:30:17.305  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=212 ttl=36 time=86.0 ms
+08-13 15:30:17.921  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=213 ttl=36 time=501 ms
+08-13 15:30:17.922  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=214 ttl=36 time=296 ms
+08-13 15:30:17.925  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=215 ttl=36 time=95.8 ms
+08-13 15:30:18.125  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=216 ttl=36 time=95.7 ms
+08-13 15:30:18.335  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=217 ttl=36 time=104 ms
+08-13 15:30:18.527  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=218 ttl=36 time=96.4 ms
+08-13 15:30:18.715  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=219 ttl=36 time=84.4 ms
+08-13 15:30:18.891  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242895207 CellConnectionStatus: 1
+08-13 15:30:18.891  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 419 Tracking Area Code: 16777215
+08-13 15:30:18.913  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=220 ttl=36 time=81.5 ms
+08-13 15:30:19.125  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=221 ttl=36 time=92.1 ms
+08-13 15:30:19.328  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=222 ttl=36 time=93.0 ms
+08-13 15:30:19.530  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=223 ttl=36 time=94.1 ms
+08-13 15:30:19.738  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=224 ttl=36 time=101 ms
+08-13 15:30:19.934  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=225 ttl=36 time=96.9 ms
+08-13 15:30:20.137  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=226 ttl=36 time=98.3 ms
+08-13 15:30:20.338  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=227 ttl=36 time=97.8 ms
+08-13 15:30:20.357  5121  5121 D cellinfo: Latitude is 40.5395919
+08-13 15:30:20.357  5121  5121 D cellinfo: Longitude is -86.9139634
+08-13 15:30:20.357  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:20.357  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5395919, -86.9139634
+08-13 15:30:20.525  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=228 ttl=36 time=83.9 ms
+08-13 15:30:20.746  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=229 ttl=36 time=103 ms
+08-13 15:30:20.925  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=230 ttl=36 time=83.1 ms
+08-13 15:30:21.125  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=231 ttl=36 time=81.5 ms
+08-13 15:30:21.327  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=232 ttl=36 time=84.0 ms
+08-13 15:30:21.535  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=233 ttl=36 time=91.0 ms
+08-13 15:30:21.741  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=234 ttl=36 time=96.1 ms
+08-13 15:30:21.848  5121  5121 D cellinfo: Latitude is 40.5395919
+08-13 15:30:21.848  5121  5121 D cellinfo: Longitude is -86.9139634
+08-13 15:30:21.848  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:21.848  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5395919, -86.9139634
+08-13 15:30:21.886  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242898201 CellConnectionStatus: 1
+08-13 15:30:21.886  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 419 Tracking Area Code: 16777215
+08-13 15:30:21.941  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=235 ttl=36 time=94.6 ms
+08-13 15:30:22.146  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=236 ttl=36 time=97.9 ms
+08-13 15:30:22.352  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=237 ttl=36 time=102 ms
+08-13 15:30:22.535  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=238 ttl=36 time=85.3 ms
+08-13 15:30:22.735  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=239 ttl=36 time=84.9 ms
+08-13 15:30:22.936  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=240 ttl=36 time=85.8 ms
+08-13 15:30:23.292  5121  5121 D cellinfo: onServiceStateChanged: Channel Number: 66736 Cell Bandwidths: [10000, 15000]
+08-13 15:30:24.204  5121  5121 D cellinfo: onServiceStateChanged: Channel Number: 66736 Cell Bandwidths: [10000, 15000]
+08-13 15:30:24.585  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=242 ttl=36 time=1331 ms
+08-13 15:30:24.585  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=243 ttl=36 time=1127 ms
+08-13 15:30:24.585  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=244 ttl=36 time=923 ms
+08-13 15:30:24.585  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=245 ttl=36 time=720 ms
+08-13 15:30:24.585  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=246 ttl=36 time=516 ms
+08-13 15:30:24.585  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=247 ttl=36 time=312 ms
+08-13 15:30:24.609  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=248 ttl=36 time=132 ms
+08-13 15:30:24.836  5121  5121 D cellinfo: Latitude is 40.5395919
+08-13 15:30:24.836  5121  5121 D cellinfo: Longitude is -86.9139634
+08-13 15:30:24.836  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:24.836  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5395919, -86.9139634
+08-13 15:30:24.870  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242901186 CellConnectionStatus: 1
+08-13 15:30:24.871  5121  5121 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 10000 Cell ID: 8575489 Physical Cell ID: 484 Tracking Area Code: 42235 EARFCN: 66736
+08-13 15:30:25.037  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=249 ttl=36 time=358 ms
+08-13 15:30:25.037  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=250 ttl=36 time=156 ms
+08-13 15:30:25.168  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=251 ttl=36 time=86.9 ms
+08-13 15:30:25.368  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=252 ttl=36 time=86.3 ms
+08-13 15:30:25.569  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=253 ttl=36 time=85.9 ms
+08-13 15:30:25.767  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=254 ttl=36 time=83.7 ms
+08-13 15:30:25.915  5121  5121 D cellinfo: onServiceStateChanged: Channel Number: 66736 Cell Bandwidths: [10000, 15000]
+08-13 15:30:26.343  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=255 ttl=36 time=458 ms
+08-13 15:30:26.343  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=256 ttl=36 time=257 ms
+08-13 15:30:26.387  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=257 ttl=36 time=97.7 ms
+08-13 15:30:26.578  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=258 ttl=36 time=88.0 ms
+08-13 15:30:26.776  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=259 ttl=36 time=85.4 ms
+08-13 15:30:26.985  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=260 ttl=36 time=93.6 ms
+08-13 15:30:27.178  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=261 ttl=36 time=86.4 ms
+08-13 15:30:27.376  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=262 ttl=36 time=84.3 ms
+08-13 15:30:27.578  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=263 ttl=36 time=85.3 ms
+08-13 15:30:27.777  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=264 ttl=36 time=82.8 ms
+08-13 15:30:27.844  5121  5121 D cellinfo: Latitude is 40.5395919
+08-13 15:30:27.844  5121  5121 D cellinfo: Longitude is -86.9139634
+08-13 15:30:27.844  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:27.844  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5395919, -86.9139634
+08-13 15:30:27.990  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=265 ttl=36 time=95.7 ms
+08-13 15:30:28.186  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=266 ttl=36 time=90.6 ms
+08-13 15:30:28.386  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=267 ttl=36 time=90.6 ms
+08-13 15:30:28.590  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=268 ttl=36 time=90.7 ms
+08-13 15:30:28.797  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=269 ttl=36 time=99.4 ms
+08-13 15:30:28.988  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=270 ttl=36 time=89.1 ms
+08-13 15:30:29.187  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=271 ttl=36 time=86.8 ms
+08-13 15:30:29.389  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=272 ttl=36 time=87.2 ms
+08-13 15:30:29.586  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=273 ttl=36 time=84.2 ms
+08-13 15:30:29.786  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=274 ttl=36 time=83.4 ms
+08-13 15:30:29.994  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=275 ttl=36 time=89.9 ms
+08-13 15:30:30.190  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=276 ttl=36 time=85.7 ms
+08-13 15:30:30.387  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=277 ttl=36 time=81.6 ms
+08-13 15:30:30.598  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=278 ttl=36 time=92.4 ms
+08-13 15:30:30.797  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=279 ttl=36 time=89.8 ms
+08-13 15:30:30.999  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=280 ttl=36 time=91.2 ms
+08-13 15:30:31.199  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=281 ttl=36 time=90.4 ms
+08-13 15:30:31.339  5121  5121 D cellinfo: Latitude is 40.538558
+08-13 15:30:31.340  5121  5121 D cellinfo: Longitude is -86.912695
+08-13 15:30:31.340  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:31.340  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.538558, -86.912695
+08-13 15:30:31.344  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242907243 CellConnectionStatus: 1
+08-13 15:30:31.344  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:30:31.399  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=282 ttl=36 time=90.3 ms
+08-13 15:30:31.597  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=283 ttl=36 time=87.6 ms
+08-13 15:30:31.807  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=284 ttl=36 time=96.4 ms
+08-13 15:30:32.002  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=285 ttl=36 time=90.3 ms
+08-13 15:30:32.201  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=286 ttl=36 time=89.7 ms
+08-13 15:30:32.400  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=287 ttl=36 time=87.6 ms
+08-13 15:30:32.597  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=288 ttl=36 time=84.2 ms
+08-13 15:30:32.807  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=289 ttl=36 time=93.5 ms
+08-13 15:30:33.005  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=290 ttl=36 time=91.8 ms
+08-13 15:30:33.206  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=291 ttl=36 time=92.5 ms
+08-13 15:30:33.409  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=292 ttl=36 time=95.7 ms
+08-13 15:30:33.597  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=293 ttl=36 time=83.0 ms
+08-13 15:30:33.797  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=294 ttl=36 time=82.1 ms
+08-13 15:30:33.841  5121  5121 D cellinfo: Latitude is 40.538558
+08-13 15:30:33.842  5121  5121 D cellinfo: Longitude is -86.912695
+08-13 15:30:33.842  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:30:33.842  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.538558, -86.912695
+08-13 15:30:33.891  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242910203 CellConnectionStatus: 1
+08-13 15:30:33.892  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:30:34.019  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=295 ttl=36 time=103 ms
+08-13 15:30:34.215  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=296 ttl=36 time=98.8 ms
+08-13 15:30:34.406  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=297 ttl=36 time=89.9 ms
+08-13 15:30:34.617  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=298 ttl=36 time=99.1 ms
+08-13 15:30:34.807  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=299 ttl=36 time=88.4 ms
+08-13 15:30:35.006  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=300 ttl=36 time=87.3 ms
+08-13 15:30:35.207  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=301 ttl=36 time=87.9 ms
+08-13 15:30:35.407  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=302 ttl=36 time=86.4 ms
+08-13 15:30:35.630  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=303 ttl=36 time=109 ms
+08-13 15:30:35.828  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=304 ttl=36 time=106 ms
+08-13 15:30:36.027  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=305 ttl=36 time=105 ms
+08-13 15:30:36.208  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=306 ttl=36 time=85.4 ms
+08-13 15:30:36.407  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=307 ttl=36 time=83.2 ms
+08-13 15:30:36.607  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=308 ttl=36 time=82.4 ms
+08-13 15:30:36.831  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=309 ttl=36 time=105 ms
+08-13 15:30:36.871  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242913188 CellConnectionStatus: 1
+08-13 15:30:36.871  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:30:37.007  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=310 ttl=36 time=80.3 ms
+08-13 15:30:37.217  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=311 ttl=36 time=90.3 ms
+08-13 15:30:37.327  5121  5121 D cellinfo: Latitude is 40.5355334
+08-13 15:30:37.327  5121  5121 D cellinfo: Longitude is -86.9102567
+08-13 15:30:37.327  5121  5121 D cellinfo: Instantaneous GPS information: United States, 240 W 790 N, West Lafayette, IN 47906, USA
+08-13 15:30:37.327  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5355334, -86.9102567
+08-13 15:30:37.415  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=312 ttl=36 time=87.7 ms
+08-13 15:30:37.631  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=313 ttl=36 time=103 ms
+08-13 15:30:37.820  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=314 ttl=36 time=92.1 ms
+08-13 15:30:38.021  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=315 ttl=36 time=92.0 ms
+08-13 15:30:38.228  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=316 ttl=36 time=99.5 ms
+08-13 15:30:38.426  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=317 ttl=36 time=96.5 ms
+08-13 15:30:38.617  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=318 ttl=36 time=86.8 ms
+08-13 15:30:38.828  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=319 ttl=36 time=96.6 ms
+08-13 15:30:39.063  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=320 ttl=36 time=131 ms
+08-13 15:30:39.217  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=321 ttl=36 time=84.7 ms
+08-13 15:30:39.419  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=322 ttl=36 time=85.4 ms
+08-13 15:30:39.623  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=323 ttl=36 time=88.5 ms
+08-13 15:30:39.822  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=324 ttl=36 time=87.5 ms
+08-13 15:30:39.843  5121  5121 D cellinfo: Latitude is 40.5355334
+08-13 15:30:39.843  5121  5121 D cellinfo: Longitude is -86.9102567
+08-13 15:30:39.843  5121  5121 D cellinfo: Instantaneous GPS information: United States, 240 W 790 N, West Lafayette, IN 47906, USA
+08-13 15:30:39.843  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5355334, -86.9102567
+08-13 15:30:40.030  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=325 ttl=36 time=93.4 ms
+08-13 15:30:40.221  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=326 ttl=36 time=85.2 ms
+08-13 15:30:40.424  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=327 ttl=36 time=88.3 ms
+08-13 15:30:40.634  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=328 ttl=36 time=97.0 ms
+08-13 15:30:40.832  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=329 ttl=36 time=94.7 ms
+08-13 15:30:41.046  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=330 ttl=36 time=108 ms
+08-13 15:30:41.295  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=331 ttl=36 time=157 ms
+08-13 15:30:41.428  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=332 ttl=36 time=89.1 ms
+08-13 15:30:41.629  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=333 ttl=36 time=89.5 ms
+08-13 15:30:41.828  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=334 ttl=36 time=88.3 ms
+08-13 15:30:42.028  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=335 ttl=36 time=87.0 ms
+08-13 15:30:42.228  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=336 ttl=36 time=86.6 ms
+08-13 15:30:42.428  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=337 ttl=36 time=86.0 ms
+08-13 15:30:42.628  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=338 ttl=36 time=85.9 ms
+08-13 15:30:42.836  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=339 ttl=36 time=93.8 ms
+08-13 15:30:43.027  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=340 ttl=36 time=83.3 ms
+08-13 15:30:43.227  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=341 ttl=36 time=83.0 ms
+08-13 15:30:43.248  5121  5121 D cellinfo: Latitude is 40.5353979
+08-13 15:30:43.248  5121  5121 D cellinfo: Longitude is -86.9101453
+08-13 15:30:43.248  5121  5121 D cellinfo: Instantaneous GPS information: United States, 240 W 790 N, West Lafayette, IN 47906, USA
+08-13 15:30:43.248  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5353979, -86.9101453
+08-13 15:30:43.443  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=342 ttl=36 time=98.4 ms
+08-13 15:30:43.630  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=343 ttl=36 time=84.1 ms
+08-13 15:30:43.837  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=344 ttl=36 time=90.3 ms
+08-13 15:30:44.041  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=345 ttl=36 time=92.6 ms
+08-13 15:30:44.237  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=346 ttl=36 time=88.8 ms
+08-13 15:30:44.438  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=347 ttl=36 time=89.3 ms
+08-13 15:30:44.637  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=348 ttl=36 time=87.0 ms
+08-13 15:30:44.838  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=349 ttl=36 time=87.1 ms
+08-13 15:30:44.908  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242921222 CellConnectionStatus: 1
+08-13 15:30:44.909  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:30:45.036  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=350 ttl=36 time=85.0 ms
+08-13 15:30:45.240  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=351 ttl=36 time=88.3 ms
+08-13 15:30:45.448  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=352 ttl=36 time=95.3 ms
+08-13 15:30:45.638  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=353 ttl=36 time=85.6 ms
+08-13 15:30:45.837  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=354 ttl=36 time=84.5 ms
+08-13 15:30:46.045  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=355 ttl=36 time=90.2 ms
+08-13 15:30:46.237  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=356 ttl=36 time=81.7 ms
+08-13 15:30:46.266  5121  5121 D cellinfo: Latitude is 40.5348074
+08-13 15:30:46.266  5121  5121 D cellinfo: Longitude is -86.9096567
+08-13 15:30:46.266  5121  5121 D cellinfo: Instantaneous GPS information: United States, 240 W 790 N, West Lafayette, IN 47906, USA
+08-13 15:30:46.266  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5348074, -86.9096567
+08-13 15:30:46.447  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=357 ttl=36 time=90.5 ms
+08-13 15:30:46.655  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=358 ttl=36 time=98.3 ms
+08-13 15:30:46.846  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=359 ttl=36 time=88.5 ms
+08-13 15:30:47.049  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=360 ttl=36 time=91.1 ms
+08-13 15:30:47.255  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=361 ttl=36 time=96.7 ms
+08-13 15:30:47.447  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=362 ttl=36 time=88.5 ms
+08-13 15:30:47.650  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=363 ttl=36 time=90.8 ms
+08-13 15:30:47.850  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=364 ttl=36 time=89.5 ms
+08-13 15:30:48.056  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=365 ttl=36 time=95.1 ms
+08-13 15:30:48.247  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=366 ttl=36 time=86.2 ms
+08-13 15:30:48.455  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=367 ttl=36 time=93.6 ms
+08-13 15:30:48.656  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=368 ttl=36 time=93.8 ms
+08-13 15:30:48.839  5121  5121 D cellinfo: Latitude is 40.5348074
+08-13 15:30:48.839  5121  5121 D cellinfo: Longitude is -86.9096567
+08-13 15:30:48.839  5121  5121 D cellinfo: Instantaneous GPS information: United States, 240 W 790 N, West Lafayette, IN 47906, USA
+08-13 15:30:48.839  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5348074, -86.9096567
+08-13 15:30:48.846  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=369 ttl=36 time=82.9 ms
+08-13 15:30:49.060  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=370 ttl=36 time=95.7 ms
+08-13 15:30:49.255  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=371 ttl=36 time=91.2 ms
+08-13 15:30:49.455  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=372 ttl=36 time=90.3 ms
+08-13 15:30:49.657  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=373 ttl=36 time=91.9 ms
+08-13 15:30:49.857  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=374 ttl=36 time=91.0 ms
+08-13 15:30:50.059  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=375 ttl=36 time=91.5 ms
+08-13 15:30:50.265  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=376 ttl=36 time=97.8 ms
+08-13 15:30:50.457  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=377 ttl=36 time=88.4 ms
+08-13 15:30:50.663  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=378 ttl=36 time=93.6 ms
+08-13 15:30:50.858  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=379 ttl=36 time=88.0 ms
+08-13 15:30:50.885  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242927200 CellConnectionStatus: 1
+08-13 15:30:50.885  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:30:51.057  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=380 ttl=36 time=86.2 ms
+08-13 15:30:51.257  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=381 ttl=36 time=85.7 ms
+08-13 15:30:51.458  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=382 ttl=36 time=85.4 ms
+08-13 15:30:51.657  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=383 ttl=36 time=84.5 ms
+08-13 15:30:51.857  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=384 ttl=36 time=84.0 ms
+08-13 15:30:52.081  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=385 ttl=36 time=107 ms
+08-13 15:30:52.258  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=386 ttl=36 time=85.1 ms
+08-13 15:30:52.458  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=387 ttl=36 time=83.7 ms
+08-13 15:30:52.665  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=388 ttl=36 time=90.3 ms
+08-13 15:30:52.867  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=389 ttl=36 time=91.4 ms
+08-13 15:30:53.068  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=390 ttl=36 time=91.5 ms
+08-13 15:30:53.269  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=391 ttl=36 time=92.7 ms
+08-13 15:30:53.400  5121  5121 D cellinfo: Latitude is 40.5315629
+08-13 15:30:53.400  5121  5121 D cellinfo: Longitude is -86.9070283
+08-13 15:30:53.400  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65 Crest Dr, West Lafayette, IN 47906, USA
+08-13 15:30:53.400  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5315629, -86.9070283
+08-13 15:30:53.469  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=392 ttl=36 time=92.0 ms
+08-13 15:30:53.667  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=393 ttl=36 time=89.5 ms
+08-13 15:30:53.868  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=394 ttl=36 time=88.9 ms
+08-13 15:30:54.089  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=395 ttl=36 time=109 ms
+08-13 15:30:54.267  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=396 ttl=36 time=87.2 ms
+08-13 15:30:54.468  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=397 ttl=36 time=87.1 ms
+08-13 15:30:54.667  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=398 ttl=36 time=85.2 ms
+08-13 15:30:54.839  5121  5121 D cellinfo: Latitude is 40.5315629
+08-13 15:30:54.839  5121  5121 D cellinfo: Longitude is -86.9070283
+08-13 15:30:54.839  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65 Crest Dr, West Lafayette, IN 47906, USA
+08-13 15:30:54.839  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5315629, -86.9070283
+08-13 15:30:54.867  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=399 ttl=36 time=84.2 ms
+08-13 15:30:55.066  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=400 ttl=36 time=82.1 ms
+08-13 15:30:55.267  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=401 ttl=36 time=83.0 ms
+08-13 15:30:55.467  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=402 ttl=36 time=82.6 ms
+08-13 15:30:55.666  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=403 ttl=36 time=81.0 ms
+08-13 15:30:55.866  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=404 ttl=36 time=80.0 ms
+08-13 15:30:56.078  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=405 ttl=36 time=89.9 ms
+08-13 15:30:56.278  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=406 ttl=36 time=90.6 ms
+08-13 15:30:56.479  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=407 ttl=36 time=91.5 ms
+08-13 15:30:56.680  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=408 ttl=36 time=91.0 ms
+08-13 15:30:56.878  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=409 ttl=36 time=87.8 ms
+08-13 15:30:56.899  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242933203 CellConnectionStatus: 1
+08-13 15:30:56.899  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:30:57.080  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=410 ttl=36 time=89.3 ms
+08-13 15:30:57.280  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=411 ttl=36 time=89.0 ms
+08-13 15:30:57.480  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=412 ttl=36 time=88.3 ms
+08-13 15:30:57.680  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=413 ttl=36 time=87.3 ms
+08-13 15:30:57.836  5121  5121 D cellinfo: Latitude is 40.5315629
+08-13 15:30:57.836  5121  5121 D cellinfo: Longitude is -86.9070283
+08-13 15:30:57.836  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65 Crest Dr, West Lafayette, IN 47906, USA
+08-13 15:30:57.836  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5315629, -86.9070283
+08-13 15:30:57.877  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=414 ttl=36 time=84.4 ms
+08-13 15:30:58.083  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=415 ttl=36 time=89.0 ms
+08-13 15:30:58.280  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=416 ttl=36 time=85.6 ms
+08-13 15:30:58.477  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=417 ttl=36 time=82.3 ms
+08-13 15:30:58.676  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=418 ttl=36 time=80.3 ms
+08-13 15:30:58.887  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=419 ttl=36 time=90.7 ms
+08-13 15:30:59.097  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=420 ttl=36 time=99.8 ms
+08-13 15:30:59.288  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=421 ttl=36 time=91.4 ms
+08-13 15:30:59.486  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=422 ttl=36 time=88.3 ms
+08-13 15:30:59.690  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=423 ttl=36 time=91.1 ms
+08-13 15:30:59.887  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=424 ttl=36 time=87.2 ms
+08-13 15:31:00.087  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=425 ttl=36 time=86.6 ms
+08-13 15:31:00.290  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=426 ttl=36 time=88.7 ms
+08-13 15:31:00.489  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=427 ttl=36 time=86.4 ms
+08-13 15:31:00.696  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=428 ttl=36 time=92.8 ms
+08-13 15:31:00.845  5121  5121 D cellinfo: Latitude is 40.5315629
+08-13 15:31:00.845  5121  5121 D cellinfo: Longitude is -86.9070283
+08-13 15:31:00.845  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65 Crest Dr, West Lafayette, IN 47906, USA
+08-13 15:31:00.845  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5315629, -86.9070283
+08-13 15:31:00.895  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=429 ttl=36 time=91.2 ms
+08-13 15:31:01.095  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=430 ttl=36 time=90.3 ms
+08-13 15:31:01.296  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=431 ttl=36 time=89.8 ms
+08-13 15:31:01.499  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=432 ttl=36 time=92.5 ms
+08-13 15:31:01.698  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=433 ttl=36 time=91.3 ms
+08-13 15:31:01.906  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=434 ttl=36 time=97.9 ms
+08-13 15:31:02.102  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=435 ttl=36 time=92.4 ms
+08-13 15:31:02.296  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=436 ttl=36 time=85.4 ms
+08-13 15:31:02.497  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=437 ttl=36 time=85.5 ms
+08-13 15:31:02.698  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=438 ttl=36 time=85.5 ms
+08-13 15:31:02.895  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242939209 CellConnectionStatus: 1
+08-13 15:31:02.896  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:31:02.897  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=439 ttl=36 time=85.2 ms
+08-13 15:31:03.105  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=440 ttl=36 time=91.6 ms
+08-13 15:31:03.297  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=441 ttl=36 time=83.2 ms
+08-13 15:31:03.497  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=442 ttl=36 time=81.8 ms
+08-13 15:31:03.698  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=443 ttl=36 time=82.3 ms
+08-13 15:31:03.907  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=444 ttl=36 time=90.5 ms
+08-13 15:31:04.106  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=445 ttl=36 time=88.6 ms
+08-13 15:31:04.308  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=446 ttl=36 time=90.0 ms
+08-13 15:31:04.511  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=447 ttl=36 time=92.3 ms
+08-13 15:31:04.707  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=448 ttl=36 time=88.1 ms
+08-13 15:31:04.907  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=449 ttl=36 time=87.9 ms
+08-13 15:31:05.109  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=450 ttl=36 time=89.5 ms
+08-13 15:31:05.308  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=451 ttl=36 time=87.6 ms
+08-13 15:31:05.396  5121  5121 D cellinfo: Latitude is 40.5283943
+08-13 15:31:05.396  5121  5121 D cellinfo: Longitude is -86.9044319
+08-13 15:31:05.396  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:05.396  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5283943, -86.9044319
+08-13 15:31:05.510  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=452 ttl=36 time=89.4 ms
+08-13 15:31:05.731  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=453 ttl=36 time=108 ms
+08-13 15:31:05.907  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=454 ttl=36 time=84.4 ms
+08-13 15:31:06.115  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=455 ttl=36 time=91.6 ms
+08-13 15:31:06.308  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=456 ttl=36 time=83.3 ms
+08-13 15:31:06.510  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=457 ttl=36 time=85.0 ms
+08-13 15:31:06.709  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=458 ttl=36 time=83.6 ms
+08-13 15:31:06.836  5121  5121 D cellinfo: Latitude is 40.5283943
+08-13 15:31:06.836  5121  5121 D cellinfo: Longitude is -86.9044319
+08-13 15:31:06.836  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:06.836  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5283943, -86.9044319
+08-13 15:31:06.916  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=459 ttl=36 time=90.1 ms
+08-13 15:31:07.117  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=460 ttl=36 time=90.0 ms
+08-13 15:31:07.317  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=461 ttl=36 time=89.8 ms
+08-13 15:31:07.518  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=462 ttl=36 time=89.3 ms
+08-13 15:31:07.717  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=463 ttl=36 time=88.9 ms
+08-13 15:31:07.919  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=464 ttl=36 time=90.1 ms
+08-13 15:31:08.118  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=465 ttl=36 time=88.0 ms
+08-13 15:31:08.327  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=466 ttl=36 time=96.4 ms
+08-13 15:31:08.517  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=467 ttl=36 time=84.5 ms
+08-13 15:31:08.718  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=468 ttl=36 time=83.6 ms
+08-13 15:31:08.897  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242945212 CellConnectionStatus: 1
+08-13 15:31:08.897  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:31:08.917  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=469 ttl=36 time=82.7 ms
+08-13 15:31:09.118  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=470 ttl=36 time=82.4 ms
+08-13 15:31:09.326  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=471 ttl=36 time=90.7 ms
+08-13 15:31:09.528  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=472 ttl=36 time=91.6 ms
+08-13 15:31:09.728  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=473 ttl=36 time=91.6 ms
+08-13 15:31:09.844  5121  5121 D cellinfo: Latitude is 40.5283943
+08-13 15:31:09.844  5121  5121 D cellinfo: Longitude is -86.9044319
+08-13 15:31:09.844  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:09.844  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5283943, -86.9044319
+08-13 15:31:09.928  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=474 ttl=36 time=90.8 ms
+08-13 15:31:10.127  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=475 ttl=36 time=89.0 ms
+08-13 15:31:10.329  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=476 ttl=36 time=89.5 ms
+08-13 15:31:10.529  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=477 ttl=36 time=88.9 ms
+08-13 15:31:10.729  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=478 ttl=36 time=88.2 ms
+08-13 15:31:10.927  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=479 ttl=36 time=85.7 ms
+08-13 15:31:11.128  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=480 ttl=36 time=86.3 ms
+08-13 15:31:11.329  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=481 ttl=36 time=85.8 ms
+08-13 15:31:11.527  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=482 ttl=36 time=83.8 ms
+08-13 15:31:11.730  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=483 ttl=36 time=85.0 ms
+08-13 15:31:11.927  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=484 ttl=36 time=82.3 ms
+08-13 15:31:12.128  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=485 ttl=36 time=81.6 ms
+08-13 15:31:12.342  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=486 ttl=36 time=94.5 ms
+08-13 15:31:12.540  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=487 ttl=36 time=92.9 ms
+08-13 15:31:12.738  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=488 ttl=36 time=89.0 ms
+08-13 15:31:12.833  5121  5121 D cellinfo: Latitude is 40.5283943
+08-13 15:31:12.833  5121  5121 D cellinfo: Longitude is -86.9044319
+08-13 15:31:12.833  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:12.833  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5283943, -86.9044319
+08-13 15:31:12.939  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=489 ttl=36 time=90.1 ms
+08-13 15:31:13.140  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=490 ttl=36 time=89.9 ms
+08-13 15:31:13.338  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=491 ttl=36 time=86.4 ms
+08-13 15:31:13.538  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=492 ttl=36 time=85.8 ms
+08-13 15:31:13.740  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=493 ttl=36 time=86.9 ms
+08-13 15:31:13.947  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=494 ttl=36 time=92.3 ms
+08-13 15:31:14.148  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=495 ttl=36 time=94.0 ms
+08-13 15:31:14.342  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=496 ttl=36 time=86.4 ms
+08-13 15:31:14.548  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=497 ttl=36 time=91.5 ms
+08-13 15:31:14.748  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=498 ttl=36 time=91.6 ms
+08-13 15:31:14.889  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242951201 CellConnectionStatus: 1
+08-13 15:31:14.890  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:31:14.948  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=499 ttl=36 time=91.3 ms
+08-13 15:31:15.146  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=500 ttl=36 time=88.4 ms
+08-13 15:31:15.347  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=501 ttl=36 time=87.7 ms
+08-13 15:31:15.567  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=502 ttl=36 time=107 ms
+08-13 15:31:15.749  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=503 ttl=36 time=87.6 ms
+08-13 15:31:15.948  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=504 ttl=36 time=86.7 ms
+08-13 15:31:16.158  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=505 ttl=36 time=95.2 ms
+08-13 15:31:16.348  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=506 ttl=36 time=84.8 ms
+08-13 15:31:16.557  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=507 ttl=36 time=93.2 ms
+08-13 15:31:16.758  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=508 ttl=36 time=92.9 ms
+08-13 15:31:16.958  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=509 ttl=36 time=92.4 ms
+08-13 15:31:17.170  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=510 ttl=36 time=102 ms
+08-13 15:31:17.357  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=511 ttl=36 time=89.8 ms
+08-13 15:31:17.378  5121  5121 D cellinfo: Latitude is 40.5251362
+08-13 15:31:17.379  5121  5121 D cellinfo: Longitude is -86.9018963
+08-13 15:31:17.379  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:17.379  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5251362, -86.9018963
+08-13 15:31:17.556  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=512 ttl=36 time=88.1 ms
+08-13 15:31:17.767  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=513 ttl=36 time=97.6 ms
+08-13 15:31:17.965  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=514 ttl=36 time=95.0 ms
+08-13 15:31:18.157  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=515 ttl=36 time=86.0 ms
+08-13 15:31:18.356  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=516 ttl=36 time=84.9 ms
+08-13 15:31:18.560  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=517 ttl=36 time=87.3 ms
+08-13 15:31:18.757  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=518 ttl=36 time=84.2 ms
+08-13 15:31:18.840  5121  5121 D cellinfo: Latitude is 40.5251362
+08-13 15:31:18.840  5121  5121 D cellinfo: Longitude is -86.9018963
+08-13 15:31:18.840  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:18.840  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5251362, -86.9018963
+08-13 15:31:18.961  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=519 ttl=36 time=86.6 ms
+08-13 15:31:19.157  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=520 ttl=36 time=82.5 ms
+08-13 15:31:19.368  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=521 ttl=36 time=91.5 ms
+08-13 15:31:19.568  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=522 ttl=36 time=91.2 ms
+08-13 15:31:19.774  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=523 ttl=36 time=96.9 ms
+08-13 15:31:19.968  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=524 ttl=36 time=89.5 ms
+08-13 15:31:20.169  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=525 ttl=36 time=90.4 ms
+08-13 15:31:20.368  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=526 ttl=36 time=87.4 ms
+08-13 15:31:20.568  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=527 ttl=36 time=87.3 ms
+08-13 15:31:20.771  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=528 ttl=36 time=89.4 ms
+08-13 15:31:20.878  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242957192 CellConnectionStatus: 1
+08-13 15:31:20.878  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:31:20.970  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=529 ttl=36 time=87.1 ms
+08-13 15:31:21.172  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=530 ttl=36 time=87.7 ms
+08-13 15:31:21.376  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=531 ttl=36 time=91.1 ms
+08-13 15:31:21.568  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=532 ttl=36 time=82.3 ms
+08-13 15:31:21.779  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=533 ttl=36 time=92.5 ms
+08-13 15:31:21.845  5121  5121 D cellinfo: Latitude is 40.5251362
+08-13 15:31:21.845  5121  5121 D cellinfo: Longitude is -86.9018963
+08-13 15:31:21.845  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:21.845  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5251362, -86.9018963
+08-13 15:31:21.978  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=534 ttl=36 time=91.2 ms
+08-13 15:31:22.177  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=535 ttl=36 time=89.3 ms
+08-13 15:31:22.388  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=536 ttl=36 time=98.9 ms
+08-13 15:31:22.587  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=537 ttl=36 time=97.0 ms
+08-13 15:31:22.778  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=538 ttl=36 time=87.4 ms
+08-13 15:31:22.980  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=539 ttl=36 time=88.3 ms
+08-13 15:31:23.180  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=540 ttl=36 time=86.7 ms
+08-13 15:31:23.377  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=541 ttl=36 time=83.2 ms
+08-13 15:31:23.588  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=542 ttl=36 time=93.0 ms
+08-13 15:31:23.778  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=543 ttl=36 time=82.2 ms
+08-13 15:31:23.978  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=544 ttl=36 time=81.5 ms
+08-13 15:31:24.191  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=545 ttl=36 time=93.6 ms
+08-13 15:31:24.398  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=546 ttl=36 time=100 ms
+08-13 15:31:24.599  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=547 ttl=36 time=99.7 ms
+08-13 15:31:24.788  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=548 ttl=36 time=88.5 ms
+08-13 15:31:24.844  5121  5121 D cellinfo: Latitude is 40.5251362
+08-13 15:31:24.844  5121  5121 D cellinfo: Longitude is -86.9018963
+08-13 15:31:24.844  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:24.844  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5251362, -86.9018963
+08-13 15:31:24.989  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=549 ttl=36 time=88.3 ms
+08-13 15:31:25.187  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=550 ttl=36 time=85.2 ms
+08-13 15:31:25.391  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=551 ttl=36 time=87.4 ms
+08-13 15:31:25.596  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=552 ttl=36 time=92.2 ms
+08-13 15:31:25.789  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=553 ttl=36 time=85.2 ms
+08-13 15:31:25.994  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=554 ttl=36 time=89.7 ms
+08-13 15:31:26.199  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=555 ttl=36 time=93.7 ms
+08-13 15:31:26.388  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=556 ttl=36 time=82.3 ms
+08-13 15:31:26.598  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=557 ttl=36 time=91.1 ms
+08-13 15:31:26.798  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=558 ttl=36 time=90.2 ms
+08-13 15:31:26.891  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242963206 CellConnectionStatus: 1
+08-13 15:31:26.891  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:31:27.001  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=559 ttl=36 time=92.1 ms
+08-13 15:31:27.198  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=560 ttl=36 time=89.0 ms
+08-13 15:31:27.399  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=561 ttl=36 time=88.9 ms
+08-13 15:31:27.605  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=562 ttl=36 time=94.5 ms
+08-13 15:31:27.808  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=563 ttl=36 time=97.1 ms
+08-13 15:31:27.994  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=564 ttl=36 time=82.6 ms
+08-13 15:31:28.199  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=565 ttl=36 time=86.3 ms
+08-13 15:31:28.307  5121  5121 D cellinfo: Latitude is 40.5220878
+08-13 15:31:28.307  5121  5121 D cellinfo: Longitude is -86.8996933
+08-13 15:31:28.307  5121  5121 D cellinfo: Instantaneous GPS information: United States, 518 E 725 N, West Lafayette, IN 47906, USA
+08-13 15:31:28.307  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5220878, -86.8996933
+08-13 15:31:28.406  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=566 ttl=36 time=92.0 ms
+08-13 15:31:28.624  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=567 ttl=36 time=109 ms
+08-13 15:31:28.816  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=568 ttl=36 time=100 ms
+08-13 15:31:29.001  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=569 ttl=36 time=85.0 ms
+08-13 15:31:29.207  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=570 ttl=36 time=90.7 ms
+08-13 15:31:29.416  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=571 ttl=36 time=96.6 ms
+08-13 15:31:29.610  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=572 ttl=36 time=93.4 ms
+08-13 15:31:29.809  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=573 ttl=36 time=90.7 ms
+08-13 15:31:30.008  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=574 ttl=36 time=88.9 ms
+08-13 15:31:30.207  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=575 ttl=36 time=88.5 ms
+08-13 15:31:30.409  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=576 ttl=36 time=89.2 ms
+08-13 15:31:30.608  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=577 ttl=36 time=87.6 ms
+08-13 15:31:30.808  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=578 ttl=36 time=87.1 ms
+08-13 15:31:30.839  5121  5121 D cellinfo: Latitude is 40.5220878
+08-13 15:31:30.839  5121  5121 D cellinfo: Longitude is -86.8996933
+08-13 15:31:30.839  5121  5121 D cellinfo: Instantaneous GPS information: United States, 518 E 725 N, West Lafayette, IN 47906, USA
+08-13 15:31:30.839  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5220878, -86.8996933
+08-13 15:31:31.007  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=579 ttl=36 time=85.8 ms
+08-13 15:31:31.216  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=580 ttl=36 time=94.6 ms
+08-13 15:31:31.419  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=581 ttl=36 time=96.6 ms
+08-13 15:31:31.608  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=582 ttl=36 time=85.1 ms
+08-13 15:31:31.808  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=583 ttl=36 time=83.2 ms
+08-13 15:31:32.007  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=584 ttl=36 time=81.7 ms
+08-13 15:31:32.208  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=585 ttl=36 time=82.6 ms
+08-13 15:31:32.408  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=586 ttl=36 time=82.2 ms
+08-13 15:31:32.609  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=587 ttl=36 time=81.8 ms
+08-13 15:31:32.817  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=588 ttl=36 time=89.6 ms
+08-13 15:31:32.870  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242969186 CellConnectionStatus: 1
+08-13 15:31:32.870  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:31:33.017  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=589 ttl=36 time=88.4 ms
+08-13 15:31:33.217  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=590 ttl=36 time=89.3 ms
+08-13 15:31:33.422  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=591 ttl=36 time=93.0 ms
+08-13 15:31:33.625  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=592 ttl=36 time=94.4 ms
+08-13 15:31:33.826  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=593 ttl=36 time=95.0 ms
+08-13 15:31:33.840  5121  5121 D cellinfo: Latitude is 40.5220878
+08-13 15:31:33.840  5121  5121 D cellinfo: Longitude is -86.8996933
+08-13 15:31:33.840  5121  5121 D cellinfo: Instantaneous GPS information: United States, 518 E 725 N, West Lafayette, IN 47906, USA
+08-13 15:31:33.840  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5220878, -86.8996933
+08-13 15:31:34.021  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=594 ttl=36 time=88.9 ms
+08-13 15:31:34.218  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=595 ttl=36 time=86.3 ms
+08-13 15:31:34.416  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=596 ttl=36 time=83.4 ms
+08-13 15:31:34.619  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=597 ttl=36 time=84.6 ms
+08-13 15:31:34.818  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=598 ttl=36 time=83.3 ms
+08-13 15:31:35.018  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=599 ttl=36 time=82.7 ms
+08-13 15:31:35.221  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=600 ttl=36 time=86.1 ms
+08-13 15:31:35.429  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=601 ttl=36 time=92.3 ms
+08-13 15:31:35.628  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=602 ttl=36 time=91.2 ms
+08-13 15:31:35.835  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=603 ttl=36 time=97.4 ms
+08-13 15:31:36.028  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=604 ttl=36 time=88.4 ms
+08-13 15:31:36.228  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=605 ttl=36 time=88.7 ms
+08-13 15:31:36.428  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=606 ttl=36 time=88.4 ms
+08-13 15:31:36.627  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=607 ttl=36 time=87.0 ms
+08-13 15:31:36.828  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=608 ttl=36 time=86.9 ms
+08-13 15:31:36.851  5121  5121 D cellinfo: Latitude is 40.5220878
+08-13 15:31:36.852  5121  5121 D cellinfo: Longitude is -86.8996933
+08-13 15:31:36.852  5121  5121 D cellinfo: Instantaneous GPS information: United States, 518 E 725 N, West Lafayette, IN 47906, USA
+08-13 15:31:36.852  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5220878, -86.8996933
+08-13 15:31:37.028  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=609 ttl=36 time=86.3 ms
+08-13 15:31:37.229  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=610 ttl=36 time=86.4 ms
+08-13 15:31:37.431  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=611 ttl=36 time=88.4 ms
+08-13 15:31:37.627  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=612 ttl=36 time=83.9 ms
+08-13 15:31:37.827  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=613 ttl=36 time=82.8 ms
+08-13 15:31:38.031  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=614 ttl=36 time=86.3 ms
+08-13 15:31:38.233  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=615 ttl=36 time=87.6 ms
+08-13 15:31:38.423  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=616 ttl=36 time=78.3 ms
+08-13 15:31:38.628  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=617 ttl=36 time=81.6 ms
+08-13 15:31:38.838  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=618 ttl=36 time=91.6 ms
+08-13 15:31:38.880  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242975196 CellConnectionStatus: 1
+08-13 15:31:38.880  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:31:39.038  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=619 ttl=36 time=91.0 ms
+08-13 15:31:39.246  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=620 ttl=36 time=99.5 ms
+08-13 15:31:39.438  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=621 ttl=36 time=90.3 ms
+08-13 15:31:39.638  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=622 ttl=36 time=88.4 ms
+08-13 15:31:39.837  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=623 ttl=36 time=87.9 ms
+08-13 15:31:40.038  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=624 ttl=36 time=88.2 ms
+08-13 15:31:40.240  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=625 ttl=36 time=89.9 ms
+08-13 15:31:40.437  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=626 ttl=36 time=86.4 ms
+08-13 15:31:40.640  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=627 ttl=36 time=87.8 ms
+08-13 15:31:40.838  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=628 ttl=36 time=85.2 ms
+08-13 15:31:41.038  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=629 ttl=36 time=84.5 ms
+08-13 15:31:41.241  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=630 ttl=36 time=86.5 ms
+08-13 15:31:41.350  5121  5121 D cellinfo: Latitude is 40.5185187
+08-13 15:31:41.351  5121  5121 D cellinfo: Longitude is -86.8970628
+08-13 15:31:41.351  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:41.351  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5185187, -86.8970628
+08-13 15:31:41.446  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=631 ttl=36 time=91.8 ms
+08-13 15:31:41.657  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=632 ttl=36 time=102 ms
+08-13 15:31:41.848  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=633 ttl=36 time=92.7 ms
+08-13 15:31:42.039  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=634 ttl=36 time=83.5 ms
+08-13 15:31:42.239  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=635 ttl=36 time=83.6 ms
+08-13 15:31:42.438  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=636 ttl=36 time=82.3 ms
+08-13 15:31:42.648  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=637 ttl=36 time=91.8 ms
+08-13 15:31:42.847  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=638 ttl=36 time=90.4 ms
+08-13 15:31:42.850  5121  5121 D cellinfo: Latitude is 40.5185187
+08-13 15:31:42.850  5121  5121 D cellinfo: Longitude is -86.8970628
+08-13 15:31:42.850  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:42.850  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5185187, -86.8970628
+08-13 15:31:43.039  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=639 ttl=36 time=80.3 ms
+08-13 15:31:43.248  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=640 ttl=36 time=89.6 ms
+08-13 15:31:43.448  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=641 ttl=36 time=88.6 ms
+08-13 15:31:43.647  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=642 ttl=36 time=87.1 ms
+08-13 15:31:43.848  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=643 ttl=36 time=87.6 ms
+08-13 15:31:44.049  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=644 ttl=36 time=88.3 ms
+08-13 15:31:44.247  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=645 ttl=36 time=86.1 ms
+08-13 15:31:44.449  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=646 ttl=36 time=87.1 ms
+08-13 15:31:44.648  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=647 ttl=36 time=85.1 ms
+08-13 15:31:44.850  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=648 ttl=36 time=85.7 ms
+08-13 15:31:44.876  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242981189 CellConnectionStatus: 1
+08-13 15:31:44.876  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:31:45.050  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=649 ttl=36 time=85.6 ms
+08-13 15:31:45.253  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=650 ttl=36 time=89.8 ms
+08-13 15:31:45.449  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=651 ttl=36 time=84.8 ms
+08-13 15:31:45.648  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=652 ttl=36 time=83.2 ms
+08-13 15:31:45.838  5121  5121 D cellinfo: Latitude is 40.5185187
+08-13 15:31:45.839  5121  5121 D cellinfo: Longitude is -86.8970628
+08-13 15:31:45.839  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:45.839  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5185187, -86.8970628
+08-13 15:31:45.848  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=653 ttl=36 time=81.6 ms
+08-13 15:31:46.053  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=654 ttl=36 time=85.8 ms
+08-13 15:31:46.248  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=655 ttl=36 time=82.4 ms
+08-13 15:31:46.457  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=656 ttl=36 time=89.8 ms
+08-13 15:31:46.676  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=657 ttl=36 time=107 ms
+08-13 15:31:46.860  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=658 ttl=36 time=91.0 ms
+08-13 15:31:47.060  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=659 ttl=36 time=90.7 ms
+08-13 15:31:47.258  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=660 ttl=36 time=88.3 ms
+08-13 15:31:47.468  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=661 ttl=36 time=97.2 ms
+08-13 15:31:47.660  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=662 ttl=36 time=88.8 ms
+08-13 15:31:47.865  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=663 ttl=36 time=93.3 ms
+08-13 15:31:48.069  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=664 ttl=36 time=95.8 ms
+08-13 15:31:48.260  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=665 ttl=36 time=86.5 ms
+08-13 15:31:48.460  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=666 ttl=36 time=86.0 ms
+08-13 15:31:48.657  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=667 ttl=36 time=82.7 ms
+08-13 15:31:48.841  5121  5121 D cellinfo: Latitude is 40.5185187
+08-13 15:31:48.842  5121  5121 D cellinfo: Longitude is -86.8970628
+08-13 15:31:48.842  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:48.842  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5185187, -86.8970628
+08-13 15:31:48.859  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=668 ttl=36 time=83.5 ms
+08-13 15:31:48.895  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242985210 CellConnectionStatus: 1
+08-13 15:31:48.895  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:31:49.059  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=669 ttl=36 time=82.7 ms
+08-13 15:31:49.261  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=670 ttl=36 time=84.3 ms
+08-13 15:31:49.468  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=671 ttl=36 time=91.2 ms
+08-13 15:31:49.668  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=672 ttl=36 time=90.4 ms
+08-13 15:31:49.868  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=673 ttl=36 time=89.2 ms
+08-13 15:31:50.078  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=674 ttl=36 time=98.0 ms
+08-13 15:31:50.272  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=675 ttl=36 time=91.5 ms
+08-13 15:31:50.476  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=676 ttl=36 time=95.3 ms
+08-13 15:31:50.670  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=677 ttl=36 time=88.4 ms
+08-13 15:31:50.868  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=678 ttl=36 time=86.3 ms
+08-13 15:31:51.072  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=679 ttl=36 time=88.9 ms
+08-13 15:31:51.268  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=680 ttl=36 time=85.3 ms
+08-13 15:31:51.470  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=681 ttl=36 time=85.1 ms
+08-13 15:31:51.668  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=682 ttl=36 time=82.4 ms
+08-13 15:31:51.871  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=683 ttl=36 time=85.2 ms
+08-13 15:31:51.887  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242988203 CellConnectionStatus: 1
+08-13 15:31:51.887  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:31:52.081  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=684 ttl=36 time=93.4 ms
+08-13 15:31:52.279  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=685 ttl=36 time=92.4 ms
+08-13 15:31:52.320  5121  5121 D cellinfo: Latitude is 40.5154805
+08-13 15:31:52.320  5121  5121 D cellinfo: Longitude is -86.8948289
+08-13 15:31:52.320  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:52.321  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5154805, -86.8948289
+08-13 15:31:52.479  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=686 ttl=36 time=92.1 ms
+08-13 15:31:52.679  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=687 ttl=36 time=90.9 ms
+08-13 15:31:52.879  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=688 ttl=36 time=90.7 ms
+08-13 15:31:53.078  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=689 ttl=36 time=89.3 ms
+08-13 15:31:53.279  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=690 ttl=36 time=90.6 ms
+08-13 15:31:53.477  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=691 ttl=36 time=88.2 ms
+08-13 15:31:53.684  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=692 ttl=36 time=93.4 ms
+08-13 15:31:53.887  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=693 ttl=36 time=95.5 ms
+08-13 15:31:54.088  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=694 ttl=36 time=95.8 ms
+08-13 15:31:54.287  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=695 ttl=36 time=95.3 ms
+08-13 15:31:54.481  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=696 ttl=36 time=88.0 ms
+08-13 15:31:54.687  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=697 ttl=36 time=93.2 ms
+08-13 15:31:54.841  5121  5121 D cellinfo: Latitude is 40.5154805
+08-13 15:31:54.841  5121  5121 D cellinfo: Longitude is -86.8948289
+08-13 15:31:54.841  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:54.841  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5154805, -86.8948289
+08-13 15:31:54.877  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242991192 CellConnectionStatus: 1
+08-13 15:31:54.877  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:31:54.885  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=698 ttl=36 time=91.0 ms
+08-13 15:31:55.090  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=699 ttl=36 time=94.8 ms
+08-13 15:31:55.280  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=700 ttl=36 time=84.6 ms
+08-13 15:31:55.487  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=701 ttl=36 time=91.6 ms
+08-13 15:31:55.686  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=702 ttl=36 time=90.1 ms
+08-13 15:31:55.892  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=703 ttl=36 time=95.4 ms
+08-13 15:31:56.090  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=704 ttl=36 time=92.8 ms
+08-13 15:31:56.291  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=705 ttl=36 time=93.3 ms
+08-13 15:31:56.489  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=706 ttl=36 time=89.7 ms
+08-13 15:31:56.689  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=707 ttl=36 time=88.4 ms
+08-13 15:31:56.896  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=708 ttl=36 time=95.4 ms
+08-13 15:31:57.088  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=709 ttl=36 time=87.7 ms
+08-13 15:31:57.289  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=710 ttl=36 time=87.9 ms
+08-13 15:31:57.490  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=711 ttl=36 time=88.1 ms
+08-13 15:31:57.689  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=712 ttl=36 time=86.0 ms
+08-13 15:31:57.839  5121  5121 D cellinfo: Latitude is 40.5154805
+08-13 15:31:57.839  5121  5121 D cellinfo: Longitude is -86.8948289
+08-13 15:31:57.839  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:31:57.839  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5154805, -86.8948289
+08-13 15:31:57.888  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=713 ttl=36 time=84.7 ms
+08-13 15:31:58.088  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=714 ttl=36 time=84.0 ms
+08-13 15:31:58.294  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=715 ttl=36 time=88.6 ms
+08-13 15:31:58.493  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=716 ttl=36 time=87.5 ms
+08-13 15:31:58.689  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=717 ttl=36 time=83.2 ms
+08-13 15:31:58.899  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=718 ttl=36 time=91.9 ms
+08-13 15:31:59.100  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=719 ttl=36 time=91.5 ms
+08-13 15:31:59.297  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=720 ttl=36 time=88.4 ms
+08-13 15:31:59.499  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=721 ttl=36 time=89.6 ms
+08-13 15:31:59.700  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=722 ttl=36 time=89.4 ms
+08-13 15:31:59.905  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=723 ttl=36 time=94.4 ms
+08-13 15:32:00.098  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=724 ttl=36 time=86.1 ms
+08-13 15:32:00.300  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=725 ttl=36 time=87.0 ms
+08-13 15:32:00.499  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=726 ttl=36 time=84.2 ms
+08-13 15:32:00.707  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=727 ttl=36 time=91.6 ms
+08-13 15:32:00.903  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=728 ttl=36 time=87.6 ms
+08-13 15:32:01.122  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=729 ttl=36 time=105 ms
+08-13 15:32:01.242  5121  5121 D cellinfo: Latitude is 40.5145241
+08-13 15:32:01.242  5121  5121 D cellinfo: Longitude is -86.8941036
+08-13 15:32:01.242  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:32:01.242  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5145241, -86.8941036
+08-13 15:32:01.317  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=730 ttl=36 time=99.1 ms
+08-13 15:32:01.508  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=731 ttl=36 time=88.8 ms
+08-13 15:32:01.709  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=732 ttl=36 time=89.0 ms
+08-13 15:32:01.908  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=733 ttl=36 time=87.7 ms
+08-13 15:32:02.111  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=734 ttl=36 time=88.8 ms
+08-13 15:32:02.317  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=735 ttl=36 time=94.2 ms
+08-13 15:32:02.507  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=736 ttl=36 time=83.2 ms
+08-13 15:32:02.709  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=737 ttl=36 time=84.0 ms
+08-13 15:32:02.902  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 242999216 CellConnectionStatus: 1
+08-13 15:32:02.902  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:32:02.908  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=738 ttl=36 time=82.4 ms
+08-13 15:32:03.119  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=739 ttl=36 time=92.3 ms
+08-13 15:32:03.320  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=740 ttl=36 time=90.6 ms
+08-13 15:32:03.522  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=741 ttl=36 time=91.5 ms
+08-13 15:32:03.719  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=742 ttl=36 time=88.5 ms
+08-13 15:32:03.840  5121  5121 D cellinfo: Latitude is 40.5145241
+08-13 15:32:03.840  5121  5121 D cellinfo: Longitude is -86.8941036
+08-13 15:32:03.840  5121  5121 D cellinfo: Instantaneous GPS information: United States, I-65, West Lafayette, IN 47906, USA
+08-13 15:32:03.840  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5145241, -86.8941036
+08-13 15:32:03.919  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=743 ttl=36 time=87.4 ms
+08-13 15:32:04.118  5121  5121 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -100 rsrq: -11 rssi: -71 rssnr: 13
+08-13 15:32:04.118  5121  5121 D cellinfo: onsignalStrengthsChanged: 5G-NR Signal Strength info: ssrsrp: -88 ssrsrq: -11 sssinr: 11
+08-13 15:32:04.121  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=744 ttl=36 time=87.7 ms
+08-13 15:32:04.319  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=745 ttl=36 time=85.5 ms
+08-13 15:32:04.521  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=746 ttl=36 time=86.1 ms
+08-13 15:32:04.720  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=747 ttl=36 time=84.8 ms
+08-13 15:32:04.922  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=748 ttl=36 time=85.3 ms
+08-13 15:32:05.137  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=749 ttl=36 time=99.5 ms
+08-13 15:32:05.328  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=750 ttl=36 time=89.9 ms
+08-13 15:32:05.528  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=751 ttl=36 time=88.8 ms
+08-13 15:32:05.737  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=752 ttl=36 time=97.2 ms
+08-13 15:32:05.929  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=753 ttl=36 time=87.6 ms
+08-13 15:32:06.138  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=754 ttl=36 time=96.1 ms
+08-13 15:32:06.328  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=755 ttl=36 time=85.3 ms
+08-13 15:32:06.529  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=756 ttl=36 time=85.0 ms
+08-13 15:32:06.728  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=757 ttl=36 time=83.3 ms
+08-13 15:32:06.928  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=758 ttl=36 time=82.4 ms
+08-13 15:32:07.140  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=759 ttl=36 time=92.8 ms
+08-13 15:32:07.328  5121  5121 D cellinfo: Latitude is 40.5130174
+08-13 15:32:07.328  5121  5121 D cellinfo: Longitude is -86.8930315
+08-13 15:32:07.328  5121  5121 D cellinfo: Instantaneous GPS information: United States, 711 E 650 N, West Lafayette, IN 47906, USA
+08-13 15:32:07.328  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5130174, -86.8930315
+08-13 15:32:07.332  5121  5121 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -92 rsrq: -12 rssi: -59 rssnr: 7
+08-13 15:32:07.332  5121  5121 D cellinfo: onsignalStrengthsChanged: 5G-NR Signal Strength info: ssrsrp: -88 ssrsrq: -11 sssinr: 12
+08-13 15:32:07.343  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=760 ttl=36 time=95.4 ms
+08-13 15:32:07.538  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=761 ttl=36 time=88.6 ms
+08-13 15:32:07.740  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=762 ttl=36 time=90.3 ms
+08-13 15:32:07.939  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=763 ttl=36 time=87.9 ms
+08-13 15:32:08.139  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=764 ttl=36 time=87.7 ms
+08-13 15:32:08.338  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=765 ttl=36 time=86.0 ms
+08-13 15:32:08.537  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=766 ttl=36 time=84.4 ms
+08-13 15:32:08.738  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=767 ttl=36 time=84.5 ms
+08-13 15:32:08.897  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 243005211 CellConnectionStatus: 1
+08-13 15:32:08.897  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:32:08.943  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=768 ttl=36 time=88.0 ms
+08-13 15:32:09.139  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=769 ttl=36 time=83.5 ms
+08-13 15:32:09.352  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=770 ttl=36 time=94.1 ms
+08-13 15:32:09.552  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=771 ttl=36 time=93.4 ms
+08-13 15:32:09.752  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=772 ttl=36 time=91.8 ms
+08-13 15:32:09.847  5121  5121 D cellinfo: Latitude is 40.5130174
+08-13 15:32:09.847  5121  5121 D cellinfo: Longitude is -86.8930315
+08-13 15:32:09.847  5121  5121 D cellinfo: Instantaneous GPS information: United States, 711 E 650 N, West Lafayette, IN 47906, USA
+08-13 15:32:09.847  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5130174, -86.8930315
+08-13 15:32:09.947  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=773 ttl=36 time=87.1 ms
+08-13 15:32:10.151  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=774 ttl=36 time=89.3 ms
+08-13 15:32:10.369  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=775 ttl=36 time=106 ms
+08-13 15:32:10.551  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=776 ttl=36 time=87.5 ms
+08-13 15:32:10.750  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=777 ttl=36 time=85.1 ms
+08-13 15:32:10.948  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=778 ttl=36 time=82.8 ms
+08-13 15:32:11.151  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=779 ttl=36 time=85.5 ms
+08-13 15:32:11.349  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=780 ttl=36 time=82.4 ms
+08-13 15:32:11.560  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=781 ttl=36 time=92.3 ms
+08-13 15:32:11.759  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=782 ttl=36 time=90.6 ms
+08-13 15:32:11.958  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=783 ttl=36 time=88.7 ms
+08-13 15:32:12.160  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=784 ttl=36 time=90.1 ms
+08-13 15:32:12.369  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=785 ttl=36 time=98.8 ms
+08-13 15:32:12.560  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=786 ttl=36 time=88.4 ms
+08-13 15:32:12.767  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=787 ttl=36 time=94.7 ms
+08-13 15:32:12.968  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=788 ttl=36 time=95.4 ms
+08-13 15:32:13.160  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=789 ttl=36 time=85.7 ms
+08-13 15:32:13.279  5121  5121 D cellinfo: Latitude is 40.5097111
+08-13 15:32:13.279  5121  5121 D cellinfo: Longitude is -86.8906243
+08-13 15:32:13.279  5121  5121 D cellinfo: Instantaneous GPS information: United States, 6471 N 75 E, West Lafayette, IN 47906, USA
+08-13 15:32:13.279  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5097111, -86.8906243
+08-13 15:32:13.365  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=790 ttl=36 time=90.7 ms
+08-13 15:32:13.559  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=791 ttl=36 time=83.5 ms
+08-13 15:32:13.758  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=792 ttl=36 time=82.5 ms
+08-13 15:32:13.963  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=793 ttl=36 time=86.3 ms
+08-13 15:32:14.170  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=794 ttl=36 time=92.9 ms
+08-13 15:32:14.369  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=795 ttl=36 time=91.3 ms
+08-13 15:32:14.569  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=796 ttl=36 time=89.8 ms
+08-13 15:32:14.768  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=797 ttl=36 time=88.0 ms
+08-13 15:32:14.892  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 243011207 CellConnectionStatus: 1
+08-13 15:32:14.892  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:32:14.968  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=798 ttl=36 time=88.2 ms
+08-13 15:32:15.169  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=799 ttl=36 time=87.6 ms
+08-13 15:32:15.368  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=800 ttl=36 time=86.2 ms
+08-13 15:32:15.579  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=801 ttl=36 time=95.8 ms
+08-13 15:32:15.769  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=802 ttl=36 time=85.4 ms
+08-13 15:32:15.839  5121  5121 D cellinfo: Latitude is 40.5097111
+08-13 15:32:15.839  5121  5121 D cellinfo: Longitude is -86.8906243
+08-13 15:32:15.839  5121  5121 D cellinfo: Instantaneous GPS information: United States, 6471 N 75 E, West Lafayette, IN 47906, USA
+08-13 15:32:15.839  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5097111, -86.8906243
+08-13 15:32:15.970  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=803 ttl=36 time=85.5 ms
+08-13 15:32:16.168  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=804 ttl=36 time=81.5 ms
+08-13 15:32:16.387  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=805 ttl=36 time=100 ms
+08-13 15:32:16.577  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=806 ttl=36 time=89.0 ms
+08-13 15:32:16.782  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=807 ttl=36 time=92.9 ms
+08-13 15:32:16.980  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=808 ttl=36 time=90.3 ms
+08-13 15:32:17.179  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=809 ttl=36 time=88.4 ms
+08-13 15:32:17.383  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=810 ttl=36 time=90.9 ms
+08-13 15:32:17.579  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=811 ttl=36 time=85.4 ms
+08-13 15:32:17.788  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=812 ttl=36 time=93.1 ms
+08-13 15:32:17.995  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=813 ttl=36 time=100 ms
+08-13 15:32:18.182  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=814 ttl=36 time=85.6 ms
+08-13 15:32:18.389  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=815 ttl=36 time=91.1 ms
+08-13 15:32:18.590  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=816 ttl=36 time=91.4 ms
+08-13 15:32:18.789  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=817 ttl=36 time=89.3 ms
+08-13 15:32:18.838  5121  5121 D cellinfo: Latitude is 40.5097111
+08-13 15:32:18.839  5121  5121 D cellinfo: Longitude is -86.8906243
+08-13 15:32:18.839  5121  5121 D cellinfo: Instantaneous GPS information: United States, 6471 N 75 E, West Lafayette, IN 47906, USA
+08-13 15:32:18.839  5121  5121 D cellinfo: getCurrentLocation() result: Location (success): 40.5097111, -86.8906243
+08-13 15:32:18.990  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=818 ttl=36 time=89.0 ms
+08-13 15:32:19.188  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=819 ttl=36 time=86.6 ms
+08-13 15:32:19.409  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=820 ttl=36 time=106 ms
+08-13 15:32:19.592  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=821 ttl=36 time=89.7 ms
+08-13 15:32:19.835  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=822 ttl=36 time=132 ms
+08-13 15:32:20.000  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=823 ttl=36 time=95.8 ms
+08-13 15:32:20.194  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=824 ttl=36 time=89.8 ms
+08-13 15:32:20.391  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=825 ttl=36 time=86.3 ms
+08-13 15:32:20.590  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=826 ttl=36 time=84.0 ms
+08-13 15:32:20.791  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=827 ttl=36 time=84.4 ms
+08-13 15:32:20.892  5121  5121 D cellinfo: onCellInfoChanged: Operator:  UpdateTimestamp: 243017206 CellConnectionStatus: 1
+08-13 15:32:20.892  5121  5121 D cellinfo: onCellInfoChanged: 5G-NR Cell Bands: [] ARFCN: 126900 Cell ID: 9223372036854775807 Physical Cell ID: 436 Tracking Area Code: 16777215
+08-13 15:32:20.999  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=828 ttl=36 time=91.7 ms
+08-13 15:32:21.198  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=829 ttl=36 time=89.7 ms
+08-13 15:32:21.409  5121  5203 D cellinfo: 46 bytes from 54.197.223.49: icmp_seq=830 ttl=36 time=99.8 ms

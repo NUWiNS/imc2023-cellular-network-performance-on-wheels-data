@@ -1,0 +1,1798 @@
+--------- beginning of main
+08-10 23:42:26.672  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23136 ttl=32 time=95.5 ms
+08-10 23:42:26.900  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23137 ttl=32 time=120 ms
+08-10 23:42:27.074  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23138 ttl=32 time=91.8 ms
+08-10 23:42:27.300  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23139 ttl=32 time=119 ms
+08-10 23:42:27.499  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23140 ttl=32 time=117 ms
+08-10 23:42:27.514  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -88 rsrq: -11 rssi: -53 rssnr: 8
+08-10 23:42:27.700  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23141 ttl=32 time=117 ms
+08-10 23:42:27.900  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23142 ttl=32 time=116 ms
+08-10 23:42:28.140  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23143 ttl=32 time=155 ms
+08-10 23:42:28.300  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23144 ttl=32 time=116 ms
+08-10 23:42:28.547  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23145 ttl=32 time=163 ms
+08-10 23:42:28.700  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23146 ttl=32 time=114 ms
+08-10 23:42:28.900  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23147 ttl=32 time=113 ms
+08-10 23:42:29.099  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23148 ttl=32 time=112 ms
+08-10 23:42:29.300  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23149 ttl=32 time=113 ms
+08-10 23:42:29.480  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201222215 CellConnectionStatus: 0
+08-10 23:42:29.480  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97583113 Physical Cell ID: 406 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:42:29.581  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23150 ttl=32 time=192 ms
+08-10 23:42:29.700  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23151 ttl=32 time=112 ms
+08-10 23:42:29.906  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23152 ttl=32 time=116 ms
+08-10 23:42:30.100  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23153 ttl=32 time=111 ms
+08-10 23:42:30.301  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23154 ttl=32 time=112 ms
+08-10 23:42:30.500  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23155 ttl=32 time=111 ms
+08-10 23:42:30.698  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23156 ttl=32 time=107 ms
+08-10 23:42:30.884  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23157 ttl=32 time=91.0 ms
+08-10 23:42:31.103  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23158 ttl=32 time=108 ms
+08-10 23:42:31.146  5222  5222 D cellinfo: Latitude is 39.725591
+08-10 23:42:31.146  5222  5222 D cellinfo: Longitude is -105.0506033
+08-10 23:42:31.146  5222  5222 D cellinfo: Instantaneous GPS information: United States, 4900 W 6th Ave S Dr, Denver, CO 80204, USA
+08-10 23:42:31.146  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.725591, -105.0506033
+08-10 23:42:31.300  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23159 ttl=32 time=106 ms
+08-10 23:42:31.499  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23160 ttl=32 time=104 ms
+08-10 23:42:31.699  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23161 ttl=32 time=104 ms
+08-10 23:42:31.900  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23162 ttl=32 time=103 ms
+08-10 23:42:31.990  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -90 rsrq: -12 rssi: -59 rssnr: 5
+08-10 23:42:32.108  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23163 ttl=32 time=110 ms
+08-10 23:42:32.299  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23164 ttl=32 time=103 ms
+08-10 23:42:32.443  5222  5222 D cellinfo: Latitude is 39.725591
+08-10 23:42:32.443  5222  5222 D cellinfo: Longitude is -105.0506033
+08-10 23:42:32.443  5222  5222 D cellinfo: Instantaneous GPS information: United States, 4900 W 6th Ave S Dr, Denver, CO 80204, USA
+08-10 23:42:32.443  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.725591, -105.0506033
+08-10 23:42:32.495  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201225232 CellConnectionStatus: 0
+08-10 23:42:32.496  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97583113 Physical Cell ID: 406 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:42:32.541  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23165 ttl=32 time=142 ms
+08-10 23:42:32.780  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23166 ttl=32 time=182 ms
+08-10 23:42:32.980  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23167 ttl=32 time=181 ms
+08-10 23:42:33.109  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23168 ttl=32 time=110 ms
+08-10 23:42:33.301  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23169 ttl=32 time=101 ms
+08-10 23:42:33.499  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23170 ttl=32 time=100 ms
+08-10 23:42:33.741  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23171 ttl=32 time=140 ms
+08-10 23:42:33.900  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23172 ttl=32 time=99.5 ms
+08-10 23:42:34.100  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23173 ttl=32 time=98.7 ms
+08-10 23:42:34.300  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23174 ttl=32 time=97.7 ms
+08-10 23:42:34.499  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23175 ttl=32 time=97.1 ms
+08-10 23:42:34.742  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23176 ttl=32 time=138 ms
+08-10 23:42:34.904  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23177 ttl=32 time=99.0 ms
+08-10 23:42:35.143  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23178 ttl=32 time=136 ms
+08-10 23:42:35.340  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23179 ttl=32 time=133 ms
+08-10 23:42:35.451  5222  5222 D cellinfo: Latitude is 39.725591
+08-10 23:42:35.451  5222  5222 D cellinfo: Longitude is -105.0506033
+08-10 23:42:35.451  5222  5222 D cellinfo: Instantaneous GPS information: United States, 4900 W 6th Ave S Dr, Denver, CO 80204, USA
+08-10 23:42:35.451  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.725591, -105.0506033
+08-10 23:42:35.487  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201228225 CellConnectionStatus: 0
+08-10 23:42:35.487  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97583113 Physical Cell ID: 406 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:42:35.541  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23180 ttl=32 time=132 ms
+08-10 23:42:35.704  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23181 ttl=32 time=94.4 ms
+08-10 23:42:35.905  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23182 ttl=32 time=94.9 ms
+08-10 23:42:36.104  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23183 ttl=32 time=92.9 ms
+08-10 23:42:36.342  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23184 ttl=32 time=129 ms
+08-10 23:42:36.504  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23185 ttl=32 time=91.9 ms
+08-10 23:42:36.703  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23186 ttl=32 time=91.5 ms
+08-10 23:42:36.942  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23187 ttl=32 time=130 ms
+08-10 23:42:37.140  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23188 ttl=32 time=128 ms
+08-10 23:42:37.305  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23189 ttl=32 time=91.4 ms
+08-10 23:42:37.522  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23190 ttl=32 time=106 ms
+08-10 23:42:37.786  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23191 ttl=32 time=170 ms
+08-10 23:42:37.942  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23192 ttl=32 time=125 ms
+08-10 23:42:38.142  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23193 ttl=32 time=124 ms
+08-10 23:42:38.340  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23194 ttl=32 time=123 ms
+08-10 23:42:38.449  5222  5222 D cellinfo: Latitude is 39.725591
+08-10 23:42:38.450  5222  5222 D cellinfo: Longitude is -105.0506033
+08-10 23:42:38.450  5222  5222 D cellinfo: Instantaneous GPS information: United States, 4900 W 6th Ave S Dr, Denver, CO 80204, USA
+08-10 23:42:38.450  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.725591, -105.0506033
+08-10 23:42:38.483  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201231221 CellConnectionStatus: 0
+08-10 23:42:38.483  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97583113 Physical Cell ID: 406 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:42:38.540  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23195 ttl=32 time=122 ms
+08-10 23:42:38.742  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23196 ttl=32 time=121 ms
+08-10 23:42:38.914  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23197 ttl=32 time=91.9 ms
+08-10 23:42:39.140  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23198 ttl=32 time=116 ms
+08-10 23:42:39.341  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23199 ttl=32 time=116 ms
+08-10 23:42:39.541  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23200 ttl=32 time=116 ms
+08-10 23:42:39.740  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23201 ttl=32 time=114 ms
+08-10 23:42:39.942  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23202 ttl=32 time=114 ms
+08-10 23:42:40.140  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23203 ttl=32 time=113 ms
+08-10 23:42:40.339  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23204 ttl=32 time=112 ms
+08-10 23:42:40.580  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23205 ttl=32 time=151 ms
+08-10 23:42:40.740  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23206 ttl=32 time=112 ms
+08-10 23:42:40.940  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23207 ttl=32 time=110 ms
+08-10 23:42:40.956  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -90 rsrq: -15 rssi: -57 rssnr: 1
+08-10 23:42:41.139  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23208 ttl=32 time=110 ms
+08-10 23:42:41.341  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23209 ttl=32 time=111 ms
+08-10 23:42:41.468  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -91 rsrq: -15 rssi: -63 rssnr: 1
+08-10 23:42:41.495  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201234232 CellConnectionStatus: 0
+08-10 23:42:41.495  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97583113 Physical Cell ID: 406 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:42:41.542  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23210 ttl=32 time=111 ms
+08-10 23:42:41.741  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23211 ttl=32 time=108 ms
+08-10 23:42:41.941  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23212 ttl=32 time=108 ms
+08-10 23:42:42.140  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23213 ttl=32 time=105 ms
+08-10 23:42:42.340  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23214 ttl=32 time=104 ms
+08-10 23:42:42.579  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23215 ttl=32 time=143 ms
+08-10 23:42:42.743  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23216 ttl=32 time=104 ms
+08-10 23:42:42.956  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23217 ttl=32 time=115 ms
+08-10 23:42:43.140  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23218 ttl=32 time=98.2 ms
+08-10 23:42:43.268  5222  5222 D cellinfo: Latitude is 39.7256038
+08-10 23:42:43.268  5222  5222 D cellinfo: Longitude is -105.0470296
+08-10 23:42:43.268  5222  5222 D cellinfo: Instantaneous GPS information: United States, 4640 W 6th Ave, Denver, CO 80204, USA
+08-10 23:42:43.268  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7256038, -105.0470296
+08-10 23:42:43.377  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23219 ttl=32 time=134 ms
+08-10 23:42:43.551  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23220 ttl=32 time=107 ms
+08-10 23:42:43.743  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23221 ttl=32 time=98.6 ms
+08-10 23:42:43.963  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23222 ttl=32 time=117 ms
+08-10 23:42:44.008  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201236742 CellConnectionStatus: 0
+08-10 23:42:44.008  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97583112 Physical Cell ID: 234 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:42:44.041  5222  5222 D cellinfo: onServiceStateChanged: Channel Number: 700 Cell Bandwidths: []
+08-10 23:42:44.206  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23223 ttl=32 time=160 ms
+08-10 23:42:44.367  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23224 ttl=32 time=119 ms
+08-10 23:42:44.444  5222  5222 D cellinfo: Latitude is 39.7256038
+08-10 23:42:44.444  5222  5222 D cellinfo: Longitude is -105.0470296
+08-10 23:42:44.444  5222  5222 D cellinfo: Instantaneous GPS information: United States, 4640 W 6th Ave, Denver, CO 80204, USA
+08-10 23:42:44.444  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7256038, -105.0470296
+08-10 23:42:44.503  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201237239 CellConnectionStatus: 0
+08-10 23:42:44.503  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97583112 Physical Cell ID: 234 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:42:44.567  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23225 ttl=32 time=118 ms
+08-10 23:42:44.767  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23226 ttl=32 time=118 ms
+08-10 23:42:44.968  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23227 ttl=32 time=118 ms
+08-10 23:42:45.206  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23228 ttl=32 time=156 ms
+08-10 23:42:45.366  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23229 ttl=32 time=115 ms
+08-10 23:42:45.567  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23230 ttl=32 time=113 ms
+08-10 23:42:45.766  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23231 ttl=32 time=112 ms
+08-10 23:42:45.967  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23232 ttl=32 time=111 ms
+08-10 23:42:46.166  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23233 ttl=32 time=110 ms
+08-10 23:42:46.367  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23234 ttl=32 time=110 ms
+08-10 23:42:46.567  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23235 ttl=32 time=108 ms
+08-10 23:42:46.766  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23236 ttl=32 time=108 ms
+08-10 23:42:46.969  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23237 ttl=32 time=110 ms
+08-10 23:42:47.084  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201239814 CellConnectionStatus: 0
+08-10 23:42:47.084  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97583112 Physical Cell ID: 234 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:42:47.173  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23238 ttl=32 time=111 ms
+08-10 23:42:47.380  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23239 ttl=32 time=118 ms
+08-10 23:42:47.452  5222  5222 D cellinfo: Latitude is 39.7256038
+08-10 23:42:47.452  5222  5222 D cellinfo: Longitude is -105.0470296
+08-10 23:42:47.452  5222  5222 D cellinfo: Instantaneous GPS information: United States, 4640 W 6th Ave, Denver, CO 80204, USA
+08-10 23:42:47.452  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7256038, -105.0470296
+08-10 23:42:47.474  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -94 rsrq: -15 rssi: -69 rssnr: 1
+08-10 23:42:47.568  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23240 ttl=32 time=108 ms
+08-10 23:42:47.768  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23241 ttl=32 time=107 ms
+08-10 23:42:47.969  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23242 ttl=32 time=105 ms
+08-10 23:42:48.171  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23243 ttl=32 time=106 ms
+08-10 23:42:48.369  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23244 ttl=32 time=102 ms
+08-10 23:42:48.569  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23245 ttl=32 time=101 ms
+08-10 23:42:48.768  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23246 ttl=32 time=100 ms
+08-10 23:42:49.007  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23247 ttl=32 time=137 ms
+08-10 23:42:49.206  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23248 ttl=32 time=137 ms
+08-10 23:42:49.369  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23249 ttl=32 time=100 ms
+08-10 23:42:49.568  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23250 ttl=32 time=99.7 ms
+08-10 23:42:49.769  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23251 ttl=32 time=99.3 ms
+08-10 23:42:49.910  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -97 rsrq: -15 rssi: -65 rssnr: 1
+08-10 23:42:50.007  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23252 ttl=32 time=135 ms
+08-10 23:42:50.169  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23253 ttl=32 time=99.0 ms
+08-10 23:42:50.398  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23254 ttl=32 time=127 ms
+08-10 23:42:50.445  5222  5222 D cellinfo: Latitude is 39.7256038
+08-10 23:42:50.445  5222  5222 D cellinfo: Longitude is -105.0470296
+08-10 23:42:50.445  5222  5222 D cellinfo: Instantaneous GPS information: United States, 4640 W 6th Ave, Denver, CO 80204, USA
+08-10 23:42:50.445  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7256038, -105.0470296
+08-10 23:42:50.470  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -98 rsrq: -15 rssi: -73 rssnr: 0
+08-10 23:42:50.499  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201243236 CellConnectionStatus: 0
+08-10 23:42:50.499  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97583112 Physical Cell ID: 234 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:42:50.606  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23255 ttl=32 time=135 ms
+08-10 23:42:50.770  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23256 ttl=32 time=97.7 ms
+08-10 23:42:51.005  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23257 ttl=32 time=133 ms
+08-10 23:42:51.207  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23258 ttl=32 time=134 ms
+08-10 23:42:51.370  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23259 ttl=32 time=96.4 ms
+08-10 23:42:51.569  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23260 ttl=32 time=96.0 ms
+08-10 23:42:51.768  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23261 ttl=32 time=95.1 ms
+08-10 23:42:51.969  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23262 ttl=32 time=93.8 ms
+08-10 23:42:52.148  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -99 rsrq: -16 rssi: -71 rssnr: 0
+08-10 23:42:52.169  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23263 ttl=32 time=92.3 ms
+08-10 23:42:52.406  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23264 ttl=32 time=128 ms
+08-10 23:42:52.647  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23265 ttl=32 time=167 ms
+08-10 23:42:52.847  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23266 ttl=32 time=166 ms
+08-10 23:42:53.007  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23267 ttl=32 time=125 ms
+08-10 23:42:53.207  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23268 ttl=32 time=124 ms
+08-10 23:42:53.406  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23269 ttl=32 time=124 ms
+08-10 23:42:53.469  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -101 rsrq: -16 rssi: -71 rssnr: 0
+08-10 23:42:53.487  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201246225 CellConnectionStatus: 0
+08-10 23:42:53.487  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97583112 Physical Cell ID: 234 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:42:53.584  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23270 ttl=32 time=102 ms
+08-10 23:42:53.807  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23271 ttl=32 time=123 ms
+08-10 23:42:54.008  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23272 ttl=32 time=124 ms
+08-10 23:42:54.207  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23273 ttl=32 time=123 ms
+08-10 23:42:54.407  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23274 ttl=32 time=122 ms
+08-10 23:42:54.623  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23275 ttl=32 time=137 ms
+08-10 23:42:54.919  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23276 ttl=32 time=231 ms
+08-10 23:42:55.011  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23277 ttl=32 time=121 ms
+08-10 23:42:55.200  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23278 ttl=32 time=108 ms
+08-10 23:42:55.402  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23279 ttl=32 time=108 ms
+08-10 23:42:55.406  5222  5222 D cellinfo: Latitude is 39.7256356
+08-10 23:42:55.406  5222  5222 D cellinfo: Longitude is -105.0436008
+08-10 23:42:55.406  5222  5222 D cellinfo: Instantaneous GPS information: United States, 600 Tennyson St, Denver, CO 80204, USA
+08-10 23:42:55.406  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7256356, -105.0436008
+08-10 23:42:55.607  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23280 ttl=32 time=113 ms
+08-10 23:42:55.806  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23281 ttl=32 time=111 ms
+08-10 23:42:56.007  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23282 ttl=32 time=111 ms
+08-10 23:42:56.207  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23283 ttl=32 time=111 ms
+08-10 23:42:56.406  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23284 ttl=32 time=109 ms
+08-10 23:42:56.445  5222  5222 D cellinfo: Latitude is 39.7256356
+08-10 23:42:56.445  5222  5222 D cellinfo: Longitude is -105.0436008
+08-10 23:42:56.445  5222  5222 D cellinfo: Instantaneous GPS information: United States, 600 Tennyson St, Denver, CO 80204, USA
+08-10 23:42:56.445  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7256356, -105.0436008
+08-10 23:42:56.472  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -104 rsrq: -16 rssi: -67 rssnr: -2
+08-10 23:42:56.495  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201249229 CellConnectionStatus: 0
+08-10 23:42:56.495  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97583112 Physical Cell ID: 234 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:42:56.606  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23285 ttl=32 time=109 ms
+08-10 23:42:56.635  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -105 rsrq: -17 rssi: -67 rssnr: -4
+08-10 23:42:56.809  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23286 ttl=32 time=110 ms
+08-10 23:42:57.009  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23287 ttl=32 time=110 ms
+08-10 23:42:57.207  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23288 ttl=32 time=107 ms
+08-10 23:42:57.410  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23289 ttl=32 time=110 ms
+08-10 23:42:57.609  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23290 ttl=32 time=110 ms
+08-10 23:42:57.806  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23291 ttl=32 time=106 ms
+08-10 23:42:58.000  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201250735 CellConnectionStatus: 0
+08-10 23:42:58.000  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 99078179 Physical Cell ID: 390 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:42:58.028  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23292 ttl=32 time=126 ms
+08-10 23:42:58.040  5222  5222 D cellinfo: onServiceStateChanged: Channel Number: 700 Cell Bandwidths: []
+08-10 23:42:58.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23293 ttl=32 time=126 ms
+08-10 23:42:58.426  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23294 ttl=32 time=125 ms
+08-10 23:42:58.625  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23295 ttl=32 time=125 ms
+08-10 23:42:58.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23296 ttl=32 time=123 ms
+08-10 23:42:58.869  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -106 rsrq: -17 rssi: -63 rssnr: -6
+08-10 23:42:59.025  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23297 ttl=32 time=122 ms
+08-10 23:42:59.198  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23298 ttl=32 time=94.3 ms
+08-10 23:42:59.425  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23299 ttl=32 time=121 ms
+08-10 23:42:59.448  5222  5222 D cellinfo: Latitude is 39.7256356
+08-10 23:42:59.448  5222  5222 D cellinfo: Longitude is -105.0436008
+08-10 23:42:59.448  5222  5222 D cellinfo: Instantaneous GPS information: United States, 600 Tennyson St, Denver, CO 80204, USA
+08-10 23:42:59.448  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7256356, -105.0436008
+08-10 23:42:59.498  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201252235 CellConnectionStatus: 0
+08-10 23:42:59.498  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 99078179 Physical Cell ID: 390 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:42:59.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23300 ttl=32 time=119 ms
+08-10 23:42:59.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23301 ttl=32 time=119 ms
+08-10 23:43:00.025  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23302 ttl=32 time=118 ms
+08-10 23:43:00.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23303 ttl=32 time=118 ms
+08-10 23:43:00.425  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23304 ttl=32 time=117 ms
+08-10 23:43:00.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23305 ttl=32 time=117 ms
+08-10 23:43:00.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23306 ttl=32 time=117 ms
+08-10 23:43:01.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23307 ttl=32 time=115 ms
+08-10 23:43:01.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23308 ttl=32 time=116 ms
+08-10 23:43:01.425  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23309 ttl=32 time=115 ms
+08-10 23:43:01.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23310 ttl=32 time=114 ms
+08-10 23:43:01.827  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23311 ttl=32 time=113 ms
+08-10 23:43:02.067  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23312 ttl=32 time=153 ms
+08-10 23:43:02.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23313 ttl=32 time=113 ms
+08-10 23:43:02.427  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23314 ttl=32 time=112 ms
+08-10 23:43:02.442  5222  5222 D cellinfo: Latitude is 39.7256356
+08-10 23:43:02.442  5222  5222 D cellinfo: Longitude is -105.0436008
+08-10 23:43:02.442  5222  5222 D cellinfo: Instantaneous GPS information: United States, 600 Tennyson St, Denver, CO 80204, USA
+08-10 23:43:02.442  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7256356, -105.0436008
+08-10 23:43:02.477  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -105 rsrq: -16 rssi: -67 rssnr: -5
+08-10 23:43:02.494  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201255224 CellConnectionStatus: 0
+08-10 23:43:02.494  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 99078179 Physical Cell ID: 390 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:43:02.667  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23315 ttl=32 time=151 ms
+08-10 23:43:02.825  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23316 ttl=32 time=111 ms
+08-10 23:43:03.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23317 ttl=32 time=109 ms
+08-10 23:43:03.227  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23318 ttl=32 time=109 ms
+08-10 23:43:03.349  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -103 rsrq: -15 rssi: -65 rssnr: -4
+08-10 23:43:03.426  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23319 ttl=32 time=107 ms
+08-10 23:43:03.625  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23320 ttl=32 time=107 ms
+08-10 23:43:03.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23321 ttl=32 time=106 ms
+08-10 23:43:04.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23322 ttl=32 time=105 ms
+08-10 23:43:04.227  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23323 ttl=32 time=107 ms
+08-10 23:43:04.425  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23324 ttl=32 time=105 ms
+08-10 23:43:04.625  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23325 ttl=32 time=104 ms
+08-10 23:43:04.827  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23326 ttl=32 time=103 ms
+08-10 23:43:05.035  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23327 ttl=32 time=110 ms
+08-10 23:43:05.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23328 ttl=32 time=102 ms
+08-10 23:43:05.427  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23329 ttl=32 time=102 ms
+08-10 23:43:05.479  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -101 rsrq: -13 rssi: -59 rssnr: -2
+08-10 23:43:05.490  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201258226 CellConnectionStatus: 0
+08-10 23:43:05.490  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 99078179 Physical Cell ID: 390 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:43:05.589  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -98 rsrq: -12 rssi: -59 rssnr: 0
+08-10 23:43:05.628  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23330 ttl=32 time=103 ms
+08-10 23:43:05.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23331 ttl=32 time=101 ms
+08-10 23:43:06.036  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23332 ttl=32 time=110 ms
+08-10 23:43:06.225  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23333 ttl=32 time=100 ms
+08-10 23:43:06.426  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23334 ttl=32 time=99.9 ms
+08-10 23:43:06.625  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23335 ttl=32 time=99.4 ms
+08-10 23:43:06.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23336 ttl=32 time=98.9 ms
+08-10 23:43:07.025  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23337 ttl=32 time=98.3 ms
+08-10 23:43:07.220  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23338 ttl=32 time=91.8 ms
+08-10 23:43:07.423  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23339 ttl=32 time=93.0 ms
+08-10 23:43:07.628  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23340 ttl=32 time=98.6 ms
+08-10 23:43:07.628  5222  5222 D cellinfo: Latitude is 39.7255989
+08-10 23:43:07.629  5222  5222 D cellinfo: Longitude is -105.0398489
+08-10 23:43:07.629  5222  5222 D cellinfo: Instantaneous GPS information: United States, 555 Perry St, Denver, CO 80204, USA
+08-10 23:43:07.629  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7255989, -105.0398489
+08-10 23:43:07.829  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23341 ttl=32 time=97.2 ms
+08-10 23:43:07.835  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -96 rsrq: -11 rssi: -57 rssnr: 2
+08-10 23:43:08.029  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23342 ttl=32 time=95.5 ms
+08-10 23:43:08.229  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23343 ttl=32 time=94.8 ms
+08-10 23:43:08.446  5222  5222 D cellinfo: Latitude is 39.7255989
+08-10 23:43:08.446  5222  5222 D cellinfo: Longitude is -105.0398489
+08-10 23:43:08.446  5222  5222 D cellinfo: Instantaneous GPS information: United States, 555 Perry St, Denver, CO 80204, USA
+08-10 23:43:08.446  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7255989, -105.0398489
+08-10 23:43:08.466  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23344 ttl=32 time=131 ms
+08-10 23:43:08.482  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -95 rsrq: -11 rssi: -69 rssnr: 5
+08-10 23:43:08.500  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201261237 CellConnectionStatus: 0
+08-10 23:43:08.500  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 99078179 Physical Cell ID: 390 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:43:08.629  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23345 ttl=32 time=93.2 ms
+08-10 23:43:08.829  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23346 ttl=32 time=91.9 ms
+08-10 23:43:09.029  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23347 ttl=32 time=91.2 ms
+08-10 23:43:09.230  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23348 ttl=32 time=92.2 ms
+08-10 23:43:09.429  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23349 ttl=32 time=90.4 ms
+08-10 23:43:09.629  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23350 ttl=32 time=89.3 ms
+08-10 23:43:09.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23351 ttl=32 time=127 ms
+08-10 23:43:10.066  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23352 ttl=32 time=126 ms
+08-10 23:43:10.083  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -93 rsrq: -11 rssi: -57 rssnr: 8
+08-10 23:43:10.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23353 ttl=32 time=126 ms
+08-10 23:43:10.465  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23354 ttl=32 time=125 ms
+08-10 23:43:10.668  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23355 ttl=32 time=127 ms
+08-10 23:43:10.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23356 ttl=32 time=123 ms
+08-10 23:43:11.066  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23357 ttl=32 time=121 ms
+08-10 23:43:11.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23358 ttl=32 time=121 ms
+08-10 23:43:11.445  5222  5222 D cellinfo: Latitude is 39.7255989
+08-10 23:43:11.445  5222  5222 D cellinfo: Longitude is -105.0398489
+08-10 23:43:11.446  5222  5222 D cellinfo: Instantaneous GPS information: United States, 555 Perry St, Denver, CO 80204, USA
+08-10 23:43:11.446  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7255989, -105.0398489
+08-10 23:43:11.465  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23359 ttl=32 time=119 ms
+08-10 23:43:11.482  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -92 rsrq: -11 rssi: -61 rssnr: 11
+08-10 23:43:11.497  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201264233 CellConnectionStatus: 0
+08-10 23:43:11.497  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 99078179 Physical Cell ID: 390 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:43:11.666  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23360 ttl=32 time=118 ms
+08-10 23:43:11.866  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23361 ttl=32 time=117 ms
+08-10 23:43:12.065  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23362 ttl=32 time=116 ms
+08-10 23:43:12.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23363 ttl=32 time=117 ms
+08-10 23:43:12.308  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -91 rsrq: -11 rssi: -59 rssnr: 13
+08-10 23:43:12.466  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23364 ttl=32 time=117 ms
+08-10 23:43:12.665  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23365 ttl=32 time=116 ms
+08-10 23:43:12.866  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23366 ttl=32 time=115 ms
+08-10 23:43:13.065  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23367 ttl=32 time=114 ms
+08-10 23:43:13.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23368 ttl=32 time=115 ms
+08-10 23:43:13.466  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23369 ttl=32 time=114 ms
+08-10 23:43:13.666  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23370 ttl=32 time=114 ms
+08-10 23:43:13.866  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23371 ttl=32 time=113 ms
+08-10 23:43:14.065  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23372 ttl=32 time=112 ms
+08-10 23:43:14.265  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23373 ttl=32 time=113 ms
+08-10 23:43:14.447  5222  5222 D cellinfo: Latitude is 39.7255989
+08-10 23:43:14.447  5222  5222 D cellinfo: Longitude is -105.0398489
+08-10 23:43:14.447  5222  5222 D cellinfo: Instantaneous GPS information: United States, 555 Perry St, Denver, CO 80204, USA
+08-10 23:43:14.447  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7255989, -105.0398489
+08-10 23:43:14.465  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23374 ttl=32 time=112 ms
+08-10 23:43:14.478  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -91 rsrq: -11 rssi: -67 rssnr: 13
+08-10 23:43:14.506  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201267241 CellConnectionStatus: 0
+08-10 23:43:14.506  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 99078179 Physical Cell ID: 390 Tracking Area Code: 38410 EARFCN: 700
+08-10 23:43:14.666  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23375 ttl=32 time=111 ms
+08-10 23:43:14.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23376 ttl=32 time=109 ms
+08-10 23:43:15.065  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23377 ttl=32 time=108 ms
+08-10 23:43:15.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23378 ttl=32 time=108 ms
+08-10 23:43:15.467  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23379 ttl=32 time=107 ms
+08-10 23:43:15.665  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23380 ttl=32 time=106 ms
+08-10 23:43:15.866  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23381 ttl=32 time=106 ms
+08-10 23:43:16.066  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23382 ttl=32 time=105 ms
+08-10 23:43:16.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23383 ttl=32 time=105 ms
+08-10 23:43:16.466  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23384 ttl=32 time=105 ms
+08-10 23:43:16.666  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23385 ttl=32 time=104 ms
+08-10 23:43:16.787  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -92 rsrq: -12 rssi: -63 rssnr: 11
+08-10 23:43:16.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23386 ttl=32 time=105 ms
+08-10 23:43:17.109  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23387 ttl=32 time=145 ms
+08-10 23:43:17.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23388 ttl=32 time=103 ms
+08-10 23:43:17.461  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23389 ttl=32 time=99.4 ms
+08-10 23:43:17.479  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -92 rsrq: -12 rssi: -67 rssnr: 10
+08-10 23:43:17.569  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201270299 CellConnectionStatus: 0
+08-10 23:43:17.569  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 99103843 Physical Cell ID: 289 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:17.592  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201270324 CellConnectionStatus: 0
+08-10 23:43:17.592  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 99103843 Physical Cell ID: 289 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:17.622  5222  5222 D cellinfo: onServiceStateChanged: Channel Number: 700 Cell Bandwidths: []
+08-10 23:43:17.661  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23390 ttl=32 time=98.3 ms
+08-10 23:43:17.863  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23391 ttl=32 time=99.0 ms
+08-10 23:43:18.063  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23392 ttl=32 time=97.1 ms
+08-10 23:43:18.263  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23393 ttl=32 time=99.0 ms
+08-10 23:43:18.499  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23394 ttl=32 time=135 ms
+08-10 23:43:18.677  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23395 ttl=32 time=110 ms
+08-10 23:43:18.863  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23396 ttl=32 time=95.2 ms
+08-10 23:43:19.073  5222  5222 D cellinfo: Latitude is 39.7255949
+08-10 23:43:19.073  5222  5222 D cellinfo: Longitude is -105.0365768
+08-10 23:43:19.073  5222  5222 D cellinfo: Instantaneous GPS information: United States, 547 Meade St, Denver, CO 80204, USA
+08-10 23:43:19.073  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7255949, -105.0365768
+08-10 23:43:19.076  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -94 rsrq: -13 rssi: -63 rssnr: 8
+08-10 23:43:19.082  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23397 ttl=32 time=114 ms
+08-10 23:43:19.300  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23398 ttl=32 time=132 ms
+08-10 23:43:19.472  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23399 ttl=32 time=102 ms
+08-10 23:43:19.700  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23400 ttl=32 time=131 ms
+08-10 23:43:19.900  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23401 ttl=32 time=130 ms
+08-10 23:43:20.101  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23402 ttl=32 time=129 ms
+08-10 23:43:20.299  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23403 ttl=32 time=130 ms
+08-10 23:43:20.444  5222  5222 D cellinfo: Latitude is 39.7255949
+08-10 23:43:20.444  5222  5222 D cellinfo: Longitude is -105.0365768
+08-10 23:43:20.444  5222  5222 D cellinfo: Instantaneous GPS information: United States, 547 Meade St, Denver, CO 80204, USA
+08-10 23:43:20.444  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7255949, -105.0365768
+08-10 23:43:20.463  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23404 ttl=32 time=93.1 ms
+08-10 23:43:20.496  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201273233 CellConnectionStatus: 0
+08-10 23:43:20.496  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 99103843 Physical Cell ID: 289 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:20.662  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23405 ttl=32 time=91.0 ms
+08-10 23:43:20.901  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23406 ttl=32 time=126 ms
+08-10 23:43:21.101  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23407 ttl=32 time=125 ms
+08-10 23:43:21.300  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23408 ttl=32 time=126 ms
+08-10 23:43:21.500  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23409 ttl=32 time=125 ms
+08-10 23:43:21.701  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23410 ttl=32 time=124 ms
+08-10 23:43:21.900  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23411 ttl=32 time=123 ms
+08-10 23:43:22.101  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23412 ttl=32 time=122 ms
+08-10 23:43:22.300  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23413 ttl=32 time=122 ms
+08-10 23:43:22.499  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23414 ttl=32 time=121 ms
+08-10 23:43:22.701  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23415 ttl=32 time=120 ms
+08-10 23:43:22.902  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23416 ttl=32 time=120 ms
+08-10 23:43:23.101  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23417 ttl=32 time=118 ms
+08-10 23:43:23.281  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23418 ttl=32 time=100 ms
+08-10 23:43:23.449  5222  5222 D cellinfo: Latitude is 39.7255949
+08-10 23:43:23.450  5222  5222 D cellinfo: Longitude is -105.0365768
+08-10 23:43:23.450  5222  5222 D cellinfo: Instantaneous GPS information: United States, 547 Meade St, Denver, CO 80204, USA
+08-10 23:43:23.450  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7255949, -105.0365768
+08-10 23:43:23.481  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23419 ttl=32 time=99.8 ms
+08-10 23:43:23.499  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201276237 CellConnectionStatus: 0
+08-10 23:43:23.499  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 99103843 Physical Cell ID: 289 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:23.687  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23420 ttl=32 time=104 ms
+08-10 23:43:23.885  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23421 ttl=32 time=101 ms
+08-10 23:43:24.142  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23422 ttl=32 time=154 ms
+08-10 23:43:24.281  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23423 ttl=32 time=97.1 ms
+08-10 23:43:24.499  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23424 ttl=32 time=114 ms
+08-10 23:43:24.701  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23425 ttl=32 time=113 ms
+08-10 23:43:24.871  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23426 ttl=32 time=84.4 ms
+08-10 23:43:25.082  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23427 ttl=32 time=93.2 ms
+08-10 23:43:25.283  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23428 ttl=32 time=94.6 ms
+08-10 23:43:25.482  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23429 ttl=32 time=92.7 ms
+08-10 23:43:25.701  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23430 ttl=32 time=110 ms
+08-10 23:43:25.750  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -89 rsrq: -13 rssi: -51 rssnr: 8
+08-10 23:43:25.883  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23431 ttl=32 time=92.0 ms
+08-10 23:43:26.101  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23432 ttl=32 time=109 ms
+08-10 23:43:26.301  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23433 ttl=32 time=109 ms
+08-10 23:43:26.447  5222  5222 D cellinfo: Latitude is 39.7255949
+08-10 23:43:26.447  5222  5222 D cellinfo: Longitude is -105.0365768
+08-10 23:43:26.447  5222  5222 D cellinfo: Instantaneous GPS information: United States, 547 Meade St, Denver, CO 80204, USA
+08-10 23:43:26.447  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7255949, -105.0365768
+08-10 23:43:26.488  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -86 rsrq: -13 rssi: -51 rssnr: 9
+08-10 23:43:26.500  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23434 ttl=32 time=108 ms
+08-10 23:43:26.521  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201279239 CellConnectionStatus: 0
+08-10 23:43:26.521  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 99103843 Physical Cell ID: 289 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:26.701  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23435 ttl=32 time=107 ms
+08-10 23:43:26.900  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23436 ttl=32 time=106 ms
+08-10 23:43:27.139  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23437 ttl=32 time=145 ms
+08-10 23:43:27.301  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23438 ttl=32 time=106 ms
+08-10 23:43:27.500  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23439 ttl=32 time=104 ms
+08-10 23:43:27.700  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23440 ttl=32 time=102 ms
+08-10 23:43:27.900  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23441 ttl=32 time=101 ms
+08-10 23:43:28.100  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23442 ttl=32 time=101 ms
+08-10 23:43:28.300  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23443 ttl=32 time=100 ms
+08-10 23:43:28.540  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23444 ttl=32 time=138 ms
+08-10 23:43:28.700  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23445 ttl=32 time=97.8 ms
+08-10 23:43:28.901  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23446 ttl=32 time=98.6 ms
+08-10 23:43:29.103  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23447 ttl=32 time=98.5 ms
+08-10 23:43:29.303  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23448 ttl=32 time=96.6 ms
+08-10 23:43:29.496  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -80 rsrq: -13 rssi: -51 rssnr: 11
+08-10 23:43:29.503  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201282231 CellConnectionStatus: 0
+08-10 23:43:29.503  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 99103843 Physical Cell ID: 289 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:29.540  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23449 ttl=32 time=135 ms
+08-10 23:43:29.702  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23450 ttl=32 time=95.5 ms
+08-10 23:43:29.902  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23451 ttl=32 time=94.7 ms
+08-10 23:43:30.140  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23452 ttl=32 time=132 ms
+08-10 23:43:30.229  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -78 rsrq: -12 rssi: -51 rssnr: 12
+08-10 23:43:30.302  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23453 ttl=32 time=93.4 ms
+08-10 23:43:30.502  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23454 ttl=32 time=92.4 ms
+08-10 23:43:30.741  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23455 ttl=32 time=128 ms
+08-10 23:43:30.904  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23456 ttl=32 time=89.0 ms
+08-10 23:43:31.113  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23457 ttl=32 time=96.3 ms
+08-10 23:43:31.141  5222  5222 D cellinfo: Latitude is 39.7254961
+08-10 23:43:31.142  5222  5222 D cellinfo: Longitude is -105.0335387
+08-10 23:43:31.142  5222  5222 D cellinfo: Instantaneous GPS information: United States, 525 King St, Denver, CO 80204, USA
+08-10 23:43:31.142  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7254961, -105.0335387
+08-10 23:43:31.314  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23458 ttl=32 time=95.3 ms
+08-10 23:43:31.521  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23459 ttl=32 time=102 ms
+08-10 23:43:31.740  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23460 ttl=32 time=121 ms
+08-10 23:43:31.981  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23461 ttl=32 time=160 ms
+08-10 23:43:32.120  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23462 ttl=32 time=100 ms
+08-10 23:43:32.341  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23463 ttl=32 time=119 ms
+08-10 23:43:32.453  5222  5222 D cellinfo: Latitude is 39.7254961
+08-10 23:43:32.453  5222  5222 D cellinfo: Longitude is -105.0335387
+08-10 23:43:32.453  5222  5222 D cellinfo: Instantaneous GPS information: United States, 525 King St, Denver, CO 80204, USA
+08-10 23:43:32.453  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7254961, -105.0335387
+08-10 23:43:32.497  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -76 rsrq: -13 rssi: -51 rssnr: 11
+08-10 23:43:32.504  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201285235 CellConnectionStatus: 0
+08-10 23:43:32.504  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 99103843 Physical Cell ID: 289 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:32.540  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23464 ttl=32 time=118 ms
+08-10 23:43:32.781  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23465 ttl=32 time=158 ms
+08-10 23:43:32.940  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23466 ttl=32 time=116 ms
+08-10 23:43:33.139  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23467 ttl=32 time=115 ms
+08-10 23:43:33.340  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23468 ttl=32 time=115 ms
+08-10 23:43:33.581  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23469 ttl=32 time=154 ms
+08-10 23:43:33.740  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23470 ttl=32 time=115 ms
+08-10 23:43:33.922  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23471 ttl=32 time=95.8 ms
+08-10 23:43:34.140  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23472 ttl=32 time=113 ms
+08-10 23:43:34.341  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23473 ttl=32 time=111 ms
+08-10 23:43:34.524  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23474 ttl=32 time=95.2 ms
+08-10 23:43:34.708  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -76 rsrq: -13 rssi: -51 rssnr: 8
+08-10 23:43:34.740  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23475 ttl=32 time=110 ms
+08-10 23:43:34.941  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23476 ttl=32 time=108 ms
+08-10 23:43:35.150  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23477 ttl=32 time=117 ms
+08-10 23:43:35.204  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201287939 CellConnectionStatus: 0
+08-10 23:43:35.204  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:35.240  5222  5222 D cellinfo: onServiceStateChanged: Channel Number: 700 Cell Bandwidths: []
+08-10 23:43:35.339  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23478 ttl=32 time=105 ms
+08-10 23:43:35.445  5222  5222 D cellinfo: Latitude is 39.7254961
+08-10 23:43:35.445  5222  5222 D cellinfo: Longitude is -105.0335387
+08-10 23:43:35.445  5222  5222 D cellinfo: Instantaneous GPS information: United States, 525 King St, Denver, CO 80204, USA
+08-10 23:43:35.445  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7254961, -105.0335387
+08-10 23:43:35.504  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201288240 CellConnectionStatus: 0
+08-10 23:43:35.504  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:35.547  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23479 ttl=32 time=112 ms
+08-10 23:43:35.746  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23480 ttl=32 time=110 ms
+08-10 23:43:35.947  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23481 ttl=32 time=110 ms
+08-10 23:43:36.146  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23482 ttl=32 time=109 ms
+08-10 23:43:36.346  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23483 ttl=32 time=109 ms
+08-10 23:43:36.550  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23484 ttl=32 time=112 ms
+08-10 23:43:36.746  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23485 ttl=32 time=107 ms
+08-10 23:43:36.946  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23486 ttl=32 time=107 ms
+08-10 23:43:37.146  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23487 ttl=32 time=106 ms
+08-10 23:43:37.347  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23488 ttl=32 time=106 ms
+08-10 23:43:37.627  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23489 ttl=32 time=184 ms
+08-10 23:43:37.785  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23490 ttl=32 time=144 ms
+08-10 23:43:37.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23491 ttl=32 time=142 ms
+08-10 23:43:38.150  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23492 ttl=32 time=103 ms
+08-10 23:43:38.280  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201291009 CellConnectionStatus: 0
+08-10 23:43:38.280  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:38.349  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23493 ttl=32 time=101 ms
+08-10 23:43:38.445  5222  5222 D cellinfo: Latitude is 39.7254961
+08-10 23:43:38.445  5222  5222 D cellinfo: Longitude is -105.0335387
+08-10 23:43:38.445  5222  5222 D cellinfo: Instantaneous GPS information: United States, 525 King St, Denver, CO 80204, USA
+08-10 23:43:38.445  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7254961, -105.0335387
+08-10 23:43:38.496  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -76 rsrq: -13 rssi: -51 rssnr: 5
+08-10 23:43:38.550  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23494 ttl=32 time=100 ms
+08-10 23:43:38.747  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23495 ttl=32 time=99.1 ms
+08-10 23:43:38.946  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23496 ttl=32 time=98.9 ms
+08-10 23:43:39.147  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23497 ttl=32 time=97.0 ms
+08-10 23:43:39.350  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23498 ttl=32 time=101 ms
+08-10 23:43:39.551  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23499 ttl=32 time=101 ms
+08-10 23:43:39.787  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23500 ttl=32 time=135 ms
+08-10 23:43:39.951  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23501 ttl=32 time=99.4 ms
+08-10 23:43:40.185  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23502 ttl=32 time=133 ms
+08-10 23:43:40.351  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23503 ttl=32 time=97.6 ms
+08-10 23:43:40.551  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23504 ttl=32 time=96.3 ms
+08-10 23:43:40.750  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23505 ttl=32 time=94.6 ms
+08-10 23:43:40.987  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23506 ttl=32 time=128 ms
+08-10 23:43:41.151  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23507 ttl=32 time=92.4 ms
+08-10 23:43:41.387  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23508 ttl=32 time=124 ms
+08-10 23:43:41.494  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201294229 CellConnectionStatus: 0
+08-10 23:43:41.494  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:41.586  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23509 ttl=32 time=123 ms
+08-10 23:43:41.786  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23510 ttl=32 time=124 ms
+08-10 23:43:42.029  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23511 ttl=32 time=165 ms
+08-10 23:43:42.186  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23512 ttl=32 time=123 ms
+08-10 23:43:42.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23513 ttl=32 time=121 ms
+08-10 23:43:42.585  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23514 ttl=32 time=121 ms
+08-10 23:43:42.761  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23515 ttl=32 time=94.4 ms
+08-10 23:43:42.981  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23516 ttl=32 time=111 ms
+08-10 23:43:43.150  5222  5222 D cellinfo: Latitude is 39.7252308
+08-10 23:43:43.150  5222  5222 D cellinfo: Longitude is -105.0300282
+08-10 23:43:43.150  5222  5222 D cellinfo: Instantaneous GPS information: United States, 3315 W 5th Ave, Denver, CO 80204, USA
+08-10 23:43:43.150  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7252308, -105.0300282
+08-10 23:43:43.179  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23517 ttl=32 time=108 ms
+08-10 23:43:43.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23518 ttl=32 time=115 ms
+08-10 23:43:43.587  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23519 ttl=32 time=114 ms
+08-10 23:43:43.787  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23520 ttl=32 time=114 ms
+08-10 23:43:43.987  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23521 ttl=32 time=113 ms
+08-10 23:43:44.186  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23522 ttl=32 time=111 ms
+08-10 23:43:44.387  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23523 ttl=32 time=109 ms
+08-10 23:43:44.448  5222  5222 D cellinfo: Latitude is 39.7252308
+08-10 23:43:44.448  5222  5222 D cellinfo: Longitude is -105.0300282
+08-10 23:43:44.448  5222  5222 D cellinfo: Instantaneous GPS information: United States, 3315 W 5th Ave, Denver, CO 80204, USA
+08-10 23:43:44.448  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7252308, -105.0300282
+08-10 23:43:44.500  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -81 rsrq: -13 rssi: -51 rssnr: 5
+08-10 23:43:44.508  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201297238 CellConnectionStatus: 0
+08-10 23:43:44.508  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:44.586  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23524 ttl=32 time=106 ms
+08-10 23:43:44.787  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23525 ttl=32 time=106 ms
+08-10 23:43:44.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23526 ttl=32 time=105 ms
+08-10 23:43:45.187  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23527 ttl=32 time=104 ms
+08-10 23:43:45.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23528 ttl=32 time=104 ms
+08-10 23:43:45.589  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23529 ttl=32 time=106 ms
+08-10 23:43:45.786  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23530 ttl=32 time=102 ms
+08-10 23:43:45.908  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -80 rsrq: -13 rssi: -51 rssnr: 7
+08-10 23:43:45.985  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23531 ttl=32 time=101 ms
+08-10 23:43:46.187  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23532 ttl=32 time=101 ms
+08-10 23:43:46.388  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23533 ttl=32 time=100 ms
+08-10 23:43:46.587  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23534 ttl=32 time=97.2 ms
+08-10 23:43:46.791  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23535 ttl=32 time=100 ms
+08-10 23:43:46.991  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23536 ttl=32 time=99.5 ms
+08-10 23:43:47.192  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23537 ttl=32 time=100 ms
+08-10 23:43:47.392  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23538 ttl=32 time=98.4 ms
+08-10 23:43:47.452  5222  5222 D cellinfo: Latitude is 39.7252308
+08-10 23:43:47.453  5222  5222 D cellinfo: Longitude is -105.0300282
+08-10 23:43:47.453  5222  5222 D cellinfo: Instantaneous GPS information: United States, 3315 W 5th Ave, Denver, CO 80204, USA
+08-10 23:43:47.453  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7252308, -105.0300282
+08-10 23:43:47.499  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -79 rsrq: -13 rssi: -51 rssnr: 10
+08-10 23:43:47.506  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201300235 CellConnectionStatus: 0
+08-10 23:43:47.506  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:47.590  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23539 ttl=32 time=96.3 ms
+08-10 23:43:47.792  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23540 ttl=32 time=98.0 ms
+08-10 23:43:47.991  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23541 ttl=32 time=95.7 ms
+08-10 23:43:48.191  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23542 ttl=32 time=95.8 ms
+08-10 23:43:48.425  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23543 ttl=32 time=128 ms
+08-10 23:43:48.591  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23544 ttl=32 time=93.2 ms
+08-10 23:43:48.825  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23545 ttl=32 time=127 ms
+08-10 23:43:49.025  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23546 ttl=32 time=126 ms
+08-10 23:43:49.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23547 ttl=32 time=126 ms
+08-10 23:43:49.429  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23548 ttl=32 time=128 ms
+08-10 23:43:49.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23549 ttl=32 time=124 ms
+08-10 23:43:49.825  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23550 ttl=32 time=123 ms
+08-10 23:43:50.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23551 ttl=32 time=122 ms
+08-10 23:43:50.227  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23552 ttl=32 time=121 ms
+08-10 23:43:50.388  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -78 rsrq: -12 rssi: -51 rssnr: 12
+08-10 23:43:50.425  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23553 ttl=32 time=120 ms
+08-10 23:43:50.448  5222  5222 D cellinfo: Latitude is 39.7252308
+08-10 23:43:50.448  5222  5222 D cellinfo: Longitude is -105.0300282
+08-10 23:43:50.448  5222  5222 D cellinfo: Instantaneous GPS information: United States, 3315 W 5th Ave, Denver, CO 80204, USA
+08-10 23:43:50.448  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7252308, -105.0300282
+08-10 23:43:50.494  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201303233 CellConnectionStatus: 0
+08-10 23:43:50.494  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:50.625  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23554 ttl=32 time=119 ms
+08-10 23:43:50.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23555 ttl=32 time=119 ms
+08-10 23:43:51.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23556 ttl=32 time=119 ms
+08-10 23:43:51.229  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23557 ttl=32 time=122 ms
+08-10 23:43:51.425  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23558 ttl=32 time=118 ms
+08-10 23:43:51.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23559 ttl=32 time=117 ms
+08-10 23:43:51.825  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23560 ttl=32 time=116 ms
+08-10 23:43:52.025  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23561 ttl=32 time=116 ms
+08-10 23:43:52.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23562 ttl=32 time=116 ms
+08-10 23:43:52.425  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23563 ttl=32 time=115 ms
+08-10 23:43:52.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23564 ttl=32 time=115 ms
+08-10 23:43:52.635  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -76 rsrq: -12 rssi: -51 rssnr: 15
+08-10 23:43:52.831  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23565 ttl=32 time=118 ms
+08-10 23:43:53.027  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23566 ttl=32 time=114 ms
+08-10 23:43:53.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23567 ttl=32 time=114 ms
+08-10 23:43:53.426  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23568 ttl=32 time=113 ms
+08-10 23:43:53.485  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201306222 CellConnectionStatus: 0
+08-10 23:43:53.486  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:53.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23569 ttl=32 time=111 ms
+08-10 23:43:53.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23570 ttl=32 time=110 ms
+08-10 23:43:54.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23571 ttl=32 time=109 ms
+08-10 23:43:54.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23572 ttl=32 time=109 ms
+08-10 23:43:54.427  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23573 ttl=32 time=108 ms
+08-10 23:43:54.619  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23574 ttl=32 time=100 ms
+08-10 23:43:54.831  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23575 ttl=32 time=110 ms
+08-10 23:43:55.027  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23576 ttl=32 time=104 ms
+08-10 23:43:55.109  5222  5222 D cellinfo: Latitude is 39.7252768
+08-10 23:43:55.109  5222  5222 D cellinfo: Longitude is -105.0266756
+08-10 23:43:55.109  5222  5222 D cellinfo: Instantaneous GPS information: United States, 500 Hazel Ct, Denver, CO 80219, USA
+08-10 23:43:55.109  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7252768, -105.0266756
+08-10 23:43:55.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23577 ttl=32 time=104 ms
+08-10 23:43:55.427  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23578 ttl=32 time=103 ms
+08-10 23:43:55.627  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23579 ttl=32 time=102 ms
+08-10 23:43:55.827  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23580 ttl=32 time=101 ms
+08-10 23:43:56.027  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23581 ttl=32 time=101 ms
+08-10 23:43:56.227  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23582 ttl=32 time=102 ms
+08-10 23:43:56.425  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23583 ttl=32 time=101 ms
+08-10 23:43:56.447  5222  5222 D cellinfo: Latitude is 39.7252768
+08-10 23:43:56.447  5222  5222 D cellinfo: Longitude is -105.0266756
+08-10 23:43:56.447  5222  5222 D cellinfo: Instantaneous GPS information: United States, 500 Hazel Ct, Denver, CO 80219, USA
+08-10 23:43:56.447  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7252768, -105.0266756
+08-10 23:43:56.493  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201309229 CellConnectionStatus: 0
+08-10 23:43:56.493  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:56.499  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -74 rsrq: -11 rssi: -51 rssnr: 16
+08-10 23:43:56.627  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23584 ttl=32 time=100 ms
+08-10 23:43:56.825  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23585 ttl=32 time=99.3 ms
+08-10 23:43:57.027  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23586 ttl=32 time=99.3 ms
+08-10 23:43:57.228  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23587 ttl=32 time=102 ms
+08-10 23:43:57.427  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23588 ttl=32 time=99.5 ms
+08-10 23:43:57.675  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23589 ttl=32 time=147 ms
+08-10 23:43:57.822  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23590 ttl=32 time=94.0 ms
+08-10 23:43:58.027  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23591 ttl=32 time=97.5 ms
+08-10 23:43:58.232  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23592 ttl=32 time=103 ms
+08-10 23:43:58.431  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23593 ttl=32 time=101 ms
+08-10 23:43:58.630  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23594 ttl=32 time=100 ms
+08-10 23:43:58.830  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23595 ttl=32 time=99.1 ms
+08-10 23:43:59.031  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23596 ttl=32 time=98.4 ms
+08-10 23:43:59.230  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23597 ttl=32 time=98.3 ms
+08-10 23:43:59.346  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -72 rsrq: -11 rssi: -51 rssnr: 18
+08-10 23:43:59.431  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23598 ttl=32 time=97.9 ms
+08-10 23:43:59.453  5222  5222 D cellinfo: Latitude is 39.7252768
+08-10 23:43:59.454  5222  5222 D cellinfo: Longitude is -105.0266756
+08-10 23:43:59.454  5222  5222 D cellinfo: Instantaneous GPS information: United States, 500 Hazel Ct, Denver, CO 80219, USA
+08-10 23:43:59.454  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7252768, -105.0266756
+08-10 23:43:59.508  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201312243 CellConnectionStatus: 0
+08-10 23:43:59.508  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:43:59.631  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23599 ttl=32 time=97.7 ms
+08-10 23:43:59.830  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23600 ttl=32 time=96.6 ms
+08-10 23:44:00.067  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23601 ttl=32 time=131 ms
+08-10 23:44:00.232  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23602 ttl=32 time=97.3 ms
+08-10 23:44:00.431  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23603 ttl=32 time=95.7 ms
+08-10 23:44:00.630  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23604 ttl=32 time=94.9 ms
+08-10 23:44:00.831  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23605 ttl=32 time=94.9 ms
+08-10 23:44:01.031  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23606 ttl=32 time=94.0 ms
+08-10 23:44:01.230  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23607 ttl=32 time=94.4 ms
+08-10 23:44:01.431  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23608 ttl=32 time=93.1 ms
+08-10 23:44:01.666  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23609 ttl=32 time=126 ms
+08-10 23:44:01.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23610 ttl=32 time=125 ms
+08-10 23:44:02.067  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23611 ttl=32 time=123 ms
+08-10 23:44:02.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23612 ttl=32 time=123 ms
+08-10 23:44:02.446  5222  5222 D cellinfo: Latitude is 39.7252768
+08-10 23:44:02.446  5222  5222 D cellinfo: Longitude is -105.0266756
+08-10 23:44:02.446  5222  5222 D cellinfo: Instantaneous GPS information: United States, 500 Hazel Ct, Denver, CO 80219, USA
+08-10 23:44:02.446  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7252768, -105.0266756
+08-10 23:44:02.465  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23613 ttl=32 time=122 ms
+08-10 23:44:02.505  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201315242 CellConnectionStatus: 0
+08-10 23:44:02.505  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:02.665  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23614 ttl=32 time=121 ms
+08-10 23:44:02.874  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23615 ttl=32 time=129 ms
+08-10 23:44:03.065  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23616 ttl=32 time=120 ms
+08-10 23:44:03.265  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23617 ttl=32 time=121 ms
+08-10 23:44:03.466  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23618 ttl=32 time=119 ms
+08-10 23:44:03.667  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23619 ttl=32 time=119 ms
+08-10 23:44:03.846  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23620 ttl=32 time=100 ms
+08-10 23:44:04.041  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23621 ttl=32 time=94.9 ms
+08-10 23:44:04.267  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23622 ttl=32 time=119 ms
+08-10 23:44:04.466  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23623 ttl=32 time=118 ms
+08-10 23:44:04.667  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23624 ttl=32 time=118 ms
+08-10 23:44:04.840  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23625 ttl=32 time=93.0 ms
+08-10 23:44:05.067  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23626 ttl=32 time=117 ms
+08-10 23:44:05.267  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23627 ttl=32 time=116 ms
+08-10 23:44:05.465  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23628 ttl=32 time=115 ms
+08-10 23:44:05.489  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201318225 CellConnectionStatus: 0
+08-10 23:44:05.489  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:05.666  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23629 ttl=32 time=114 ms
+08-10 23:44:05.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23630 ttl=32 time=113 ms
+08-10 23:44:06.065  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23631 ttl=32 time=112 ms
+08-10 23:44:06.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23632 ttl=32 time=113 ms
+08-10 23:44:06.474  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23633 ttl=32 time=121 ms
+08-10 23:44:06.659  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23634 ttl=32 time=103 ms
+08-10 23:44:06.859  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23635 ttl=32 time=101 ms
+08-10 23:44:07.067  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23636 ttl=32 time=107 ms
+08-10 23:44:07.188  5222  5222 D cellinfo: Latitude is 39.7251989
+08-10 23:44:07.188  5222  5222 D cellinfo: Longitude is -105.0253221
+08-10 23:44:07.188  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:07.188  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7251989, -105.0253221
+08-10 23:44:07.258  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23637 ttl=32 time=98.7 ms
+08-10 23:44:07.467  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23638 ttl=32 time=106 ms
+08-10 23:44:07.672  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23639 ttl=32 time=110 ms
+08-10 23:44:07.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23640 ttl=32 time=104 ms
+08-10 23:44:08.066  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23641 ttl=32 time=103 ms
+08-10 23:44:08.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23642 ttl=32 time=104 ms
+08-10 23:44:08.450  5222  5222 D cellinfo: Latitude is 39.7251989
+08-10 23:44:08.450  5222  5222 D cellinfo: Longitude is -105.0253221
+08-10 23:44:08.450  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:08.450  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7251989, -105.0253221
+08-10 23:44:08.466  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23643 ttl=32 time=103 ms
+08-10 23:44:08.500  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -72 rsrq: -10 rssi: -51 rssnr: 17
+08-10 23:44:08.514  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201321249 CellConnectionStatus: 0
+08-10 23:44:08.514  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:08.666  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23644 ttl=32 time=102 ms
+08-10 23:44:08.865  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23645 ttl=32 time=102 ms
+08-10 23:44:09.067  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23646 ttl=32 time=101 ms
+08-10 23:44:09.267  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23647 ttl=32 time=102 ms
+08-10 23:44:09.467  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23648 ttl=32 time=101 ms
+08-10 23:44:09.666  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23649 ttl=32 time=100 ms
+08-10 23:44:09.906  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23650 ttl=32 time=140 ms
+08-10 23:44:10.066  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23651 ttl=32 time=99.8 ms
+08-10 23:44:10.267  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23652 ttl=32 time=100 ms
+08-10 23:44:10.467  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23653 ttl=32 time=99.9 ms
+08-10 23:44:10.667  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23654 ttl=32 time=98.1 ms
+08-10 23:44:10.906  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23655 ttl=32 time=136 ms
+08-10 23:44:11.073  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23656 ttl=32 time=101 ms
+08-10 23:44:11.271  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23657 ttl=32 time=100 ms
+08-10 23:44:11.447  5222  5222 D cellinfo: Latitude is 39.7251989
+08-10 23:44:11.447  5222  5222 D cellinfo: Longitude is -105.0253221
+08-10 23:44:11.447  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:11.447  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7251989, -105.0253221
+08-10 23:44:11.470  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23658 ttl=32 time=99.1 ms
+08-10 23:44:11.500  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201324236 CellConnectionStatus: 0
+08-10 23:44:11.500  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:11.671  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23659 ttl=32 time=99.0 ms
+08-10 23:44:11.871  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23660 ttl=32 time=98.5 ms
+08-10 23:44:12.070  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23661 ttl=32 time=96.9 ms
+08-10 23:44:12.307  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23662 ttl=32 time=131 ms
+08-10 23:44:12.470  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23663 ttl=32 time=95.8 ms
+08-10 23:44:12.705  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23664 ttl=32 time=130 ms
+08-10 23:44:12.787  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -75 rsrq: -10 rssi: -51 rssnr: 15
+08-10 23:44:12.870  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23665 ttl=32 time=94.2 ms
+08-10 23:44:13.071  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23666 ttl=32 time=93.2 ms
+08-10 23:44:13.271  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23667 ttl=32 time=93.5 ms
+08-10 23:44:13.471  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23668 ttl=32 time=93.0 ms
+08-10 23:44:13.705  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23669 ttl=32 time=126 ms
+08-10 23:44:13.905  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23670 ttl=32 time=125 ms
+08-10 23:44:14.107  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23671 ttl=32 time=124 ms
+08-10 23:44:14.307  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23672 ttl=32 time=123 ms
+08-10 23:44:14.448  5222  5222 D cellinfo: Latitude is 39.7251989
+08-10 23:44:14.448  5222  5222 D cellinfo: Longitude is -105.0253221
+08-10 23:44:14.448  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:14.449  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7251989, -105.0253221
+08-10 23:44:14.505  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23673 ttl=32 time=123 ms
+08-10 23:44:14.516  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201327247 CellConnectionStatus: 0
+08-10 23:44:14.516  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:14.706  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23674 ttl=32 time=122 ms
+08-10 23:44:14.906  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23675 ttl=32 time=121 ms
+08-10 23:44:15.107  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23676 ttl=32 time=120 ms
+08-10 23:44:15.306  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23677 ttl=32 time=121 ms
+08-10 23:44:15.507  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23678 ttl=32 time=120 ms
+08-10 23:44:15.706  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23679 ttl=32 time=120 ms
+08-10 23:44:15.906  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23680 ttl=32 time=119 ms
+08-10 23:44:16.105  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23681 ttl=32 time=119 ms
+08-10 23:44:16.306  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23682 ttl=32 time=119 ms
+08-10 23:44:16.505  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23683 ttl=32 time=118 ms
+08-10 23:44:16.705  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23684 ttl=32 time=118 ms
+08-10 23:44:16.946  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23685 ttl=32 time=157 ms
+08-10 23:44:17.107  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23686 ttl=32 time=118 ms
+08-10 23:44:17.268  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -75 rsrq: -11 rssi: -51 rssnr: 14
+08-10 23:44:17.314  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23687 ttl=32 time=126 ms
+08-10 23:44:17.497  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201330231 CellConnectionStatus: 0
+08-10 23:44:17.497  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:17.506  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23688 ttl=32 time=116 ms
+08-10 23:44:17.706  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23689 ttl=32 time=116 ms
+08-10 23:44:17.907  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23690 ttl=32 time=115 ms
+08-10 23:44:18.105  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23691 ttl=32 time=114 ms
+08-10 23:44:18.307  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23692 ttl=32 time=115 ms
+08-10 23:44:18.506  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23693 ttl=32 time=114 ms
+08-10 23:44:18.682  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23694 ttl=32 time=87.8 ms
+08-10 23:44:18.907  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23695 ttl=32 time=110 ms
+08-10 23:44:19.107  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23696 ttl=32 time=109 ms
+08-10 23:44:19.158  5222  5222 D cellinfo: Latitude is 39.7251129
+08-10 23:44:19.158  5222  5222 D cellinfo: Longitude is -105.0254532
+08-10 23:44:19.158  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:19.158  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7251129, -105.0254532
+08-10 23:44:19.298  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23697 ttl=32 time=102 ms
+08-10 23:44:19.507  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23698 ttl=32 time=109 ms
+08-10 23:44:19.707  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23699 ttl=32 time=108 ms
+08-10 23:44:19.907  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23700 ttl=32 time=107 ms
+08-10 23:44:20.107  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23701 ttl=32 time=107 ms
+08-10 23:44:20.307  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23702 ttl=32 time=106 ms
+08-10 23:44:20.450  5222  5222 D cellinfo: Latitude is 39.7251129
+08-10 23:44:20.450  5222  5222 D cellinfo: Longitude is -105.0254532
+08-10 23:44:20.450  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:20.450  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7251129, -105.0254532
+08-10 23:44:20.505  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23703 ttl=32 time=105 ms
+08-10 23:44:20.510  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201333243 CellConnectionStatus: 0
+08-10 23:44:20.510  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:20.746  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23704 ttl=32 time=146 ms
+08-10 23:44:20.906  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23705 ttl=32 time=104 ms
+08-10 23:44:21.107  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23706 ttl=32 time=103 ms
+08-10 23:44:21.306  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23707 ttl=32 time=103 ms
+08-10 23:44:21.507  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23708 ttl=32 time=102 ms
+08-10 23:44:21.707  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23709 ttl=32 time=102 ms
+08-10 23:44:21.751  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -75 rsrq: -11 rssi: -51 rssnr: 15
+08-10 23:44:21.907  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23710 ttl=32 time=101 ms
+08-10 23:44:22.107  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23711 ttl=32 time=100 ms
+08-10 23:44:22.307  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23712 ttl=32 time=99.9 ms
+08-10 23:44:22.506  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23713 ttl=32 time=97.9 ms
+08-10 23:44:22.706  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23714 ttl=32 time=97.2 ms
+08-10 23:44:22.911  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23715 ttl=32 time=100 ms
+08-10 23:44:23.227  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23716 ttl=32 time=215 ms
+08-10 23:44:23.346  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23717 ttl=32 time=125 ms
+08-10 23:44:23.446  5222  5222 D cellinfo: Latitude is 39.7251129
+08-10 23:44:23.446  5222  5222 D cellinfo: Longitude is -105.0254532
+08-10 23:44:23.446  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:23.446  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7251129, -105.0254532
+08-10 23:44:23.497  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201336233 CellConnectionStatus: 0
+08-10 23:44:23.497  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:23.545  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23718 ttl=32 time=123 ms
+08-10 23:44:23.876  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23719 ttl=32 time=253 ms
+08-10 23:44:23.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23720 ttl=32 time=153 ms
+08-10 23:44:24.145  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23721 ttl=32 time=113 ms
+08-10 23:44:24.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23722 ttl=32 time=151 ms
+08-10 23:44:24.546  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23723 ttl=32 time=111 ms
+08-10 23:44:24.745  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23724 ttl=32 time=110 ms
+08-10 23:44:24.946  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23725 ttl=32 time=110 ms
+08-10 23:44:25.146  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23726 ttl=32 time=108 ms
+08-10 23:44:25.345  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23727 ttl=32 time=106 ms
+08-10 23:44:25.546  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23728 ttl=32 time=105 ms
+08-10 23:44:25.746  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23729 ttl=32 time=105 ms
+08-10 23:44:25.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23730 ttl=32 time=143 ms
+08-10 23:44:26.146  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23731 ttl=32 time=103 ms
+08-10 23:44:26.229  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -74 rsrq: -11 rssi: -51 rssnr: 15
+08-10 23:44:26.346  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23732 ttl=32 time=102 ms
+08-10 23:44:26.450  5222  5222 D cellinfo: Latitude is 39.7251129
+08-10 23:44:26.450  5222  5222 D cellinfo: Longitude is -105.0254532
+08-10 23:44:26.450  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:26.450  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7251129, -105.0254532
+08-10 23:44:26.503  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201339240 CellConnectionStatus: 0
+08-10 23:44:26.503  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:26.546  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23733 ttl=32 time=102 ms
+08-10 23:44:26.746  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23734 ttl=32 time=101 ms
+08-10 23:44:26.946  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23735 ttl=32 time=101 ms
+08-10 23:44:27.147  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23736 ttl=32 time=100 ms
+08-10 23:44:27.345  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23737 ttl=32 time=99.9 ms
+08-10 23:44:27.546  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23738 ttl=32 time=99.2 ms
+08-10 23:44:27.746  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23739 ttl=32 time=98.0 ms
+08-10 23:44:27.987  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23740 ttl=32 time=137 ms
+08-10 23:44:28.186  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23741 ttl=32 time=135 ms
+08-10 23:44:28.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23742 ttl=32 time=133 ms
+08-10 23:44:28.587  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23743 ttl=32 time=132 ms
+08-10 23:44:28.786  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23744 ttl=32 time=131 ms
+08-10 23:44:28.951  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23745 ttl=32 time=96.5 ms
+08-10 23:44:29.151  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23746 ttl=32 time=95.0 ms
+08-10 23:44:29.425  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23747 ttl=32 time=169 ms
+08-10 23:44:29.488  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201342222 CellConnectionStatus: 0
+08-10 23:44:29.488  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:29.587  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23748 ttl=32 time=129 ms
+08-10 23:44:29.787  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23749 ttl=32 time=129 ms
+08-10 23:44:29.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23750 ttl=32 time=127 ms
+08-10 23:44:30.187  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23751 ttl=32 time=127 ms
+08-10 23:44:30.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23752 ttl=32 time=126 ms
+08-10 23:44:30.641  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23753 ttl=32 time=179 ms
+08-10 23:44:30.751  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23754 ttl=32 time=88.8 ms
+08-10 23:44:30.962  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23755 ttl=32 time=97.7 ms
+08-10 23:44:31.188  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23756 ttl=32 time=121 ms
+08-10 23:44:31.273  5222  5222 D cellinfo: Latitude is 39.725108
+08-10 23:44:31.273  5222  5222 D cellinfo: Longitude is -105.0253435
+08-10 23:44:31.273  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:31.273  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.725108, -105.0253435
+08-10 23:44:31.275  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -72 rsrq: -11 rssi: -51 rssnr: 18
+08-10 23:44:31.361  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23757 ttl=32 time=94.1 ms
+08-10 23:44:31.586  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23758 ttl=32 time=117 ms
+08-10 23:44:31.786  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23759 ttl=32 time=117 ms
+08-10 23:44:31.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23760 ttl=32 time=116 ms
+08-10 23:44:32.186  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23761 ttl=32 time=115 ms
+08-10 23:44:32.387  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23762 ttl=32 time=115 ms
+08-10 23:44:32.446  5222  5222 D cellinfo: Latitude is 39.725108
+08-10 23:44:32.446  5222  5222 D cellinfo: Longitude is -105.0253435
+08-10 23:44:32.446  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:32.446  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.725108, -105.0253435
+08-10 23:44:32.500  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201345236 CellConnectionStatus: 0
+08-10 23:44:32.500  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:32.518  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -71 rsrq: -11 rssi: -51 rssnr: 17
+08-10 23:44:32.588  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23763 ttl=32 time=114 ms
+08-10 23:44:32.786  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23764 ttl=32 time=114 ms
+08-10 23:44:33.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23765 ttl=32 time=152 ms
+08-10 23:44:33.186  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23766 ttl=32 time=112 ms
+08-10 23:44:33.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23767 ttl=32 time=111 ms
+08-10 23:44:33.586  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23768 ttl=32 time=111 ms
+08-10 23:44:33.905  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23769 ttl=32 time=230 ms
+08-10 23:44:34.067  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23770 ttl=32 time=180 ms
+08-10 23:44:34.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23771 ttl=32 time=140 ms
+08-10 23:44:34.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23772 ttl=32 time=100 ms
+08-10 23:44:34.586  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23773 ttl=32 time=99.9 ms
+08-10 23:44:34.827  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23774 ttl=32 time=139 ms
+08-10 23:44:34.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23775 ttl=32 time=99.3 ms
+08-10 23:44:35.186  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23776 ttl=32 time=98.0 ms
+08-10 23:44:35.385  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23777 ttl=32 time=97.8 ms
+08-10 23:44:35.453  5222  5222 D cellinfo: Latitude is 39.725108
+08-10 23:44:35.453  5222  5222 D cellinfo: Longitude is -105.0253435
+08-10 23:44:35.453  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:35.453  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.725108, -105.0253435
+08-10 23:44:35.510  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201348245 CellConnectionStatus: 0
+08-10 23:44:35.510  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:35.586  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23778 ttl=32 time=97.0 ms
+08-10 23:44:35.791  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23779 ttl=32 time=101 ms
+08-10 23:44:35.990  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23780 ttl=32 time=100 ms
+08-10 23:44:36.227  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23781 ttl=32 time=134 ms
+08-10 23:44:36.390  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23782 ttl=32 time=98.7 ms
+08-10 23:44:36.590  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23783 ttl=32 time=98.6 ms
+08-10 23:44:36.829  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23784 ttl=32 time=135 ms
+08-10 23:44:37.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23785 ttl=32 time=133 ms
+08-10 23:44:37.191  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23786 ttl=32 time=98.3 ms
+08-10 23:44:37.427  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23787 ttl=32 time=132 ms
+08-10 23:44:37.590  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23788 ttl=32 time=95.2 ms
+08-10 23:44:37.792  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23789 ttl=32 time=96.0 ms
+08-10 23:44:37.992  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23790 ttl=32 time=94.2 ms
+08-10 23:44:38.191  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23791 ttl=32 time=92.9 ms
+08-10 23:44:38.426  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23792 ttl=32 time=127 ms
+08-10 23:44:38.450  5222  5222 D cellinfo: Latitude is 39.725108
+08-10 23:44:38.450  5222  5222 D cellinfo: Longitude is -105.0253435
+08-10 23:44:38.450  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:38.450  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.725108, -105.0253435
+08-10 23:44:38.493  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201351231 CellConnectionStatus: 0
+08-10 23:44:38.493  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:38.631  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23793 ttl=32 time=132 ms
+08-10 23:44:38.827  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23794 ttl=32 time=126 ms
+08-10 23:44:39.027  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23795 ttl=32 time=124 ms
+08-10 23:44:39.227  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23796 ttl=32 time=125 ms
+08-10 23:44:39.427  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23797 ttl=32 time=124 ms
+08-10 23:44:39.627  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23798 ttl=32 time=124 ms
+08-10 23:44:39.668  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -68 rsrq: -11 rssi: -51 rssnr: 16
+08-10 23:44:39.827  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23799 ttl=32 time=123 ms
+08-10 23:44:40.027  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23800 ttl=32 time=122 ms
+08-10 23:44:40.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23801 ttl=32 time=123 ms
+08-10 23:44:40.426  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23802 ttl=32 time=122 ms
+08-10 23:44:40.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23803 ttl=32 time=121 ms
+08-10 23:44:40.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23804 ttl=32 time=121 ms
+08-10 23:44:41.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23805 ttl=32 time=121 ms
+08-10 23:44:41.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23806 ttl=32 time=121 ms
+08-10 23:44:41.426  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23807 ttl=32 time=120 ms
+08-10 23:44:41.494  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201354227 CellConnectionStatus: 0
+08-10 23:44:41.494  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:41.628  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23808 ttl=32 time=122 ms
+08-10 23:44:41.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23809 ttl=32 time=119 ms
+08-10 23:44:42.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23810 ttl=32 time=118 ms
+08-10 23:44:42.306  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23811 ttl=32 time=198 ms
+08-10 23:44:42.465  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23812 ttl=32 time=157 ms
+08-10 23:44:42.627  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23813 ttl=32 time=117 ms
+08-10 23:44:42.823  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23814 ttl=32 time=111 ms
+08-10 23:44:43.020  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23815 ttl=32 time=106 ms
+08-10 23:44:43.220  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23816 ttl=32 time=105 ms
+08-10 23:44:43.229  5222  5222 D cellinfo: Latitude is 39.7252554
+08-10 23:44:43.230  5222  5222 D cellinfo: Longitude is -105.0250553
+08-10 23:44:43.230  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:43.230  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7252554, -105.0250553
+08-10 23:44:43.428  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23817 ttl=32 time=115 ms
+08-10 23:44:43.627  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23818 ttl=32 time=113 ms
+08-10 23:44:43.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23819 ttl=32 time=111 ms
+08-10 23:44:44.027  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23820 ttl=32 time=110 ms
+08-10 23:44:44.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23821 ttl=32 time=110 ms
+08-10 23:44:44.426  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23822 ttl=32 time=109 ms
+08-10 23:44:44.453  5222  5222 D cellinfo: Latitude is 39.7252554
+08-10 23:44:44.453  5222  5222 D cellinfo: Longitude is -105.0250553
+08-10 23:44:44.453  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:44.453  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7252554, -105.0250553
+08-10 23:44:44.500  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201357233 CellConnectionStatus: 0
+08-10 23:44:44.500  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:44.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23823 ttl=32 time=109 ms
+08-10 23:44:44.830  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23824 ttl=32 time=112 ms
+08-10 23:44:45.027  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23825 ttl=32 time=108 ms
+08-10 23:44:45.274  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23826 ttl=32 time=155 ms
+08-10 23:44:45.427  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23827 ttl=32 time=107 ms
+08-10 23:44:45.627  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23828 ttl=32 time=106 ms
+08-10 23:44:45.907  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23829 ttl=32 time=185 ms
+08-10 23:44:46.066  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23830 ttl=32 time=144 ms
+08-10 23:44:46.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23831 ttl=32 time=143 ms
+08-10 23:44:46.465  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23832 ttl=32 time=141 ms
+08-10 23:44:46.628  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23833 ttl=32 time=102 ms
+08-10 23:44:46.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23834 ttl=32 time=98.7 ms
+08-10 23:44:47.027  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23835 ttl=32 time=98.5 ms
+08-10 23:44:47.227  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23836 ttl=32 time=99.8 ms
+08-10 23:44:47.425  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23837 ttl=32 time=97.4 ms
+08-10 23:44:47.448  5222  5222 D cellinfo: Latitude is 39.7252554
+08-10 23:44:47.448  5222  5222 D cellinfo: Longitude is -105.0250553
+08-10 23:44:47.448  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:47.448  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7252554, -105.0250553
+08-10 23:44:47.499  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201360237 CellConnectionStatus: 0
+08-10 23:44:47.499  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:47.625  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23838 ttl=32 time=97.1 ms
+08-10 23:44:47.831  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23839 ttl=32 time=101 ms
+08-10 23:44:48.030  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23840 ttl=32 time=100 ms
+08-10 23:44:48.230  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23841 ttl=32 time=100 ms
+08-10 23:44:48.431  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23842 ttl=32 time=100 ms
+08-10 23:44:48.630  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23843 ttl=32 time=98.3 ms
+08-10 23:44:48.831  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23844 ttl=32 time=98.8 ms
+08-10 23:44:49.031  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23845 ttl=32 time=98.2 ms
+08-10 23:44:49.230  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23846 ttl=32 time=98.6 ms
+08-10 23:44:49.431  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23847 ttl=32 time=97.8 ms
+08-10 23:44:49.630  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23848 ttl=32 time=96.7 ms
+08-10 23:44:49.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23849 ttl=32 time=129 ms
+08-10 23:44:50.030  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23850 ttl=32 time=94.0 ms
+08-10 23:44:50.231  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23851 ttl=32 time=94.3 ms
+08-10 23:44:50.449  5222  5222 D cellinfo: Latitude is 39.7252554
+08-10 23:44:50.449  5222  5222 D cellinfo: Longitude is -105.0250553
+08-10 23:44:50.449  5222  5222 D cellinfo: Instantaneous GPS information: United States, 61 Weir Gulch Trail, Denver, CO 80204, USA
+08-10 23:44:50.449  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7252554, -105.0250553
+08-10 23:44:50.512  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201363249 CellConnectionStatus: 0
+08-10 23:44:50.512  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:50.596  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23852 ttl=32 time=256 ms
+08-10 23:44:50.706  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23853 ttl=32 time=167 ms
+08-10 23:44:50.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23854 ttl=32 time=125 ms
+08-10 23:44:51.066  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23855 ttl=32 time=124 ms
+08-10 23:44:51.267  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23856 ttl=32 time=124 ms
+08-10 23:44:51.467  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23857 ttl=32 time=122 ms
+08-10 23:44:51.667  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23858 ttl=32 time=121 ms
+08-10 23:44:51.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23859 ttl=32 time=121 ms
+08-10 23:44:52.066  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23860 ttl=32 time=120 ms
+08-10 23:44:52.267  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23861 ttl=32 time=120 ms
+08-10 23:44:52.467  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23862 ttl=32 time=120 ms
+08-10 23:44:52.666  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23863 ttl=32 time=119 ms
+08-10 23:44:52.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23864 ttl=32 time=117 ms
+08-10 23:44:53.067  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23865 ttl=32 time=116 ms
+08-10 23:44:53.268  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23866 ttl=32 time=117 ms
+08-10 23:44:53.465  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23867 ttl=32 time=114 ms
+08-10 23:44:53.500  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201366234 CellConnectionStatus: 0
+08-10 23:44:53.500  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:53.707  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23868 ttl=32 time=155 ms
+08-10 23:44:53.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23869 ttl=32 time=114 ms
+08-10 23:44:54.067  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23870 ttl=32 time=112 ms
+08-10 23:44:54.272  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23871 ttl=32 time=118 ms
+08-10 23:44:54.506  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23872 ttl=32 time=152 ms
+08-10 23:44:54.678  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23873 ttl=32 time=123 ms
+08-10 23:44:54.870  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23874 ttl=32 time=112 ms
+08-10 23:44:55.066  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23875 ttl=32 time=107 ms
+08-10 23:44:55.260  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23876 ttl=32 time=100 ms
+08-10 23:44:55.280  5222  5222 D cellinfo: Latitude is 39.7255551
+08-10 23:44:55.280  5222  5222 D cellinfo: Longitude is -105.0249169
+08-10 23:44:55.280  5222  5222 D cellinfo: Instantaneous GPS information: United States, 598 Federal Blvd, Denver, CO 80204, USA
+08-10 23:44:55.280  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7255551, -105.0249169
+08-10 23:44:55.467  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23877 ttl=32 time=107 ms
+08-10 23:44:55.667  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23878 ttl=32 time=106 ms
+08-10 23:44:55.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23879 ttl=32 time=106 ms
+08-10 23:44:56.067  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23880 ttl=32 time=105 ms
+08-10 23:44:56.267  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23881 ttl=32 time=106 ms
+08-10 23:44:56.447  5222  5222 D cellinfo: Latitude is 39.7255551
+08-10 23:44:56.447  5222  5222 D cellinfo: Longitude is -105.0249169
+08-10 23:44:56.447  5222  5222 D cellinfo: Instantaneous GPS information: United States, 598 Federal Blvd, Denver, CO 80204, USA
+08-10 23:44:56.447  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7255551, -105.0249169
+08-10 23:44:56.466  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23882 ttl=32 time=104 ms
+08-10 23:44:56.505  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201369242 CellConnectionStatus: 0
+08-10 23:44:56.505  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:56.667  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23883 ttl=32 time=104 ms
+08-10 23:44:56.866  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23884 ttl=32 time=104 ms
+08-10 23:44:57.067  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23885 ttl=32 time=104 ms
+08-10 23:44:57.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23886 ttl=32 time=103 ms
+08-10 23:44:57.506  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23887 ttl=32 time=143 ms
+08-10 23:44:57.671  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23888 ttl=32 time=106 ms
+08-10 23:44:57.906  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23889 ttl=32 time=141 ms
+08-10 23:44:58.066  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23890 ttl=32 time=99.2 ms
+08-10 23:44:58.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23891 ttl=32 time=97.8 ms
+08-10 23:44:58.505  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23892 ttl=32 time=136 ms
+08-10 23:44:58.705  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23893 ttl=32 time=136 ms
+08-10 23:44:58.871  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23894 ttl=32 time=101 ms
+08-10 23:44:59.072  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23895 ttl=32 time=99.9 ms
+08-10 23:44:59.271  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23896 ttl=32 time=100 ms
+08-10 23:44:59.454  5222  5222 D cellinfo: Latitude is 39.7255551
+08-10 23:44:59.454  5222  5222 D cellinfo: Longitude is -105.0249169
+08-10 23:44:59.454  5222  5222 D cellinfo: Instantaneous GPS information: United States, 598 Federal Blvd, Denver, CO 80204, USA
+08-10 23:44:59.454  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7255551, -105.0249169
+08-10 23:44:59.470  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23897 ttl=32 time=99.4 ms
+08-10 23:44:59.515  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201372254 CellConnectionStatus: 0
+08-10 23:44:59.515  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:44:59.706  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23898 ttl=32 time=133 ms
+08-10 23:44:59.870  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23899 ttl=32 time=98.5 ms
+08-10 23:45:00.086  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23900 ttl=32 time=113 ms
+08-10 23:45:00.270  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23901 ttl=32 time=98.3 ms
+08-10 23:45:00.471  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23902 ttl=32 time=97.8 ms
+08-10 23:45:00.671  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23903 ttl=32 time=97.3 ms
+08-10 23:45:00.871  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23904 ttl=32 time=95.9 ms
+08-10 23:45:01.071  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23905 ttl=32 time=95.8 ms
+08-10 23:45:01.280  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23906 ttl=32 time=103 ms
+08-10 23:45:01.470  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23907 ttl=32 time=95.1 ms
+08-10 23:45:01.746  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23908 ttl=32 time=169 ms
+08-10 23:45:01.907  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23909 ttl=32 time=128 ms
+08-10 23:45:02.106  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23910 ttl=32 time=127 ms
+08-10 23:45:02.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23911 ttl=32 time=207 ms
+08-10 23:45:02.451  5222  5222 D cellinfo: Latitude is 39.7255551
+08-10 23:45:02.451  5222  5222 D cellinfo: Longitude is -105.0249169
+08-10 23:45:02.451  5222  5222 D cellinfo: Instantaneous GPS information: United States, 598 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:02.451  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7255551, -105.0249169
+08-10 23:45:02.508  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201375243 CellConnectionStatus: 0
+08-10 23:45:02.508  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:02.546  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23912 ttl=32 time=166 ms
+08-10 23:45:02.707  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23913 ttl=32 time=125 ms
+08-10 23:45:02.906  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23914 ttl=32 time=124 ms
+08-10 23:45:03.105  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23915 ttl=32 time=123 ms
+08-10 23:45:03.306  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23916 ttl=32 time=123 ms
+08-10 23:45:03.506  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23917 ttl=32 time=122 ms
+08-10 23:45:03.706  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23918 ttl=32 time=121 ms
+08-10 23:45:03.906  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23919 ttl=32 time=121 ms
+08-10 23:45:04.106  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23920 ttl=32 time=120 ms
+08-10 23:45:04.306  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23921 ttl=32 time=120 ms
+08-10 23:45:04.315  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -68 rsrq: -10 rssi: -51 rssnr: 14
+08-10 23:45:04.507  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23922 ttl=32 time=119 ms
+08-10 23:45:04.705  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23923 ttl=32 time=118 ms
+08-10 23:45:04.907  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23924 ttl=32 time=118 ms
+08-10 23:45:05.106  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23925 ttl=32 time=118 ms
+08-10 23:45:05.307  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23926 ttl=32 time=118 ms
+08-10 23:45:05.500  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201378237 CellConnectionStatus: 0
+08-10 23:45:05.500  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:05.516  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -69 rsrq: -10 rssi: -51 rssnr: 15
+08-10 23:45:05.620  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23927 ttl=32 time=233 ms
+08-10 23:45:05.817  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23928 ttl=32 time=221 ms
+08-10 23:45:05.947  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23929 ttl=32 time=150 ms
+08-10 23:45:06.107  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23930 ttl=32 time=108 ms
+08-10 23:45:06.307  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23931 ttl=32 time=109 ms
+08-10 23:45:06.507  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23932 ttl=32 time=108 ms
+08-10 23:45:06.707  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23933 ttl=32 time=108 ms
+08-10 23:45:06.988  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23934 ttl=32 time=188 ms
+08-10 23:45:07.108  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23935 ttl=32 time=108 ms
+08-10 23:45:07.321  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23936 ttl=32 time=119 ms
+08-10 23:45:07.507  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23937 ttl=32 time=105 ms
+08-10 23:45:07.570  5222  5222 D cellinfo: Latitude is 39.7256282
+08-10 23:45:07.570  5222  5222 D cellinfo: Longitude is -105.024903
+08-10 23:45:07.570  5222  5222 D cellinfo: Instantaneous GPS information: United States, 598 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:07.570  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7256282, -105.024903
+08-10 23:45:07.710  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23938 ttl=32 time=108 ms
+08-10 23:45:07.907  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23939 ttl=32 time=102 ms
+08-10 23:45:08.107  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23940 ttl=32 time=102 ms
+08-10 23:45:08.307  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23941 ttl=32 time=101 ms
+08-10 23:45:08.463  5222  5222 D cellinfo: Latitude is 39.7256282
+08-10 23:45:08.463  5222  5222 D cellinfo: Longitude is -105.024903
+08-10 23:45:08.463  5222  5222 D cellinfo: Instantaneous GPS information: United States, 598 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:08.463  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7256282, -105.024903
+08-10 23:45:08.481  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201381219 CellConnectionStatus: 0
+08-10 23:45:08.481  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:08.545  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23942 ttl=32 time=140 ms
+08-10 23:45:08.706  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23943 ttl=32 time=100 ms
+08-10 23:45:08.907  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23944 ttl=32 time=99.3 ms
+08-10 23:45:09.107  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23945 ttl=32 time=99.1 ms
+08-10 23:45:09.307  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23946 ttl=32 time=97.8 ms
+08-10 23:45:09.548  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23947 ttl=32 time=140 ms
+08-10 23:45:09.710  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23948 ttl=32 time=101 ms
+08-10 23:45:10.146  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23949 ttl=32 time=336 ms
+08-10 23:45:10.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23950 ttl=32 time=255 ms
+08-10 23:45:10.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23951 ttl=32 time=174 ms
+08-10 23:45:10.547  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23952 ttl=32 time=134 ms
+08-10 23:45:10.827  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23953 ttl=32 time=213 ms
+08-10 23:45:10.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23954 ttl=32 time=165 ms
+08-10 23:45:11.028  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -70 rsrq: -10 rssi: -51 rssnr: 18
+08-10 23:45:11.147  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23955 ttl=32 time=124 ms
+08-10 23:45:11.347  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23956 ttl=32 time=122 ms
+08-10 23:45:11.445  5222  5222 D cellinfo: Latitude is 39.7256282
+08-10 23:45:11.445  5222  5222 D cellinfo: Longitude is -105.024903
+08-10 23:45:11.445  5222  5222 D cellinfo: Instantaneous GPS information: United States, 598 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:11.445  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7256282, -105.024903
+08-10 23:45:11.493  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201384231 CellConnectionStatus: 0
+08-10 23:45:11.493  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:11.545  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23957 ttl=32 time=121 ms
+08-10 23:45:11.746  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23958 ttl=32 time=120 ms
+08-10 23:45:11.946  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23959 ttl=32 time=119 ms
+08-10 23:45:12.145  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23960 ttl=32 time=118 ms
+08-10 23:45:12.345  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23961 ttl=32 time=117 ms
+08-10 23:45:12.547  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23962 ttl=32 time=117 ms
+08-10 23:45:12.745  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23963 ttl=32 time=115 ms
+08-10 23:45:12.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23964 ttl=32 time=155 ms
+08-10 23:45:13.146  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23965 ttl=32 time=115 ms
+08-10 23:45:13.346  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23966 ttl=32 time=114 ms
+08-10 23:45:13.667  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23967 ttl=32 time=234 ms
+08-10 23:45:13.755  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23968 ttl=32 time=113 ms
+08-10 23:45:13.987  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23969 ttl=32 time=144 ms
+08-10 23:45:14.149  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23970 ttl=32 time=108 ms
+08-10 23:45:14.346  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23971 ttl=32 time=103 ms
+08-10 23:45:14.444  5222  5222 D cellinfo: Latitude is 39.7256282
+08-10 23:45:14.444  5222  5222 D cellinfo: Longitude is -105.024903
+08-10 23:45:14.444  5222  5222 D cellinfo: Instantaneous GPS information: United States, 598 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:14.444  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7256282, -105.024903
+08-10 23:45:14.484  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201387221 CellConnectionStatus: 0
+08-10 23:45:14.484  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:14.546  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23972 ttl=32 time=102 ms
+08-10 23:45:14.746  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23973 ttl=32 time=102 ms
+08-10 23:45:14.950  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23974 ttl=32 time=104 ms
+08-10 23:45:15.145  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23975 ttl=32 time=99.8 ms
+08-10 23:45:15.346  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23976 ttl=32 time=99.1 ms
+08-10 23:45:15.508  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -71 rsrq: -10 rssi: -51 rssnr: 21
+08-10 23:45:15.547  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23977 ttl=32 time=99.8 ms
+08-10 23:45:15.746  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23978 ttl=32 time=97.9 ms
+08-10 23:45:15.952  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23979 ttl=32 time=101 ms
+08-10 23:45:16.187  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23980 ttl=32 time=136 ms
+08-10 23:45:16.387  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23981 ttl=32 time=135 ms
+08-10 23:45:16.587  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23982 ttl=32 time=135 ms
+08-10 23:45:16.752  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23983 ttl=32 time=98.4 ms
+08-10 23:45:16.952  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23984 ttl=32 time=96.3 ms
+08-10 23:45:17.157  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23985 ttl=32 time=102 ms
+08-10 23:45:17.352  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23986 ttl=32 time=94.9 ms
+08-10 23:45:17.487  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201390221 CellConnectionStatus: 0
+08-10 23:45:17.487  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:17.552  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23987 ttl=32 time=94.9 ms
+08-10 23:45:17.752  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23988 ttl=32 time=94.0 ms
+08-10 23:45:17.952  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23989 ttl=32 time=93.2 ms
+08-10 23:45:18.152  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23990 ttl=32 time=92.6 ms
+08-10 23:45:18.387  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23991 ttl=32 time=126 ms
+08-10 23:45:18.587  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23992 ttl=32 time=126 ms
+08-10 23:45:18.761  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23993 ttl=32 time=98.9 ms
+08-10 23:45:18.981  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23994 ttl=32 time=116 ms
+08-10 23:45:19.092  5222  5222 D cellinfo: Latitude is 39.7265566
+08-10 23:45:19.092  5222  5222 D cellinfo: Longitude is -105.0248123
+08-10 23:45:19.092  5222  5222 D cellinfo: Instantaneous GPS information: United States, 642 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:19.092  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7265566, -105.0248123
+08-10 23:45:19.189  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23995 ttl=32 time=124 ms
+08-10 23:45:19.387  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23996 ttl=32 time=119 ms
+08-10 23:45:19.586  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23997 ttl=32 time=118 ms
+08-10 23:45:19.786  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23998 ttl=32 time=118 ms
+08-10 23:45:19.987  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23999 ttl=32 time=117 ms
+08-10 23:45:20.187  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24000 ttl=32 time=116 ms
+08-10 23:45:20.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24001 ttl=32 time=115 ms
+08-10 23:45:20.447  5222  5222 D cellinfo: Latitude is 39.7265566
+08-10 23:45:20.447  5222  5222 D cellinfo: Longitude is -105.0248123
+08-10 23:45:20.447  5222  5222 D cellinfo: Instantaneous GPS information: United States, 642 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:20.447  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7265566, -105.0248123
+08-10 23:45:20.518  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201393252 CellConnectionStatus: 0
+08-10 23:45:20.518  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:20.587  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24002 ttl=32 time=115 ms
+08-10 23:45:20.786  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24003 ttl=32 time=114 ms
+08-10 23:45:20.985  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24004 ttl=32 time=113 ms
+08-10 23:45:21.178  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24005 ttl=32 time=104 ms
+08-10 23:45:21.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24006 ttl=32 time=112 ms
+08-10 23:45:21.587  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24007 ttl=32 time=112 ms
+08-10 23:45:21.786  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24008 ttl=32 time=111 ms
+08-10 23:45:22.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24009 ttl=32 time=150 ms
+08-10 23:45:22.190  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24010 ttl=32 time=114 ms
+08-10 23:45:22.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24011 ttl=32 time=109 ms
+08-10 23:45:22.585  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24012 ttl=32 time=108 ms
+08-10 23:45:22.786  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24013 ttl=32 time=108 ms
+08-10 23:45:22.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24014 ttl=32 time=107 ms
+08-10 23:45:23.185  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24015 ttl=32 time=107 ms
+08-10 23:45:23.426  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24016 ttl=32 time=147 ms
+08-10 23:45:23.443  5222  5222 D cellinfo: Latitude is 39.7265566
+08-10 23:45:23.443  5222  5222 D cellinfo: Longitude is -105.0248123
+08-10 23:45:23.443  5222  5222 D cellinfo: Instantaneous GPS information: United States, 642 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:23.443  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7265566, -105.0248123
+08-10 23:45:23.511  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201396247 CellConnectionStatus: 0
+08-10 23:45:23.511  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:23.585  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24017 ttl=32 time=107 ms
+08-10 23:45:23.785  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24018 ttl=32 time=104 ms
+08-10 23:45:23.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24019 ttl=32 time=103 ms
+08-10 23:45:24.185  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24020 ttl=32 time=101 ms
+08-10 23:45:24.385  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24021 ttl=32 time=101 ms
+08-10 23:45:24.586  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24022 ttl=32 time=100 ms
+08-10 23:45:24.790  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24023 ttl=32 time=103 ms
+08-10 23:45:24.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24024 ttl=32 time=98.0 ms
+08-10 23:45:25.186  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24025 ttl=32 time=97.3 ms
+08-10 23:45:25.427  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24026 ttl=32 time=136 ms
+08-10 23:45:25.627  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24027 ttl=32 time=136 ms
+08-10 23:45:25.792  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24028 ttl=32 time=100 ms
+08-10 23:45:25.992  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24029 ttl=32 time=100 ms
+08-10 23:45:26.191  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24030 ttl=32 time=99.2 ms
+08-10 23:45:26.391  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24031 ttl=32 time=98.7 ms
+08-10 23:45:26.450  5222  5222 D cellinfo: Latitude is 39.7265566
+08-10 23:45:26.450  5222  5222 D cellinfo: Longitude is -105.0248123
+08-10 23:45:26.450  5222  5222 D cellinfo: Instantaneous GPS information: United States, 642 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:26.450  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7265566, -105.0248123
+08-10 23:45:26.495  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201399231 CellConnectionStatus: 0
+08-10 23:45:26.495  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:26.591  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24032 ttl=32 time=97.7 ms
+08-10 23:45:26.792  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24033 ttl=32 time=96.5 ms
+08-10 23:45:26.992  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24034 ttl=32 time=94.9 ms
+08-10 23:45:27.191  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24035 ttl=32 time=94.0 ms
+08-10 23:45:27.391  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24036 ttl=32 time=93.2 ms
+08-10 23:45:27.592  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24037 ttl=32 time=92.1 ms
+08-10 23:45:27.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24038 ttl=32 time=125 ms
+08-10 23:45:28.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24039 ttl=32 time=125 ms
+08-10 23:45:28.227  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24040 ttl=32 time=125 ms
+08-10 23:45:28.426  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24041 ttl=32 time=124 ms
+08-10 23:45:28.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24042 ttl=32 time=124 ms
+08-10 23:45:28.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24043 ttl=32 time=123 ms
+08-10 23:45:29.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24044 ttl=32 time=122 ms
+08-10 23:45:29.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24045 ttl=32 time=123 ms
+08-10 23:45:29.426  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24046 ttl=32 time=122 ms
+08-10 23:45:29.503  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201402238 CellConnectionStatus: 0
+08-10 23:45:29.503  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:29.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24047 ttl=32 time=121 ms
+08-10 23:45:29.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24048 ttl=32 time=121 ms
+08-10 23:45:30.028  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24049 ttl=32 time=119 ms
+08-10 23:45:30.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24050 ttl=32 time=119 ms
+08-10 23:45:30.428  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24051 ttl=32 time=119 ms
+08-10 23:45:30.618  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24052 ttl=32 time=107 ms
+08-10 23:45:30.828  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24053 ttl=32 time=115 ms
+08-10 23:45:31.028  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24054 ttl=32 time=114 ms
+08-10 23:45:31.036  5222  5222 D cellinfo: Latitude is 39.7265389
+08-10 23:45:31.036  5222  5222 D cellinfo: Longitude is -105.0247806
+08-10 23:45:31.036  5222  5222 D cellinfo: Instantaneous GPS information: United States, 642 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:31.036  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7265389, -105.0247806
+08-10 23:45:31.202  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24055 ttl=32 time=88.8 ms
+08-10 23:45:31.418  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24056 ttl=32 time=105 ms
+08-10 23:45:31.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24057 ttl=32 time=112 ms
+08-10 23:45:31.827  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24058 ttl=32 time=113 ms
+08-10 23:45:32.027  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24059 ttl=32 time=111 ms
+08-10 23:45:32.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24060 ttl=32 time=111 ms
+08-10 23:45:32.434  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24061 ttl=32 time=118 ms
+08-10 23:45:32.446  5222  5222 D cellinfo: Latitude is 39.7265389
+08-10 23:45:32.446  5222  5222 D cellinfo: Longitude is -105.0247806
+08-10 23:45:32.446  5222  5222 D cellinfo: Instantaneous GPS information: United States, 642 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:32.446  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7265389, -105.0247806
+08-10 23:45:32.494  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201405228 CellConnectionStatus: 0
+08-10 23:45:32.494  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:32.625  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24062 ttl=32 time=110 ms
+08-10 23:45:32.827  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24063 ttl=32 time=110 ms
+08-10 23:45:33.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24064 ttl=32 time=110 ms
+08-10 23:45:33.227  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24065 ttl=32 time=110 ms
+08-10 23:45:33.427  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24066 ttl=32 time=109 ms
+08-10 23:45:33.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24067 ttl=32 time=108 ms
+08-10 23:45:33.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24068 ttl=32 time=107 ms
+08-10 23:45:34.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24069 ttl=32 time=106 ms
+08-10 23:45:34.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24070 ttl=32 time=106 ms
+08-10 23:45:34.425  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24071 ttl=32 time=106 ms
+08-10 23:45:34.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24072 ttl=32 time=105 ms
+08-10 23:45:34.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24073 ttl=32 time=104 ms
+08-10 23:45:35.025  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24074 ttl=32 time=101 ms
+08-10 23:45:35.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24075 ttl=32 time=102 ms
+08-10 23:45:35.427  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24076 ttl=32 time=101 ms
+08-10 23:45:35.451  5222  5222 D cellinfo: Latitude is 39.7265389
+08-10 23:45:35.451  5222  5222 D cellinfo: Longitude is -105.0247806
+08-10 23:45:35.451  5222  5222 D cellinfo: Instantaneous GPS information: United States, 642 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:35.451  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7265389, -105.0247806
+08-10 23:45:35.499  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201408235 CellConnectionStatus: 0
+08-10 23:45:35.499  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:35.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24077 ttl=32 time=101 ms
+08-10 23:45:35.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24078 ttl=32 time=100 ms
+08-10 23:45:36.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24079 ttl=32 time=98.5 ms
+08-10 23:45:36.225  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24080 ttl=32 time=98.5 ms
+08-10 23:45:36.425  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24081 ttl=32 time=97.7 ms
+08-10 23:45:36.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24082 ttl=32 time=96.9 ms
+08-10 23:45:36.840  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24083 ttl=32 time=110 ms
+08-10 23:45:37.066  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24084 ttl=32 time=136 ms
+08-10 23:45:37.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24085 ttl=32 time=97.0 ms
+08-10 23:45:37.431  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24086 ttl=32 time=101 ms
+08-10 23:45:37.630  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24087 ttl=32 time=101 ms
+08-10 23:45:37.832  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24088 ttl=32 time=101 ms
+08-10 23:45:38.032  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24089 ttl=32 time=100 ms
+08-10 23:45:38.232  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24090 ttl=32 time=99.9 ms
+08-10 23:45:38.432  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24091 ttl=32 time=99.3 ms
+08-10 23:45:38.450  5222  5222 D cellinfo: Latitude is 39.7265389
+08-10 23:45:38.450  5222  5222 D cellinfo: Longitude is -105.0247806
+08-10 23:45:38.450  5222  5222 D cellinfo: Instantaneous GPS information: United States, 642 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:38.450  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7265389, -105.0247806
+08-10 23:45:38.507  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201411244 CellConnectionStatus: 0
+08-10 23:45:38.507  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:38.633  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24092 ttl=32 time=99.6 ms
+08-10 23:45:38.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24093 ttl=32 time=131 ms
+08-10 23:45:39.031  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24094 ttl=32 time=94.3 ms
+08-10 23:45:39.231  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24095 ttl=32 time=93.3 ms
+08-10 23:45:39.432  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24096 ttl=32 time=92.5 ms
+08-10 23:45:39.667  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24097 ttl=32 time=126 ms
+08-10 23:45:39.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24098 ttl=32 time=125 ms
+08-10 23:45:40.067  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24099 ttl=32 time=124 ms
+08-10 23:45:40.267  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24100 ttl=32 time=125 ms
+08-10 23:45:40.467  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24101 ttl=32 time=124 ms
+08-10 23:45:40.667  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24102 ttl=32 time=124 ms
+08-10 23:45:40.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24103 ttl=32 time=123 ms
+08-10 23:45:41.067  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24104 ttl=32 time=122 ms
+08-10 23:45:41.259  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24105 ttl=32 time=115 ms
+08-10 23:45:41.466  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24106 ttl=32 time=122 ms
+08-10 23:45:41.495  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201414230 CellConnectionStatus: 0
+08-10 23:45:41.495  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:41.525  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -69 rsrq: -8 rssi: -51 rssnr: 24
+08-10 23:45:41.667  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24107 ttl=32 time=123 ms
+08-10 23:45:41.866  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24108 ttl=32 time=122 ms
+08-10 23:45:42.066  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24109 ttl=32 time=122 ms
+08-10 23:45:42.265  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24110 ttl=32 time=122 ms
+08-10 23:45:42.389  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -68 rsrq: -8 rssi: -51 rssnr: 24
+08-10 23:45:42.468  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24111 ttl=32 time=121 ms
+08-10 23:45:42.666  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24112 ttl=32 time=121 ms
+08-10 23:45:42.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24113 ttl=32 time=120 ms
+08-10 23:45:43.041  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24114 ttl=32 time=92.7 ms
+08-10 23:45:43.243  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24115 ttl=32 time=93.3 ms
+08-10 23:45:43.435  5222  5222 D cellinfo: Latitude is 39.7263919
+08-10 23:45:43.436  5222  5222 D cellinfo: Longitude is -105.0246176
+08-10 23:45:43.436  5222  5222 D cellinfo: Instantaneous GPS information: United States, 333 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:43.436  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7263919, -105.0246176
+08-10 23:45:43.458  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24116 ttl=32 time=108 ms
+08-10 23:45:43.666  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24117 ttl=32 time=115 ms
+08-10 23:45:43.866  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24118 ttl=32 time=114 ms
+08-10 23:45:44.065  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24119 ttl=32 time=113 ms
+08-10 23:45:44.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24120 ttl=32 time=113 ms
+08-10 23:45:44.445  5222  5222 D cellinfo: Latitude is 39.7263919
+08-10 23:45:44.445  5222  5222 D cellinfo: Longitude is -105.0246176
+08-10 23:45:44.445  5222  5222 D cellinfo: Instantaneous GPS information: United States, 333 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:44.445  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7263919, -105.0246176
+08-10 23:45:44.466  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24121 ttl=32 time=113 ms
+08-10 23:45:44.485  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201417222 CellConnectionStatus: 0
+08-10 23:45:44.485  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:44.665  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24122 ttl=32 time=112 ms
+08-10 23:45:44.867  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24123 ttl=32 time=112 ms
+08-10 23:45:45.066  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24124 ttl=32 time=110 ms
+08-10 23:45:45.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24125 ttl=32 time=110 ms
+08-10 23:45:45.467  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24126 ttl=32 time=110 ms
+08-10 23:45:45.666  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24127 ttl=32 time=109 ms
+08-10 23:45:45.866  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24128 ttl=32 time=110 ms
+08-10 23:45:46.065  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24129 ttl=32 time=107 ms
+08-10 23:45:46.259  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24130 ttl=32 time=100 ms
+08-10 23:45:46.470  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24131 ttl=32 time=111 ms
+08-10 23:45:46.706  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24132 ttl=32 time=146 ms
+08-10 23:45:46.868  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -65 rsrq: -8 rssi: -51 rssnr: 27
+08-10 23:45:46.869  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24133 ttl=32 time=110 ms
+08-10 23:45:47.067  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24134 ttl=32 time=105 ms
+08-10 23:45:47.267  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24135 ttl=32 time=104 ms
+08-10 23:45:47.446  5222  5222 D cellinfo: Latitude is 39.7263919
+08-10 23:45:47.446  5222  5222 D cellinfo: Longitude is -105.0246176
+08-10 23:45:47.446  5222  5222 D cellinfo: Instantaneous GPS information: United States, 333 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:47.446  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7263919, -105.0246176
+08-10 23:45:47.465  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24136 ttl=32 time=102 ms
+08-10 23:45:47.490  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201420227 CellConnectionStatus: 0
+08-10 23:45:47.490  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:47.671  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24137 ttl=32 time=104 ms
+08-10 23:45:47.866  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24138 ttl=32 time=100 ms
+08-10 23:45:48.070  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24139 ttl=32 time=103 ms
+08-10 23:45:48.266  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24140 ttl=32 time=99.6 ms
+08-10 23:45:48.466  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24141 ttl=32 time=98.3 ms
+08-10 23:45:48.665  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24142 ttl=32 time=97.5 ms
+08-10 23:45:48.865  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24143 ttl=32 time=97.6 ms
+08-10 23:45:49.105  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24144 ttl=32 time=136 ms
+08-10 23:45:49.271  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24145 ttl=32 time=101 ms
+08-10 23:45:49.507  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24146 ttl=32 time=137 ms
+08-10 23:45:49.707  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24147 ttl=32 time=136 ms
+08-10 23:45:49.907  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24148 ttl=32 time=136 ms
+08-10 23:45:50.107  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24149 ttl=32 time=136 ms
+08-10 23:45:50.307  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24150 ttl=32 time=136 ms
+08-10 23:45:50.450  5222  5222 D cellinfo: Latitude is 39.7263919
+08-10 23:45:50.450  5222  5222 D cellinfo: Longitude is -105.0246176
+08-10 23:45:50.450  5222  5222 D cellinfo: Instantaneous GPS information: United States, 333 Federal Blvd, Denver, CO 80204, USA
+08-10 23:45:50.450  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7263919, -105.0246176
+08-10 23:45:50.470  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24151 ttl=32 time=99.9 ms
+08-10 23:45:50.488  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201423225 CellConnectionStatus: 0
+08-10 23:45:50.488  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:50.670  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24152 ttl=32 time=98.9 ms
+08-10 23:45:50.907  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24153 ttl=32 time=132 ms
+08-10 23:45:51.106  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24154 ttl=32 time=132 ms
+08-10 23:45:51.273  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24155 ttl=32 time=99.0 ms
+08-10 23:45:51.471  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24156 ttl=32 time=96.7 ms
+08-10 23:45:51.672  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24157 ttl=32 time=95.6 ms
+08-10 23:45:51.871  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24158 ttl=32 time=94.5 ms
+08-10 23:45:52.085  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24159 ttl=32 time=109 ms
+08-10 23:45:52.272  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24160 ttl=32 time=94.0 ms
+08-10 23:45:52.507  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24161 ttl=32 time=127 ms
+08-10 23:45:52.706  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24162 ttl=32 time=126 ms
+08-10 23:45:52.906  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24163 ttl=32 time=125 ms
+08-10 23:45:53.106  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24164 ttl=32 time=123 ms
+08-10 23:45:53.314  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24165 ttl=32 time=132 ms
+08-10 23:45:53.480  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201426213 CellConnectionStatus: 0
+08-10 23:45:53.480  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:53.506  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24166 ttl=32 time=124 ms
+08-10 23:45:53.709  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24167 ttl=32 time=123 ms
+08-10 23:45:53.909  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24168 ttl=32 time=124 ms
+08-10 23:45:54.108  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24169 ttl=32 time=124 ms
+08-10 23:45:54.309  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24170 ttl=32 time=124 ms
+08-10 23:45:54.506  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24171 ttl=32 time=122 ms
+08-10 23:45:54.687  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24172 ttl=32 time=100 ms
+08-10 23:45:54.901  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24173 ttl=32 time=112 ms
+08-10 23:45:55.108  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24174 ttl=32 time=117 ms
+08-10 23:45:55.152  5222  5222 D cellinfo: Latitude is 39.7264485
+08-10 23:45:55.152  5222  5222 D cellinfo: Longitude is -105.0242088
+08-10 23:45:55.152  5222  5222 D cellinfo: Instantaneous GPS information: United States, 620 Federal Blvd Building A, Denver, CO 80204, USA
+08-10 23:45:55.152  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7264485, -105.0242088
+08-10 23:45:55.307  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24175 ttl=32 time=118 ms
+08-10 23:45:55.499  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24176 ttl=32 time=107 ms
+08-10 23:45:55.705  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24177 ttl=32 time=115 ms
+08-10 23:45:55.915  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24178 ttl=32 time=121 ms
+08-10 23:45:56.107  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24179 ttl=32 time=112 ms
+08-10 23:45:56.308  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24180 ttl=32 time=115 ms
+08-10 23:45:56.447  5222  5222 D cellinfo: Latitude is 39.7264485
+08-10 23:45:56.447  5222  5222 D cellinfo: Longitude is -105.0242088
+08-10 23:45:56.447  5222  5222 D cellinfo: Instantaneous GPS information: United States, 620 Federal Blvd Building A, Denver, CO 80204, USA
+08-10 23:45:56.447  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7264485, -105.0242088
+08-10 23:45:56.501  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201429239 CellConnectionStatus: 0
+08-10 23:45:56.501  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:56.505  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24181 ttl=32 time=112 ms
+08-10 23:45:56.545  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -66 rsrq: -8 rssi: -51 rssnr: 26
+08-10 23:45:56.705  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24182 ttl=32 time=112 ms
+08-10 23:45:56.907  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24183 ttl=32 time=111 ms
+08-10 23:45:57.107  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24184 ttl=32 time=110 ms
+08-10 23:45:57.306  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24185 ttl=32 time=110 ms
+08-10 23:45:57.506  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24186 ttl=32 time=110 ms
+08-10 23:45:57.706  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24187 ttl=32 time=109 ms
+08-10 23:45:57.907  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24188 ttl=32 time=109 ms
+08-10 23:45:58.106  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24189 ttl=32 time=108 ms
+08-10 23:45:58.306  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24190 ttl=32 time=108 ms
+08-10 23:45:58.507  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24191 ttl=32 time=109 ms
+08-10 23:45:58.706  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24192 ttl=32 time=109 ms
+08-10 23:45:58.905  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24193 ttl=32 time=107 ms
+08-10 23:45:59.106  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24194 ttl=32 time=107 ms
+08-10 23:45:59.305  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24195 ttl=32 time=107 ms
+08-10 23:45:59.447  5222  5222 D cellinfo: Latitude is 39.7264485
+08-10 23:45:59.447  5222  5222 D cellinfo: Longitude is -105.0242088
+08-10 23:45:59.447  5222  5222 D cellinfo: Instantaneous GPS information: United States, 620 Federal Blvd Building A, Denver, CO 80204, USA
+08-10 23:45:59.447  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7264485, -105.0242088
+08-10 23:45:59.502  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201432239 CellConnectionStatus: 0
+08-10 23:45:59.502  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:45:59.505  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24196 ttl=32 time=105 ms
+08-10 23:45:59.542  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -70 rsrq: -8 rssi: -51 rssnr: 23
+08-10 23:45:59.705  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24197 ttl=32 time=104 ms
+08-10 23:45:59.906  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24198 ttl=32 time=102 ms
+08-10 23:46:00.105  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24199 ttl=32 time=101 ms
+08-10 23:46:00.306  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24200 ttl=32 time=100 ms
+08-10 23:46:00.515  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24201 ttl=32 time=108 ms
+08-10 23:46:00.706  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24202 ttl=32 time=100 ms
+08-10 23:46:00.905  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24203 ttl=32 time=99.1 ms
+08-10 23:46:01.106  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24204 ttl=32 time=99.1 ms
+08-10 23:46:01.306  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24205 ttl=32 time=98.2 ms
+08-10 23:46:01.507  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24206 ttl=32 time=98.1 ms
+08-10 23:46:01.712  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24207 ttl=32 time=101 ms
+08-10 23:46:01.911  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24208 ttl=32 time=101 ms
+08-10 23:46:02.147  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24209 ttl=32 time=135 ms
+08-10 23:46:02.312  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24210 ttl=32 time=99.8 ms
+08-10 23:46:02.447  5222  5222 D cellinfo: Latitude is 39.7264485
+08-10 23:46:02.447  5222  5222 D cellinfo: Longitude is -105.0242088
+08-10 23:46:02.447  5222  5222 D cellinfo: Instantaneous GPS information: United States, 620 Federal Blvd Building A, Denver, CO 80204, USA
+08-10 23:46:02.447  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7264485, -105.0242088
+08-10 23:46:02.500  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201435237 CellConnectionStatus: 0
+08-10 23:46:02.500  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:46:02.511  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24211 ttl=32 time=97.7 ms
+08-10 23:46:02.542  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -76 rsrq: -8 rssi: -51 rssnr: 19
+08-10 23:46:02.711  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24212 ttl=32 time=97.2 ms
+08-10 23:46:02.911  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24213 ttl=32 time=97.2 ms
+08-10 23:46:03.112  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24214 ttl=32 time=95.8 ms
+08-10 23:46:03.312  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24215 ttl=32 time=94.1 ms
+08-10 23:46:03.547  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24216 ttl=32 time=128 ms
+08-10 23:46:03.746  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24217 ttl=32 time=126 ms
+08-10 23:46:03.947  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24218 ttl=32 time=126 ms
+08-10 23:46:04.147  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24219 ttl=32 time=125 ms
+08-10 23:46:04.346  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24220 ttl=32 time=124 ms
+08-10 23:46:04.546  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24221 ttl=32 time=124 ms
+08-10 23:46:04.746  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24222 ttl=32 time=124 ms
+08-10 23:46:04.947  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24223 ttl=32 time=123 ms
+08-10 23:46:05.147  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24224 ttl=32 time=121 ms
+08-10 23:46:05.346  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24225 ttl=32 time=121 ms
+08-10 23:46:05.492  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201438227 CellConnectionStatus: 0
+08-10 23:46:05.492  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:46:05.543  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -78 rsrq: -8 rssi: -51 rssnr: 17
+08-10 23:46:05.545  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24226 ttl=32 time=120 ms
+08-10 23:46:05.749  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24227 ttl=32 time=123 ms
+08-10 23:46:05.946  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24228 ttl=32 time=119 ms
+08-10 23:46:06.146  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24229 ttl=32 time=119 ms
+08-10 23:46:06.345  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24230 ttl=32 time=117 ms
+08-10 23:46:06.545  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24231 ttl=32 time=117 ms
+08-10 23:46:06.745  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24232 ttl=32 time=116 ms
+08-10 23:46:06.939  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24233 ttl=32 time=106 ms
+08-10 23:46:07.149  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24234 ttl=32 time=114 ms
+08-10 23:46:07.349  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24235 ttl=32 time=112 ms
+08-10 23:46:07.391  5222  5222 D cellinfo: Latitude is 39.7267515
+08-10 23:46:07.391  5222  5222 D cellinfo: Longitude is -105.0241359
+08-10 23:46:07.391  5222  5222 D cellinfo: Instantaneous GPS information: United States, 600 Federal Blvd, Denver, CO 80204, USA
+08-10 23:46:07.391  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7267515, -105.0241359
+08-10 23:46:07.538  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24236 ttl=32 time=101 ms
+08-10 23:46:07.737  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24237 ttl=32 time=101 ms
+08-10 23:46:07.947  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24238 ttl=32 time=109 ms
+08-10 23:46:08.150  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24239 ttl=32 time=112 ms
+08-10 23:46:08.346  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24240 ttl=32 time=107 ms
+08-10 23:46:08.448  5222  5222 D cellinfo: Latitude is 39.7267515
+08-10 23:46:08.448  5222  5222 D cellinfo: Longitude is -105.0241359
+08-10 23:46:08.448  5222  5222 D cellinfo: Instantaneous GPS information: United States, 600 Federal Blvd, Denver, CO 80204, USA
+08-10 23:46:08.448  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7267515, -105.0241359
+08-10 23:46:08.488  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201441225 CellConnectionStatus: 0
+08-10 23:46:08.488  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:46:08.545  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24241 ttl=32 time=105 ms
+08-10 23:46:08.747  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24242 ttl=32 time=106 ms
+08-10 23:46:08.946  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24243 ttl=32 time=104 ms
+08-10 23:46:09.145  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24244 ttl=32 time=103 ms
+08-10 23:46:09.345  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24245 ttl=32 time=102 ms
+08-10 23:46:09.545  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24246 ttl=32 time=102 ms
+08-10 23:46:09.745  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24247 ttl=32 time=101 ms
+08-10 23:46:09.946  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24248 ttl=32 time=100 ms
+08-10 23:46:10.146  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24249 ttl=32 time=99.2 ms
+08-10 23:46:10.346  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24250 ttl=32 time=97.9 ms
+08-10 23:46:10.551  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24251 ttl=32 time=102 ms
+08-10 23:46:10.787  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24252 ttl=32 time=137 ms
+08-10 23:46:10.952  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24253 ttl=32 time=101 ms
+08-10 23:46:11.153  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24254 ttl=32 time=101 ms
+08-10 23:46:11.351  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24255 ttl=32 time=100 ms
+08-10 23:46:11.444  5222  5222 D cellinfo: Latitude is 39.7267515
+08-10 23:46:11.444  5222  5222 D cellinfo: Longitude is -105.0241359
+08-10 23:46:11.444  5222  5222 D cellinfo: Instantaneous GPS information: United States, 600 Federal Blvd, Denver, CO 80204, USA
+08-10 23:46:11.444  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7267515, -105.0241359
+08-10 23:46:11.502  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -81 rsrq: -8 rssi: -51 rssnr: 16
+08-10 23:46:11.515  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201444253 CellConnectionStatus: 0
+08-10 23:46:11.515  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:46:11.587  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24256 ttl=32 time=134 ms
+08-10 23:46:11.787  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24257 ttl=32 time=133 ms
+08-10 23:46:11.952  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24258 ttl=32 time=97.6 ms
+08-10 23:46:12.187  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24259 ttl=32 time=131 ms
+08-10 23:46:12.352  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24260 ttl=32 time=96.3 ms
+08-10 23:46:12.551  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24261 ttl=32 time=95.0 ms
+08-10 23:46:12.752  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24262 ttl=32 time=94.3 ms
+08-10 23:46:12.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24263 ttl=32 time=128 ms
+08-10 23:46:13.186  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24264 ttl=32 time=126 ms
+08-10 23:46:13.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24265 ttl=32 time=125 ms
+08-10 23:46:13.586  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24266 ttl=32 time=124 ms
+08-10 23:46:13.750  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -81 rsrq: -8 rssi: -53 rssnr: 13
+08-10 23:46:13.786  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24267 ttl=32 time=123 ms
+08-10 23:46:13.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24268 ttl=32 time=122 ms
+08-10 23:46:14.186  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24269 ttl=32 time=121 ms
+08-10 23:46:14.388  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24270 ttl=32 time=122 ms
+08-10 23:46:14.447  5222  5222 D cellinfo: Latitude is 39.7267515
+08-10 23:46:14.447  5222  5222 D cellinfo: Longitude is -105.0241359
+08-10 23:46:14.447  5222  5222 D cellinfo: Instantaneous GPS information: United States, 600 Federal Blvd, Denver, CO 80204, USA
+08-10 23:46:14.447  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7267515, -105.0241359
+08-10 23:46:14.499  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201447235 CellConnectionStatus: 0
+08-10 23:46:14.499  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:46:14.586  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24271 ttl=32 time=120 ms
+08-10 23:46:14.786  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24272 ttl=32 time=118 ms
+08-10 23:46:14.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24273 ttl=32 time=118 ms
+08-10 23:46:15.185  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24274 ttl=32 time=117 ms
+08-10 23:46:15.389  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24275 ttl=32 time=120 ms
+08-10 23:46:15.588  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24276 ttl=32 time=117 ms
+08-10 23:46:15.788  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24277 ttl=32 time=115 ms
+08-10 23:46:15.988  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24278 ttl=32 time=114 ms
+08-10 23:46:16.187  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24279 ttl=32 time=113 ms
+08-10 23:46:16.389  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24280 ttl=32 time=115 ms
+08-10 23:46:16.586  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24281 ttl=32 time=111 ms
+08-10 23:46:16.788  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24282 ttl=32 time=112 ms
+08-10 23:46:16.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24283 ttl=32 time=110 ms
+08-10 23:46:17.187  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24284 ttl=32 time=110 ms
+08-10 23:46:17.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24285 ttl=32 time=109 ms
+08-10 23:46:17.494  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201450229 CellConnectionStatus: 0
+08-10 23:46:17.494  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:46:17.586  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24286 ttl=32 time=108 ms
+08-10 23:46:17.787  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24287 ttl=32 time=109 ms
+08-10 23:46:17.986  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24288 ttl=32 time=107 ms
+08-10 23:46:18.186  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24289 ttl=32 time=105 ms
+08-10 23:46:18.386  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24290 ttl=32 time=104 ms
+08-10 23:46:18.587  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24291 ttl=32 time=104 ms
+08-10 23:46:18.785  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24292 ttl=32 time=102 ms
+08-10 23:46:18.988  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24293 ttl=32 time=101 ms
+08-10 23:46:19.192  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24294 ttl=32 time=103 ms
+08-10 23:46:19.310  5222  5222 D cellinfo: Latitude is 39.7267689
+08-10 23:46:19.310  5222  5222 D cellinfo: Longitude is -105.0240686
+08-10 23:46:19.310  5222  5222 D cellinfo: Instantaneous GPS information: United States, 600 Federal Blvd, Denver, CO 80204, USA
+08-10 23:46:19.310  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7267689, -105.0240686
+08-10 23:46:19.390  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24295 ttl=32 time=101 ms
+08-10 23:46:19.590  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24296 ttl=32 time=101 ms
+08-10 23:46:19.790  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24297 ttl=32 time=101 ms
+08-10 23:46:19.992  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24298 ttl=32 time=99.9 ms
+08-10 23:46:20.191  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24299 ttl=32 time=99.2 ms
+08-10 23:46:20.391  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24300 ttl=32 time=98.3 ms
+08-10 23:46:20.455  5222  5222 D cellinfo: Latitude is 39.7267689
+08-10 23:46:20.455  5222  5222 D cellinfo: Longitude is -105.0240686
+08-10 23:46:20.455  5222  5222 D cellinfo: Instantaneous GPS information: United States, 600 Federal Blvd, Denver, CO 80204, USA
+08-10 23:46:20.455  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7267689, -105.0240686
+08-10 23:46:20.501  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201453237 CellConnectionStatus: 0
+08-10 23:46:20.501  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:46:20.591  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24301 ttl=32 time=96.9 ms
+08-10 23:46:20.790  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24302 ttl=32 time=95.4 ms
+08-10 23:46:20.991  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24303 ttl=32 time=95.5 ms
+08-10 23:46:21.190  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24304 ttl=32 time=93.6 ms
+08-10 23:46:21.391  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24305 ttl=32 time=92.3 ms
+08-10 23:46:21.627  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24306 ttl=32 time=126 ms
+08-10 23:46:21.825  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24307 ttl=32 time=124 ms
+08-10 23:46:22.025  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24308 ttl=32 time=124 ms
+08-10 23:46:22.225  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24309 ttl=32 time=124 ms
+08-10 23:46:22.427  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24310 ttl=32 time=123 ms
+08-10 23:46:22.627  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24311 ttl=32 time=122 ms
+08-10 23:46:22.827  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24312 ttl=32 time=121 ms
+08-10 23:46:23.027  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24313 ttl=32 time=121 ms
+08-10 23:46:23.227  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24314 ttl=32 time=121 ms
+08-10 23:46:23.427  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24315 ttl=32 time=120 ms
+08-10 23:46:23.445  5222  5222 D cellinfo: Latitude is 39.7267689
+08-10 23:46:23.445  5222  5222 D cellinfo: Longitude is -105.0240686
+08-10 23:46:23.445  5222  5222 D cellinfo: Instantaneous GPS information: United States, 600 Federal Blvd, Denver, CO 80204, USA
+08-10 23:46:23.446  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7267689, -105.0240686
+08-10 23:46:23.497  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201456232 CellConnectionStatus: 0
+08-10 23:46:23.497  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:46:23.548  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -80 rsrq: -9 rssi: -51 rssnr: 14
+08-10 23:46:23.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24316 ttl=32 time=119 ms
+08-10 23:46:23.827  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24317 ttl=32 time=117 ms
+08-10 23:46:24.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24318 ttl=32 time=116 ms
+08-10 23:46:24.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24319 ttl=32 time=115 ms
+08-10 23:46:24.427  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24320 ttl=32 time=113 ms
+08-10 23:46:24.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24321 ttl=32 time=113 ms
+08-10 23:46:24.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24322 ttl=32 time=111 ms
+08-10 23:46:25.027  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24323 ttl=32 time=111 ms
+08-10 23:46:25.227  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24324 ttl=32 time=111 ms
+08-10 23:46:25.427  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24325 ttl=32 time=110 ms
+08-10 23:46:25.627  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24326 ttl=32 time=110 ms
+08-10 23:46:25.832  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24327 ttl=32 time=116 ms
+08-10 23:46:26.027  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24328 ttl=32 time=108 ms
+08-10 23:46:26.227  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24329 ttl=32 time=108 ms
+08-10 23:46:26.425  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24330 ttl=32 time=107 ms
+08-10 23:46:26.448  5222  5222 D cellinfo: Latitude is 39.7267689
+08-10 23:46:26.448  5222  5222 D cellinfo: Longitude is -105.0240686
+08-10 23:46:26.448  5222  5222 D cellinfo: Instantaneous GPS information: United States, 600 Federal Blvd, Denver, CO 80204, USA
+08-10 23:46:26.448  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.7267689, -105.0240686
+08-10 23:46:26.495  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201459231 CellConnectionStatus: 0
+08-10 23:46:26.495  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:46:26.552  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -80 rsrq: -9 rssi: -53 rssnr: 15
+08-10 23:46:26.666  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24331 ttl=32 time=146 ms
+08-10 23:46:26.826  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24332 ttl=32 time=106 ms
+08-10 23:46:27.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24333 ttl=32 time=106 ms
+08-10 23:46:27.190  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -80 rsrq: -9 rssi: -53 rssnr: 14
+08-10 23:46:27.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24334 ttl=32 time=106 ms
+08-10 23:46:27.466  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24335 ttl=32 time=145 ms
+08-10 23:46:27.630  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24336 ttl=32 time=108 ms
+08-10 23:46:27.830  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24337 ttl=32 time=107 ms
+08-10 23:46:28.031  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24338 ttl=32 time=107 ms
+08-10 23:46:28.226  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24339 ttl=32 time=103 ms
+08-10 23:46:28.426  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24340 ttl=32 time=102 ms
+08-10 23:46:28.626  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24341 ttl=32 time=102 ms
+08-10 23:46:28.828  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24342 ttl=32 time=103 ms
+08-10 23:46:29.026  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24343 ttl=32 time=100 ms
+08-10 23:46:29.228  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24344 ttl=32 time=100 ms
+08-10 23:46:29.426  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24345 ttl=32 time=97.5 ms
+08-10 23:46:29.444  5222  5222 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -79 rsrq: -10 rssi: -51 rssnr: 15
+08-10 23:46:29.476  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201462212 CellConnectionStatus: 0
+08-10 23:46:29.476  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:46:29.631  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24346 ttl=32 time=102 ms
+08-10 23:46:29.830  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24347 ttl=32 time=100 ms
+08-10 23:46:30.032  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24348 ttl=32 time=99.4 ms
+08-10 23:46:30.232  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24349 ttl=32 time=100 ms
+08-10 23:46:30.466  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24350 ttl=32 time=134 ms
+08-10 23:46:30.632  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24351 ttl=32 time=99.3 ms
+08-10 23:46:30.831  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24352 ttl=32 time=98.0 ms
+08-10 23:46:31.032  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24353 ttl=32 time=97.1 ms
+08-10 23:46:31.235  5222  5222 D cellinfo: Latitude is 39.726804
+08-10 23:46:31.235  5222  5222 D cellinfo: Longitude is -105.0240651
+08-10 23:46:31.235  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24354 ttl=32 time=99.6 ms
+08-10 23:46:31.235  5222  5222 D cellinfo: Instantaneous GPS information: United States, 600 Federal Blvd, Denver, CO 80204, USA
+08-10 23:46:31.235  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.726804, -105.0240651
+08-10 23:46:31.440  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24355 ttl=32 time=101 ms
+08-10 23:46:31.666  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24356 ttl=32 time=128 ms
+08-10 23:46:31.866  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24357 ttl=32 time=127 ms
+08-10 23:46:32.065  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24358 ttl=32 time=126 ms
+08-10 23:46:32.230  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24359 ttl=32 time=91.9 ms
+08-10 23:46:32.430  5222  5222 D cellinfo: Latitude is 39.726804
+08-10 23:46:32.430  5222  5222 D cellinfo: Longitude is -105.0240651
+08-10 23:46:32.430  5222  5222 D cellinfo: Instantaneous GPS information: United States, 600 Federal Blvd, Denver, CO 80204, USA
+08-10 23:46:32.430  5222  5222 D cellinfo: getCurrentLocation() result: Location (success): 39.726804, -105.0240651
+08-10 23:46:32.457  5222  5222 D cellinfo: onCellInfoChanged: Operator: AT&T...1 UpdateTimestamp: 201465193 CellConnectionStatus: 0
+08-10 23:46:32.457  5222  5222 D cellinfo: onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 2147483647 Cell ID: 97347594 Physical Cell ID: 309 Tracking Area Code: 38405 EARFCN: 700
+08-10 23:46:32.465  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24360 ttl=32 time=126 ms
+08-10 23:46:32.665  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24361 ttl=32 time=125 ms
+08-10 23:46:32.865  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24362 ttl=32 time=124 ms
+08-10 23:46:33.065  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24363 ttl=32 time=123 ms
+08-10 23:46:33.265  5222  5321 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24364 ttl=32 time=123 ms

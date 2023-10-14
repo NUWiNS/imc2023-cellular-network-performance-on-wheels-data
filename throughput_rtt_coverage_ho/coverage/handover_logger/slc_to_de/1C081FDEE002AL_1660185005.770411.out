@@ -1,0 +1,1817 @@
+--------- beginning of main
+08-10 20:31:30.878 28085 28085 D cellinfo: Country == United States
+08-10 20:31:30.878 28085 28085 D cellinfo: City == Laramie
+08-10 20:31:30.879 28085 28085 D cellinfo: GPS Info == 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:31:30.879 28085 28085 D cellinfo: Network Operator == Verizon 
+08-10 20:31:30.879 28085 28085 D cellinfo: User movement == Static
+08-10 20:31:30.879 28085 28085 D cellinfo: isEastCoast == false
+08-10 20:31:30.879 28085 28085 D cellinfo: isWestCoast == true
+08-10 20:31:30.879 28085 28085 D cellinfo: isBoston == false
+08-10 20:31:30.879 28085 28085 D cellinfo: All GPS info fetched. Saving city and country info
+08-10 20:31:30.879 28085 28167 D cellinfo: Timestamp: 1660185090
+08-10 20:31:31.380 28085 28168 D cellinfo: Logging started
+08-10 20:31:31.388 28085 28085 D cellinfo: onServiceStateChanged: Channel Number: 66586 Cell Bandwidths: [10000, 10000, 5000]
+08-10 20:31:31.389 28085 28085 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -106 rsrq: -9 rssi: -89 rssnr: 13
+08-10 20:31:31.390 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19924275 CellConnectionStatus: 1
+08-10 20:31:31.390 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:31:31.392 28085 28085 D cellinfo: onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: LTE-CA
+08-10 20:31:31.883 28085 28167 D cellinfo: Ping command fired: /system/bin/ping -i 0.2 -s 38 44.241.174.93
+08-10 20:31:31.970 28085 28167 D cellinfo: PING 44.241.174.93 (44.241.174.93) 38(66) bytes of data.
+08-10 20:31:31.970 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1 ttl=31 time=74.6 ms
+08-10 20:31:32.168 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=2 ttl=31 time=71.3 ms
+08-10 20:31:32.369 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=3 ttl=31 time=71.9 ms
+08-10 20:31:32.576 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=4 ttl=31 time=78.9 ms
+08-10 20:31:32.789 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=5 ttl=31 time=90.2 ms
+08-10 20:31:32.970 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=6 ttl=31 time=71.6 ms
+08-10 20:31:33.172 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=7 ttl=31 time=73.0 ms
+08-10 20:31:33.373 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=8 ttl=31 time=72.3 ms
+08-10 20:31:33.574 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=9 ttl=31 time=73.0 ms
+08-10 20:31:33.769 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=10 ttl=31 time=67.0 ms
+08-10 20:31:33.967 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=11 ttl=31 time=64.9 ms
+08-10 20:31:34.168 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=12 ttl=31 time=65.3 ms
+08-10 20:31:34.382 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=13 ttl=31 time=77.0 ms
+08-10 20:31:34.579 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=14 ttl=31 time=73.0 ms
+08-10 20:31:34.805 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=15 ttl=31 time=98.2 ms
+08-10 20:31:34.986 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=16 ttl=31 time=78.8 ms
+08-10 20:31:35.179 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=17 ttl=31 time=70.9 ms
+08-10 20:31:35.381 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=18 ttl=31 time=72.1 ms
+08-10 20:31:35.584 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=19 ttl=31 time=73.2 ms
+08-10 20:31:35.779 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=20 ttl=31 time=67.8 ms
+08-10 20:31:35.978 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=21 ttl=31 time=66.9 ms
+08-10 20:31:36.178 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=22 ttl=31 time=66.5 ms
+08-10 20:31:36.379 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=23 ttl=31 time=66.2 ms
+08-10 20:31:36.530 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19929832 CellConnectionStatus: 1
+08-10 20:31:36.530 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:31:36.579 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=24 ttl=31 time=65.9 ms
+08-10 20:31:36.816 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=25 ttl=31 time=101 ms
+08-10 20:31:36.996 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=26 ttl=31 time=81.9 ms
+08-10 20:31:37.191 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=27 ttl=31 time=75.4 ms
+08-10 20:31:37.391 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=28 ttl=31 time=75.4 ms
+08-10 20:31:37.597 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=29 ttl=31 time=80.4 ms
+08-10 20:31:37.788 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=30 ttl=31 time=70.3 ms
+08-10 20:31:37.997 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=31 ttl=31 time=77.2 ms
+08-10 20:31:38.198 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=32 ttl=31 time=77.6 ms
+08-10 20:31:38.389 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=33 ttl=31 time=67.4 ms
+08-10 20:31:38.508 28085 28085 D cellinfo: Latitude is 41.4385392
+08-10 20:31:38.509 28085 28085 D cellinfo: Longitude is -105.943453
+08-10 20:31:38.509 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:31:38.509 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4385392, -105.943453
+08-10 20:31:38.531 28085 28085 D cellinfo: Latitude is 41.4385392
+08-10 20:31:38.531 28085 28085 D cellinfo: Longitude is -105.943453
+08-10 20:31:38.531 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:31:38.531 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4385392, -105.943453
+08-10 20:31:38.541 28085 28085 D cellinfo: Latitude is 41.4385392
+08-10 20:31:38.541 28085 28085 D cellinfo: Longitude is -105.943453
+08-10 20:31:38.541 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:31:38.541 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4385392, -105.943453
+08-10 20:31:38.589 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=34 ttl=31 time=67.1 ms
+08-10 20:31:38.824 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=35 ttl=31 time=100 ms
+08-10 20:31:39.011 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=36 ttl=31 time=86.8 ms
+08-10 20:31:39.202 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=37 ttl=31 time=78.4 ms
+08-10 20:31:39.399 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=38 ttl=31 time=73.7 ms
+08-10 20:31:39.606 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=39 ttl=31 time=80.1 ms
+08-10 20:31:39.801 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=40 ttl=31 time=74.2 ms
+08-10 20:31:39.887 28085 28085 D cellinfo: Latitude is 41.4385392
+08-10 20:31:39.887 28085 28085 D cellinfo: Longitude is -105.943453
+08-10 20:31:39.887 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:31:39.887 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4385392, -105.943453
+08-10 20:31:39.930 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19933231 CellConnectionStatus: 1
+08-10 20:31:39.930 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:31:39.997 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=41 ttl=31 time=70.4 ms
+08-10 20:31:40.198 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=42 ttl=31 time=70.8 ms
+08-10 20:31:40.405 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=43 ttl=31 time=76.5 ms
+08-10 20:31:40.599 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=44 ttl=31 time=70.7 ms
+08-10 20:31:40.831 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=45 ttl=31 time=102 ms
+08-10 20:31:40.999 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=46 ttl=31 time=70.0 ms
+08-10 20:31:41.199 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=47 ttl=31 time=68.2 ms
+08-10 20:31:41.398 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=48 ttl=31 time=66.4 ms
+08-10 20:31:41.610 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=49 ttl=31 time=76.5 ms
+08-10 20:31:41.810 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=50 ttl=31 time=76.0 ms
+08-10 20:31:42.009 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=51 ttl=31 time=74.0 ms
+08-10 20:31:42.220 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=52 ttl=31 time=85.0 ms
+08-10 20:31:42.409 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=53 ttl=31 time=73.2 ms
+08-10 20:31:42.608 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=54 ttl=31 time=71.3 ms
+08-10 20:31:42.809 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=55 ttl=31 time=70.3 ms
+08-10 20:31:42.887 28085 28085 D cellinfo: Latitude is 41.4385392
+08-10 20:31:42.887 28085 28085 D cellinfo: Longitude is -105.943453
+08-10 20:31:42.887 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:31:42.887 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4385392, -105.943453
+08-10 20:31:42.936 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19936236 CellConnectionStatus: 1
+08-10 20:31:42.936 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:31:43.008 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=56 ttl=31 time=70.1 ms
+08-10 20:31:43.208 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=57 ttl=31 time=68.9 ms
+08-10 20:31:43.408 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=58 ttl=31 time=69.0 ms
+08-10 20:31:43.608 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=59 ttl=31 time=68.3 ms
+08-10 20:31:43.809 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=60 ttl=31 time=68.5 ms
+08-10 20:31:44.009 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=61 ttl=31 time=66.1 ms
+08-10 20:31:44.214 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=62 ttl=31 time=71.3 ms
+08-10 20:31:44.408 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=63 ttl=31 time=65.7 ms
+08-10 20:31:44.620 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=64 ttl=31 time=76.2 ms
+08-10 20:31:44.819 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=65 ttl=31 time=75.1 ms
+08-10 20:31:45.021 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=66 ttl=31 time=75.3 ms
+08-10 20:31:45.219 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=67 ttl=31 time=74.2 ms
+08-10 20:31:45.419 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=68 ttl=31 time=72.9 ms
+08-10 20:31:45.619 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=69 ttl=31 time=72.3 ms
+08-10 20:31:45.819 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=70 ttl=31 time=71.8 ms
+08-10 20:31:45.886 28085 28085 D cellinfo: Latitude is 41.4385392
+08-10 20:31:45.886 28085 28085 D cellinfo: Longitude is -105.943453
+08-10 20:31:45.886 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:31:45.886 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4385392, -105.943453
+08-10 20:31:45.921 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19939223 CellConnectionStatus: 1
+08-10 20:31:45.921 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:31:46.018 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=71 ttl=31 time=71.2 ms
+08-10 20:31:46.218 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=72 ttl=31 time=71.4 ms
+08-10 20:31:46.419 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=73 ttl=31 time=70.2 ms
+08-10 20:31:46.617 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=74 ttl=31 time=68.0 ms
+08-10 20:31:46.818 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=75 ttl=31 time=68.3 ms
+08-10 20:31:47.027 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=76 ttl=31 time=76.5 ms
+08-10 20:31:47.226 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=77 ttl=31 time=76.2 ms
+08-10 20:31:47.421 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=78 ttl=31 time=69.2 ms
+08-10 20:31:47.619 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=79 ttl=31 time=66.4 ms
+08-10 20:31:47.829 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=80 ttl=31 time=76.1 ms
+08-10 20:31:48.028 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=81 ttl=31 time=74.8 ms
+08-10 20:31:48.220 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=82 ttl=31 time=66.0 ms
+08-10 20:31:48.430 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=83 ttl=31 time=75.0 ms
+08-10 20:31:48.629 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=84 ttl=31 time=72.7 ms
+08-10 20:31:48.838 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=85 ttl=31 time=81.6 ms
+08-10 20:31:48.922 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19942223 CellConnectionStatus: 1
+08-10 20:31:48.922 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:31:49.027 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=86 ttl=31 time=70.4 ms
+08-10 20:31:49.230 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=87 ttl=31 time=72.6 ms
+08-10 20:31:49.465 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=88 ttl=31 time=105 ms
+08-10 20:31:49.516 28085 28085 D cellinfo: Latitude is 41.4383657
+08-10 20:31:49.516 28085 28085 D cellinfo: Longitude is -105.9433314
+08-10 20:31:49.516 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:31:49.516 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383657, -105.9433314
+08-10 20:31:49.653 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=89 ttl=31 time=93.2 ms
+08-10 20:31:49.830 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=90 ttl=31 time=69.9 ms
+08-10 20:31:50.058 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=91 ttl=31 time=97.7 ms
+08-10 20:31:50.264 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=92 ttl=31 time=103 ms
+08-10 20:31:50.429 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=93 ttl=31 time=67.5 ms
+08-10 20:31:50.658 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=94 ttl=31 time=96.0 ms
+08-10 20:31:50.841 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=95 ttl=31 time=78.3 ms
+08-10 20:31:51.059 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=96 ttl=31 time=96.1 ms
+08-10 20:31:51.255 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=97 ttl=31 time=91.7 ms
+08-10 20:31:51.495 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=98 ttl=31 time=131 ms
+08-10 20:31:51.639 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=99 ttl=31 time=74.3 ms
+08-10 20:31:51.839 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=100 ttl=31 time=73.0 ms
+08-10 20:31:51.888 28085 28085 D cellinfo: Latitude is 41.4383657
+08-10 20:31:51.888 28085 28085 D cellinfo: Longitude is -105.9433314
+08-10 20:31:51.888 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:31:51.888 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383657, -105.9433314
+08-10 20:31:51.923 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19945223 CellConnectionStatus: 1
+08-10 20:31:51.923 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:31:52.038 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=101 ttl=31 time=71.9 ms
+08-10 20:31:52.239 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=102 ttl=31 time=72.6 ms
+08-10 20:31:52.441 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=103 ttl=31 time=73.9 ms
+08-10 20:31:52.639 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=104 ttl=31 time=70.9 ms
+08-10 20:31:52.847 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=105 ttl=31 time=77.3 ms
+08-10 20:31:53.039 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=106 ttl=31 time=68.0 ms
+08-10 20:31:53.240 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=107 ttl=31 time=69.8 ms
+08-10 20:31:53.441 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=108 ttl=31 time=69.8 ms
+08-10 20:31:53.639 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=109 ttl=31 time=66.9 ms
+08-10 20:31:53.842 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=110 ttl=31 time=68.8 ms
+08-10 20:31:54.040 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=111 ttl=31 time=65.6 ms
+08-10 20:31:54.250 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=112 ttl=31 time=76.3 ms
+08-10 20:31:54.439 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=113 ttl=31 time=64.5 ms
+08-10 20:31:54.650 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=114 ttl=31 time=75.4 ms
+08-10 20:31:54.851 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=115 ttl=31 time=75.7 ms
+08-10 20:31:55.062 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=116 ttl=31 time=86.9 ms
+08-10 20:31:55.236 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=117 ttl=31 time=60.3 ms
+08-10 20:31:55.342 28085 28085 D cellinfo: Latitude is 41.4383379
+08-10 20:31:55.342 28085 28085 D cellinfo: Longitude is -105.9433119
+08-10 20:31:55.342 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:31:55.342 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383379, -105.9433119
+08-10 20:31:55.346 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19948233 CellConnectionStatus: 1
+08-10 20:31:55.346 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:31:55.452 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=118 ttl=31 time=75.2 ms
+08-10 20:31:55.649 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=119 ttl=31 time=70.9 ms
+08-10 20:31:55.848 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=120 ttl=31 time=69.8 ms
+08-10 20:31:56.050 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=121 ttl=31 time=70.6 ms
+08-10 20:31:56.258 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=122 ttl=31 time=79.0 ms
+08-10 20:31:56.449 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=123 ttl=31 time=69.7 ms
+08-10 20:31:56.649 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=124 ttl=31 time=68.9 ms
+08-10 20:31:56.849 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=125 ttl=31 time=67.4 ms
+08-10 20:31:57.050 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=126 ttl=31 time=67.2 ms
+08-10 20:31:57.249 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=127 ttl=31 time=66.3 ms
+08-10 20:31:57.451 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=128 ttl=31 time=67.2 ms
+08-10 20:31:57.659 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=129 ttl=31 time=75.3 ms
+08-10 20:31:57.860 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=130 ttl=31 time=75.8 ms
+08-10 20:31:57.890 28085 28085 D cellinfo: Latitude is 41.438337
+08-10 20:31:57.890 28085 28085 D cellinfo: Longitude is -105.9433113
+08-10 20:31:57.890 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:31:57.890 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.438337, -105.9433113
+08-10 20:31:57.928 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19951229 CellConnectionStatus: 1
+08-10 20:31:57.928 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:31:58.060 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=131 ttl=31 time=76.0 ms
+08-10 20:31:58.259 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=132 ttl=31 time=74.5 ms
+08-10 20:31:58.475 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=133 ttl=31 time=88.3 ms
+08-10 20:31:58.662 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=134 ttl=31 time=75.3 ms
+08-10 20:31:58.861 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=135 ttl=31 time=74.4 ms
+08-10 20:31:59.073 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=136 ttl=31 time=84.2 ms
+08-10 20:31:59.259 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=137 ttl=31 time=70.5 ms
+08-10 20:31:59.460 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=138 ttl=31 time=71.1 ms
+08-10 20:31:59.667 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=139 ttl=31 time=76.8 ms
+08-10 20:31:59.858 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=140 ttl=31 time=67.1 ms
+08-10 20:32:00.059 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=141 ttl=31 time=67.8 ms
+08-10 20:32:00.258 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=142 ttl=31 time=67.2 ms
+08-10 20:32:00.459 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=143 ttl=31 time=67.9 ms
+08-10 20:32:00.660 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=144 ttl=31 time=67.8 ms
+08-10 20:32:00.867 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=145 ttl=31 time=74.0 ms
+08-10 20:32:00.920 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19954220 CellConnectionStatus: 1
+08-10 20:32:00.920 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:01.069 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=146 ttl=31 time=76.2 ms
+08-10 20:32:01.114 28085 28085 D cellinfo: Latitude is 41.4383688
+08-10 20:32:01.114 28085 28085 D cellinfo: Longitude is -105.9433215
+08-10 20:32:01.114 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:01.114 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383688, -105.9433215
+08-10 20:32:01.261 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=147 ttl=31 time=67.4 ms
+08-10 20:32:01.469 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=148 ttl=31 time=74.9 ms
+08-10 20:32:01.659 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=149 ttl=31 time=64.4 ms
+08-10 20:32:01.870 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=150 ttl=31 time=74.2 ms
+08-10 20:32:02.068 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=151 ttl=31 time=72.7 ms
+08-10 20:32:02.270 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=152 ttl=31 time=74.6 ms
+08-10 20:32:02.470 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=153 ttl=31 time=73.2 ms
+08-10 20:32:02.669 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=154 ttl=31 time=71.5 ms
+08-10 20:32:02.868 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=155 ttl=31 time=70.2 ms
+08-10 20:32:03.069 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=156 ttl=31 time=69.3 ms
+08-10 20:32:03.269 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=157 ttl=31 time=69.1 ms
+08-10 20:32:03.470 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=158 ttl=31 time=69.2 ms
+08-10 20:32:03.678 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=159 ttl=31 time=76.2 ms
+08-10 20:32:03.872 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=160 ttl=31 time=69.2 ms
+08-10 20:32:03.894 28085 28085 D cellinfo: Latitude is 41.4383688
+08-10 20:32:03.894 28085 28085 D cellinfo: Longitude is -105.9433215
+08-10 20:32:03.894 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:03.894 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383688, -105.9433215
+08-10 20:32:03.939 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19957239 CellConnectionStatus: 1
+08-10 20:32:03.939 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:04.075 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=161 ttl=31 time=72.0 ms
+08-10 20:32:04.085 28085 28085 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -114 rsrq: -9 rssi: -95 rssnr: 12
+08-10 20:32:04.287 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=162 ttl=31 time=83.1 ms
+08-10 20:32:04.478 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=163 ttl=31 time=73.3 ms
+08-10 20:32:04.679 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=164 ttl=31 time=73.2 ms
+08-10 20:32:04.879 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=165 ttl=31 time=72.4 ms
+08-10 20:32:05.085 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=166 ttl=31 time=77.4 ms
+08-10 20:32:05.286 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=167 ttl=31 time=78.1 ms
+08-10 20:32:05.482 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=168 ttl=31 time=72.3 ms
+08-10 20:32:05.682 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=169 ttl=31 time=72.3 ms
+08-10 20:32:05.879 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=170 ttl=31 time=68.2 ms
+08-10 20:32:06.078 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=171 ttl=31 time=66.5 ms
+08-10 20:32:06.279 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=172 ttl=31 time=65.4 ms
+08-10 20:32:06.490 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=173 ttl=31 time=75.2 ms
+08-10 20:32:06.698 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=174 ttl=31 time=82.6 ms
+08-10 20:32:06.890 28085 28085 D cellinfo: Latitude is 41.4383722
+08-10 20:32:06.890 28085 28085 D cellinfo: Longitude is -105.9433221
+08-10 20:32:06.890 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:06.890 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383722, -105.9433221
+08-10 20:32:06.899 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=175 ttl=31 time=83.4 ms
+08-10 20:32:06.942 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19960239 CellConnectionStatus: 1
+08-10 20:32:06.942 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:07.102 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=176 ttl=31 time=85.8 ms
+08-10 20:32:07.295 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=177 ttl=31 time=78.1 ms
+08-10 20:32:07.488 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=178 ttl=31 time=71.1 ms
+08-10 20:32:07.689 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=179 ttl=31 time=70.7 ms
+08-10 20:32:07.888 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=180 ttl=31 time=69.1 ms
+08-10 20:32:08.084 28085 28085 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -104 rsrq: -10 rssi: -87 rssnr: 16
+08-10 20:32:08.089 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=181 ttl=31 time=69.7 ms
+08-10 20:32:08.288 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=182 ttl=31 time=69.1 ms
+08-10 20:32:08.489 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=183 ttl=31 time=68.6 ms
+08-10 20:32:08.689 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=184 ttl=31 time=68.8 ms
+08-10 20:32:08.888 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=185 ttl=31 time=67.7 ms
+08-10 20:32:09.089 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=186 ttl=31 time=67.9 ms
+08-10 20:32:09.289 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=187 ttl=31 time=66.8 ms
+08-10 20:32:09.498 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=188 ttl=31 time=74.5 ms
+08-10 20:32:09.690 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=189 ttl=31 time=65.4 ms
+08-10 20:32:09.889 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=190 ttl=31 time=64.8 ms
+08-10 20:32:09.892 28085 28085 D cellinfo: Latitude is 41.4383723
+08-10 20:32:09.893 28085 28085 D cellinfo: Longitude is -105.9433221
+08-10 20:32:09.893 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:09.893 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383723, -105.9433221
+08-10 20:32:09.938 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19963238 CellConnectionStatus: 1
+08-10 20:32:09.938 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:10.107 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=191 ttl=31 time=82.8 ms
+08-10 20:32:10.299 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=192 ttl=31 time=73.6 ms
+08-10 20:32:10.501 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=193 ttl=31 time=75.3 ms
+08-10 20:32:10.700 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=194 ttl=31 time=72.9 ms
+08-10 20:32:10.900 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=195 ttl=31 time=72.4 ms
+08-10 20:32:11.100 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=196 ttl=31 time=71.2 ms
+08-10 20:32:11.301 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=197 ttl=31 time=70.3 ms
+08-10 20:32:11.499 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=198 ttl=31 time=68.3 ms
+08-10 20:32:11.700 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=199 ttl=31 time=68.8 ms
+08-10 20:32:11.901 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=200 ttl=31 time=68.0 ms
+08-10 20:32:12.102 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=201 ttl=31 time=68.7 ms
+08-10 20:32:12.300 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=202 ttl=31 time=65.3 ms
+08-10 20:32:12.511 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=203 ttl=31 time=76.4 ms
+08-10 20:32:12.709 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=204 ttl=31 time=74.3 ms
+08-10 20:32:12.912 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=205 ttl=31 time=76.5 ms
+08-10 20:32:12.932 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19966232 CellConnectionStatus: 1
+08-10 20:32:12.932 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:13.104 28085 28085 D cellinfo: Latitude is 41.4383449
+08-10 20:32:13.104 28085 28085 D cellinfo: Longitude is -105.9433269
+08-10 20:32:13.104 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:13.104 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383449, -105.9433269
+08-10 20:32:13.117 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=206 ttl=31 time=81.6 ms
+08-10 20:32:13.309 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=207 ttl=31 time=73.1 ms
+08-10 20:32:13.509 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=208 ttl=31 time=72.5 ms
+08-10 20:32:13.709 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=209 ttl=31 time=72.1 ms
+08-10 20:32:13.918 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=210 ttl=31 time=80.8 ms
+08-10 20:32:14.118 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=211 ttl=31 time=80.2 ms
+08-10 20:32:14.310 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=212 ttl=31 time=71.2 ms
+08-10 20:32:14.511 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=213 ttl=31 time=71.1 ms
+08-10 20:32:14.709 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=214 ttl=31 time=68.0 ms
+08-10 20:32:14.911 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=215 ttl=31 time=69.1 ms
+08-10 20:32:15.117 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=216 ttl=31 time=74.0 ms
+08-10 20:32:15.325 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=217 ttl=31 time=81.3 ms
+08-10 20:32:15.519 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=218 ttl=31 time=74.9 ms
+08-10 20:32:15.719 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=219 ttl=31 time=73.9 ms
+08-10 20:32:15.889 28085 28085 D cellinfo: Latitude is 41.4383449
+08-10 20:32:15.889 28085 28085 D cellinfo: Longitude is -105.9433269
+08-10 20:32:15.889 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:15.889 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383449, -105.9433269
+08-10 20:32:15.919 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=220 ttl=31 time=72.9 ms
+08-10 20:32:15.927 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19969226 CellConnectionStatus: 1
+08-10 20:32:15.927 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:16.123 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=221 ttl=31 time=76.5 ms
+08-10 20:32:16.319 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=222 ttl=31 time=71.3 ms
+08-10 20:32:16.523 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=223 ttl=31 time=74.3 ms
+08-10 20:32:16.719 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=224 ttl=31 time=69.4 ms
+08-10 20:32:16.921 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=225 ttl=31 time=70.3 ms
+08-10 20:32:17.127 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=226 ttl=31 time=75.2 ms
+08-10 20:32:17.327 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=227 ttl=31 time=74.1 ms
+08-10 20:32:17.523 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=228 ttl=31 time=69.3 ms
+08-10 20:32:17.728 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=229 ttl=31 time=73.5 ms
+08-10 20:32:17.931 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=230 ttl=31 time=75.7 ms
+08-10 20:32:18.140 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=231 ttl=31 time=84.2 ms
+08-10 20:32:18.337 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=232 ttl=31 time=80.9 ms
+08-10 20:32:18.530 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=233 ttl=31 time=72.1 ms
+08-10 20:32:18.732 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=234 ttl=31 time=74.0 ms
+08-10 20:32:18.889 28085 28085 D cellinfo: Latitude is 41.438341
+08-10 20:32:18.890 28085 28085 D cellinfo: Longitude is -105.9433276
+08-10 20:32:18.890 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:18.890 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.438341, -105.9433276
+08-10 20:32:18.933 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19972233 CellConnectionStatus: 1
+08-10 20:32:18.933 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:18.938 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=235 ttl=31 time=78.6 ms
+08-10 20:32:19.136 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=236 ttl=31 time=75.4 ms
+08-10 20:32:19.329 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=237 ttl=31 time=67.4 ms
+08-10 20:32:19.530 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=238 ttl=31 time=68.4 ms
+08-10 20:32:19.729 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=239 ttl=31 time=66.2 ms
+08-10 20:32:19.929 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=240 ttl=31 time=65.3 ms
+08-10 20:32:20.148 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=241 ttl=31 time=84.4 ms
+08-10 20:32:20.343 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=242 ttl=31 time=77.8 ms
+08-10 20:32:20.543 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=243 ttl=31 time=76.8 ms
+08-10 20:32:20.741 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=244 ttl=31 time=74.6 ms
+08-10 20:32:20.952 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=245 ttl=31 time=85.0 ms
+08-10 20:32:21.154 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=246 ttl=31 time=86.3 ms
+08-10 20:32:21.346 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=247 ttl=31 time=76.8 ms
+08-10 20:32:21.544 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=248 ttl=31 time=73.5 ms
+08-10 20:32:21.739 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=249 ttl=31 time=68.8 ms
+08-10 20:32:21.883 28085 28085 D cellinfo: Latitude is 41.4383409
+08-10 20:32:21.883 28085 28085 D cellinfo: Longitude is -105.9433276
+08-10 20:32:21.883 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:21.883 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383409, -105.9433276
+08-10 20:32:21.924 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19975225 CellConnectionStatus: 1
+08-10 20:32:21.924 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:21.939 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=250 ttl=31 time=68.0 ms
+08-10 20:32:22.139 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=251 ttl=31 time=67.5 ms
+08-10 20:32:22.339 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=252 ttl=31 time=66.4 ms
+08-10 20:32:22.557 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=253 ttl=31 time=83.3 ms
+08-10 20:32:22.752 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=254 ttl=31 time=77.1 ms
+08-10 20:32:22.963 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=255 ttl=31 time=87.3 ms
+08-10 20:32:23.169 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=256 ttl=31 time=91.4 ms
+08-10 20:32:23.350 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=257 ttl=31 time=72.7 ms
+08-10 20:32:23.548 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=258 ttl=31 time=70.1 ms
+08-10 20:32:23.751 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=259 ttl=31 time=71.1 ms
+08-10 20:32:23.949 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=260 ttl=31 time=68.1 ms
+08-10 20:32:24.154 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=261 ttl=31 time=73.7 ms
+08-10 20:32:24.349 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=262 ttl=31 time=67.9 ms
+08-10 20:32:24.550 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=263 ttl=31 time=66.9 ms
+08-10 20:32:24.750 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=264 ttl=31 time=66.0 ms
+08-10 20:32:24.929 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19978229 CellConnectionStatus: 1
+08-10 20:32:24.929 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:24.958 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=265 ttl=31 time=74.8 ms
+08-10 20:32:25.106 28085 28085 D cellinfo: Latitude is 41.438345
+08-10 20:32:25.106 28085 28085 D cellinfo: Longitude is -105.9433278
+08-10 20:32:25.106 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:25.106 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.438345, -105.9433278
+08-10 20:32:25.150 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=266 ttl=31 time=66.0 ms
+08-10 20:32:25.361 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=267 ttl=31 time=76.1 ms
+08-10 20:32:25.560 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=268 ttl=31 time=73.3 ms
+08-10 20:32:25.759 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=269 ttl=31 time=72.2 ms
+08-10 20:32:25.959 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=270 ttl=31 time=71.4 ms
+08-10 20:32:26.160 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=271 ttl=31 time=70.9 ms
+08-10 20:32:26.360 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=272 ttl=31 time=70.0 ms
+08-10 20:32:26.559 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=273 ttl=31 time=68.1 ms
+08-10 20:32:26.759 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=274 ttl=31 time=67.3 ms
+08-10 20:32:26.977 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=275 ttl=31 time=83.1 ms
+08-10 20:32:27.166 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=276 ttl=31 time=72.3 ms
+08-10 20:32:27.360 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=277 ttl=31 time=65.6 ms
+08-10 20:32:27.569 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=278 ttl=31 time=74.0 ms
+08-10 20:32:27.769 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=279 ttl=31 time=73.4 ms
+08-10 20:32:27.885 28085 28085 D cellinfo: Latitude is 41.438345
+08-10 20:32:27.885 28085 28085 D cellinfo: Longitude is -105.9433278
+08-10 20:32:27.885 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:27.885 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.438345, -105.9433278
+08-10 20:32:27.923 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19981225 CellConnectionStatus: 1
+08-10 20:32:27.923 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:27.987 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=280 ttl=31 time=91.0 ms
+08-10 20:32:28.172 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=281 ttl=31 time=75.4 ms
+08-10 20:32:28.369 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=282 ttl=31 time=71.2 ms
+08-10 20:32:28.569 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=283 ttl=31 time=70.4 ms
+08-10 20:32:28.770 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=284 ttl=31 time=70.6 ms
+08-10 20:32:28.968 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=285 ttl=31 time=67.1 ms
+08-10 20:32:29.169 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=286 ttl=31 time=67.1 ms
+08-10 20:32:29.370 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=287 ttl=31 time=66.4 ms
+08-10 20:32:29.578 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=288 ttl=31 time=74.1 ms
+08-10 20:32:29.770 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=289 ttl=31 time=65.7 ms
+08-10 20:32:29.979 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=290 ttl=31 time=74.9 ms
+08-10 20:32:30.178 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=291 ttl=31 time=73.5 ms
+08-10 20:32:30.381 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=292 ttl=31 time=75.2 ms
+08-10 20:32:30.579 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=293 ttl=31 time=73.5 ms
+08-10 20:32:30.780 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=294 ttl=31 time=74.3 ms
+08-10 20:32:30.889 28085 28085 D cellinfo: Latitude is 41.4383454
+08-10 20:32:30.889 28085 28085 D cellinfo: Longitude is -105.9433279
+08-10 20:32:30.889 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:30.889 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383454, -105.9433279
+08-10 20:32:30.925 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19984226 CellConnectionStatus: 1
+08-10 20:32:30.925 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:30.983 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=295 ttl=31 time=76.1 ms
+08-10 20:32:31.187 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=296 ttl=31 time=79.2 ms
+08-10 20:32:31.379 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=297 ttl=31 time=70.4 ms
+08-10 20:32:31.579 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=298 ttl=31 time=69.3 ms
+08-10 20:32:31.779 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=299 ttl=31 time=68.3 ms
+08-10 20:32:31.979 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=300 ttl=31 time=67.5 ms
+08-10 20:32:32.182 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=301 ttl=31 time=68.3 ms
+08-10 20:32:32.397 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=302 ttl=31 time=83.2 ms
+08-10 20:32:32.588 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=303 ttl=31 time=73.0 ms
+08-10 20:32:32.790 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=304 ttl=31 time=73.3 ms
+08-10 20:32:32.990 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=305 ttl=31 time=72.8 ms
+08-10 20:32:33.190 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=306 ttl=31 time=72.2 ms
+08-10 20:32:33.389 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=307 ttl=31 time=71.4 ms
+08-10 20:32:33.589 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=308 ttl=31 time=71.1 ms
+08-10 20:32:33.789 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=309 ttl=31 time=70.1 ms
+08-10 20:32:33.889 28085 28085 D cellinfo: Latitude is 41.4383454
+08-10 20:32:33.889 28085 28085 D cellinfo: Longitude is -105.9433279
+08-10 20:32:33.889 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:33.889 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383454, -105.9433279
+08-10 20:32:33.930 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19987230 CellConnectionStatus: 1
+08-10 20:32:33.930 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:33.988 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=310 ttl=31 time=68.5 ms
+08-10 20:32:34.190 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=311 ttl=31 time=68.1 ms
+08-10 20:32:34.389 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=312 ttl=31 time=67.7 ms
+08-10 20:32:34.591 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=313 ttl=31 time=66.8 ms
+08-10 20:32:34.790 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=314 ttl=31 time=66.8 ms
+08-10 20:32:35.010 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=315 ttl=31 time=85.4 ms
+08-10 20:32:35.191 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=316 ttl=31 time=67.5 ms
+08-10 20:32:35.398 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=317 ttl=31 time=73.5 ms
+08-10 20:32:35.608 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=318 ttl=31 time=82.7 ms
+08-10 20:32:35.800 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=319 ttl=31 time=74.7 ms
+08-10 20:32:36.008 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=320 ttl=31 time=82.3 ms
+08-10 20:32:36.199 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=321 ttl=31 time=73.2 ms
+08-10 20:32:36.401 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=322 ttl=31 time=73.4 ms
+08-10 20:32:36.599 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=323 ttl=31 time=71.6 ms
+08-10 20:32:36.809 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=324 ttl=31 time=80.1 ms
+08-10 20:32:36.921 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19990222 CellConnectionStatus: 1
+08-10 20:32:36.921 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:37.006 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=325 ttl=31 time=77.3 ms
+08-10 20:32:37.110 28085 28085 D cellinfo: Latitude is 41.4383428
+08-10 20:32:37.110 28085 28085 D cellinfo: Longitude is -105.9433305
+08-10 20:32:37.110 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:37.110 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383428, -105.9433305
+08-10 20:32:37.198 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=326 ttl=31 time=68.8 ms
+08-10 20:32:37.399 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=327 ttl=31 time=70.0 ms
+08-10 20:32:37.601 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=328 ttl=31 time=71.3 ms
+08-10 20:32:37.799 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=329 ttl=31 time=68.2 ms
+08-10 20:32:37.999 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=330 ttl=31 time=67.4 ms
+08-10 20:32:38.200 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=331 ttl=31 time=66.4 ms
+08-10 20:32:38.400 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=332 ttl=31 time=66.0 ms
+08-10 20:32:38.610 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=333 ttl=31 time=75.0 ms
+08-10 20:32:38.809 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=334 ttl=31 time=73.8 ms
+08-10 20:32:39.012 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=335 ttl=31 time=75.9 ms
+08-10 20:32:39.210 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=336 ttl=31 time=73.5 ms
+08-10 20:32:39.412 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=337 ttl=31 time=74.8 ms
+08-10 20:32:39.618 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=338 ttl=31 time=80.5 ms
+08-10 20:32:39.810 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=339 ttl=31 time=72.1 ms
+08-10 20:32:39.885 28085 28085 D cellinfo: Latitude is 41.4383428
+08-10 20:32:39.885 28085 28085 D cellinfo: Longitude is -105.9433305
+08-10 20:32:39.885 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:39.885 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383428, -105.9433305
+08-10 20:32:39.932 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19993234 CellConnectionStatus: 1
+08-10 20:32:39.933 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:40.009 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=340 ttl=31 time=70.7 ms
+08-10 20:32:40.209 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=341 ttl=31 time=70.8 ms
+08-10 20:32:40.409 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=342 ttl=31 time=70.8 ms
+08-10 20:32:40.609 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=343 ttl=31 time=69.3 ms
+08-10 20:32:40.809 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=344 ttl=31 time=69.8 ms
+08-10 20:32:41.010 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=345 ttl=31 time=69.1 ms
+08-10 20:32:41.220 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=346 ttl=31 time=79.2 ms
+08-10 20:32:41.412 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=347 ttl=31 time=70.1 ms
+08-10 20:32:41.618 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=348 ttl=31 time=74.9 ms
+08-10 20:32:41.810 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=349 ttl=31 time=65.7 ms
+08-10 20:32:42.009 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=350 ttl=31 time=65.1 ms
+08-10 20:32:42.209 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=351 ttl=31 time=65.1 ms
+08-10 20:32:42.420 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=352 ttl=31 time=74.4 ms
+08-10 20:32:42.621 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=353 ttl=31 time=75.1 ms
+08-10 20:32:42.831 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=354 ttl=31 time=84.2 ms
+08-10 20:32:42.882 28085 28085 D cellinfo: Latitude is 41.4383424
+08-10 20:32:42.882 28085 28085 D cellinfo: Longitude is -105.9433309
+08-10 20:32:42.882 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:42.882 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383424, -105.9433309
+08-10 20:32:42.926 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19996227 CellConnectionStatus: 1
+08-10 20:32:42.926 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:43.033 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=355 ttl=31 time=86.9 ms
+08-10 20:32:43.219 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=356 ttl=31 time=73.4 ms
+08-10 20:32:43.432 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=357 ttl=31 time=85.1 ms
+08-10 20:32:43.621 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=358 ttl=31 time=72.9 ms
+08-10 20:32:43.820 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=359 ttl=31 time=71.6 ms
+08-10 20:32:44.022 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=360 ttl=31 time=72.4 ms
+08-10 20:32:44.226 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=361 ttl=31 time=76.1 ms
+08-10 20:32:44.428 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=362 ttl=31 time=76.8 ms
+08-10 20:32:44.620 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=363 ttl=31 time=68.3 ms
+08-10 20:32:44.820 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=364 ttl=31 time=67.9 ms
+08-10 20:32:45.019 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=365 ttl=31 time=66.9 ms
+08-10 20:32:45.228 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=366 ttl=31 time=75.1 ms
+08-10 20:32:45.421 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=367 ttl=31 time=68.0 ms
+08-10 20:32:45.620 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=368 ttl=31 time=66.7 ms
+08-10 20:32:45.819 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=369 ttl=31 time=64.3 ms
+08-10 20:32:45.888 28085 28085 D cellinfo: Latitude is 41.4383424
+08-10 20:32:45.888 28085 28085 D cellinfo: Longitude is -105.9433309
+08-10 20:32:45.888 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:45.888 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383424, -105.9433309
+08-10 20:32:45.940 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 19999241 CellConnectionStatus: 1
+08-10 20:32:45.941 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:46.018 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=370 ttl=31 time=64.0 ms
+08-10 20:32:46.234 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=371 ttl=31 time=80.1 ms
+08-10 20:32:46.429 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=372 ttl=31 time=74.5 ms
+08-10 20:32:46.629 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=373 ttl=31 time=73.3 ms
+08-10 20:32:46.829 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=374 ttl=31 time=72.4 ms
+08-10 20:32:47.030 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=375 ttl=31 time=70.8 ms
+08-10 20:32:47.248 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=376 ttl=31 time=89.0 ms
+08-10 20:32:47.430 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=377 ttl=31 time=69.8 ms
+08-10 20:32:47.629 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=378 ttl=31 time=68.6 ms
+08-10 20:32:47.830 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=379 ttl=31 time=68.3 ms
+08-10 20:32:48.029 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=380 ttl=31 time=67.1 ms
+08-10 20:32:48.238 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=381 ttl=31 time=75.2 ms
+08-10 20:32:48.430 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=382 ttl=31 time=66.1 ms
+08-10 20:32:48.639 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=383 ttl=31 time=75.0 ms
+08-10 20:32:48.840 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=384 ttl=31 time=74.8 ms
+08-10 20:32:48.921 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20002222 CellConnectionStatus: 1
+08-10 20:32:48.921 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:49.049 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=385 ttl=31 time=82.4 ms
+08-10 20:32:49.115 28085 28085 D cellinfo: Latitude is 41.4383416
+08-10 20:32:49.115 28085 28085 D cellinfo: Longitude is -105.9433313
+08-10 20:32:49.115 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:49.115 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383416, -105.9433313
+08-10 20:32:49.256 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=386 ttl=31 time=90.2 ms
+08-10 20:32:49.440 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=387 ttl=31 time=72.5 ms
+08-10 20:32:49.647 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=388 ttl=31 time=79.0 ms
+08-10 20:32:49.839 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=389 ttl=31 time=70.3 ms
+08-10 20:32:50.065 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=390 ttl=31 time=94.8 ms
+08-10 20:32:50.258 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=391 ttl=31 time=87.9 ms
+08-10 20:32:50.440 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=392 ttl=31 time=69.7 ms
+08-10 20:32:50.642 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=393 ttl=31 time=70.5 ms
+08-10 20:32:50.842 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=394 ttl=31 time=70.4 ms
+08-10 20:32:51.040 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=395 ttl=31 time=67.5 ms
+08-10 20:32:51.254 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=396 ttl=31 time=82.2 ms
+08-10 20:32:51.449 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=397 ttl=31 time=76.8 ms
+08-10 20:32:51.650 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=398 ttl=31 time=77.2 ms
+08-10 20:32:51.846 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=399 ttl=31 time=72.2 ms
+08-10 20:32:51.891 28085 28085 D cellinfo: Latitude is 41.4383416
+08-10 20:32:51.891 28085 28085 D cellinfo: Longitude is -105.9433313
+08-10 20:32:51.891 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:51.891 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383416, -105.9433313
+08-10 20:32:51.937 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20005239 CellConnectionStatus: 1
+08-10 20:32:51.938 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:52.037 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=400 ttl=31 time=63.7 ms
+08-10 20:32:52.258 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=401 ttl=31 time=84.2 ms
+08-10 20:32:52.439 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=402 ttl=31 time=64.5 ms
+08-10 20:32:52.639 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=403 ttl=31 time=65.0 ms
+08-10 20:32:52.850 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=404 ttl=31 time=75.6 ms
+08-10 20:32:53.050 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=405 ttl=31 time=74.9 ms
+08-10 20:32:53.276 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=406 ttl=31 time=100 ms
+08-10 20:32:53.455 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=407 ttl=31 time=78.6 ms
+08-10 20:32:53.653 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=408 ttl=31 time=75.8 ms
+08-10 20:32:53.849 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=409 ttl=31 time=70.8 ms
+08-10 20:32:54.050 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=410 ttl=31 time=70.8 ms
+08-10 20:32:54.250 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=411 ttl=31 time=71.3 ms
+08-10 20:32:54.451 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=412 ttl=31 time=70.3 ms
+08-10 20:32:54.650 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=413 ttl=31 time=69.6 ms
+08-10 20:32:54.850 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=414 ttl=31 time=68.9 ms
+08-10 20:32:54.889 28085 28085 D cellinfo: Latitude is 41.4383415
+08-10 20:32:54.889 28085 28085 D cellinfo: Longitude is -105.9433314
+08-10 20:32:54.889 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:54.889 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383415, -105.9433314
+08-10 20:32:54.934 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20008232 CellConnectionStatus: 1
+08-10 20:32:54.934 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:55.049 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=415 ttl=31 time=67.4 ms
+08-10 20:32:55.253 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=416 ttl=31 time=71.5 ms
+08-10 20:32:55.450 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=417 ttl=31 time=66.4 ms
+08-10 20:32:55.650 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=418 ttl=31 time=65.2 ms
+08-10 20:32:55.860 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=419 ttl=31 time=74.3 ms
+08-10 20:32:56.061 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=420 ttl=31 time=74.1 ms
+08-10 20:32:56.262 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=421 ttl=31 time=76.0 ms
+08-10 20:32:56.460 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=422 ttl=31 time=73.1 ms
+08-10 20:32:56.669 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=423 ttl=31 time=81.3 ms
+08-10 20:32:56.860 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=424 ttl=31 time=71.4 ms
+08-10 20:32:57.060 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=425 ttl=31 time=71.0 ms
+08-10 20:32:57.268 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=426 ttl=31 time=79.2 ms
+08-10 20:32:57.463 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=427 ttl=31 time=72.9 ms
+08-10 20:32:57.662 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=428 ttl=31 time=71.0 ms
+08-10 20:32:57.868 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=429 ttl=31 time=75.8 ms
+08-10 20:32:57.888 28085 28085 D cellinfo: Latitude is 41.4383415
+08-10 20:32:57.888 28085 28085 D cellinfo: Longitude is -105.9433314
+08-10 20:32:57.888 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:32:57.888 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383415, -105.9433314
+08-10 20:32:57.932 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20011233 CellConnectionStatus: 1
+08-10 20:32:57.932 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:32:58.092 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=430 ttl=31 time=99.8 ms
+08-10 20:32:58.263 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=431 ttl=31 time=70.5 ms
+08-10 20:32:58.459 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=432 ttl=31 time=67.3 ms
+08-10 20:32:58.661 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=433 ttl=31 time=67.1 ms
+08-10 20:32:58.870 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=434 ttl=31 time=75.5 ms
+08-10 20:32:59.072 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=435 ttl=31 time=74.9 ms
+08-10 20:32:59.278 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=436 ttl=31 time=81.8 ms
+08-10 20:32:59.470 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=437 ttl=31 time=73.2 ms
+08-10 20:32:59.670 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=438 ttl=31 time=72.1 ms
+08-10 20:32:59.870 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=439 ttl=31 time=71.0 ms
+08-10 20:33:00.070 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=440 ttl=31 time=69.8 ms
+08-10 20:33:00.285 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=441 ttl=31 time=85.6 ms
+08-10 20:33:00.470 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=442 ttl=31 time=70.1 ms
+08-10 20:33:00.669 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=443 ttl=31 time=69.2 ms
+08-10 20:33:00.870 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=444 ttl=31 time=68.7 ms
+08-10 20:33:00.927 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20014227 CellConnectionStatus: 1
+08-10 20:33:00.927 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:01.069 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=445 ttl=31 time=67.9 ms
+08-10 20:33:01.117 28085 28085 D cellinfo: Latitude is 41.4383406
+08-10 20:33:01.117 28085 28085 D cellinfo: Longitude is -105.9433317
+08-10 20:33:01.117 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:01.117 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383406, -105.9433317
+08-10 20:33:01.280 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=446 ttl=31 time=77.4 ms
+08-10 20:33:01.472 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=447 ttl=31 time=68.8 ms
+08-10 20:33:01.670 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=448 ttl=31 time=66.0 ms
+08-10 20:33:01.881 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=449 ttl=31 time=75.8 ms
+08-10 20:33:02.081 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=450 ttl=31 time=75.1 ms
+08-10 20:33:02.307 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=451 ttl=31 time=100 ms
+08-10 20:33:02.482 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=452 ttl=31 time=73.7 ms
+08-10 20:33:02.681 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=453 ttl=31 time=73.2 ms
+08-10 20:33:02.889 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=454 ttl=31 time=79.7 ms
+08-10 20:33:03.089 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=455 ttl=31 time=79.1 ms
+08-10 20:33:03.292 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=456 ttl=31 time=81.0 ms
+08-10 20:33:03.481 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=457 ttl=31 time=68.7 ms
+08-10 20:33:03.689 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=458 ttl=31 time=75.6 ms
+08-10 20:33:03.881 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=459 ttl=31 time=67.0 ms
+08-10 20:33:03.902 28085 28085 D cellinfo: Latitude is 41.4383406
+08-10 20:33:03.902 28085 28085 D cellinfo: Longitude is -105.9433317
+08-10 20:33:03.902 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:03.902 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383406, -105.9433317
+08-10 20:33:03.935 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20017237 CellConnectionStatus: 1
+08-10 20:33:03.935 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:04.085 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=460 ttl=31 time=70.7 ms
+08-10 20:33:04.302 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=461 ttl=31 time=86.6 ms
+08-10 20:33:04.502 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=462 ttl=31 time=86.4 ms
+08-10 20:33:04.690 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=463 ttl=31 time=73.1 ms
+08-10 20:33:04.891 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=464 ttl=31 time=73.2 ms
+08-10 20:33:05.095 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=465 ttl=31 time=76.5 ms
+08-10 20:33:05.314 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=466 ttl=31 time=95.5 ms
+08-10 20:33:05.490 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=467 ttl=31 time=71.1 ms
+08-10 20:33:05.691 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=468 ttl=31 time=70.6 ms
+08-10 20:33:05.890 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=469 ttl=31 time=69.0 ms
+08-10 20:33:06.098 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=470 ttl=31 time=75.7 ms
+08-10 20:33:06.291 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=471 ttl=31 time=67.8 ms
+08-10 20:33:06.491 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=472 ttl=31 time=67.1 ms
+08-10 20:33:06.691 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=473 ttl=31 time=66.4 ms
+08-10 20:33:06.890 28085 28085 D cellinfo: Latitude is 41.4383405
+08-10 20:33:06.890 28085 28085 D cellinfo: Longitude is -105.9433317
+08-10 20:33:06.890 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:06.890 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383405, -105.9433317
+08-10 20:33:06.908 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=474 ttl=31 time=83.4 ms
+08-10 20:33:06.941 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20020243 CellConnectionStatus: 1
+08-10 20:33:06.941 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:07.090 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=475 ttl=31 time=64.9 ms
+08-10 20:33:07.321 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=476 ttl=31 time=95.7 ms
+08-10 20:33:07.500 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=477 ttl=31 time=74.0 ms
+08-10 20:33:07.708 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=478 ttl=31 time=81.4 ms
+08-10 20:33:07.902 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=479 ttl=31 time=74.3 ms
+08-10 20:33:08.108 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=480 ttl=31 time=80.4 ms
+08-10 20:33:08.300 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=481 ttl=31 time=72.3 ms
+08-10 20:33:08.500 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=482 ttl=31 time=70.6 ms
+08-10 20:33:08.701 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=483 ttl=31 time=71.1 ms
+08-10 20:33:08.900 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=484 ttl=31 time=69.2 ms
+08-10 20:33:09.100 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=485 ttl=31 time=68.2 ms
+08-10 20:33:09.301 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=486 ttl=31 time=68.8 ms
+08-10 20:33:09.500 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=487 ttl=31 time=67.1 ms
+08-10 20:33:09.708 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=488 ttl=31 time=74.0 ms
+08-10 20:33:09.886 28085 28085 D cellinfo: Latitude is 41.4383405
+08-10 20:33:09.887 28085 28085 D cellinfo: Longitude is -105.9433318
+08-10 20:33:09.887 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:09.887 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383405, -105.9433318
+08-10 20:33:09.908 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=489 ttl=31 time=73.6 ms
+08-10 20:33:09.940 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20023241 CellConnectionStatus: 1
+08-10 20:33:09.940 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:10.110 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=490 ttl=31 time=73.8 ms
+08-10 20:33:10.323 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=491 ttl=31 time=86.2 ms
+08-10 20:33:10.511 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=492 ttl=31 time=73.2 ms
+08-10 20:33:10.710 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=493 ttl=31 time=71.2 ms
+08-10 20:33:10.910 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=494 ttl=31 time=70.3 ms
+08-10 20:33:11.112 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=495 ttl=31 time=71.3 ms
+08-10 20:33:11.318 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=496 ttl=31 time=77.6 ms
+08-10 20:33:11.510 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=497 ttl=31 time=69.0 ms
+08-10 20:33:11.711 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=498 ttl=31 time=68.9 ms
+08-10 20:33:11.910 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=499 ttl=31 time=67.1 ms
+08-10 20:33:12.114 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=500 ttl=31 time=69.5 ms
+08-10 20:33:12.321 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=501 ttl=31 time=75.5 ms
+08-10 20:33:12.520 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=502 ttl=31 time=74.4 ms
+08-10 20:33:12.722 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=503 ttl=31 time=75.1 ms
+08-10 20:33:12.923 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=504 ttl=31 time=75.2 ms
+08-10 20:33:12.931 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20026227 CellConnectionStatus: 1
+08-10 20:33:12.931 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:13.130 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=505 ttl=31 time=81.5 ms
+08-10 20:33:13.320 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=506 ttl=31 time=71.2 ms
+08-10 20:33:13.546 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=507 ttl=31 time=96.4 ms
+08-10 20:33:13.720 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=508 ttl=31 time=69.4 ms
+08-10 20:33:13.923 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=509 ttl=31 time=71.2 ms
+08-10 20:33:14.074 28085 28085 D cellinfo: Latitude is 41.4383397
+08-10 20:33:14.074 28085 28085 D cellinfo: Longitude is -105.9433316
+08-10 20:33:14.074 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:14.074 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383397, -105.9433316
+08-10 20:33:14.132 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=510 ttl=31 time=79.3 ms
+08-10 20:33:14.331 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=511 ttl=31 time=77.1 ms
+08-10 20:33:14.590 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=512 ttl=31 time=135 ms
+08-10 20:33:14.721 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=513 ttl=31 time=66.1 ms
+08-10 20:33:14.931 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=514 ttl=31 time=74.8 ms
+08-10 20:33:15.130 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=515 ttl=31 time=73.8 ms
+08-10 20:33:15.332 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=516 ttl=31 time=74.8 ms
+08-10 20:33:15.531 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=517 ttl=31 time=72.9 ms
+08-10 20:33:15.730 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=518 ttl=31 time=71.5 ms
+08-10 20:33:15.888 28085 28085 D cellinfo: Latitude is 41.4383397
+08-10 20:33:15.888 28085 28085 D cellinfo: Longitude is -105.9433316
+08-10 20:33:15.888 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:15.888 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383397, -105.9433316
+08-10 20:33:15.931 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=519 ttl=31 time=72.4 ms
+08-10 20:33:15.946 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20029248 CellConnectionStatus: 1
+08-10 20:33:15.946 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:16.130 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=520 ttl=31 time=70.0 ms
+08-10 20:33:16.333 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=521 ttl=31 time=72.4 ms
+08-10 20:33:16.530 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=522 ttl=31 time=68.8 ms
+08-10 20:33:16.730 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=523 ttl=31 time=68.1 ms
+08-10 20:33:16.931 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=524 ttl=31 time=68.0 ms
+08-10 20:33:17.131 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=525 ttl=31 time=67.4 ms
+08-10 20:33:17.338 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=526 ttl=31 time=73.4 ms
+08-10 20:33:17.541 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=527 ttl=31 time=75.3 ms
+08-10 20:33:17.740 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=528 ttl=31 time=73.8 ms
+08-10 20:33:17.939 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=529 ttl=31 time=72.4 ms
+08-10 20:33:18.142 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=530 ttl=31 time=73.4 ms
+08-10 20:33:18.340 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=531 ttl=31 time=71.6 ms
+08-10 20:33:18.540 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=532 ttl=31 time=71.4 ms
+08-10 20:33:18.740 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=533 ttl=31 time=70.0 ms
+08-10 20:33:18.885 28085 28085 D cellinfo: Latitude is 41.4383398
+08-10 20:33:18.885 28085 28085 D cellinfo: Longitude is -105.9433313
+08-10 20:33:18.885 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:18.885 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383398, -105.9433313
+08-10 20:33:18.939 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20032240 CellConnectionStatus: 1
+08-10 20:33:18.939 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:18.941 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=534 ttl=31 time=70.3 ms
+08-10 20:33:19.140 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=535 ttl=31 time=68.5 ms
+08-10 20:33:19.340 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=536 ttl=31 time=67.7 ms
+08-10 20:33:19.540 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=537 ttl=31 time=67.1 ms
+08-10 20:33:19.740 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=538 ttl=31 time=66.3 ms
+08-10 20:33:19.948 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=539 ttl=31 time=73.2 ms
+08-10 20:33:20.150 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=540 ttl=31 time=74.3 ms
+08-10 20:33:20.350 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=541 ttl=31 time=73.0 ms
+08-10 20:33:20.552 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=542 ttl=31 time=73.2 ms
+08-10 20:33:20.752 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=543 ttl=31 time=72.8 ms
+08-10 20:33:20.960 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=544 ttl=31 time=80.1 ms
+08-10 20:33:21.150 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=545 ttl=31 time=69.7 ms
+08-10 20:33:21.351 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=546 ttl=31 time=69.7 ms
+08-10 20:33:21.551 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=547 ttl=31 time=69.0 ms
+08-10 20:33:21.751 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=548 ttl=31 time=67.7 ms
+08-10 20:33:21.886 28085 28085 D cellinfo: Latitude is 41.4383398
+08-10 20:33:21.886 28085 28085 D cellinfo: Longitude is -105.9433312
+08-10 20:33:21.886 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:21.886 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383398, -105.9433312
+08-10 20:33:21.927 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20035229 CellConnectionStatus: 1
+08-10 20:33:21.927 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:21.950 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=549 ttl=31 time=66.6 ms
+08-10 20:33:22.152 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=550 ttl=31 time=67.4 ms
+08-10 20:33:22.368 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=551 ttl=31 time=82.1 ms
+08-10 20:33:22.560 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=552 ttl=31 time=73.3 ms
+08-10 20:33:22.768 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=553 ttl=31 time=78.6 ms
+08-10 20:33:22.968 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=554 ttl=31 time=78.1 ms
+08-10 20:33:23.160 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=555 ttl=31 time=68.2 ms
+08-10 20:33:23.360 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=556 ttl=31 time=69.0 ms
+08-10 20:33:23.569 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=557 ttl=31 time=76.1 ms
+08-10 20:33:23.761 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=558 ttl=31 time=67.3 ms
+08-10 20:33:23.960 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=559 ttl=31 time=66.6 ms
+08-10 20:33:24.160 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=560 ttl=31 time=65.9 ms
+08-10 20:33:24.370 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=561 ttl=31 time=75.1 ms
+08-10 20:33:24.577 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=562 ttl=31 time=80.6 ms
+08-10 20:33:24.772 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=563 ttl=31 time=74.9 ms
+08-10 20:33:24.894 28085 28085 D cellinfo: Latitude is 41.4383398
+08-10 20:33:24.894 28085 28085 D cellinfo: Longitude is -105.9433312
+08-10 20:33:24.894 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:24.894 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383398, -105.9433312
+08-10 20:33:24.940 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20038240 CellConnectionStatus: 1
+08-10 20:33:24.940 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:24.978 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=564 ttl=31 time=80.6 ms
+08-10 20:33:25.170 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=565 ttl=31 time=71.6 ms
+08-10 20:33:25.370 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=566 ttl=31 time=70.2 ms
+08-10 20:33:25.573 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=567 ttl=31 time=71.8 ms
+08-10 20:33:25.770 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=568 ttl=31 time=68.7 ms
+08-10 20:33:25.970 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=569 ttl=31 time=68.3 ms
+08-10 20:33:26.173 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=570 ttl=31 time=69.4 ms
+08-10 20:33:26.371 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=571 ttl=31 time=67.5 ms
+08-10 20:33:26.571 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=572 ttl=31 time=66.9 ms
+08-10 20:33:26.781 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=573 ttl=31 time=76.0 ms
+08-10 20:33:26.984 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=574 ttl=31 time=78.2 ms
+08-10 20:33:27.182 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=575 ttl=31 time=74.5 ms
+08-10 20:33:27.390 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=576 ttl=31 time=82.3 ms
+08-10 20:33:27.580 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=577 ttl=31 time=71.7 ms
+08-10 20:33:27.780 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=578 ttl=31 time=71.1 ms
+08-10 20:33:27.921 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20041221 CellConnectionStatus: 1
+08-10 20:33:27.921 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:27.981 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=579 ttl=31 time=71.5 ms
+08-10 20:33:28.179 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=580 ttl=31 time=67.8 ms
+08-10 20:33:28.374 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=581 ttl=31 time=62.2 ms
+08-10 20:33:28.581 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=582 ttl=31 time=67.9 ms
+08-10 20:33:28.789 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=583 ttl=31 time=75.7 ms
+08-10 20:33:28.979 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=584 ttl=31 time=65.2 ms
+08-10 20:33:29.071 28085 28085 D cellinfo: Latitude is 41.4383394
+08-10 20:33:29.071 28085 28085 D cellinfo: Longitude is -105.9433306
+08-10 20:33:29.071 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:29.071 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383394, -105.9433306
+08-10 20:33:29.193 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=585 ttl=31 time=78.5 ms
+08-10 20:33:29.391 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=586 ttl=31 time=75.4 ms
+08-10 20:33:29.590 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=587 ttl=31 time=73.2 ms
+08-10 20:33:29.791 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=588 ttl=31 time=73.3 ms
+08-10 20:33:29.990 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=589 ttl=31 time=71.0 ms
+08-10 20:33:30.205 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=590 ttl=31 time=85.4 ms
+08-10 20:33:30.390 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=591 ttl=31 time=70.1 ms
+08-10 20:33:30.591 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=592 ttl=31 time=69.0 ms
+08-10 20:33:30.798 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=593 ttl=31 time=75.5 ms
+08-10 20:33:30.886 28085 28085 D cellinfo: Latitude is 41.4383394
+08-10 20:33:30.886 28085 28085 D cellinfo: Longitude is -105.9433306
+08-10 20:33:30.887 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:30.887 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383394, -105.9433306
+08-10 20:33:30.927 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20044229 CellConnectionStatus: 1
+08-10 20:33:30.927 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:30.990 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=594 ttl=31 time=67.6 ms
+08-10 20:33:31.190 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=595 ttl=31 time=67.0 ms
+08-10 20:33:31.390 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=596 ttl=31 time=66.4 ms
+08-10 20:33:31.600 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=597 ttl=31 time=75.3 ms
+08-10 20:33:31.800 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=598 ttl=31 time=74.3 ms
+08-10 20:33:32.000 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=599 ttl=31 time=72.7 ms
+08-10 20:33:32.203 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=600 ttl=31 time=76.2 ms
+08-10 20:33:32.401 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=601 ttl=31 time=72.5 ms
+08-10 20:33:32.600 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=602 ttl=31 time=71.1 ms
+08-10 20:33:32.801 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=603 ttl=31 time=70.4 ms
+08-10 20:33:33.000 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=604 ttl=31 time=69.9 ms
+08-10 20:33:33.085 28085 28085 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -111 rsrq: -13 rssi: -89 rssnr: 12
+08-10 20:33:33.201 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=605 ttl=31 time=70.4 ms
+08-10 20:33:33.401 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=606 ttl=31 time=70.0 ms
+08-10 20:33:33.601 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=607 ttl=31 time=69.0 ms
+08-10 20:33:33.800 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=608 ttl=31 time=68.1 ms
+08-10 20:33:33.889 28085 28085 D cellinfo: Latitude is 41.4383393
+08-10 20:33:33.889 28085 28085 D cellinfo: Longitude is -105.9433306
+08-10 20:33:33.889 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:33.889 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383393, -105.9433306
+08-10 20:33:33.932 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20047234 CellConnectionStatus: 1
+08-10 20:33:33.932 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:34.000 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=609 ttl=31 time=67.1 ms
+08-10 20:33:34.206 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=610 ttl=31 time=73.6 ms
+08-10 20:33:34.408 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=611 ttl=31 time=74.2 ms
+08-10 20:33:34.610 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=612 ttl=31 time=74.8 ms
+08-10 20:33:34.811 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=613 ttl=31 time=75.1 ms
+08-10 20:33:35.011 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=614 ttl=31 time=73.9 ms
+08-10 20:33:35.227 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=615 ttl=31 time=89.3 ms
+08-10 20:33:35.412 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=616 ttl=31 time=73.1 ms
+08-10 20:33:35.611 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=617 ttl=31 time=72.3 ms
+08-10 20:33:35.811 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=618 ttl=31 time=71.9 ms
+08-10 20:33:36.010 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=619 ttl=31 time=70.8 ms
+08-10 20:33:36.210 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=620 ttl=31 time=71.2 ms
+08-10 20:33:36.410 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=621 ttl=31 time=70.2 ms
+08-10 20:33:36.613 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=622 ttl=31 time=71.7 ms
+08-10 20:33:36.811 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=623 ttl=31 time=69.0 ms
+08-10 20:33:36.888 28085 28085 D cellinfo: Latitude is 41.4383392
+08-10 20:33:36.888 28085 28085 D cellinfo: Longitude is -105.9433306
+08-10 20:33:36.888 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:36.888 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383392, -105.9433306
+08-10 20:33:36.926 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20050227 CellConnectionStatus: 1
+08-10 20:33:36.926 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:37.009 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=624 ttl=31 time=66.9 ms
+08-10 20:33:37.214 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=625 ttl=31 time=72.4 ms
+08-10 20:33:37.411 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=626 ttl=31 time=67.9 ms
+08-10 20:33:37.620 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=627 ttl=31 time=76.5 ms
+08-10 20:33:37.815 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=628 ttl=31 time=70.4 ms
+08-10 20:33:38.028 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=629 ttl=31 time=82.4 ms
+08-10 20:33:38.084 28085 28085 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -111 rsrq: -8 rssi: -93 rssnr: 15
+08-10 20:33:38.230 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=630 ttl=31 time=83.2 ms
+08-10 20:33:38.420 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=631 ttl=31 time=73.8 ms
+08-10 20:33:38.621 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=632 ttl=31 time=73.4 ms
+08-10 20:33:38.822 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=633 ttl=31 time=74.1 ms
+08-10 20:33:39.022 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=634 ttl=31 time=73.6 ms
+08-10 20:33:39.223 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=635 ttl=31 time=75.3 ms
+08-10 20:33:39.427 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=636 ttl=31 time=78.9 ms
+08-10 20:33:39.635 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=637 ttl=31 time=85.6 ms
+08-10 20:33:39.821 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=638 ttl=31 time=71.6 ms
+08-10 20:33:39.890 28085 28085 D cellinfo: Latitude is 41.4383392
+08-10 20:33:39.890 28085 28085 D cellinfo: Longitude is -105.9433306
+08-10 20:33:39.890 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:39.890 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383392, -105.9433306
+08-10 20:33:39.940 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20053242 CellConnectionStatus: 1
+08-10 20:33:39.940 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:40.021 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=639 ttl=31 time=71.5 ms
+08-10 20:33:40.220 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=640 ttl=31 time=70.4 ms
+08-10 20:33:40.420 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=641 ttl=31 time=69.1 ms
+08-10 20:33:40.621 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=642 ttl=31 time=68.5 ms
+08-10 20:33:40.820 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=643 ttl=31 time=68.0 ms
+08-10 20:33:41.020 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=644 ttl=31 time=67.3 ms
+08-10 20:33:41.220 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=645 ttl=31 time=67.1 ms
+08-10 20:33:41.421 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=646 ttl=31 time=66.3 ms
+08-10 20:33:41.621 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=647 ttl=31 time=65.9 ms
+08-10 20:33:41.839 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=648 ttl=31 time=83.0 ms
+08-10 20:33:42.035 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=649 ttl=31 time=78.3 ms
+08-10 20:33:42.232 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=650 ttl=31 time=75.0 ms
+08-10 20:33:42.432 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=651 ttl=31 time=73.9 ms
+08-10 20:33:42.631 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=652 ttl=31 time=71.9 ms
+08-10 20:33:42.831 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=653 ttl=31 time=71.9 ms
+08-10 20:33:42.919 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20056220 CellConnectionStatus: 1
+08-10 20:33:42.919 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:43.040 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=654 ttl=31 time=80.3 ms
+08-10 20:33:43.230 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=655 ttl=31 time=70.4 ms
+08-10 20:33:43.430 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=656 ttl=31 time=69.3 ms
+08-10 20:33:43.631 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=657 ttl=31 time=68.2 ms
+08-10 20:33:43.830 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=658 ttl=31 time=67.2 ms
+08-10 20:33:44.030 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=659 ttl=31 time=66.3 ms
+08-10 20:33:44.074 28085 28085 D cellinfo: Latitude is 41.4383435
+08-10 20:33:44.074 28085 28085 D cellinfo: Longitude is -105.9433364
+08-10 20:33:44.074 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:44.074 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383435, -105.9433364
+08-10 20:33:44.230 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=660 ttl=31 time=66.2 ms
+08-10 20:33:44.430 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=661 ttl=31 time=65.4 ms
+08-10 20:33:44.642 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=662 ttl=31 time=75.9 ms
+08-10 20:33:44.840 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=663 ttl=31 time=73.6 ms
+08-10 20:33:45.040 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=664 ttl=31 time=72.9 ms
+08-10 20:33:45.241 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=665 ttl=31 time=73.1 ms
+08-10 20:33:45.440 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=666 ttl=31 time=70.7 ms
+08-10 20:33:45.641 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=667 ttl=31 time=71.2 ms
+08-10 20:33:45.842 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=668 ttl=31 time=71.6 ms
+08-10 20:33:45.883 28085 28085 D cellinfo: Latitude is 41.4383435
+08-10 20:33:45.883 28085 28085 D cellinfo: Longitude is -105.9433364
+08-10 20:33:45.883 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:45.883 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383435, -105.9433364
+08-10 20:33:45.922 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20059224 CellConnectionStatus: 1
+08-10 20:33:45.922 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:46.060 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=669 ttl=31 time=90.0 ms
+08-10 20:33:46.239 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=670 ttl=31 time=69.1 ms
+08-10 20:33:46.442 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=671 ttl=31 time=71.4 ms
+08-10 20:33:46.641 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=672 ttl=31 time=68.6 ms
+08-10 20:33:46.842 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=673 ttl=31 time=69.8 ms
+08-10 20:33:47.044 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=674 ttl=31 time=71.0 ms
+08-10 20:33:47.241 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=675 ttl=31 time=67.4 ms
+08-10 20:33:47.441 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=676 ttl=31 time=66.8 ms
+08-10 20:33:47.649 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=677 ttl=31 time=74.2 ms
+08-10 20:33:47.851 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=678 ttl=31 time=75.4 ms
+08-10 20:33:48.051 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=679 ttl=31 time=74.4 ms
+08-10 20:33:48.251 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=680 ttl=31 time=75.2 ms
+08-10 20:33:48.459 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=681 ttl=31 time=82.9 ms
+08-10 20:33:48.661 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=682 ttl=31 time=83.8 ms
+08-10 20:33:48.850 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=683 ttl=31 time=72.3 ms
+08-10 20:33:48.886 28085 28085 D cellinfo: Latitude is 41.4383439
+08-10 20:33:48.886 28085 28085 D cellinfo: Longitude is -105.9433369
+08-10 20:33:48.886 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:48.886 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383439, -105.9433369
+08-10 20:33:48.929 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20062231 CellConnectionStatus: 1
+08-10 20:33:48.929 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:49.048 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=684 ttl=31 time=69.5 ms
+08-10 20:33:49.253 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=685 ttl=31 time=74.6 ms
+08-10 20:33:49.450 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=686 ttl=31 time=71.8 ms
+08-10 20:33:49.663 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=687 ttl=31 time=83.4 ms
+08-10 20:33:49.853 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=688 ttl=31 time=72.9 ms
+08-10 20:33:50.059 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=689 ttl=31 time=77.2 ms
+08-10 20:33:50.253 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=690 ttl=31 time=71.3 ms
+08-10 20:33:50.451 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=691 ttl=31 time=68.1 ms
+08-10 20:33:50.651 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=692 ttl=31 time=66.9 ms
+08-10 20:33:50.850 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=693 ttl=31 time=64.8 ms
+08-10 20:33:51.051 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=694 ttl=31 time=64.7 ms
+08-10 20:33:51.266 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=695 ttl=31 time=80.5 ms
+08-10 20:33:51.470 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=696 ttl=31 time=82.8 ms
+08-10 20:33:51.675 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=697 ttl=31 time=88.1 ms
+08-10 20:33:51.860 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=698 ttl=31 time=72.4 ms
+08-10 20:33:51.886 28085 28085 D cellinfo: Latitude is 41.4383441
+08-10 20:33:51.886 28085 28085 D cellinfo: Longitude is -105.9433371
+08-10 20:33:51.886 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:51.886 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383441, -105.9433371
+08-10 20:33:51.925 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20065227 CellConnectionStatus: 1
+08-10 20:33:51.925 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:52.053 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=699 ttl=31 time=64.1 ms
+08-10 20:33:52.260 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=700 ttl=31 time=71.4 ms
+08-10 20:33:52.460 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=701 ttl=31 time=70.2 ms
+08-10 20:33:52.661 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=702 ttl=31 time=70.3 ms
+08-10 20:33:52.870 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=703 ttl=31 time=77.8 ms
+08-10 20:33:53.067 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=704 ttl=31 time=73.9 ms
+08-10 20:33:53.088 28085 28085 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -112 rsrq: -12 rssi: -91 rssnr: 12
+08-10 20:33:53.261 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=705 ttl=31 time=68.4 ms
+08-10 20:33:53.485 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=706 ttl=31 time=92.3 ms
+08-10 20:33:53.662 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=707 ttl=31 time=67.7 ms
+08-10 20:33:53.860 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=708 ttl=31 time=66.0 ms
+08-10 20:33:54.082 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=709 ttl=31 time=87.3 ms
+08-10 20:33:54.288 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=710 ttl=31 time=92.2 ms
+08-10 20:33:54.471 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=711 ttl=31 time=74.1 ms
+08-10 20:33:54.671 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=712 ttl=31 time=72.7 ms
+08-10 20:33:54.870 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=713 ttl=31 time=72.1 ms
+08-10 20:33:54.896 28085 28085 D cellinfo: Latitude is 41.438344
+08-10 20:33:54.896 28085 28085 D cellinfo: Longitude is -105.943337
+08-10 20:33:54.896 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:54.896 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.438344, -105.943337
+08-10 20:33:54.929 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20068232 CellConnectionStatus: 1
+08-10 20:33:54.930 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:55.072 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=714 ttl=31 time=72.6 ms
+08-10 20:33:55.269 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=715 ttl=31 time=71.2 ms
+08-10 20:33:55.471 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=716 ttl=31 time=72.5 ms
+08-10 20:33:55.679 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=717 ttl=31 time=77.8 ms
+08-10 20:33:55.872 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=718 ttl=31 time=70.3 ms
+08-10 20:33:56.070 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=719 ttl=31 time=68.3 ms
+08-10 20:33:56.271 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=720 ttl=31 time=67.4 ms
+08-10 20:33:56.479 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=721 ttl=31 time=75.2 ms
+08-10 20:33:56.693 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=722 ttl=31 time=83.6 ms
+08-10 20:33:56.871 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=723 ttl=31 time=65.1 ms
+08-10 20:33:57.085 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=724 ttl=31 time=78.2 ms
+08-10 20:33:57.282 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=725 ttl=31 time=74.5 ms
+08-10 20:33:57.489 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=726 ttl=31 time=80.8 ms
+08-10 20:33:57.682 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=727 ttl=31 time=73.2 ms
+08-10 20:33:57.882 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=728 ttl=31 time=71.5 ms
+08-10 20:33:57.915 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20071215 CellConnectionStatus: 1
+08-10 20:33:57.915 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:33:58.044 28085 28085 D cellinfo: Latitude is 41.4383502
+08-10 20:33:58.044 28085 28085 D cellinfo: Longitude is -105.9433333
+08-10 20:33:58.044 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:33:58.044 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383502, -105.9433333
+08-10 20:33:58.083 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=729 ttl=31 time=72.4 ms
+08-10 20:33:58.281 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=730 ttl=31 time=69.6 ms
+08-10 20:33:58.482 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=731 ttl=31 time=69.8 ms
+08-10 20:33:58.683 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=732 ttl=31 time=70.1 ms
+08-10 20:33:58.889 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=733 ttl=31 time=75.1 ms
+08-10 20:33:59.081 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=734 ttl=31 time=66.0 ms
+08-10 20:33:59.292 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=735 ttl=31 time=75.2 ms
+08-10 20:33:59.492 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=736 ttl=31 time=74.2 ms
+08-10 20:33:59.691 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=737 ttl=31 time=72.3 ms
+08-10 20:33:59.891 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=738 ttl=31 time=70.8 ms
+08-10 20:34:00.092 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=739 ttl=31 time=71.1 ms
+08-10 20:34:00.292 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=740 ttl=31 time=69.9 ms
+08-10 20:34:00.492 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=741 ttl=31 time=69.7 ms
+08-10 20:34:00.690 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=742 ttl=31 time=67.6 ms
+08-10 20:34:00.890 28085 28085 D cellinfo: Latitude is 41.4383502
+08-10 20:34:00.891 28085 28085 D cellinfo: Longitude is -105.9433333
+08-10 20:34:00.891 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:00.891 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383502, -105.9433333
+08-10 20:34:00.892 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=743 ttl=31 time=68.5 ms
+08-10 20:34:00.928 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20074227 CellConnectionStatus: 1
+08-10 20:34:00.928 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:01.091 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=744 ttl=31 time=66.0 ms
+08-10 20:34:01.300 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=745 ttl=31 time=74.4 ms
+08-10 20:34:01.501 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=746 ttl=31 time=74.8 ms
+08-10 20:34:01.702 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=747 ttl=31 time=74.3 ms
+08-10 20:34:01.902 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=748 ttl=31 time=73.3 ms
+08-10 20:34:02.101 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=749 ttl=31 time=71.2 ms
+08-10 20:34:02.301 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=750 ttl=31 time=70.0 ms
+08-10 20:34:02.501 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=751 ttl=31 time=69.1 ms
+08-10 20:34:02.709 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=752 ttl=31 time=76.1 ms
+08-10 20:34:02.902 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=753 ttl=31 time=68.8 ms
+08-10 20:34:03.085 28085 28085 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -107 rsrq: -8 rssi: -91 rssnr: 15
+08-10 20:34:03.101 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=754 ttl=31 time=67.4 ms
+08-10 20:34:03.300 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=755 ttl=31 time=66.6 ms
+08-10 20:34:03.500 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=756 ttl=31 time=65.3 ms
+08-10 20:34:03.711 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=757 ttl=31 time=74.4 ms
+08-10 20:34:03.888 28085 28085 D cellinfo: Latitude is 41.438351
+08-10 20:34:03.888 28085 28085 D cellinfo: Longitude is -105.9433328
+08-10 20:34:03.888 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:03.888 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.438351, -105.9433328
+08-10 20:34:03.912 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=758 ttl=31 time=74.8 ms
+08-10 20:34:03.940 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20077240 CellConnectionStatus: 1
+08-10 20:34:03.940 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:04.112 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=759 ttl=31 time=73.4 ms
+08-10 20:34:04.311 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=760 ttl=31 time=71.6 ms
+08-10 20:34:04.511 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=761 ttl=31 time=71.3 ms
+08-10 20:34:04.711 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=762 ttl=31 time=70.0 ms
+08-10 20:34:04.912 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=763 ttl=31 time=70.0 ms
+08-10 20:34:05.111 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=764 ttl=31 time=68.2 ms
+08-10 20:34:05.312 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=765 ttl=31 time=67.3 ms
+08-10 20:34:05.511 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=766 ttl=31 time=66.5 ms
+08-10 20:34:05.720 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=767 ttl=31 time=75.1 ms
+08-10 20:34:05.925 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=768 ttl=31 time=77.9 ms
+08-10 20:34:06.131 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=769 ttl=31 time=83.8 ms
+08-10 20:34:06.331 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=770 ttl=31 time=81.0 ms
+08-10 20:34:06.522 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=771 ttl=31 time=73.0 ms
+08-10 20:34:06.729 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=772 ttl=31 time=78.9 ms
+08-10 20:34:06.886 28085 28085 D cellinfo: Latitude is 41.438351
+08-10 20:34:06.886 28085 28085 D cellinfo: Longitude is -105.9433328
+08-10 20:34:06.886 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:06.886 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.438351, -105.9433328
+08-10 20:34:06.921 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=773 ttl=31 time=70.2 ms
+08-10 20:34:06.946 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20080247 CellConnectionStatus: 1
+08-10 20:34:06.946 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:07.121 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=774 ttl=31 time=69.5 ms
+08-10 20:34:07.321 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=775 ttl=31 time=68.9 ms
+08-10 20:34:07.521 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=776 ttl=31 time=68.1 ms
+08-10 20:34:07.724 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=777 ttl=31 time=70.1 ms
+08-10 20:34:07.922 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=778 ttl=31 time=67.5 ms
+08-10 20:34:08.123 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=779 ttl=31 time=67.6 ms
+08-10 20:34:08.342 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=780 ttl=31 time=86.0 ms
+08-10 20:34:08.559 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=781 ttl=31 time=101 ms
+08-10 20:34:08.755 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=782 ttl=31 time=97.5 ms
+08-10 20:34:08.956 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=783 ttl=31 time=98.2 ms
+08-10 20:34:09.156 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=784 ttl=31 time=97.0 ms
+08-10 20:34:09.339 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=785 ttl=31 time=79.1 ms
+08-10 20:34:09.541 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=786 ttl=31 time=80.1 ms
+08-10 20:34:09.731 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=787 ttl=31 time=68.7 ms
+08-10 20:34:09.918 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20083218 CellConnectionStatus: 1
+08-10 20:34:09.918 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:09.931 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=788 ttl=31 time=68.0 ms
+08-10 20:34:10.137 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=789 ttl=31 time=73.5 ms
+08-10 20:34:10.331 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=790 ttl=31 time=66.1 ms
+08-10 20:34:10.530 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=791 ttl=31 time=65.2 ms
+08-10 20:34:10.741 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=792 ttl=31 time=74.6 ms
+08-10 20:34:10.941 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=793 ttl=31 time=73.3 ms
+08-10 20:34:11.065 28085 28085 D cellinfo: Latitude is 41.4383533
+08-10 20:34:11.065 28085 28085 D cellinfo: Longitude is -105.9433257
+08-10 20:34:11.065 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:11.065 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383533, -105.9433257
+08-10 20:34:11.152 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=794 ttl=31 time=83.3 ms
+08-10 20:34:11.342 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=795 ttl=31 time=72.4 ms
+08-10 20:34:11.540 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=796 ttl=31 time=70.2 ms
+08-10 20:34:11.740 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=797 ttl=31 time=69.4 ms
+08-10 20:34:11.941 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=798 ttl=31 time=69.2 ms
+08-10 20:34:12.154 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=799 ttl=31 time=81.2 ms
+08-10 20:34:12.359 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=800 ttl=31 time=84.7 ms
+08-10 20:34:12.540 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=801 ttl=31 time=65.0 ms
+08-10 20:34:12.741 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=802 ttl=31 time=65.6 ms
+08-10 20:34:12.885 28085 28085 D cellinfo: Latitude is 41.4383533
+08-10 20:34:12.885 28085 28085 D cellinfo: Longitude is -105.9433257
+08-10 20:34:12.885 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:12.885 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383533, -105.9433257
+08-10 20:34:12.920 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20086219 CellConnectionStatus: 1
+08-10 20:34:12.920 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:12.951 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=803 ttl=31 time=74.8 ms
+08-10 20:34:13.151 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=804 ttl=31 time=74.4 ms
+08-10 20:34:13.359 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=805 ttl=31 time=80.9 ms
+08-10 20:34:13.551 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=806 ttl=31 time=72.5 ms
+08-10 20:34:13.751 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=807 ttl=31 time=71.3 ms
+08-10 20:34:13.952 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=808 ttl=31 time=71.2 ms
+08-10 20:34:14.159 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=809 ttl=31 time=78.0 ms
+08-10 20:34:14.352 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=810 ttl=31 time=69.6 ms
+08-10 20:34:14.551 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=811 ttl=31 time=68.7 ms
+08-10 20:34:14.751 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=812 ttl=31 time=67.8 ms
+08-10 20:34:14.951 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=813 ttl=31 time=67.4 ms
+08-10 20:34:15.154 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=814 ttl=31 time=69.4 ms
+08-10 20:34:15.351 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=815 ttl=31 time=65.0 ms
+08-10 20:34:15.562 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=816 ttl=31 time=75.2 ms
+08-10 20:34:15.762 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=817 ttl=31 time=72.9 ms
+08-10 20:34:15.886 28085 28085 D cellinfo: Latitude is 41.4383536
+08-10 20:34:15.886 28085 28085 D cellinfo: Longitude is -105.9433248
+08-10 20:34:15.886 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:15.886 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383536, -105.9433248
+08-10 20:34:15.926 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20089226 CellConnectionStatus: 1
+08-10 20:34:15.926 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:15.961 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=818 ttl=31 time=71.9 ms
+08-10 20:34:16.162 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=819 ttl=31 time=72.4 ms
+08-10 20:34:16.363 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=820 ttl=31 time=72.4 ms
+08-10 20:34:16.562 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=821 ttl=31 time=69.8 ms
+08-10 20:34:16.769 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=822 ttl=31 time=76.3 ms
+08-10 20:34:16.961 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=823 ttl=31 time=67.7 ms
+08-10 20:34:17.162 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=824 ttl=31 time=67.2 ms
+08-10 20:34:17.361 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=825 ttl=31 time=66.6 ms
+08-10 20:34:17.561 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=826 ttl=31 time=65.8 ms
+08-10 20:34:17.773 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=827 ttl=31 time=77.4 ms
+08-10 20:34:17.971 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=828 ttl=31 time=74.9 ms
+08-10 20:34:18.171 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=829 ttl=31 time=74.1 ms
+08-10 20:34:18.372 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=830 ttl=31 time=73.8 ms
+08-10 20:34:18.571 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=831 ttl=31 time=72.6 ms
+08-10 20:34:18.774 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=832 ttl=31 time=75.0 ms
+08-10 20:34:18.886 28085 28085 D cellinfo: Latitude is 41.4383538
+08-10 20:34:18.887 28085 28085 D cellinfo: Longitude is -105.9433244
+08-10 20:34:18.887 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:18.887 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383538, -105.9433244
+08-10 20:34:18.935 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20092237 CellConnectionStatus: 1
+08-10 20:34:18.935 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:18.974 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=833 ttl=31 time=74.7 ms
+08-10 20:34:19.171 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=834 ttl=31 time=70.1 ms
+08-10 20:34:19.371 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=835 ttl=31 time=69.2 ms
+08-10 20:34:19.571 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=836 ttl=31 time=68.3 ms
+08-10 20:34:19.778 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=837 ttl=31 time=74.9 ms
+08-10 20:34:19.972 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=838 ttl=31 time=67.7 ms
+08-10 20:34:20.173 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=839 ttl=31 time=68.3 ms
+08-10 20:34:20.375 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=840 ttl=31 time=69.2 ms
+08-10 20:34:20.571 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=841 ttl=31 time=64.1 ms
+08-10 20:34:20.784 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=842 ttl=31 time=76.5 ms
+08-10 20:34:20.981 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=843 ttl=31 time=73.2 ms
+08-10 20:34:21.181 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=844 ttl=31 time=72.5 ms
+08-10 20:34:21.381 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=845 ttl=31 time=72.2 ms
+08-10 20:34:21.581 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=846 ttl=31 time=71.2 ms
+08-10 20:34:21.798 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=847 ttl=31 time=86.9 ms
+08-10 20:34:21.883 28085 28085 D cellinfo: Latitude is 41.4383537
+08-10 20:34:21.883 28085 28085 D cellinfo: Longitude is -105.9433246
+08-10 20:34:21.883 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:21.883 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383537, -105.9433246
+08-10 20:34:21.922 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20095222 CellConnectionStatus: 1
+08-10 20:34:21.922 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:21.996 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=848 ttl=31 time=84.7 ms
+08-10 20:34:22.189 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=849 ttl=31 time=77.1 ms
+08-10 20:34:22.389 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=850 ttl=31 time=76.2 ms
+08-10 20:34:22.581 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=851 ttl=31 time=67.1 ms
+08-10 20:34:22.797 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=852 ttl=31 time=82.1 ms
+08-10 20:34:22.993 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=853 ttl=31 time=77.3 ms
+08-10 20:34:23.192 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=854 ttl=31 time=74.5 ms
+08-10 20:34:23.392 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=855 ttl=31 time=73.5 ms
+08-10 20:34:23.593 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=856 ttl=31 time=73.1 ms
+08-10 20:34:23.803 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=857 ttl=31 time=84.3 ms
+08-10 20:34:23.992 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=858 ttl=31 time=71.1 ms
+08-10 20:34:24.218 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=859 ttl=31 time=97.4 ms
+08-10 20:34:24.392 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=860 ttl=31 time=70.2 ms
+08-10 20:34:24.592 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=861 ttl=31 time=70.5 ms
+08-10 20:34:24.794 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=862 ttl=31 time=72.8 ms
+08-10 20:34:24.926 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20098225 CellConnectionStatus: 1
+08-10 20:34:24.926 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:24.999 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=863 ttl=31 time=76.8 ms
+08-10 20:34:25.195 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=864 ttl=31 time=72.2 ms
+08-10 20:34:25.386 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=865 ttl=31 time=62.6 ms
+08-10 20:34:25.591 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=866 ttl=31 time=67.2 ms
+08-10 20:34:25.792 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=867 ttl=31 time=66.4 ms
+08-10 20:34:25.991 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=868 ttl=31 time=66.1 ms
+08-10 20:34:26.197 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=869 ttl=31 time=70.1 ms
+08-10 20:34:26.391 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=870 ttl=31 time=62.8 ms
+08-10 20:34:26.530 28085 28085 D cellinfo: Latitude is 41.4383557
+08-10 20:34:26.530 28085 28085 D cellinfo: Longitude is -105.9433111
+08-10 20:34:26.530 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:26.530 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383557, -105.9433111
+08-10 20:34:26.599 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=871 ttl=31 time=70.4 ms
+08-10 20:34:26.800 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=872 ttl=31 time=70.2 ms
+08-10 20:34:27.002 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=873 ttl=31 time=71.1 ms
+08-10 20:34:27.202 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=874 ttl=31 time=71.3 ms
+08-10 20:34:27.401 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=875 ttl=31 time=69.9 ms
+08-10 20:34:27.602 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=876 ttl=31 time=70.1 ms
+08-10 20:34:27.801 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=877 ttl=31 time=68.2 ms
+08-10 20:34:27.888 28085 28085 D cellinfo: Latitude is 41.4383557
+08-10 20:34:27.888 28085 28085 D cellinfo: Longitude is -105.9433111
+08-10 20:34:27.888 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:27.888 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383557, -105.9433111
+08-10 20:34:27.929 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20101230 CellConnectionStatus: 1
+08-10 20:34:27.929 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:28.002 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=878 ttl=31 time=67.9 ms
+08-10 20:34:28.209 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=879 ttl=31 time=75.5 ms
+08-10 20:34:28.402 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=880 ttl=31 time=67.9 ms
+08-10 20:34:28.601 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=881 ttl=31 time=66.4 ms
+08-10 20:34:28.810 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=882 ttl=31 time=74.5 ms
+08-10 20:34:29.011 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=883 ttl=31 time=74.3 ms
+08-10 20:34:29.212 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=884 ttl=31 time=74.4 ms
+08-10 20:34:29.412 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=885 ttl=31 time=73.5 ms
+08-10 20:34:29.612 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=886 ttl=31 time=72.9 ms
+08-10 20:34:29.821 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=887 ttl=31 time=81.9 ms
+08-10 20:34:30.011 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=888 ttl=31 time=70.8 ms
+08-10 20:34:30.212 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=889 ttl=31 time=71.2 ms
+08-10 20:34:30.411 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=890 ttl=31 time=71.0 ms
+08-10 20:34:30.611 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=891 ttl=31 time=70.1 ms
+08-10 20:34:30.819 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=892 ttl=31 time=77.2 ms
+08-10 20:34:30.887 28085 28085 D cellinfo: Latitude is 41.4383554
+08-10 20:34:30.887 28085 28085 D cellinfo: Longitude is -105.9433101
+08-10 20:34:30.887 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:30.887 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383554, -105.9433101
+08-10 20:34:30.927 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20104228 CellConnectionStatus: 1
+08-10 20:34:30.927 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:31.011 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=893 ttl=31 time=67.9 ms
+08-10 20:34:31.211 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=894 ttl=31 time=68.4 ms
+08-10 20:34:31.411 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=895 ttl=31 time=67.2 ms
+08-10 20:34:31.611 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=896 ttl=31 time=66.2 ms
+08-10 20:34:31.821 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=897 ttl=31 time=75.5 ms
+08-10 20:34:32.011 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=898 ttl=31 time=65.3 ms
+08-10 20:34:32.212 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=899 ttl=31 time=65.2 ms
+08-10 20:34:32.423 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=900 ttl=31 time=76.0 ms
+08-10 20:34:32.633 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=901 ttl=31 time=84.4 ms
+08-10 20:34:32.827 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=902 ttl=31 time=78.2 ms
+08-10 20:34:33.022 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=903 ttl=31 time=71.3 ms
+08-10 20:34:33.222 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=904 ttl=31 time=71.8 ms
+08-10 20:34:33.424 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=905 ttl=31 time=72.9 ms
+08-10 20:34:33.621 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=906 ttl=31 time=70.4 ms
+08-10 20:34:33.838 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=907 ttl=31 time=85.6 ms
+08-10 20:34:33.887 28085 28085 D cellinfo: Latitude is 41.4383553
+08-10 20:34:33.887 28085 28085 D cellinfo: Longitude is -105.9433097
+08-10 20:34:33.887 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:33.887 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383553, -105.9433097
+08-10 20:34:33.925 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20107227 CellConnectionStatus: 1
+08-10 20:34:33.925 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:34.012 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=908 ttl=31 time=59.5 ms
+08-10 20:34:34.222 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=909 ttl=31 time=69.5 ms
+08-10 20:34:34.423 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=910 ttl=31 time=69.2 ms
+08-10 20:34:34.631 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=911 ttl=31 time=76.8 ms
+08-10 20:34:34.821 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=912 ttl=31 time=66.1 ms
+08-10 20:34:35.023 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=913 ttl=31 time=66.8 ms
+08-10 20:34:35.231 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=914 ttl=31 time=74.6 ms
+08-10 20:34:35.441 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=915 ttl=31 time=84.1 ms
+08-10 20:34:35.632 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=916 ttl=31 time=73.7 ms
+08-10 20:34:35.849 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=917 ttl=31 time=89.8 ms
+08-10 20:34:36.033 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=918 ttl=31 time=73.9 ms
+08-10 20:34:36.245 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=919 ttl=31 time=85.0 ms
+08-10 20:34:36.460 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=920 ttl=31 time=99.6 ms
+08-10 20:34:36.647 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=921 ttl=31 time=86.2 ms
+08-10 20:34:36.832 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=922 ttl=31 time=69.5 ms
+08-10 20:34:36.885 28085 28085 D cellinfo: Latitude is 41.4383553
+08-10 20:34:36.885 28085 28085 D cellinfo: Longitude is -105.9433099
+08-10 20:34:36.885 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:36.885 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383553, -105.9433099
+08-10 20:34:36.926 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20110225 CellConnectionStatus: 1
+08-10 20:34:36.926 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:37.021 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=923 ttl=31 time=58.4 ms
+08-10 20:34:37.231 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=924 ttl=31 time=68.6 ms
+08-10 20:34:37.435 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=925 ttl=31 time=72.3 ms
+08-10 20:34:37.633 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=926 ttl=31 time=68.5 ms
+08-10 20:34:37.831 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=927 ttl=31 time=65.8 ms
+08-10 20:34:38.033 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=928 ttl=31 time=66.9 ms
+08-10 20:34:38.242 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=929 ttl=31 time=75.4 ms
+08-10 20:34:38.432 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=930 ttl=31 time=65.8 ms
+08-10 20:34:38.642 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=931 ttl=31 time=74.2 ms
+08-10 20:34:38.841 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=932 ttl=31 time=73.1 ms
+08-10 20:34:39.052 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=933 ttl=31 time=83.5 ms
+08-10 20:34:39.242 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=934 ttl=31 time=73.0 ms
+08-10 20:34:39.441 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=935 ttl=31 time=71.9 ms
+08-10 20:34:39.641 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=936 ttl=31 time=71.4 ms
+08-10 20:34:39.842 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=937 ttl=31 time=71.0 ms
+08-10 20:34:39.918 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20113219 CellConnectionStatus: 1
+08-10 20:34:39.918 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:40.054 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=938 ttl=31 time=82.1 ms
+08-10 20:34:40.243 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=939 ttl=31 time=71.6 ms
+08-10 20:34:40.442 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=940 ttl=31 time=70.4 ms
+08-10 20:34:40.641 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=941 ttl=31 time=68.4 ms
+08-10 20:34:40.841 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=942 ttl=31 time=67.7 ms
+08-10 20:34:41.041 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=943 ttl=31 time=67.3 ms
+08-10 20:34:41.060 28085 28085 D cellinfo: Latitude is 41.4383587
+08-10 20:34:41.061 28085 28085 D cellinfo: Longitude is -105.9433144
+08-10 20:34:41.061 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:41.061 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383587, -105.9433144
+08-10 20:34:41.251 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=944 ttl=31 time=76.4 ms
+08-10 20:34:41.441 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=945 ttl=31 time=66.7 ms
+08-10 20:34:41.642 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=946 ttl=31 time=66.6 ms
+08-10 20:34:41.854 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=947 ttl=31 time=77.9 ms
+08-10 20:34:42.041 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=948 ttl=31 time=64.8 ms
+08-10 20:34:42.250 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=949 ttl=31 time=74.2 ms
+08-10 20:34:42.451 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=950 ttl=31 time=74.1 ms
+08-10 20:34:42.651 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=951 ttl=31 time=73.3 ms
+08-10 20:34:42.856 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=952 ttl=31 time=76.1 ms
+08-10 20:34:42.883 28085 28085 D cellinfo: Latitude is 41.4383587
+08-10 20:34:42.883 28085 28085 D cellinfo: Longitude is -105.9433144
+08-10 20:34:42.883 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:42.883 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383587, -105.9433144
+08-10 20:34:42.923 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20116224 CellConnectionStatus: 1
+08-10 20:34:42.923 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:43.054 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=953 ttl=31 time=73.4 ms
+08-10 20:34:43.251 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=954 ttl=31 time=71.1 ms
+08-10 20:34:43.451 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=955 ttl=31 time=70.3 ms
+08-10 20:34:43.651 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=956 ttl=31 time=69.4 ms
+08-10 20:34:43.851 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=957 ttl=31 time=68.4 ms
+08-10 20:34:44.051 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=958 ttl=31 time=67.3 ms
+08-10 20:34:44.254 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=959 ttl=31 time=69.3 ms
+08-10 20:34:44.452 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=960 ttl=31 time=66.0 ms
+08-10 20:34:44.661 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=961 ttl=31 time=74.2 ms
+08-10 20:34:44.863 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=962 ttl=31 time=75.4 ms
+08-10 20:34:45.062 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=963 ttl=31 time=72.8 ms
+08-10 20:34:45.263 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=964 ttl=31 time=74.3 ms
+08-10 20:34:45.462 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=965 ttl=31 time=72.7 ms
+08-10 20:34:45.671 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=966 ttl=31 time=79.4 ms
+08-10 20:34:45.862 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=967 ttl=31 time=70.7 ms
+08-10 20:34:45.898 28085 28085 D cellinfo: Latitude is 41.438359
+08-10 20:34:45.898 28085 28085 D cellinfo: Longitude is -105.9433149
+08-10 20:34:45.898 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:45.898 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.438359, -105.9433149
+08-10 20:34:45.929 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20119226 CellConnectionStatus: 1
+08-10 20:34:45.929 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:46.072 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=968 ttl=31 time=80.5 ms
+08-10 20:34:46.261 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=969 ttl=31 time=70.8 ms
+08-10 20:34:46.461 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=970 ttl=31 time=70.3 ms
+08-10 20:34:46.662 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=971 ttl=31 time=69.7 ms
+08-10 20:34:46.862 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=972 ttl=31 time=69.2 ms
+08-10 20:34:47.061 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=973 ttl=31 time=67.6 ms
+08-10 20:34:47.263 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=974 ttl=31 time=69.0 ms
+08-10 20:34:47.462 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=975 ttl=31 time=67.3 ms
+08-10 20:34:47.662 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=976 ttl=31 time=65.9 ms
+08-10 20:34:47.872 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=977 ttl=31 time=74.6 ms
+08-10 20:34:48.072 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=978 ttl=31 time=74.6 ms
+08-10 20:34:48.272 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=979 ttl=31 time=75.2 ms
+08-10 20:34:48.471 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=980 ttl=31 time=72.3 ms
+08-10 20:34:48.672 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=981 ttl=31 time=73.1 ms
+08-10 20:34:48.872 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=982 ttl=31 time=73.0 ms
+08-10 20:34:48.898 28085 28085 D cellinfo: Latitude is 41.4383591
+08-10 20:34:48.898 28085 28085 D cellinfo: Longitude is -105.9433152
+08-10 20:34:48.898 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:48.898 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383591, -105.9433152
+08-10 20:34:48.930 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20122227 CellConnectionStatus: 1
+08-10 20:34:48.930 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:49.071 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=983 ttl=31 time=71.2 ms
+08-10 20:34:49.271 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=984 ttl=31 time=70.2 ms
+08-10 20:34:49.471 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=985 ttl=31 time=69.0 ms
+08-10 20:34:49.671 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=986 ttl=31 time=68.3 ms
+08-10 20:34:49.872 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=987 ttl=31 time=67.4 ms
+08-10 20:34:50.072 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=988 ttl=31 time=67.1 ms
+08-10 20:34:50.272 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=989 ttl=31 time=66.2 ms
+08-10 20:34:50.482 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=990 ttl=31 time=75.6 ms
+08-10 20:34:50.683 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=991 ttl=31 time=76.0 ms
+08-10 20:34:50.882 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=992 ttl=31 time=74.1 ms
+08-10 20:34:51.082 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=993 ttl=31 time=72.8 ms
+08-10 20:34:51.281 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=994 ttl=31 time=71.6 ms
+08-10 20:34:51.489 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=995 ttl=31 time=79.2 ms
+08-10 20:34:51.690 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=996 ttl=31 time=78.4 ms
+08-10 20:34:51.887 28085 28085 D cellinfo: Latitude is 41.438359
+08-10 20:34:51.887 28085 28085 D cellinfo: Longitude is -105.9433151
+08-10 20:34:51.887 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:51.888 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.438359, -105.9433151
+08-10 20:34:51.888 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=997 ttl=31 time=76.9 ms
+08-10 20:34:51.930 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20125231 CellConnectionStatus: 1
+08-10 20:34:51.930 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:52.083 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=998 ttl=31 time=71.3 ms
+08-10 20:34:52.295 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=999 ttl=31 time=82.4 ms
+08-10 20:34:52.481 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1000 ttl=31 time=67.3 ms
+08-10 20:34:52.689 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1001 ttl=31 time=73.5 ms
+08-10 20:34:52.882 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1002 ttl=31 time=66.1 ms
+08-10 20:34:53.093 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1003 ttl=31 time=76.0 ms
+08-10 20:34:53.292 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1004 ttl=31 time=74.0 ms
+08-10 20:34:53.492 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1005 ttl=31 time=72.9 ms
+08-10 20:34:53.692 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1006 ttl=31 time=71.8 ms
+08-10 20:34:53.894 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1007 ttl=31 time=73.2 ms
+08-10 20:34:54.092 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1008 ttl=31 time=69.8 ms
+08-10 20:34:54.293 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1009 ttl=31 time=70.3 ms
+08-10 20:34:54.493 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1010 ttl=31 time=69.0 ms
+08-10 20:34:54.701 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1011 ttl=31 time=76.2 ms
+08-10 20:34:54.892 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1012 ttl=31 time=66.0 ms
+08-10 20:34:54.935 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20128236 CellConnectionStatus: 1
+08-10 20:34:54.935 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:55.091 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1013 ttl=31 time=65.6 ms
+08-10 20:34:55.301 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1014 ttl=31 time=74.5 ms
+08-10 20:34:55.501 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1015 ttl=31 time=73.3 ms
+08-10 20:34:55.702 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1016 ttl=31 time=72.5 ms
+08-10 20:34:55.902 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1017 ttl=31 time=72.1 ms
+08-10 20:34:56.072 28085 28085 D cellinfo: Latitude is 41.4383572
+08-10 20:34:56.072 28085 28085 D cellinfo: Longitude is -105.9433226
+08-10 20:34:56.072 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:56.072 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383572, -105.9433226
+08-10 20:34:56.102 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1018 ttl=31 time=71.2 ms
+08-10 20:34:56.302 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1019 ttl=31 time=70.3 ms
+08-10 20:34:56.554 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1020 ttl=31 time=121 ms
+08-10 20:34:56.713 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1021 ttl=31 time=79.4 ms
+08-10 20:34:56.910 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1022 ttl=31 time=74.9 ms
+08-10 20:34:57.108 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1023 ttl=31 time=72.4 ms
+08-10 20:34:57.302 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1024 ttl=31 time=65.9 ms
+08-10 20:34:57.515 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1025 ttl=31 time=78.2 ms
+08-10 20:34:57.712 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1026 ttl=31 time=74.1 ms
+08-10 20:34:57.890 28085 28085 D cellinfo: Latitude is 41.4383572
+08-10 20:34:57.890 28085 28085 D cellinfo: Longitude is -105.9433226
+08-10 20:34:57.890 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:34:57.890 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383572, -105.9433226
+08-10 20:34:57.914 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1027 ttl=31 time=75.3 ms
+08-10 20:34:57.929 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20131227 CellConnectionStatus: 1
+08-10 20:34:57.929 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:34:58.111 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1028 ttl=31 time=72.0 ms
+08-10 20:34:58.312 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1029 ttl=31 time=71.3 ms
+08-10 20:34:58.511 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1030 ttl=31 time=70.1 ms
+08-10 20:34:58.712 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1031 ttl=31 time=69.4 ms
+08-10 20:34:58.912 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1032 ttl=31 time=69.0 ms
+08-10 20:34:59.112 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1033 ttl=31 time=68.3 ms
+08-10 20:34:59.312 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1034 ttl=31 time=67.1 ms
+08-10 20:34:59.512 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1035 ttl=31 time=66.0 ms
+08-10 20:34:59.730 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1036 ttl=31 time=83.0 ms
+08-10 20:34:59.921 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1037 ttl=31 time=73.1 ms
+08-10 20:35:00.126 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1038 ttl=31 time=77.7 ms
+08-10 20:35:00.326 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1039 ttl=31 time=77.2 ms
+08-10 20:35:00.529 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1040 ttl=31 time=80.3 ms
+08-10 20:35:00.722 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1041 ttl=31 time=72.4 ms
+08-10 20:35:00.885 28085 28085 D cellinfo: Latitude is 41.4383571
+08-10 20:35:00.885 28085 28085 D cellinfo: Longitude is -105.9433229
+08-10 20:35:00.885 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:00.885 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383571, -105.9433229
+08-10 20:35:00.923 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1042 ttl=31 time=72.0 ms
+08-10 20:35:00.929 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20134227 CellConnectionStatus: 1
+08-10 20:35:00.929 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:01.125 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1043 ttl=31 time=73.2 ms
+08-10 20:35:01.321 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1044 ttl=31 time=69.0 ms
+08-10 20:35:01.530 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1045 ttl=31 time=76.6 ms
+08-10 20:35:01.722 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1046 ttl=31 time=67.9 ms
+08-10 20:35:01.921 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1047 ttl=31 time=66.7 ms
+08-10 20:35:02.087 28085 28085 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -111 rsrq: -11 rssi: -91 rssnr: 12
+08-10 20:35:02.122 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1048 ttl=31 time=66.5 ms
+08-10 20:35:02.322 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1049 ttl=31 time=66.4 ms
+08-10 20:35:02.530 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1050 ttl=31 time=73.2 ms
+08-10 20:35:02.732 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1051 ttl=31 time=74.7 ms
+08-10 20:35:02.932 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1052 ttl=31 time=74.0 ms
+08-10 20:35:03.132 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1053 ttl=31 time=73.0 ms
+08-10 20:35:03.340 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1054 ttl=31 time=80.3 ms
+08-10 20:35:03.532 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1055 ttl=31 time=71.2 ms
+08-10 20:35:03.734 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1056 ttl=31 time=72.9 ms
+08-10 20:35:03.889 28085 28085 D cellinfo: Latitude is 41.4383571
+08-10 20:35:03.889 28085 28085 D cellinfo: Longitude is -105.9433231
+08-10 20:35:03.889 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:03.889 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383571, -105.9433231
+08-10 20:35:03.936 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1057 ttl=31 time=74.4 ms
+08-10 20:35:03.943 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20137237 CellConnectionStatus: 1
+08-10 20:35:03.943 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:04.133 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1058 ttl=31 time=70.0 ms
+08-10 20:35:04.353 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1059 ttl=31 time=89.1 ms
+08-10 20:35:04.532 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1060 ttl=31 time=67.3 ms
+08-10 20:35:04.732 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1061 ttl=31 time=66.4 ms
+08-10 20:35:04.934 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1062 ttl=31 time=68.3 ms
+08-10 20:35:05.143 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1063 ttl=31 time=75.5 ms
+08-10 20:35:05.343 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1064 ttl=31 time=74.6 ms
+08-10 20:35:05.544 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1065 ttl=31 time=75.4 ms
+08-10 20:35:05.743 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1066 ttl=31 time=74.1 ms
+08-10 20:35:05.943 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1067 ttl=31 time=72.8 ms
+08-10 20:35:06.146 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1068 ttl=31 time=75.1 ms
+08-10 20:35:06.343 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1069 ttl=31 time=71.0 ms
+08-10 20:35:06.543 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1070 ttl=31 time=70.2 ms
+08-10 20:35:06.750 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1071 ttl=31 time=76.6 ms
+08-10 20:35:06.889 28085 28085 D cellinfo: Latitude is 41.4383571
+08-10 20:35:06.889 28085 28085 D cellinfo: Longitude is -105.943323
+08-10 20:35:06.889 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:06.889 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383571, -105.943323
+08-10 20:35:06.936 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20140236 CellConnectionStatus: 1
+08-10 20:35:06.936 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:06.946 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1072 ttl=31 time=71.5 ms
+08-10 20:35:07.148 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1073 ttl=31 time=72.3 ms
+08-10 20:35:07.343 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1074 ttl=31 time=66.4 ms
+08-10 20:35:07.553 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1075 ttl=31 time=76.0 ms
+08-10 20:35:07.752 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1076 ttl=31 time=74.4 ms
+08-10 20:35:07.952 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1077 ttl=31 time=73.3 ms
+08-10 20:35:08.167 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1078 ttl=31 time=88.4 ms
+08-10 20:35:08.352 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1079 ttl=31 time=71.8 ms
+08-10 20:35:08.555 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1080 ttl=31 time=73.9 ms
+08-10 20:35:08.754 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1081 ttl=31 time=72.2 ms
+08-10 20:35:08.953 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1082 ttl=31 time=69.8 ms
+08-10 20:35:09.164 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1083 ttl=31 time=80.9 ms
+08-10 20:35:09.351 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1084 ttl=31 time=66.6 ms
+08-10 20:35:09.553 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1085 ttl=31 time=68.4 ms
+08-10 20:35:09.752 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1086 ttl=31 time=66.3 ms
+08-10 20:35:09.923 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20143225 CellConnectionStatus: 1
+08-10 20:35:09.923 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:09.952 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1087 ttl=31 time=64.9 ms
+08-10 20:35:10.159 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1088 ttl=31 time=72.3 ms
+08-10 20:35:10.361 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1089 ttl=31 time=72.9 ms
+08-10 20:35:10.562 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1090 ttl=31 time=72.9 ms
+08-10 20:35:10.770 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1091 ttl=31 time=80.2 ms
+08-10 20:35:10.961 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1092 ttl=31 time=70.3 ms
+08-10 20:35:11.070 28085 28085 D cellinfo: Latitude is 41.4383608
+08-10 20:35:11.070 28085 28085 D cellinfo: Longitude is -105.9433227
+08-10 20:35:11.070 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:11.070 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383608, -105.9433227
+08-10 20:35:11.169 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1093 ttl=31 time=77.8 ms
+08-10 20:35:11.361 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1094 ttl=31 time=69.9 ms
+08-10 20:35:11.562 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1095 ttl=31 time=69.5 ms
+08-10 20:35:11.762 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1096 ttl=31 time=68.4 ms
+08-10 20:35:11.962 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1097 ttl=31 time=67.3 ms
+08-10 20:35:12.164 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1098 ttl=31 time=67.6 ms
+08-10 20:35:12.376 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1099 ttl=31 time=79.6 ms
+08-10 20:35:12.562 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1100 ttl=31 time=65.2 ms
+08-10 20:35:12.774 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1101 ttl=31 time=76.2 ms
+08-10 20:35:12.894 28085 28085 D cellinfo: Latitude is 41.4383608
+08-10 20:35:12.894 28085 28085 D cellinfo: Longitude is -105.9433227
+08-10 20:35:12.894 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:12.894 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383608, -105.9433227
+08-10 20:35:12.943 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20146244 CellConnectionStatus: 1
+08-10 20:35:12.943 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:12.974 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1102 ttl=31 time=75.2 ms
+08-10 20:35:13.190 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1103 ttl=31 time=90.2 ms
+08-10 20:35:13.372 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1104 ttl=31 time=71.2 ms
+08-10 20:35:13.573 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1105 ttl=31 time=71.2 ms
+08-10 20:35:13.772 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1106 ttl=31 time=69.4 ms
+08-10 20:35:13.975 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1107 ttl=31 time=71.0 ms
+08-10 20:35:14.172 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1108 ttl=31 time=67.0 ms
+08-10 20:35:14.374 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1109 ttl=31 time=68.6 ms
+08-10 20:35:14.572 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1110 ttl=31 time=65.2 ms
+08-10 20:35:14.782 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1111 ttl=31 time=74.1 ms
+08-10 20:35:14.982 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1112 ttl=31 time=72.8 ms
+08-10 20:35:15.182 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1113 ttl=31 time=72.0 ms
+08-10 20:35:15.382 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1114 ttl=31 time=71.5 ms
+08-10 20:35:15.581 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1115 ttl=31 time=70.3 ms
+08-10 20:35:15.782 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1116 ttl=31 time=71.0 ms
+08-10 20:35:15.890 28085 28085 D cellinfo: Latitude is 41.4383612
+08-10 20:35:15.890 28085 28085 D cellinfo: Longitude is -105.9433225
+08-10 20:35:15.890 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:15.890 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383612, -105.9433225
+08-10 20:35:15.938 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20149239 CellConnectionStatus: 1
+08-10 20:35:15.938 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:15.986 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1117 ttl=31 time=74.5 ms
+08-10 20:35:16.191 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1118 ttl=31 time=77.8 ms
+08-10 20:35:16.390 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1119 ttl=31 time=76.2 ms
+08-10 20:35:16.602 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1120 ttl=31 time=87.5 ms
+08-10 20:35:16.785 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1121 ttl=31 time=69.6 ms
+08-10 20:35:16.990 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1122 ttl=31 time=73.9 ms
+08-10 20:35:17.193 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1123 ttl=31 time=75.8 ms
+08-10 20:35:17.391 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1124 ttl=31 time=73.5 ms
+08-10 20:35:17.592 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1125 ttl=31 time=73.6 ms
+08-10 20:35:17.800 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1126 ttl=31 time=81.1 ms
+08-10 20:35:17.992 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1127 ttl=31 time=72.1 ms
+08-10 20:35:18.087 28085 28085 D cellinfo: onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -110 rsrq: -9 rssi: -91 rssnr: 15
+08-10 20:35:18.192 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1128 ttl=31 time=71.2 ms
+08-10 20:35:18.394 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1129 ttl=31 time=72.6 ms
+08-10 20:35:18.602 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1130 ttl=31 time=79.4 ms
+08-10 20:35:18.794 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1131 ttl=31 time=71.8 ms
+08-10 20:35:18.888 28085 28085 D cellinfo: Latitude is 41.4383614
+08-10 20:35:18.888 28085 28085 D cellinfo: Longitude is -105.9433223
+08-10 20:35:18.888 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:18.888 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383614, -105.9433223
+08-10 20:35:18.929 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20152230 CellConnectionStatus: 1
+08-10 20:35:18.929 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:18.990 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1132 ttl=31 time=68.0 ms
+08-10 20:35:19.192 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1133 ttl=31 time=69.0 ms
+08-10 20:35:19.392 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1134 ttl=31 time=67.9 ms
+08-10 20:35:19.596 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1135 ttl=31 time=70.5 ms
+08-10 20:35:19.801 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1136 ttl=31 time=75.4 ms
+08-10 20:35:19.992 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1137 ttl=31 time=65.8 ms
+08-10 20:35:20.235 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1138 ttl=31 time=107 ms
+08-10 20:35:20.415 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1139 ttl=31 time=87.5 ms
+08-10 20:35:20.603 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1140 ttl=31 time=74.4 ms
+08-10 20:35:20.805 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1141 ttl=31 time=75.3 ms
+08-10 20:35:21.003 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1142 ttl=31 time=74.0 ms
+08-10 20:35:21.210 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1143 ttl=31 time=81.2 ms
+08-10 20:35:21.403 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1144 ttl=31 time=73.3 ms
+08-10 20:35:21.603 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1145 ttl=31 time=72.0 ms
+08-10 20:35:21.802 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1146 ttl=31 time=70.6 ms
+08-10 20:35:21.887 28085 28085 D cellinfo: Latitude is 41.4383614
+08-10 20:35:21.887 28085 28085 D cellinfo: Longitude is -105.9433224
+08-10 20:35:21.887 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:21.887 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383614, -105.9433224
+08-10 20:35:21.930 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20155228 CellConnectionStatus: 1
+08-10 20:35:21.930 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:22.003 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1147 ttl=31 time=71.2 ms
+08-10 20:35:22.209 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1148 ttl=31 time=77.7 ms
+08-10 20:35:22.405 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1149 ttl=31 time=73.2 ms
+08-10 20:35:22.610 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1150 ttl=31 time=78.0 ms
+08-10 20:35:22.811 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1151 ttl=31 time=77.7 ms
+08-10 20:35:23.003 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1152 ttl=31 time=68.9 ms
+08-10 20:35:23.204 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1153 ttl=31 time=70.1 ms
+08-10 20:35:23.403 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1154 ttl=31 time=67.0 ms
+08-10 20:35:23.602 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1155 ttl=31 time=66.6 ms
+08-10 20:35:23.815 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1156 ttl=31 time=78.4 ms
+08-10 20:35:24.004 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1157 ttl=31 time=66.6 ms
+08-10 20:35:24.202 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1158 ttl=31 time=65.6 ms
+08-10 20:35:24.420 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1159 ttl=31 time=82.3 ms
+08-10 20:35:24.612 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1160 ttl=31 time=73.1 ms
+08-10 20:35:24.813 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1161 ttl=31 time=72.3 ms
+08-10 20:35:24.920 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20158222 CellConnectionStatus: 1
+08-10 20:35:24.920 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:25.012 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1162 ttl=31 time=71.7 ms
+08-10 20:35:25.203 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1163 ttl=31 time=63.3 ms
+08-10 20:35:25.403 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1164 ttl=31 time=63.2 ms
+08-10 20:35:25.612 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1165 ttl=31 time=71.0 ms
+08-10 20:35:25.812 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1166 ttl=31 time=70.1 ms
+08-10 20:35:26.012 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1167 ttl=31 time=69.2 ms
+08-10 20:35:26.071 28085 28085 D cellinfo: Latitude is 41.438366
+08-10 20:35:26.071 28085 28085 D cellinfo: Longitude is -105.9433066
+08-10 20:35:26.072 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:26.072 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.438366, -105.9433066
+08-10 20:35:26.212 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1168 ttl=31 time=69.0 ms
+08-10 20:35:26.412 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1169 ttl=31 time=68.5 ms
+08-10 20:35:26.612 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1170 ttl=31 time=68.0 ms
+08-10 20:35:26.812 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1171 ttl=31 time=66.9 ms
+08-10 20:35:27.015 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1172 ttl=31 time=69.5 ms
+08-10 20:35:27.213 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1173 ttl=31 time=67.3 ms
+08-10 20:35:27.412 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1174 ttl=31 time=65.3 ms
+08-10 20:35:27.622 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1175 ttl=31 time=74.5 ms
+08-10 20:35:27.830 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1176 ttl=31 time=82.2 ms
+08-10 20:35:27.883 28085 28085 D cellinfo: Latitude is 41.438366
+08-10 20:35:27.883 28085 28085 D cellinfo: Longitude is -105.9433066
+08-10 20:35:27.884 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:27.884 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.438366, -105.9433066
+08-10 20:35:27.917 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20161218 CellConnectionStatus: 1
+08-10 20:35:27.917 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:28.030 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1177 ttl=31 time=81.0 ms
+08-10 20:35:28.224 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1178 ttl=31 time=75.3 ms
+08-10 20:35:28.422 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1179 ttl=31 time=72.3 ms
+08-10 20:35:28.622 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1180 ttl=31 time=71.1 ms
+08-10 20:35:28.822 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1181 ttl=31 time=70.3 ms
+08-10 20:35:29.024 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1182 ttl=31 time=70.1 ms
+08-10 20:35:29.224 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1183 ttl=31 time=71.7 ms
+08-10 20:35:29.422 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1184 ttl=31 time=69.1 ms
+08-10 20:35:29.622 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1185 ttl=31 time=68.5 ms
+08-10 20:35:29.822 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1186 ttl=31 time=68.1 ms
+08-10 20:35:30.022 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1187 ttl=31 time=66.7 ms
+08-10 20:35:30.223 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1188 ttl=31 time=68.4 ms
+08-10 20:35:30.422 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1189 ttl=31 time=66.2 ms
+08-10 20:35:30.634 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1190 ttl=31 time=77.2 ms
+08-10 20:35:30.834 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1191 ttl=31 time=75.8 ms
+08-10 20:35:30.888 28085 28085 D cellinfo: Latitude is 41.4383663
+08-10 20:35:30.888 28085 28085 D cellinfo: Longitude is -105.9433057
+08-10 20:35:30.888 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:30.888 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383663, -105.9433057
+08-10 20:35:30.932 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20164232 CellConnectionStatus: 1
+08-10 20:35:30.932 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:31.031 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1192 ttl=31 time=72.2 ms
+08-10 20:35:31.234 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1193 ttl=31 time=75.2 ms
+08-10 20:35:31.433 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1194 ttl=31 time=73.5 ms
+08-10 20:35:31.634 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1195 ttl=31 time=72.9 ms
+08-10 20:35:31.833 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1196 ttl=31 time=72.8 ms
+08-10 20:35:32.034 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1197 ttl=31 time=72.4 ms
+08-10 20:35:32.238 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1198 ttl=31 time=76.9 ms
+08-10 20:35:32.440 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1199 ttl=31 time=79.0 ms
+08-10 20:35:32.633 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1200 ttl=31 time=70.9 ms
+08-10 20:35:32.834 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1201 ttl=31 time=70.7 ms
+08-10 20:35:33.034 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1202 ttl=31 time=69.2 ms
+08-10 20:35:33.234 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1203 ttl=31 time=69.1 ms
+08-10 20:35:33.433 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1204 ttl=31 time=67.9 ms
+08-10 20:35:33.633 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1205 ttl=31 time=66.8 ms
+08-10 20:35:33.835 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1206 ttl=31 time=67.5 ms
+08-10 20:35:33.883 28085 28085 D cellinfo: Latitude is 41.4383663
+08-10 20:35:33.883 28085 28085 D cellinfo: Longitude is -105.9433053
+08-10 20:35:33.883 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:33.883 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383663, -105.9433053
+08-10 20:35:33.923 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20167225 CellConnectionStatus: 1
+08-10 20:35:33.923 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:34.040 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1207 ttl=31 time=72.7 ms
+08-10 20:35:34.233 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1208 ttl=31 time=66.4 ms
+08-10 20:35:34.450 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1209 ttl=31 time=82.2 ms
+08-10 20:35:34.642 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1210 ttl=31 time=73.5 ms
+08-10 20:35:34.843 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1211 ttl=31 time=72.3 ms
+08-10 20:35:35.109 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1212 ttl=31 time=138 ms
+08-10 20:35:35.290 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1213 ttl=31 time=118 ms
+08-10 20:35:35.464 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1214 ttl=31 time=92.0 ms
+08-10 20:35:35.644 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1215 ttl=31 time=71.1 ms
+08-10 20:35:35.850 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1216 ttl=31 time=77.1 ms
+08-10 20:35:36.042 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1217 ttl=31 time=68.0 ms
+08-10 20:35:36.246 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1218 ttl=31 time=72.1 ms
+08-10 20:35:36.451 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1219 ttl=31 time=75.9 ms
+08-10 20:35:36.642 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1220 ttl=31 time=66.6 ms
+08-10 20:35:36.843 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1221 ttl=31 time=66.2 ms
+08-10 20:35:36.892 28085 28085 D cellinfo: Latitude is 41.4383663
+08-10 20:35:36.892 28085 28085 D cellinfo: Longitude is -105.9433056
+08-10 20:35:36.892 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:36.892 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383663, -105.9433056
+08-10 20:35:36.936 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20170238 CellConnectionStatus: 1
+08-10 20:35:36.936 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:37.044 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1222 ttl=31 time=67.0 ms
+08-10 20:35:37.253 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1223 ttl=31 time=75.1 ms
+08-10 20:35:37.452 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1224 ttl=31 time=74.5 ms
+08-10 20:35:37.652 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1225 ttl=31 time=74.3 ms
+08-10 20:35:37.852 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1226 ttl=31 time=73.1 ms
+08-10 20:35:38.053 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1227 ttl=31 time=71.9 ms
+08-10 20:35:38.253 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1228 ttl=31 time=72.1 ms
+08-10 20:35:38.452 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1229 ttl=31 time=72.0 ms
+08-10 20:35:38.653 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1230 ttl=31 time=71.0 ms
+08-10 20:35:38.852 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1231 ttl=31 time=70.7 ms
+08-10 20:35:39.052 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1232 ttl=31 time=69.5 ms
+08-10 20:35:39.252 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1233 ttl=31 time=70.5 ms
+08-10 20:35:39.453 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1234 ttl=31 time=70.2 ms
+08-10 20:35:39.653 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1235 ttl=31 time=69.0 ms
+08-10 20:35:39.853 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1236 ttl=31 time=67.9 ms
+08-10 20:35:39.947 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20173248 CellConnectionStatus: 1
+08-10 20:35:39.947 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:40.065 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1237 ttl=31 time=79.1 ms
+08-10 20:35:40.110 28085 28085 D cellinfo: Latitude is 41.4383677
+08-10 20:35:40.110 28085 28085 D cellinfo: Longitude is -105.9433047
+08-10 20:35:40.110 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:40.110 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383677, -105.9433047
+08-10 20:35:40.264 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1238 ttl=31 time=79.6 ms
+08-10 20:35:40.452 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1239 ttl=31 time=67.5 ms
+08-10 20:35:40.652 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1240 ttl=31 time=66.9 ms
+08-10 20:35:40.853 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1241 ttl=31 time=66.7 ms
+08-10 20:35:41.053 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1242 ttl=31 time=66.5 ms
+08-10 20:35:41.256 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1243 ttl=31 time=69.5 ms
+08-10 20:35:41.459 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1244 ttl=31 time=72.6 ms
+08-10 20:35:41.653 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1245 ttl=31 time=65.2 ms
+08-10 20:35:41.863 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1246 ttl=31 time=74.8 ms
+08-10 20:35:42.071 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1247 ttl=31 time=82.3 ms
+08-10 20:35:42.263 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1248 ttl=31 time=75.0 ms
+08-10 20:35:42.463 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1249 ttl=31 time=74.8 ms
+08-10 20:35:42.664 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1250 ttl=31 time=74.7 ms
+08-10 20:35:42.863 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1251 ttl=31 time=73.1 ms
+08-10 20:35:42.898 28085 28085 D cellinfo: Latitude is 41.4383677
+08-10 20:35:42.898 28085 28085 D cellinfo: Longitude is -105.9433047
+08-10 20:35:42.898 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:42.898 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383677, -105.9433047
+08-10 20:35:42.924 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20176225 CellConnectionStatus: 1
+08-10 20:35:42.924 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:43.064 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1252 ttl=31 time=74.2 ms
+08-10 20:35:43.267 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1253 ttl=31 time=77.3 ms
+08-10 20:35:43.463 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1254 ttl=31 time=71.8 ms
+08-10 20:35:43.665 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1255 ttl=31 time=73.3 ms
+08-10 20:35:43.862 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1256 ttl=31 time=69.4 ms
+08-10 20:35:44.063 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1257 ttl=31 time=69.2 ms
+08-10 20:35:44.272 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1258 ttl=31 time=78.1 ms
+08-10 20:35:44.465 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1259 ttl=31 time=69.7 ms
+08-10 20:35:44.663 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1260 ttl=31 time=66.7 ms
+08-10 20:35:44.872 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1261 ttl=31 time=76.1 ms
+08-10 20:35:45.073 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1262 ttl=31 time=75.5 ms
+08-10 20:35:45.283 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1263 ttl=31 time=86.5 ms
+08-10 20:35:45.466 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1264 ttl=31 time=68.4 ms
+08-10 20:35:45.669 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1265 ttl=31 time=71.3 ms
+08-10 20:35:45.872 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1266 ttl=31 time=73.6 ms
+08-10 20:35:45.889 28085 28085 D cellinfo: Latitude is 41.4383679
+08-10 20:35:45.889 28085 28085 D cellinfo: Longitude is -105.9433046
+08-10 20:35:45.889 28085 28085 D cellinfo: Instantaneous GPS information: United States, 168 Hunt Rd, Laramie, WY 82070, USA
+08-10 20:35:45.889 28085 28085 D cellinfo: getCurrentLocation() result: Location (success): 41.4383679, -105.9433046
+08-10 20:35:45.936 28085 28085 D cellinfo: onCellInfoChanged: Operator: Verizon Wireless UpdateTimestamp: 20179237 CellConnectionStatus: 1
+08-10 20:35:45.937 28085 28085 D cellinfo: onCellInfoChanged: LTE Cell Bands: [66, 66, 66] Bandwidth: 10000 Cell ID: 4497686 Physical Cell ID: 16 Tracking Area Code: 4361 EARFCN: 66586
+08-10 20:35:46.061 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1267 ttl=31 time=61.4 ms
+08-10 20:35:46.287 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1268 ttl=31 time=89.0 ms
+08-10 20:35:46.480 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1269 ttl=31 time=81.3 ms
+08-10 20:35:46.672 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1270 ttl=31 time=72.6 ms
+08-10 20:35:46.872 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1271 ttl=31 time=72.1 ms
+08-10 20:35:47.084 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1272 ttl=31 time=83.6 ms
+08-10 20:35:47.301 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1273 ttl=31 time=99.7 ms
+08-10 20:35:47.478 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1274 ttl=31 time=75.3 ms
+08-10 20:35:47.679 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1275 ttl=31 time=75.3 ms
+08-10 20:35:47.872 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1276 ttl=31 time=67.3 ms
+08-10 20:35:48.073 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1277 ttl=31 time=67.0 ms
+08-10 20:35:48.300 28085 28167 D cellinfo: 46 bytes from 44.241.174.93: icmp_seq=1278 ttl=31 time=94.3 ms
