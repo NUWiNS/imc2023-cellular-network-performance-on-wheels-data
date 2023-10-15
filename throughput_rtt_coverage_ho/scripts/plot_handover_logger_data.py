@@ -5,14 +5,14 @@ import pandas as pd
 from datetime import datetime
 import plotly.express as px
 
-base = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\handover_logger"
+base = r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\handover_logger"
 operator_log_dict = {"tmobile1" : "12*", "tmobile2" : "26*", "verizon" : "1C*", "atnt" : "R5*"}
 log_dict =  {"tmobile1" : [], "tmobile2" : [], "verizon" : [], "atnt" : []}
 
-folder_list = glob.glob(os.path.join(base, "*"))
+folder_list = glob.glob(base + "\\" + "*")
 for folder in folder_list:
     for op in operator_log_dict.keys():
-        file_list = sorted(glob.glob(folder + "/" + operator_log_dict[op]))
+        file_list = sorted(glob.glob(folder + "\\" + operator_log_dict[op]))
         log_dict[op].extend(file_list)
 
 log_dict["tmobile"] = log_dict["tmobile1"] + log_dict["tmobile2"]
@@ -502,23 +502,23 @@ fig.add_traces(fig5._data)
 fig.add_traces(fig6._data)
 
 
-fig.data[0].marker.color = '#08710C'
-fig.data[1].marker.color = '#70CA32'
-fig.data[2].marker.color = '#F3FF33'
-fig.data[3].marker.color = '#FFB233'
-fig.data[4].marker.color = '#FF4629'
-fig.data[5].marker.color = '#CB0404'
+fig.data[1].marker.color = '#08710C'
+fig.data[2].marker.color = '#70CA32'
+fig.data[3].marker.color = '#F3FF33'
+fig.data[4].marker.color = '#FFB233'
+fig.data[5].marker.color = '#FF4629'
+fig.data[6].marker.color = '#CB0404'
 
-fig.data[0].marker.size = 8
-fig.data[1].marker.size = 8
-fig.data[2].marker.size = 8
-fig.data[3].marker.size = 8
-fig.data[4].marker.size = 8
-fig.data[5].marker.size = 8
+fig.data[1].marker.size = 3
+fig.data[2].marker.size = 3
+fig.data[3].marker.size = 3
+fig.data[4].marker.size = 3
+fig.data[5].marker.size = 3
+fig.data[6].marker.size = 3
 
 # f = fig.full_figure_for_development(warn=False)
 fig.update_layout(geo_scope='usa', showlegend=True, margin=dict(l=25, r=25, t=25, b=15),)
-fig.write_image(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1b.pdf")
+fig.write_image(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1b.pdf")
 
 #plot atnt data
 fig1 = px.scatter_geo(atnt_lte_df, lat='Latitude', lon='Longitude', color='Color', width=300, height=100)
@@ -527,15 +527,15 @@ fig=px.scatter_geo()
 fig.add_traces(fig1._data)
 fig.add_traces(fig2._data)
 
-fig.data[0].marker.color = '#08710C'
-fig.data[1].marker.color = '#70CA32'
+fig.data[1].marker.color = '#08710C'
+fig.data[2].marker.color = '#70CA32'
 
-fig.data[0].marker.size = 3
 fig.data[1].marker.size = 3
+fig.data[2].marker.size = 3
 
 # f = fig.full_figure_for_development(warn=False)
 fig.update_layout(geo_scope='usa', showlegend=False, margin=dict(l=25, r=25, t=25, b=15),)
-fig.write_image(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1c.pdf")
+fig.write_image(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1d.pdf")
 
 
 #plot tmobile data
@@ -549,16 +549,16 @@ fig.add_traces(fig2._data)
 fig.add_traces(fig3._data)
 fig.add_traces(fig4._data)
 
-fig.data[0].marker.color = '#08710C'
-fig.data[1].marker.color = '#70CA32'
-fig.data[2].marker.color = '#F3FF33'
-fig.data[3].marker.color = '#FFB233'
+fig.data[1].marker.color = '#08710C'
+fig.data[2].marker.color = '#70CA32'
+fig.data[3].marker.color = '#F3FF33'
+fig.data[4].marker.color = '#FFB233'
 
-fig.data[0].marker.size = 3
 fig.data[1].marker.size = 3
 fig.data[2].marker.size = 3
 fig.data[3].marker.size = 3
+fig.data[4].marker.size = 3
 
 # f = fig.full_figure_for_development(warn=False)
 fig.update_layout(geo_scope='usa', showlegend=False, margin=dict(l=25, r=25, t=25, b=15),)
-fig.write_image(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1d.pdf")
+fig.write_image(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1c.pdf")
