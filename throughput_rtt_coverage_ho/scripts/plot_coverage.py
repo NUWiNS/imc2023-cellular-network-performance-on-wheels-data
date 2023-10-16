@@ -59,11 +59,11 @@ def remove_static(df_all, op):
         print("Ehh!  is happening! The lists should be empty!")
         sys.exit(1)
     if op == "verizon":
-        df_static_list = glob.glob(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\static\verizon\*.csv")
+        df_static_list = glob.glob(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\static\verizon\*.csv")
     elif op == "tmobile":
-        df_static_list = glob.glob(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\static\tmobile\*.csv")
+        df_static_list = glob.glob(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\static\tmobile\*.csv")
     elif op == "atnt":
-        df_static_list = glob.glob(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\static\atnt\*.csv")
+        df_static_list = glob.glob(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\static\atnt\*.csv")
     
     ts_list = []
     for df_temp in df_static_list:
@@ -111,8 +111,8 @@ def modify_atnt_df(atnt_df):
     return df_atnt
 
 
-if not os.path.exists(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\processed\dist_tz_speed_operator.pkl"):
-    filehandler = open(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\processed\operator_break_unsorted.pkl", "rb")
+if not os.path.exists(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\processed\dist_tz_speed_operator.pkl"):
+    filehandler = open(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\processed\operator_break_unsorted.pkl", "rb")
     operator_wise_df = pickle.load(filehandler)
     filehandler.close()
 
@@ -242,7 +242,7 @@ if not os.path.exists(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc202
                     count+=1
                 
                 fig_tech.update_layout(geo_scope="usa", showlegend=False)
-                fig_tech.write_image(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1e.pdf")
+                fig_tech.write_image(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1e.pdf")
 
         tmobile_parse = True
         if tmobile_parse:
@@ -364,7 +364,7 @@ if not os.path.exists(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc202
                     count+=1
                 
                 fig_tech.update_layout(showlegend=False, geo_scope="usa")
-                fig_tech.write_image(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1f.pdf")
+                fig_tech.write_image(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1f.pdf")
 
         atnt_parse = True
         if atnt_parse:
@@ -487,7 +487,7 @@ if not os.path.exists(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc202
                     count+=1
                 
                 fig_tech.update_layout(showlegend=False, geo_scope="usa")
-                fig_tech.write_image(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1g.pdf")
+                fig_tech.write_image(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_1\fig_1g.pdf")
 
 
     tech_parse_distance = True
@@ -1360,7 +1360,7 @@ if not os.path.exists(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc202
                 speed_tech_operator["atnt"] = speed_tech_tuple
 else:
     pass    
-    filehandler = open(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\processed\dist_tz_speed_operator.pkl", "rb")
+    filehandler = open(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\coverage\processed\dist_tz_speed_operator.pkl", "rb")
     total_dist_operator, breakup_dist_operator, total_dist_tz_operator, breakup_dist_tz_operator, total_dist_speed_operator, breakup_dist_speed_operator = pickle.load(filehandler)
     filehandler.close()
 
@@ -1403,11 +1403,11 @@ else:
     ax.set_ylim(ymax=120)
     ax.set_yticks([0, 20, 40, 60, 80, 100])
     plt.tight_layout()
-    plt.savefig(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_2\fig_2a.pdf")
+    plt.savefig(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_2\fig_2a.pdf")
     plt.close()
 
     # figure 2b
-    pickle_path = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\driving\processed\main_op_link_dict.pkl"
+    pickle_path = r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\driving\processed\main_op_link_dict.pkl"
     filehandler = open(pickle_path, "rb")
     # main_op_link_tput_dict format == [tput_speed_tech_dict, ca_speed_tech_dict, fiveg_ca_speed_dict, lte_ca_speed_dict, tput_tz_tech_dict, dist_speed_tech_dict, mcs_speed_dict, bler_speed_dict, rsrp_speed_dict, wl_speed_dict, overall_mean_list, overall_std_list, overall_5g_high_percent]
     main_op_link_tput_dict = pickle.load(filehandler)
@@ -1457,7 +1457,7 @@ else:
     ax[1].set_title("Uplink", fontweight="bold", fontsize=15)
     ax[0].set_yticks([0, 20, 40, 60, 80, 100])
     plt.tight_layout()
-    plt.savefig(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_2\fig_2b.pdf")
+    plt.savefig(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_2\fig_2b.pdf")
     plt.close()
     print()
 
@@ -1519,7 +1519,7 @@ else:
             ax[graph_no].legend(custom_lines, ['5G-mmWave\n(39 GHz)'], fontsize=18, loc='upper center', ncols=1)
         graph_no+=1
     plt.tight_layout()
-    plt.savefig(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_2\fig_2c.pdf")
+    plt.savefig(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_2\fig_2c.pdf")
     plt.close()
     print()
 
@@ -1568,5 +1568,5 @@ else:
         ax[graph_no].tick_params(axis='x', labelsize=18)
         graph_no+=1
     plt.tight_layout()
-    plt.savefig(r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_2\fig_2d.pdf")
+    plt.savefig(r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\plots\fig_2\fig_2d.pdf")
     plt.close()

@@ -2343,7 +2343,7 @@ def get_speed_ul_tput_ca_atnt(df_main, df_short_tput):
     return [speed_tput_tuple, speed_ca_tuple, speed_fiveg_ca_tuple, speed_lte_ca_tuple, speed_tz_tuple, speed_dist_tuple, speed_mcs_tuple, speed_bler_tuple, speed_rsrp_tuple]
 
 
-base = r"C:\Users\ubwin\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\driving"
+base = r"C:\Users\nuwinslab\Desktop\segregated_drive_trip_data\imc2023-cellular-network-performance-on-wheels-data\throughput_rtt_coverage_ho\tput\driving"
 main_op_link_dict = {"verizon" : {"dl" : 0, "ul" : 0}, "tmobile" : {"dl" : 0, "ul" : 0}, "atnt" : {"dl" : 0, "ul" : 0}}
 for op in ["verizon", "tmobile", "atnt"]:
     for link in ["dl", "ul"]:
