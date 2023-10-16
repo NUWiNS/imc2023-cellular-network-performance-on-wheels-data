@@ -3,6 +3,10 @@
 In this repository, we release the dataset and scripts used in the IMC '23
 paper, *Performance of Cellular Networks on the Wheels*.
 
+<p align="center">
+<img src="figs/route.png" width="400"/>
+</p>
+
 **Authors**:
 [[Moinak Ghoshal](https://sites.google.com/view/moinak-ghoshal/home)] 
 [[Imran Khan](https://sites.google.com/view/imransiu2019/home)]

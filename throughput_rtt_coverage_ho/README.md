@@ -177,6 +177,7 @@ In each sub-folder (coverage/tput/rtt/ho) there is a folder called `processed`. 
 
     ```bash
     python3 scripts\plot_coverage.py
+    python3 scripts\plot_handover_logger_data.py
     python3 scripts\plot_tput_rtt.py
     python3 scripts\plot_parallel_throughput_tech.py
     python3 scripts\plot_ho.py
