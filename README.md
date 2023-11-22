@@ -30,6 +30,9 @@ on the link to each subfolder for more details:
 | Video Streaming | [360video](./360video)   |
 | Cloud Gaming | [cloud_gaming](./cloud_gaming) |
 
+```
+Note: Use "git lfs pull" to get all the files
+```
 ## References
 
 Please cite appropriately if you find the dataset useful.
