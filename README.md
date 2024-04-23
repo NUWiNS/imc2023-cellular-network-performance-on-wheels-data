@@ -9,7 +9,7 @@ paper, *Performance of Cellular Networks on the Wheels*.
 
 **Authors**:
 [[Moinak Ghoshal](https://sites.google.com/view/moinak-ghoshal/home)] 
-[[Imran Khan](https://sites.google.com/view/imransiu2019/home)]
+[[Imran Khan](https://imranbuet63.github.io)]
 [[Z. Jonny Kong](https://www.jonnykong.com)]
 [[Phuc Dinh](https://scholar.google.com/citations?user=87M0_7EAAAAJ&hl=en)]
 [[Jiayi Meng](https://ranger.uta.edu/~jmeng/)]
